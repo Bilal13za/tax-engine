@@ -107,3 +107,20 @@ evidence tracking, validation rejections, exports, offline operation
 Educational and research tool. It is not tax advice and does not replace
 professional judgement or the authoritative legal text. Verify critical
 positions against current legislation and FBR guidance.
+
+
+## Run on any device (in your browser)
+
+The Windows download above is the full offline version. To open this app on
+your phone, tablet, or any computer without installing anything, host it free
+on **Streamlit Community Cloud**:
+
+1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
+2. **New app** → pick this repository (`Bilal13za/tax-engine`), branch `main`,
+   main file `app.py`.
+3. **Deploy** — after a minute or two you get a link like
+   `https://tax-engine.streamlit.app` that works on any device.
+
+Two honest caveats: anything you save in the cloud copy is temporary (it
+resets when the app sleeps from inactivity), and the Windows version
+remains the full, keep-everything version.
