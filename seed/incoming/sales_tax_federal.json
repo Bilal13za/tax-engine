@@ -1,0 +1,3018 @@
+{
+ "meta": {
+  "domain": "sales_tax_federal",
+  "author": "research-agent-sales-tax-federal",
+  "prepared_date": "2026-10-21",
+  "notes": "Verification method: web search against FBR-hosted legislation text (Sales Tax Act, 1990 updated to 23.02.2023 and to 30.06.2014; Sales Tax Rules, 2006 PDF on download1.fbr.gov.pk), the FBR official sales-tax page (fbr.gov.pk/sales-tax), and professional advisories (EY rate alert for the 2023 change; CA-firm Finance Act 2013 highlights). Sections 3, 7, 8, 22, 23, 26 verified against FBR-hosted Act text. Rate history: 16%->17% w.e.f. 13.06.2013 via Finance Act 2013 (business-press reports only, gazette not checked -> under_review); 17%->18% w.e.f. 14.02.2023 via Finance (Supplementary) Act, 2023 (EY advisory + FBR-updated Act text). Legislation rows carry effective_from = earliest version date actually checked (provision predates that date) unless the amendment date itself was verified; see each row's review_notes. Draft items: s.3(1A) further-tax rate (sources conflict: 3% per Feb-2023 FBR text vs 4% per Nov-2023 commentary), s.33 penalty rows (amounts not checked against Act text), credit/debit-note detail beyond buyer-acceptance condition, 24-month/five-year retention cross-check done (5 years verified via FBR page). prepared_date 2026-10-21 is the knowledge cutoff; effective_to null means 'in force to the best of knowledge on that date'.\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]"
+ },
+ "sources": [
+  {
+   "code": "SRC-STA-FBR-ACT2023",
+   "title": "Sales Tax Act, 1990 — text updated up to 23.02.2023 (FBR)",
+   "source_type": "legislation",
+   "jurisdiction": "federal",
+   "verified_date": "2026-10-21",
+   "reference_url": "https://download1.fbr.gov.pk/Docs/2023371732748541SalesTaxAct,1990withIndexupdatedupto23.02.2023.pdf"
+  },
+  {
+   "code": "SRC-STA-FBR-ACT2014",
+   "title": "Sales Tax Act, 1990 — text updated up to 01.07.2014 (FBR)",
+   "source_type": "legislation",
+   "jurisdiction": "federal",
+   "verified_date": "2026-10-21",
+   "reference_url": "https://download1.fbr.gov.pk/docs/2014714137745127sales-act-government-of-pakistan-updated-up-to-july-12014.pdf"
+  },
+  {
+   "code": "SRC-STA-FBR-RULES",
+   "title": "Sales Tax Rules, 2006 (FBR-hosted PDF)",
+   "source_type": "legislation",
+   "jurisdiction": "federal",
+   "verified_date": "2026-10-21",
+   "reference_url": "https://download1.fbr.gov.pk/Docs/202691810951482SalesTaxRules.pdf"
+  },
+  {
+   "code": "SRC-STA-EY-RATE",
+   "title": "EY Global Tax Alert: Pakistan increases Sales Tax and Federal Excise tax rates (standard rate 18% w.e.f. 14.02.2023)",
+   "source_type": "professional_advisory",
+   "jurisdiction": "federal",
+   "verified_date": "2026-10-21",
+   "reference_url": "https://go.ey.com/4bGK2mg"
+  },
+  {
+   "code": "SRC-STA-FBR-PAGE",
+   "title": "FBR official sales-tax page: returns, record maintenance, refunds, additional tax (fbr.gov.pk)",
+   "source_type": "explanatory_guidance",
+   "jurisdiction": "federal",
+   "verified_date": "2026-10-21",
+   "reference_url": "https://www.fbr.gov.pk/sales-tax/142263/131269",
+   "notes": "[Original source_type label: official_guidance]"
+  }
+ ],
+ "legislation": [
+  {
+   "code": "LEG-STA1990-S3",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 3",
+   "rule_description": "Scope of tax: sales tax charged, levied and paid at eighteen per cent of the value of (a) taxable supplies made by a registered person in the course or furtherance of any taxable activity carried on by him, and (b) goods imported into Pakistan, irrespective of final destination. Sub-section (1A) levies further tax on taxable supplies to persons without a registration number or not active taxpayers (rate in this version: three per cent).",
+   "effective_from": "2023-02-14",
+   "source_code": "SRC-STA-FBR-ACT2023",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "amendment_history": "Standard rate 16%->17% w.e.f. 13.06.2013 via Finance Act 2013 (business-press reports; gazette not checked). 17%->18% via Finance (Supplementary) Act, 2023 w.e.f. 14.02.2023 for local supplies and imports (EY advisory), generally applicable from 24.02.2023 including Third/Eighth/Ninth Schedule carve-outs per EY.",
+   "review_notes": "Section 3 text at 18% quoted verbatim from FBR-issued updated Act (23.02.2023). The 14.02.2023 effective date per EY; engine treats supplies on/after 2023-02-14 at 18%. Reduced rates/exemptions in Third, Fifth, Sixth, Eighth, Ninth, Twelfth Schedules not enumerated here (not verified item-by-item)."
+  },
+  {
+   "code": "LEG-STA1990-S4",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 4",
+   "rule_description": "Zero rating: goods exported, goods specified in the Fifth Schedule, stores/provisions for consumption aboard conveyances proceeding outside Pakistan, and other goods notified by the Federal Government are charged to tax at the rate of zero per cent.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "under_review",
+   "amendment_history": "Concept consistently reported across professional sources; clause-level text of current s.4 not read directly in the FBR-hosted PDFs during this pass.",
+   "review_notes": "Effective_from is the earliest version date checked; section predates it. Concept (0% rate, Fifth Schedule linkage) corroborated by FBR tax-expenditure report quoted in business press. Kept under_review until s.4 text is read directly. Fifth Schedule item list deliberately NOT enumerated (unverified)."
+  },
+  {
+   "code": "LEG-STA1990-S7",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 7",
+   "rule_description": "Determination of tax liability: subject to ss.8 and 8B and s.73, a registered person may deduct input tax paid or payable during the tax period for the purpose of taxable supplies made or to be made by him from the output tax (excluding further tax under s.3(1A)) due for that tax period, and make adjustments specified in s.9. Proviso: input tax not deducted within the relevant period may be claimed in the return for any of the six succeeding tax periods. s.7(2): deduction requires (i) a tax invoice in his name bearing his registration number for domestic supplies (or electricity/gas bill bearing registration number and installation address), (ii) a bill of entry/goods declaration in his name showing his STRN duly cleared under Customs Act ss.79/104 for imports, (iii) a treasury challan in his name bearing his registration number for auction purchases. s.7(3): Federal Government may allow deduction by special order.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "amendment_history": "Effective_from is the earliest version date checked for this provision; section predates it.",
+   "review_notes": "Text verified against FBR-hosted Act PDF quotes and a Sindh High Court order quoting s.7. A newer rendering (secondary source) describes a 'twelve preceding tax periods' carry-forward variant; that amendment was NOT confirmed and is recorded as a gap — engine uses the six-succeeding-periods proviso."
+  },
+  {
+   "code": "LEG-STA1990-S8",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 8",
+   "rule_description": "Tax credit not allowed: a registered person may not reclaim/deduct input tax on (a) goods or services used for any purpose other than taxable supplies made/to be made by him; (b) goods/services specified by Federal Government notification; (c)/(ca)/(caa) goods under s.3(5), goods/services whose sales tax was not deposited in the Government treasury by the supplier, and purchases with CREST-indicated discrepancy or unverifiable supply chain; (d) fake invoices; (e) purchases where Board-required information under s.26(5) was not furnished; (f) goods/services not related to the registered person's taxable supplies; (g) goods/services for personal or non-business consumption; (h) goods used in or permanently attached to immoveable property (except for sale/resale or direct production use); (i) Chapter-87 vehicles, parts, appliances, furniture/furnishings, office equipment except electronic cash registers (except for sale/resale). s.8(2): mixed taxable/non-taxable supplies -> only proportion attributable to taxable supplies. s.8(3): only a registered person may deduct/reclaim input tax.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "amendment_history": "Effective_from is the earliest version date checked; section predates it. Clauses (ca), (caa), (f)-(i) reflect Finance Act amendments through 2020/2021 as shown in the checked text.",
+   "review_notes": "Categories taken verbatim from FBR-hosted Act text; s.8(6) text was incomplete in the available rendering and is not asserted. Do NOT treat any purchase invoice as automatic input-tax entitlement: s.8(1) categories, s.8(2) apportionment and s.8(3) registration requirement are all encoded as eligibility gates."
+  },
+  {
+   "code": "LEG-STA1990-S13",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 13",
+   "rule_description": "Exemption: supply or import of goods specified in the Sixth Schedule is exempt from tax, subject to conditions specified by the Federal Government; Federal Government may exempt other supplies/imports by notification in specified circumstances.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "under_review",
+   "amendment_history": "Effective_from is the earliest version date checked; section predates it.",
+   "review_notes": "Concept corroborated by multiple professional sources; exact current clause text not read directly. Sixth Schedule item list deliberately NOT enumerated (unverified)."
+  },
+  {
+   "code": "LEG-STA1990-S22",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 22",
+   "rule_description": "Records: registered persons must maintain prescribed records; the Board may require declaration and use of specified business bank accounts for purchase/sale transactions and tax payments (s.22(1A)), specify other records (s.22(2)), mandate approved electronic fiscal cash registers (s.22(2A)), prescribe electronic record-maintenance and return-filing procedures/software (s.22(3)); persons whose accounts are audited under company law must submit annual audited accounts with an auditor certificate of due tax payment (s.22(4)).",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "amendment_history": "Effective_from is the earliest version date checked; section predates it.",
+   "review_notes": "Text verified against FBR-hosted Act PDF. Section 24 retention (five years after the end of the tax period) handled in LEG-STA1990-S24 notes; FBR official page confirms five-year retention."
+  },
+  {
+   "code": "LEG-STA1990-S23",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 23",
+   "rule_description": "Tax invoices: a registered person making a taxable supply shall issue a serially numbered tax invoice at the time of supply containing (a) name, address and registration number of the supplier; (b) name, address and registration number of the recipient; (c) date of issue; (d) description and quantity of goods; (e) value exclusive of tax; (f) amount of sales tax; (g) value inclusive of tax. Board may specify modified invoices; not more than one tax invoice per taxable supply. No person other than a registered person (or person paying retail tax) may issue an invoice under this section. Electronic invoices may be issued as specified.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "amendment_history": "Effective_from is the earliest version date checked; section predates it. s.23(1)(b) was amended by Finance Act 2020 (NIC/NTN of unregistered recipient; Finance Act amendment comparison document).",
+   "review_notes": "Particulars (a)-(g) verified verbatim. The 2020 NIC/NTN amendment for unregistered recipients is noted but the current operative threshold/exclusion details were not fully checked; invoice rules treat missing NIC/NTN as a review flag, not automatic invalidation."
+  },
+  {
+   "code": "LEG-STA1990-S26",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 26",
+   "rule_description": "Returns: every registered person shall furnish, not later than the due date, a true, complete and correct return in the prescribed form to a designated bank or office specified by the Board, indicating purchases and supplies made during a tax period, tax due and paid, and other prescribed information. Board may require quarterly returns for any person/class, and annual returns in addition to monthly/quarterly returns.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "amendment_history": "Effective_from is the earliest version date checked; section predates it.",
+   "review_notes": "Due date itself is set under the Sales Tax Rules, 2006 (payment by 15th, electronic filing by 18th of the following month); see LEG-STR2006-DUEDATES."
+  },
+  {
+   "code": "LEG-STA1990-S33",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 33",
+   "rule_description": "Offences and penalties: tabular schedule of offences with corresponding penalties and the section of the Act to which each offence has reference (includes, e.g., serial 28 for failure to share information under s.56AB).",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "under_review",
+   "amendment_history": "Effective_from is the earliest version date checked; section predates it.",
+   "review_notes": "Existence and tabular structure of s.33 verified from FBR-hosted Act text; NO individual penalty row (e.g. late-filing amounts) is asserted as verified. Secondary sources cite Rs 50,000 / Rs 2,000-per-day for late return filing — not checked against Act text, recorded as gap."
+  },
+  {
+   "code": "LEG-STA1990-S34",
+   "name": "Sales Tax Act, 1990",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 34",
+   "rule_description": "Default surcharge: if a registered person does not pay the tax due or any part thereof, in time or in the manner specified under the Act/rules/notifications, or claims a tax credit, refund or adjustment not admissible to him, or incorrectly applies the zero rate, he shall in addition to the tax due pay default surcharge. Clause (a): at twelve per cent per annum of the amount of tax due or the amount of refund erroneously made (substituted by Finance Act, 2018; substituted 2005/1996). Clause (c) addresses tax fraud.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "under_review",
+   "amendment_history": "s.34 substituted by Finance Act, 2005; 12% p.a. substituted by Finance Act, 2018 (footnote in Act text updated to 2021).",
+   "review_notes": "12% per annum rate verified in Act text (updated to 30.06.2021). Kept under_review because: (i) the day-count computation convention is not verified in the section text; (ii) secondary sources report a 'KIBOR+3% whichever higher' variant and the FBR page reports 1.5%/2% per month 'additional tax' — these conflict and none is adopted. Penalty/surcharge is therefore exposed as possible exposure, never computed as definitive."
+  },
+  {
+   "code": "LEG-STA1990-FIFTH-SCH",
+   "name": "Sales Tax Act, 1990 — Fifth Schedule",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Fifth Schedule",
+   "rule_description": "Schedule of goods/supplies charged to tax at zero per cent under section 4.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "under_review",
+   "review_notes": "Existence and s.4 linkage corroborated; item list deliberately not enumerated (unverified)."
+  },
+  {
+   "code": "LEG-STA1990-SIXTH-SCH",
+   "name": "Sales Tax Act, 1990 — Sixth Schedule",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Sixth Schedule",
+   "rule_description": "Schedule of goods whose supply or import is exempt from tax under section 13, subject to specified conditions.",
+   "effective_from": "2014-07-01",
+   "source_code": "SRC-STA-FBR-ACT2014",
+   "source_verified_date": "2026-10-21",
+   "review_status": "under_review",
+   "review_notes": "Existence and s.13 linkage corroborated; item list deliberately not enumerated (unverified)."
+  },
+  {
+   "code": "LEG-STR2006-DUEDATES",
+   "name": "Sales Tax Rules, 2006",
+   "issuing_authority": "Federal Board of Revenue",
+   "jurisdiction": "federal",
+   "provision": "Payment and electronic filing timetable (return filing provisions)",
+   "rule_description": "Where the due date has been prescribed as the 15th of a month, the tax due shall be deposited by the 15th and the return shall be submitted electronically by the 18th of the same month. Special categories (electricity distribution companies, IPPs, gas transmission/distribution, petroleum E&P, CNG dealers, brick kilns, WAPDA hydro) have category-specific timetables in the appended Table. FBR confirms: tax payment by the 15th and return submission on the e-portal by the 18th for electronic filers.",
+   "effective_from": "2018-10-31",
+   "source_code": "SRC-STA-FBR-RULES",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "amendment_history": "Effective_from is the earliest version date checked (Rules updated to 31.10.2018); the 15th/18th structure predates it.",
+   "review_notes": "Wording verified verbatim from the FBR-hosted Rules PDF. The internal Rule number (commonly cited as Rule 14) was not independently confirmed and is not asserted. Board extensions of due dates by notification are not encoded."
+  },
+  {
+   "code": "LEG-FSA2023-RATE18",
+   "name": "Finance (Supplementary) Act, 2023",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Amendment to section 3, Sales Tax Act, 1990",
+   "rule_description": "Raised the standard sales tax rate from 17% to 18%, effective 14.02.2023 for local supplies and imports (from 24.02.2023 generally applicable including Third/Eighth/Ninth Schedule carve-outs), and introduced a 25% rate for specified luxury items.",
+   "effective_from": "2023-02-14",
+   "source_code": "SRC-STA-EY-RATE",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "review_notes": "Effective dates per EY advisory corroborated by FBR-issued updated Act text (23.02.2023) showing s.3 at 18%. The 25% luxury-item rate is noted but not encoded as a calc table (item scope unverified)."
+  }
+ ],
+ "calc_tables": [
+  {
+   "code": "CALC-STF-STANDARD-RATE",
+   "name": "Federal sales tax standard rate (current)",
+   "kind": "percentage",
+   "tax_category": "sales_tax_federal",
+   "params": {
+    "rate": 0.18,
+    "rate_basis": "value of the taxable supply (s.3, Sales Tax Act, 1990)",
+    "rounding": "nearest_rupee"
+   },
+   "legislation_ref": "LEG-FSA2023-RATE18",
+   "effective_from": "2023-02-14",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "18% verified via FBR-issued updated Act text and EY advisory. Reduced/special rates (Third/Eighth/Ninth/Twelfth Schedules) are NOT encoded here; engine must not apply 18% where a Schedule rate applies — flag for schedule check."
+  },
+  {
+   "code": "CALC-STF-STANDARD-RATE-17",
+   "name": "Federal sales tax standard rate (superseded 17% period)",
+   "kind": "percentage",
+   "tax_category": "sales_tax_federal",
+   "params": {
+    "rate": 0.17,
+    "rate_basis": "value of the taxable supply (s.3, Sales Tax Act, 1990)",
+    "rounding": "nearest_rupee"
+   },
+   "legislation_ref": "LEG-FSA2023-RATE18",
+   "effective_from": "2013-06-13",
+   "effective_to": "2023-02-13",
+   "verification_status": "under_review",
+   "review_notes": "17% at 2013-06-13 via Finance Act 2013 reported in CA-firm highlights and business press; gazette not checked, hence under_review rather than superseded. Preserved so historical periods are not re-valued at 18%."
+  },
+  {
+   "code": "CALC-STF-ZERO-RATE",
+   "name": "Zero-rating rate under s.4",
+   "kind": "percentage",
+   "tax_category": "sales_tax_federal",
+   "params": {
+    "rate": 0.0,
+    "rate_basis": "value of the zero-rated supply (s.4, Sales Tax Act, 1990)",
+    "rounding": "nearest_rupee"
+   },
+   "legislation_ref": "LEG-STA1990-S4",
+   "effective_from": "2014-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "Zero per cent rate verified as the statutory consequence of s.4 classification; applies ONLY after the supply is verified as zero-rated (exports/Fifth Schedule/notified). Input tax on zero-rated supplies is refundable per s.7/FBR guidance — do not conflate with exempt supplies."
+  },
+  {
+   "code": "CALC-STF-DEFAULT-SURCHARGE",
+   "name": "Default surcharge rate under s.34(1)(a)",
+   "kind": "percentage",
+   "tax_category": "sales_tax_federal",
+   "params": {
+    "rate": 0.12,
+    "rate_basis": "amount of tax due or refund erroneously made, per annum",
+    "rounding": "nearest_rupee"
+   },
+   "legislation_ref": "LEG-STA1990-S34",
+   "effective_from": "2018-07-01",
+   "effective_to": null,
+   "verification_status": "under_review",
+   "review_notes": "12% per annum verified in Act text (Finance Act, 2018 substitution). Day-count computation convention not verified; conflicting secondary reports of 'KIBOR+3% whichever higher' not adopted. Engine must present surcharge as possible exposure with this caveat, never as a definitive computed liability."
+  }
+ ],
+ "rules": [
+  {
+   "code": "RULE-STF-SUPPLY-SCOPE",
+   "title": "Chargeability of federal sales tax on taxable supplies and imports (s.3)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Supply of goods by a registered person, or import of goods into Pakistan",
+   "transaction_types": [
+    "taxable_supply",
+    "import"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "transaction_type",
+      "op": "in",
+      "value": [
+       "taxable_supply",
+       "import"
+      ]
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "supply_classification",
+      "op": "eq",
+      "value": "exempt"
+     },
+     {
+      "field": "supply_classification",
+      "op": "eq",
+      "value": "zero_rated"
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "transaction_type",
+     "label": "Transaction type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "taxable_supply",
+      "import",
+      "exempt_supply",
+      "zero_rated_supply"
+     ]
+    },
+    {
+     "name": "taxpayer_registered",
+     "label": "Is the supplier a registered person?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-REGISTRATION-CERT"
+    },
+    {
+     "name": "supply_classification",
+     "label": "Supply classification",
+     "data_type": "choice",
+     "required": false,
+     "choices": [
+      "taxable",
+      "exempt",
+      "zero_rated"
+     ]
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of supply or import",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Tax invoice / bill of entry"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "eq",
+         "value": "taxable_supply"
+        },
+        {
+         "field": "taxpayer_registered",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Sales tax is chargeable on the supply; determine the rate via RULE-STF-STANDARD-RATE for the transaction date.",
+      "treatment_code": "taxable_supply_charged"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "eq",
+         "value": "import"
+        }
+       ]
+      },
+      "then": "Sales tax is chargeable on the import irrespective of final destination; determine the rate via RULE-STF-STANDARD-RATE for the transaction date.",
+      "treatment_code": "import_charged"
+     }
+    ],
+    "default": "Chargeability cannot be determined — confirm registration status, transaction type and classification (exempt/zero-rated require verified Schedule checks)."
+   },
+   "expected_treatment": "Taxable supplies by registered persons and all goods imported into Pakistan are chargeable to sales tax; exempt and zero-rated classifications are exceptions that must each be positively verified, never assumed.",
+   "interpretation_note": "The engine treats 'import' as chargeable without requiring the importer to be registered for the levy itself; input-tax deduction on the import still requires the importer to hold a proper bill of entry (RULE-STF-INPUT-ELIGIBILITY).",
+   "legislation_codes": [
+    "LEG-STA1990-S3"
+   ],
+   "evidence_codes": [
+    "EV-REGISTRATION-CERT",
+    "EV-SALES-INVOICE",
+    "EV-IMPORT-EXPORT-DOCS"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-STF-OMITTED-SUPPLY",
+    "RISK-STF-WRONG-CLASSIFICATION"
+   ],
+   "calc_codes": [
+    "CALC-STF-STANDARD-RATE"
+   ],
+   "effective_from": "2023-02-14",
+   "verification_status": "verified",
+   "reviewer": "research-agent-sales-tax-federal",
+   "review_date": "2026-10-21",
+   "version": 1,
+   "review_notes": "Chargeability wording verified in FBR-issued Act text. The 18% rate itself lives in RULE-STF-STANDARD-RATE/CALC tables; this rule must not hard-code a rate."
+  },
+  {
+   "code": "RULE-STF-STANDARD-RATE",
+   "title": "Standard rate of sales tax (s.3) — date-dependent rate selection",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Taxable supply of goods or import where the standard rate (not a Schedule rate) applies",
+   "transaction_types": [
+    "taxable_supply",
+    "import"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "transaction_type",
+      "op": "in",
+      "value": [
+       "taxable_supply",
+       "import"
+      ]
+     },
+     {
+      "field": "schedule_rate_applies",
+      "op": "eq",
+      "value": false
+     },
+     {
+      "field": "supply_classification",
+      "op": "eq",
+      "value": "taxable"
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "transaction_type",
+     "label": "Transaction type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "taxable_supply",
+      "import"
+     ]
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of supply or import",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Tax invoice / bill of entry"
+    },
+    {
+     "name": "supply_value",
+     "label": "Value of supply (exclusive of tax)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Tax invoice"
+    },
+    {
+     "name": "schedule_rate_applies",
+     "label": "Does a Third/Eighth/Ninth/Twelfth Schedule or notified reduced rate apply?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "supply_classification",
+     "label": "Supply classification",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "taxable",
+      "exempt",
+      "zero_rated"
+     ]
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Standard-rate rule does not apply; the Schedule/notified rate must be determined from the verified Schedule entry for the transaction date. Flag for Schedule lookup.",
+      "treatment_code": "schedule_rate_required"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "transaction_date",
+         "op": "date_gte",
+         "value": "2023-02-14"
+        }
+       ]
+      },
+      "then": "Apply CALC-STF-STANDARD-RATE (18%) on the value of supply.",
+      "treatment_code": "rate_18pct"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "transaction_date",
+         "op": "date_between",
+         "value": [
+          "2013-06-13",
+          "2023-02-13"
+         ]
+        }
+       ]
+      },
+      "then": "Apply CALC-STF-STANDARD-RATE-17 (17%) on the value of supply.",
+      "treatment_code": "rate_17pct_historical"
+     }
+    ],
+    "default": "Rate cannot be determined — confirm the transaction date, whether any Schedule rate applies, and the supply classification."
+   },
+   "expected_treatment": "Output tax = applicable standard rate (date-dependent) x value of the taxable supply; never use the current 18% rate for pre-2023-02-14 periods.",
+   "interpretation_note": "The 14.02.2023 effective date follows EY's advisory ('effective 14 February 2023 for local supplies and imports'); 18% became generally applicable from 24.02.2023 including Schedule carve-outs. The 17% period start (13.06.2013, Finance Act 2013) is from business-press reports, not the gazette.",
+   "legislation_codes": [
+    "LEG-STA1990-S3",
+    "LEG-FSA2023-RATE18"
+   ],
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-STF-WRONG-RATE"
+   ],
+   "calc_codes": [
+    "CALC-STF-STANDARD-RATE",
+    "CALC-STF-STANDARD-RATE-17"
+   ],
+   "effective_from": "2023-02-14",
+   "verification_status": "verified",
+   "reviewer": "research-agent-sales-tax-federal",
+   "review_date": "2026-10-21",
+   "version": 1,
+   "review_notes": "18% verified. Historical 17% period encoded via CALC-STF-STANDARD-RATE-17 (under_review); do not present 17% as definitive until gazette-checked."
+  },
+  {
+   "code": "RULE-STF-FURTHER-TAX",
+   "title": "Further tax on supplies to unregistered/inactive persons (s.3(1A))",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Taxable supply made to a person without a registration number or not an active taxpayer",
+   "transaction_types": [
+    "taxable_supply"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "taxable_supply"
+     },
+     {
+      "field": "recipient_registered_active",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "transaction_type",
+     "label": "Transaction type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "taxable_supply"
+     ]
+    },
+    {
+     "name": "recipient_registered_active",
+     "label": "Is the recipient a registered active taxpayer?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "FBR Active Taxpayer List / STRN check"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of supply",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Tax invoice"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "recipient_registered_active",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "No further tax.",
+      "treatment_code": "no_further_tax"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "recipient_registered_active",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Further tax under s.3(1A) may be chargeable in addition to the s.3 rate; the current rate is UNVERIFIED — do not compute. Check for Federal Government Gazette notifications excluding the supply from further tax.",
+      "treatment_code": "further_tax_unverified_rate"
+     }
+    ],
+    "default": "Confirm the recipient's registration/active status before determining further-tax exposure."
+   },
+   "expected_treatment": "s.3(1A) imposes a further tax on supplies to unregistered or inactive persons; the applicable rate is not verified for engine use and must not be assumed.",
+   "legislation_codes": [
+    "LEG-STA1990-S3"
+   ],
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-STF-WRONG-RATE"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "draft",
+   "version": 1,
+   "review_notes": "GAP: sources conflict on the rate — 3% in the FBR-issued Act text updated to 23.02.2023 vs 4% in a Nov-2023 rate commentary; earlier history shows 2% (2013), then 1%. No calc table created. Verify against current Gazette notification before encoding a rate."
+  },
+  {
+   "code": "RULE-STF-LIABILITY",
+   "title": "Determination of tax liability: output tax less input tax (s.7(1))",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Registered person makes taxable supplies during a tax period and has input tax to deduct",
+   "transaction_types": [
+    "taxable_supply",
+    "purchase",
+    "import",
+    "adjustment"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_period",
+      "op": "exists",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "input_tax_disallowed_s8",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "taxpayer_registered",
+     "label": "Is the taxpayer a registered person?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-REGISTRATION-CERT"
+    },
+    {
+     "name": "tax_period",
+     "label": "Tax period (month)",
+     "data_type": "string",
+     "required": true,
+     "source_hint": "Sales tax return"
+    },
+    {
+     "name": "output_tax",
+     "label": "Output tax due for the tax period (excluding further tax u/s 3(1A))",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Sales register / return"
+    },
+    {
+     "name": "eligible_input_tax",
+     "label": "Eligible input tax for the tax period (after s.8/s.7(2) gates)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Purchase register after eligibility testing"
+    },
+    {
+     "name": "input_tax_disallowed_s8",
+     "label": "Does any input tax fall in s.8 disallowed categories?",
+     "data_type": "boolean",
+     "required": false
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "taxpayer_registered",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Net liability = output tax (excluding further tax under s.3(1A)) minus eligible input tax, plus adjustments specified in s.9. Apply s.8 disallowance and s.7(2) documentary gates BEFORE deduction. Input tax not deducted in the relevant period may be claimed in the return for any of the six succeeding tax periods.",
+      "treatment_code": "output_minus_eligible_input"
+     }
+    ],
+    "default": "Confirm registration status and tax period before computing liability."
+   },
+   "expected_treatment": "Tax payable for the period = output tax less eligible input tax (subject to s.8, s.8B and s.73) with s.9 adjustments; un-deducted input tax may be carried to any of the six succeeding tax periods.",
+   "interpretation_note": "This rule computes the mechanism only; eligibility of each input item is decided by RULE-STF-INPUT-ELIGIBILITY and RULE-STF-INPUT-DISALLOWED, which run first. s.8B and s.73 interactions are flagged but not modelled (text not verified).",
+   "legislation_codes": [
+    "LEG-STA1990-S7"
+   ],
+   "evidence_codes": [
+    "EV-SALES-REGISTER",
+    "EV-PURCHASE-REGISTER",
+    "EV-RETURN-ACK"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-RECON-SALESTAX"
+   ],
+   "risk_codes": [
+    "RISK-STF-INELIGIBLE-INPUT",
+    "RISK-STF-WRONG-PERIOD",
+    "RISK-STF-LEDGER-RETURN-MISMATCH"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "verified",
+   "reviewer": "research-agent-sales-tax-federal",
+   "review_date": "2026-10-21",
+   "version": 1,
+   "review_notes": "Verified against FBR-hosted Act text. The six-succeeding-periods proviso is the verified version; a newer 'twelve preceding periods' variant seen in a secondary rendering is unconfirmed (gap noted in LEG-STA1990-S7)."
+  },
+  {
+   "code": "RULE-STF-INPUT-ELIGIBILITY",
+   "title": "Documentary conditions for input-tax deduction (s.7(2))",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Registered person claims input tax on domestic purchases, imports, or auction purchases",
+   "transaction_types": [
+    "purchase",
+    "import"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "transaction_type",
+      "op": "in",
+      "value": [
+       "purchase",
+       "import"
+      ]
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "taxpayer_registered",
+     "label": "Is the claimant a registered person?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-REGISTRATION-CERT"
+    },
+    {
+     "name": "transaction_type",
+     "label": "Transaction type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "purchase",
+      "import"
+     ]
+    },
+    {
+     "name": "holds_tax_invoice_in_own_name_strn",
+     "label": "Holds a tax invoice in own name bearing own registration number (domestic supply)",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-PURCHASE-INVOICE"
+    },
+    {
+     "name": "holds_bill_of_entry_own_strn",
+     "label": "Holds bill of entry/goods declaration in own name showing own STRN, customs-cleared (imports)",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-IMPORT-EXPORT-DOCS"
+    },
+    {
+     "name": "holds_treasury_challan",
+     "label": "Holds treasury challan in own name bearing own registration number (auction purchases)",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "EV-TAX-CHALLAN"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "taxpayer_registered",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "No deduction: s.8(3) bars any person other than a registered person from deducting or reclaiming input tax.",
+      "treatment_code": "not_registered_no_deduction"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "eq",
+         "value": "purchase"
+        },
+        {
+         "field": "holds_tax_invoice_in_own_name_strn",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Documentary gate passed for domestic purchase; proceed to RULE-STF-INPUT-DISALLOWED (s.8 categories) before allowing the claim.",
+      "treatment_code": "domestic_invoice_ok"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "eq",
+         "value": "purchase"
+        },
+        {
+         "field": "holds_tax_invoice_in_own_name_strn",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Input tax NOT deductible: s.7(2)(i) requires a tax invoice in the claimant's name bearing his registration number. A purchase invoice alone creates no entitlement.",
+      "treatment_code": "domestic_invoice_missing"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "eq",
+         "value": "import"
+        },
+        {
+         "field": "holds_bill_of_entry_own_strn",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Documentary gate passed for import; proceed to RULE-STF-INPUT-DISALLOWED before allowing the claim.",
+      "treatment_code": "import_boe_ok"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "eq",
+         "value": "import"
+        },
+        {
+         "field": "holds_bill_of_entry_own_strn",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Input tax NOT deductible: s.7(2)(ii) requires a bill of entry/goods declaration in the claimant's name showing his STRN, duly customs-cleared.",
+      "treatment_code": "import_boe_missing"
+     }
+    ],
+    "default": "Confirm registration status, transaction type and the prescribed document before allowing input-tax deduction."
+   },
+   "expected_treatment": "A purchase invoice NEVER creates automatic input-tax entitlement: the claimant must be registered AND hold the s.7(2) document in his own name/STRN, and the purchase must survive the s.8 disallowance tests.",
+   "interpretation_note": "Electricity/gas bills bearing the registration number and installation address are also accepted per the s.7(2)(i) amendment noted in the checked text; encode as a separate input when encountered.",
+   "legislation_codes": [
+    "LEG-STA1990-S7",
+    "LEG-STA1990-S8"
+   ],
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-IMPORT-EXPORT-DOCS",
+    "EV-TAX-CHALLAN",
+    "EV-REGISTRATION-CERT"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "risk_codes": [
+    "RISK-STF-INELIGIBLE-INPUT",
+    "RISK-STF-DEFECTIVE-INVOICE",
+    "RISK-STF-DUPLICATE-INVOICE"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "verified",
+   "reviewer": "research-agent-sales-tax-federal",
+   "review_date": "2026-10-21",
+   "version": 1,
+   "review_notes": "Documentary conditions verified verbatim from FBR-hosted Act text. This rule is the engine's 'no automatic entitlement' gate."
+  },
+  {
+   "code": "RULE-STF-INPUT-DISALLOWED",
+   "title": "Input-tax disallowance categories and apportionment (s.8)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Input tax paid on purchases that may fall in a disallowed category, or mixed taxable/non-taxable supplies",
+   "transaction_types": [
+    "purchase",
+    "import"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "taxpayer_registered",
+     "label": "Is the claimant a registered person?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "use_of_goods_services",
+     "label": "Use of the goods/services",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "for_taxable_supplies",
+      "other_than_taxable_supplies",
+      "personal_nonbusiness",
+      "attached_to_immovable_property",
+      "chapter87_vehicle_or_appliance_furniture",
+      "unrelated_to_taxable_supplies"
+     ]
+    },
+    {
+     "name": "acquired_for_resale_or_production",
+     "label": "If property-attached goods or vehicles/appliances: acquired for sale/resale or direct use in production of taxable goods?",
+     "data_type": "boolean",
+     "required": false
+    },
+    {
+     "name": "fake_invoice",
+     "label": "Is the invoice fake?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "CREST / supply-chain verification"
+    },
+    {
+     "name": "crest_discrepancy_or_unverifiable",
+     "label": "CREST discrepancy indicated or input tax not verifiable in supply chain?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "FBR CREST / supply-chain check"
+    },
+    {
+     "name": "supplier_deposited_tax",
+     "label": "Sales tax deposited in Government treasury by the supplier?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Supplier return/payment verification"
+    },
+    {
+     "name": "board_info_furnished_s26_5",
+     "label": "Board-required information under s.26(5) furnished?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "government_notified_disallowance",
+     "label": "Goods/services specified by Federal Government notification under s.8(1)(b)?",
+     "data_type": "boolean",
+     "required": false
+    },
+    {
+     "name": "makes_nontaxable_supplies",
+     "label": "Does the person also make non-taxable supplies?",
+     "data_type": "boolean",
+     "required": true
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "fake_invoice",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(d). Flag for investigation; do not net against output tax.",
+      "treatment_code": "disallowed_fake_invoice"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "supplier_deposited_tax",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(ca): sales tax not deposited in the Government treasury by the supplier.",
+      "treatment_code": "disallowed_supplier_default"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "crest_discrepancy_or_unverifiable",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(caa): CREST discrepancy or input tax not verifiable in the supply chain.",
+      "treatment_code": "disallowed_crest"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "use_of_goods_services",
+         "op": "in",
+         "value": [
+          "other_than_taxable_supplies",
+          "unrelated_to_taxable_supplies"
+         ]
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(a)/(f): not for, or not related to, taxable supplies.",
+      "treatment_code": "disallowed_not_for_taxable"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "use_of_goods_services",
+         "op": "eq",
+         "value": "personal_nonbusiness"
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(g): personal or non-business consumption.",
+      "treatment_code": "disallowed_personal"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "use_of_goods_services",
+         "op": "eq",
+         "value": "attached_to_immovable_property"
+        },
+        {
+         "field": "acquired_for_resale_or_production",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(h): goods used in or permanently attached to immoveable property.",
+      "treatment_code": "disallowed_immovable"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "use_of_goods_services",
+         "op": "eq",
+         "value": "chapter87_vehicle_or_appliance_furniture"
+        },
+        {
+         "field": "acquired_for_resale_or_production",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(i): Chapter-87 vehicles/parts, appliances, furniture/furnishings, office equipment (other than electronic cash registers).",
+      "treatment_code": "disallowed_vehicle_appliance"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "board_info_furnished_s26_5",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(e): Board-required information under s.26(5) not furnished.",
+      "treatment_code": "disallowed_info_not_furnished"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "government_notified_disallowance",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Input tax disallowed under s.8(1)(b): goods/services specified by Federal Government notification.",
+      "treatment_code": "disallowed_notified"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "makes_nontaxable_supplies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Apportion under s.8(2): reclaim only the proportion of input tax attributable to taxable supplies, in the manner specified by the Board.",
+      "treatment_code": "apportion_mixed_supplies"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "use_of_goods_services",
+         "op": "eq",
+         "value": "for_taxable_supplies"
+        }
+       ]
+      },
+      "then": "No s.8(1) disallowance indicated on these facts; input tax may be deducted subject to the s.7(2) documentary gates.",
+      "treatment_code": "allowable_subject_to_documents"
+     }
+    ],
+    "default": "Confirm the use of the goods/services, supplier compliance status and CREST/supply-chain verifiability before allowing the claim."
+   },
+   "expected_treatment": "Input tax is denied for each s.8(1) category (a)-(i); mixed suppliers apportion under s.8(2); only registered persons may claim (s.8(3)).",
+   "legislation_codes": [
+    "LEG-STA1990-S8"
+   ],
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-PURCHASE-REGISTER",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY",
+    "PROC-CALC-SALESTAX"
+   ],
+   "risk_codes": [
+    "RISK-STF-INELIGIBLE-INPUT",
+    "RISK-STF-WRONG-CLASSIFICATION"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "verified",
+   "reviewer": "research-agent-sales-tax-federal",
+   "review_date": "2026-10-21",
+   "version": 1,
+   "review_notes": "Categories verified verbatim from FBR-hosted Act text. The s.8(2) apportionment 'manner specified by the Board' is not encoded (method unverified) — engine flags for manual apportionment."
+  },
+  {
+   "code": "RULE-STF-ZERO-RATED",
+   "title": "Zero-rated supplies under s.4 (Fifth Schedule)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Supply claimed to be zero-rated (exports, Fifth Schedule goods, notified goods)",
+   "transaction_types": [
+    "zero_rated_supply"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "zero_rated_supply"
+     },
+     {
+      "field": "zero_rating_basis_verified",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "transaction_type",
+     "label": "Transaction type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "zero_rated_supply"
+     ]
+    },
+    {
+     "name": "zero_rating_basis",
+     "label": "Basis of zero-rating claim",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "export_of_goods",
+      "fifth_schedule_item",
+      "conveyance_stores_provisions",
+      "federal_notification"
+     ]
+    },
+    {
+     "name": "zero_rating_basis_verified",
+     "label": "Basis verified against export documents / Fifth Schedule / notification?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-IMPORT-EXPORT-DOCS / Schedule text / Gazette notification"
+    },
+    {
+     "name": "goods_reimported_or_not_exported",
+     "label": "Goods re-imported, intended for re-import, or entered for export but not exported?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "supply_value",
+     "label": "Value of supply",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Tax invoice"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "goods_reimported_or_not_exported",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Zero-rating does not apply to re-imported/intended-re-import or non-exported goods; reassess as taxable or exempt.",
+      "treatment_code": "zero_rating_excluded"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "zero_rating_basis_verified",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "goods_reimported_or_not_exported",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Charge tax at zero per cent via CALC-STF-ZERO-RATE. Input tax attributable to the zero-rated supply remains adjustable/refundable under s.7.",
+      "treatment_code": "zero_rated"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "zero_rating_basis_verified",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Do NOT apply zero-rating on assertion alone; obtain export documents, Fifth Schedule reference or the Gazette notification first.",
+      "treatment_code": "zero_rating_unverified"
+     }
+    ],
+    "default": "Confirm the zero-rating basis and the re-import/non-export exclusions before applying the zero rate."
+   },
+   "expected_treatment": "Verified zero-rated supplies are charged at 0% with input tax adjustable/refundable; never conflate with exempt supplies (no input-tax adjustment).",
+   "interpretation_note": "Zero-rated supplies remain 'taxable supplies' for input-tax purposes — this is the engine's key distinction from exempt supplies.",
+   "legislation_codes": [
+    "LEG-STA1990-S4",
+    "LEG-STA1990-FIFTH-SCH"
+   ],
+   "evidence_codes": [
+    "EV-IMPORT-EXPORT-DOCS",
+    "EV-SALES-INVOICE",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY",
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-STF-WRONG-CLASSIFICATION",
+    "RISK-STF-INELIGIBLE-INPUT"
+   ],
+   "calc_codes": [
+    "CALC-STF-ZERO-RATE"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "under_review",
+   "version": 1,
+   "review_notes": "Concept verified across professional sources; clause-level s.4 text and the Fifth Schedule item list not directly read — hence under_review. Re-import/non-export exclusions verified in CA study text quoting s.4 provisos."
+  },
+  {
+   "code": "RULE-STF-EXEMPT",
+   "title": "Exempt supplies under s.13 (Sixth Schedule)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Supply or import claimed to be exempt",
+   "transaction_types": [
+    "exempt_supply"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "exempt_supply"
+     },
+     {
+      "field": "exemption_basis_verified",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "transaction_type",
+     "label": "Transaction type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "exempt_supply"
+     ]
+    },
+    {
+     "name": "exemption_basis",
+     "label": "Basis of exemption claim",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "sixth_schedule_item",
+      "federal_notification"
+     ]
+    },
+    {
+     "name": "exemption_basis_verified",
+     "label": "Basis verified against Sixth Schedule / notification conditions?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Schedule text / Gazette notification"
+    },
+    {
+     "name": "taxpayer_also_makes_taxable_supplies",
+     "label": "Does the taxpayer also make taxable supplies?",
+     "data_type": "boolean",
+     "required": true
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_basis_verified",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Do NOT treat as exempt on assertion alone; obtain the Sixth Schedule reference or notification and test its conditions.",
+      "treatment_code": "exemption_unverified"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_basis_verified",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "No sales tax charged on the supply/import. Input tax attributable to the exempt supply is NOT adjustable or refundable; apportion under s.8(2) if the taxpayer also makes taxable supplies.",
+      "treatment_code": "exempt_no_input_tax"
+     }
+    ],
+    "default": "Confirm the exemption basis and its conditions before treating a supply as exempt."
+   },
+   "expected_treatment": "Verified exempt supplies bear no sales tax and carry no input-tax adjustment; exemption is not the same as zero-rating.",
+   "legislation_codes": [
+    "LEG-STA1990-S13",
+    "LEG-STA1990-SIXTH-SCH",
+    "LEG-STA1990-S8"
+   ],
+   "evidence_codes": [
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-PURCHASE-REGISTER"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY"
+   ],
+   "risk_codes": [
+    "RISK-STF-WRONG-CLASSIFICATION",
+    "RISK-STF-INELIGIBLE-INPUT"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "under_review",
+   "version": 1,
+   "review_notes": "Concept verified across professional sources; clause-level s.13 text and Sixth Schedule item list not directly read — hence under_review."
+  },
+  {
+   "code": "RULE-STF-TAX-INVOICE",
+   "title": "Tax invoice particulars and issuance (s.23)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Registered person makes a taxable supply and issues (or should issue) a tax invoice",
+   "transaction_types": [
+    "taxable_supply"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "taxable_supply"
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "taxpayer_registered",
+     "label": "Is the issuer a registered person?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "transaction_type",
+     "label": "Transaction type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "taxable_supply"
+     ]
+    },
+    {
+     "name": "invoice_serially_numbered",
+     "label": "Invoice serially numbered?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-SALES-INVOICE"
+    },
+    {
+     "name": "invoice_particulars_complete",
+     "label": "All s.23 particulars present (supplier name/address/STRN, recipient name/address/STRN, date, description+quantity, value ex-tax, tax amount, value incl. tax)?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-SALES-INVOICE"
+    },
+    {
+     "name": "single_invoice_per_supply",
+     "label": "Only one tax invoice issued for this taxable supply?",
+     "data_type": "boolean",
+     "required": true
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "taxpayer_registered",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "No invoice may be issued under s.23; an invoice issued by an unregistered person is not a tax invoice.",
+      "treatment_code": "unregistered_no_invoice"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "invoice_serially_numbered",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "invoice_particulars_complete",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "single_invoice_per_supply",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Invoice meets s.23 issuance and particulars requirements.",
+      "treatment_code": "invoice_compliant"
+     },
+     {
+      "when": {
+       "any": [
+        {
+         "field": "invoice_serially_numbered",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "invoice_particulars_complete",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "single_invoice_per_supply",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Defective tax invoice: identify the missing particular(s) and the affected input-tax/output-tax treatment; see RISK-STF-DEFECTIVE-INVOICE.",
+      "treatment_code": "invoice_defective"
+     }
+    ],
+    "default": "Inspect the invoice against each s.23 particular before concluding compliance."
+   },
+   "expected_treatment": "A compliant tax invoice is serially numbered, issued at the time of supply, carries all (a)-(g) particulars, and is the only invoice for that supply; only registered persons may issue one.",
+   "legislation_codes": [
+    "LEG-STA1990-S23"
+   ],
+   "evidence_codes": [
+    "EV-SALES-INVOICE"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-STF-DEFECTIVE-INVOICE",
+    "RISK-STF-DUPLICATE-INVOICE"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "verified",
+   "reviewer": "research-agent-sales-tax-federal",
+   "review_date": "2026-10-21",
+   "version": 1,
+   "review_notes": "Particulars verified verbatim. The 2020 NIC/NTN amendment for unregistered recipients is noted in legislation; its operative threshold details were not fully checked."
+  },
+  {
+   "code": "RULE-STF-RECORDS",
+   "title": "Record-keeping and retention obligations (ss.22 and 24)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Person is required to maintain records under the Sales Tax Act, 1990",
+   "transaction_types": [
+    "taxable_supply",
+    "purchase",
+    "import",
+    "adjustment"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "records_required",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "records_required",
+     "label": "Is the person required to maintain records under the Act?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "retention_years",
+     "label": "Years for which records are retained after the end of the tax period",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Record-retention policy"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "records_required",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "retention_years",
+         "op": "gte",
+         "value": 5
+        }
+       ]
+      },
+      "then": "Retention requirement met (five years after the end of the tax period). Maintain purchase/supply records at business premises; comply with any Board notification on business bank accounts, electronic fiscal cash registers, or electronic record systems.",
+      "treatment_code": "records_compliant"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "records_required",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "retention_years",
+         "op": "lt",
+         "value": 5
+        }
+       ]
+      },
+      "then": "Retention shortfall: records must be retained for five years after the end of the tax period to which they relate.",
+      "treatment_code": "retention_shortfall"
+     }
+    ],
+    "default": "Establish whether the person is required to maintain records and for how long they are kept."
+   },
+   "expected_treatment": "Records of purchases and supplies maintained at business premises and retained for five years after the end of the relevant tax period; Board-specified electronic/bank-account requirements apply where notified.",
+   "legislation_codes": [
+    "LEG-STA1990-S22"
+   ],
+   "evidence_codes": [
+    "EV-SALES-REGISTER",
+    "EV-PURCHASE-REGISTER",
+    "EV-GENERAL-LEDGER"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-STF-LEDGER-RETURN-MISMATCH"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "verified",
+   "reviewer": "research-agent-sales-tax-federal",
+   "review_date": "2026-10-21",
+   "version": 1,
+   "review_notes": "s.22 requirements verified in FBR-hosted Act text; five-year retention verified on the FBR official sales-tax page ('required to be kept for a period of 5 years'). Older summaries citing six years were not adopted."
+  },
+  {
+   "code": "RULE-STF-RETURN-DUE",
+   "title": "Return filing and tax payment timetable (s.26; Sales Tax Rules, 2006)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "End of a monthly tax period for a registered person",
+   "transaction_types": [
+    "filing_of_return"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "special_category",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "taxpayer_registered",
+     "label": "Is the taxpayer a registered person?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "special_category",
+     "label": "Is the taxpayer in a special timetable category (electricity, IPP, gas, petroleum E&P, CNG, brick kiln, WAPDA)?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "tax_period_end",
+     "label": "End of the tax period",
+     "data_type": "date",
+     "required": true
+    },
+    {
+     "name": "payment_date",
+     "label": "Date tax was deposited",
+     "data_type": "date",
+     "required": false,
+     "source_hint": "EV-TAX-CHALLAN"
+    },
+    {
+     "name": "filing_date",
+     "label": "Date return was submitted electronically",
+     "data_type": "date",
+     "required": false,
+     "source_hint": "EV-RETURN-ACK"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "special_category",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Category-specific timetable applies (per the Rules Table); do not use the general 15th/18th dates.",
+      "treatment_code": "special_timetable"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "special_category",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Tax due must be deposited by the 15th of the month following the tax period; the return must be submitted electronically by the 18th of that month. Late deposit exposes default surcharge (s.34); late filing exposes penalty (s.33) — amounts not verified, do not compute.",
+      "treatment_code": "general_15th_18th"
+     }
+    ],
+    "default": "Confirm the taxpayer's category and the tax period before assessing timeliness."
+   },
+   "expected_treatment": "General-category registered persons: pay by the 15th, file electronically by the 18th of the following month; special categories follow their own Table dates.",
+   "interpretation_note": "s.26 requires filing 'not later than the due date'; the 15th/18th split is from the Sales Tax Rules, 2006 as quoted from the FBR-hosted text. Board-granted extensions by notification are not encoded — verify the notified date for the period.",
+   "legislation_codes": [
+    "LEG-STA1990-S26",
+    "LEG-STR2006-DUEDATES",
+    "LEG-STA1990-S34"
+   ],
+   "evidence_codes": [
+    "EV-TAX-CHALLAN",
+    "EV-RETURN-ACK"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-PAYMENTS"
+   ],
+   "risk_codes": [
+    "RISK-STF-LATE-FILING-PAYMENT"
+   ],
+   "effective_from": "2018-10-31",
+   "verification_status": "verified",
+   "reviewer": "research-agent-sales-tax-federal",
+   "review_date": "2026-10-21",
+   "version": 1,
+   "review_notes": "15th/18th wording verified verbatim from FBR-hosted Rules PDF and corroborated by the FBR official page. Effective_from follows the earliest checked Rules version; the timetable predates it."
+  },
+  {
+   "code": "RULE-STF-CREDIT-DEBIT-NOTE",
+   "title": "Credit/debit notes and output-tax adjustments",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Seller issues a credit note (or debit note) reducing (or increasing) output tax",
+   "transaction_types": [
+    "credit_note",
+    "debit_note",
+    "adjustment"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "transaction_type",
+      "op": "in",
+      "value": [
+       "credit_note",
+       "debit_note",
+       "adjustment"
+      ]
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "transaction_type",
+     "label": "Transaction type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "credit_note",
+      "debit_note",
+      "adjustment"
+     ]
+    },
+    {
+     "name": "buyer_accepted_credit_note",
+     "label": "Has the buyer accepted the credit note?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Buyer correspondence / return data"
+    },
+    {
+     "name": "buyer_declared_withheld_tax",
+     "label": "Has the buyer declared the sales tax withheld amount in the same monthly return?",
+     "data_type": "boolean",
+     "required": false
+    },
+    {
+     "name": "adjustment_supported",
+     "label": "Is the adjustment supported by the credit/debit note and underlying supply record?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-SUPPORTING-SCHEDULE"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "eq",
+         "value": "credit_note"
+        },
+        {
+         "field": "buyer_accepted_credit_note",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Reduction of output tax may be allowed (reflected through the return mechanism); retain the accepted credit note and the linked supply record.",
+      "treatment_code": "credit_note_accepted"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "eq",
+         "value": "credit_note"
+        },
+        {
+         "field": "buyer_accepted_credit_note",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Do NOT reduce output tax: the Rules' conditions (buyer acceptance / declaration of withheld amount) are not met; the disallowed reduction appears for follow-up with the buyer.",
+      "treatment_code": "credit_note_not_accepted"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "transaction_type",
+         "op": "in",
+         "value": [
+          "debit_note",
+          "adjustment"
+         ]
+        },
+        {
+         "field": "adjustment_supported",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Unsupported adjustment: do not recognise the adjustment; obtain the supporting note and supply record.",
+      "treatment_code": "adjustment_unsupported"
+     }
+    ],
+    "default": "Confirm the note type, buyer acceptance/declaration status and supporting records before recognising any adjustment."
+   },
+   "expected_treatment": "Output-tax reductions via credit notes require the buyer's acceptance (and, for withheld amounts, the buyer's declaration in the same return); unsupported adjustments are not recognised.",
+   "legislation_codes": [
+    "LEG-STR2006-DUEDATES",
+    "LEG-STA1990-S7"
+   ],
+   "evidence_codes": [
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-SALES-INVOICE"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-STF-CREDIT-DEBIT-NOTE",
+    "RISK-STF-UNSUPPORTED-ADJUSTMENT"
+   ],
+   "effective_from": "2018-10-31",
+   "verification_status": "draft",
+   "version": 1,
+   "review_notes": "DRAFT: buyer-acceptance/declaration conditions quoted from the FBR-hosted Sales Tax Rules, 2006 text via search rendering; the underlying s.9 adjustment provision was not verified. The 'next return' column mechanics are not encoded."
+  },
+  {
+   "code": "RULE-STF-DEFAULT-SURCHARGE",
+   "title": "Default surcharge exposure on late/non-payment or inadmissible claims (s.34)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Tax due not paid in time/manner, or inadmissible tax credit/refund/adjustment claimed, or zero rate incorrectly applied",
+   "transaction_types": [
+    "filing_of_return",
+    "adjustment"
+   ],
+   "applicability_conditions": {
+    "any": [
+     {
+      "field": "tax_paid_late_or_short",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "inadmissible_claim_made",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "zero_rate_incorrectly_applied",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "tax_paid_late_or_short",
+     "label": "Tax due not paid in time or in the specified manner?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-TAX-CHALLAN vs due date"
+    },
+    {
+     "name": "inadmissible_claim_made",
+     "label": "Inadmissible tax credit, refund or adjustment claimed?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "zero_rate_incorrectly_applied",
+     "label": "Zero rate incorrectly applied to supplies?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "tax_fraud_indicated",
+     "label": "Is tax fraud indicated?",
+     "data_type": "boolean",
+     "required": false
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "tax_fraud_indicated",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Tax-fraud variant of s.34 applies; the applicable rate/method is unverified — flag for legal review, do not compute.",
+      "treatment_code": "surcharge_fraud_variant"
+     },
+     {
+      "when": {
+       "any": [
+        {
+         "field": "tax_paid_late_or_short",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "inadmissible_claim_made",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "zero_rate_incorrectly_applied",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Default surcharge exposure arises under s.34 in addition to the tax due; the statutory rate is twelve per cent per annum (CALC-STF-DEFAULT-SURCHARGE), but the computation convention is unverified — expose as possible exposure with caveat, never as a definitive amount.",
+      "treatment_code": "surcharge_exposure"
+     }
+    ],
+    "default": "Establish whether tax was paid in time and manner, and whether any claim or zero-rating was admissible."
+   },
+   "expected_treatment": "Possible default surcharge exposure at the statutory rate; amount not computed by the engine until the computation method is verified.",
+   "legislation_codes": [
+    "LEG-STA1990-S34"
+   ],
+   "evidence_codes": [
+    "EV-TAX-CHALLAN",
+    "EV-RETURN-ACK"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-PAYMENTS"
+   ],
+   "risk_codes": [
+    "RISK-STF-LATE-FILING-PAYMENT"
+   ],
+   "calc_codes": [
+    "CALC-STF-DEFAULT-SURCHARGE"
+   ],
+   "effective_from": "2018-07-01",
+   "verification_status": "under_review",
+   "version": 1,
+   "review_notes": "Rate (12% p.a.) verified in Act text; computation method and fraud-variant rate unverified. Rule is under_review, not verified, to block definitive surcharge computation."
+  },
+  {
+   "code": "RULE-STF-PENALTY-LATE-RETURN",
+   "title": "Penalty exposure for late/non-filing of return (s.33)",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "aop",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "Registered person fails to furnish the sales tax return by the due date",
+   "transaction_types": [
+    "filing_of_return"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "return_filed_by_due_date",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "required_inputs": [
+    {
+     "name": "taxpayer_registered",
+     "label": "Is the taxpayer a registered person?",
+     "data_type": "boolean",
+     "required": true
+    },
+    {
+     "name": "return_filed_by_due_date",
+     "label": "Was the return filed by the due date?",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "EV-RETURN-ACK"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "return_filed_by_due_date",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Penalty exposure under the s.33 offences-and-penalties table; the applicable row and amount are unverified — flag for legal review, do not compute.",
+      "treatment_code": "penalty_exposure_unverified"
+     }
+    ],
+    "default": "Confirm the due date and actual filing date before assessing penalty exposure."
+   },
+   "expected_treatment": "Possible penalty exposure under s.33; no amount computed or asserted by the engine.",
+   "legislation_codes": [
+    "LEG-STA1990-S33"
+   ],
+   "evidence_codes": [
+    "EV-RETURN-ACK"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-PAYMENTS"
+   ],
+   "risk_codes": [
+    "RISK-STF-LATE-FILING-PAYMENT"
+   ],
+   "effective_from": "2014-07-01",
+   "verification_status": "draft",
+   "version": 1,
+   "review_notes": "DRAFT: s.33 exists as an offences-and-penalties table (verified), but no penalty row was checked against the Act text. Secondary sources cite Rs 50,000 / Rs 2,000-per-day for late filing — recorded as unverified, not adopted."
+  }
+ ],
+ "risks": [
+  {
+   "code": "RISK-STF-OMITTED-SUPPLY",
+   "title": "Taxable supply omitted from the sales tax return",
+   "description": "Supplies recorded in the sales register, ledger or bank records are not declared in the monthly sales tax return, understating output tax. This is a potential_error/discrepancy, not labelled as fraud.",
+   "root_cause": "Cut-off errors, unrecorded cash sales, or failure to transfer billing data to the return.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Sales register/ledger turnover exceeds turnover declared in the return",
+    "Bank credits (customer receipts) exceed reported supplies without explanation",
+    "Sequential invoice gaps in the sales invoice series"
+   ],
+   "evidence_codes": [
+    "EV-SALES-REGISTER",
+    "EV-GENERAL-LEDGER",
+    "EV-BANK-STATEMENT",
+    "EV-SALES-INVOICE"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-TURNOVER",
+    "PROC-COMPLETENESS"
+   ],
+   "follow_up_action": "Quantify the omitted value, recompute output tax at the rate applicable for the supply date, assess s.34 default-surcharge exposure, and file a revised position; retain reconciliation working papers.",
+   "penalty_implications": null,
+   "review_status": "under_review",
+   "review_notes": "Penalty/surcharge amounts not asserted (see RULE-STF-PENALTY-LATE-RETURN / RULE-STF-DEFAULT-SURCHARGE)."
+  },
+  {
+   "code": "RISK-STF-WRONG-RATE",
+   "title": "Output tax computed at the wrong rate",
+   "description": "Tax charged at 17% after 14.02.2023, at 18% before 14.02.2023, or at the standard rate where a Schedule/notified reduced or zero rate applies (or vice versa), producing a potential under- or over-payment.",
+   "root_cause": "Billing system not updated for the Finance (Supplementary) Act, 2023 rate change; Schedule rates not distinguished.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Invoice rate differs from the rate applicable for the invoice date per RULE-STF-STANDARD-RATE",
+    "Standard rate applied to goods covered by a reduced-rate Schedule",
+    "Rate changes clustered around 14.02.2023 with no system cut-over record"
+   ],
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-DOC-VERIFY"
+   ],
+   "follow_up_action": "Recompute output tax per invoice using the date-correct rate; adjust for the difference in the next return cycle per the applicable adjustment procedure; correct the billing master data.",
+   "penalty_implications": null,
+   "review_status": "under_review"
+  },
+  {
+   "code": "RISK-STF-INELIGIBLE-INPUT",
+   "title": "Input tax claimed without satisfying s.7(2)/s.8 conditions",
+   "description": "Input tax is claimed on purchases that fail the documentary gates (no proper tax invoice/BOE) or fall in s.8 disallowed categories (non-taxable use, fake invoices, CREST discrepancy, supplier non-deposit, personal consumption, property-attached goods, Chapter-87 vehicles/appliances/furniture, missing s.26(5) information). Possession of a purchase invoice alone does not establish entitlement.",
+   "root_cause": "Assuming every purchase invoice creates input-tax entitlement; no eligibility testing before filing.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Input tax claimed on invoices lacking the claimant's name/STRN",
+    "CREST-indicated discrepancies or supply-chain unverifiability",
+    "Purchases clearly for personal/non-business use or attached to immoveable property",
+    "Mixed taxable/non-taxable activity with no s.8(2) apportionment"
+   ],
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-PURCHASE-REGISTER",
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-IMPORT-EXPORT-DOCS"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY",
+    "PROC-CALC-SALESTAX"
+   ],
+   "follow_up_action": "Run RULE-STF-INPUT-ELIGIBILITY and RULE-STF-INPUT-DISALLOWED per purchase; reverse inadmissible claims; strengthen pre-filing eligibility testing.",
+   "penalty_implications": null,
+   "review_status": "under_review"
+  },
+  {
+   "code": "RISK-STF-DUPLICATE-INVOICE",
+   "title": "Duplicate input-tax claim on the same invoice",
+   "description": "The same purchase invoice (same supplier, invoice number and amount) is claimed more than once, inflating input tax.",
+   "root_cause": "Duplicate data entry, re-uploaded records, or multiple claims across periods.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Same supplier + invoice number appearing more than once in the purchase register/return annexures",
+    "Input tax claimed exceeding purchases per the purchase register",
+    "Round-sum or repeated entries at period ends"
+   ],
+   "evidence_codes": [
+    "EV-PURCHASE-REGISTER",
+    "EV-PURCHASE-INVOICE"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-CALC-SALESTAX"
+   ],
+   "follow_up_action": "De-duplicate on supplier+invoice-number+amount keys; reverse duplicate claims; add a uniqueness control to the purchase register.",
+   "penalty_implications": null,
+   "review_status": "under_review"
+  },
+  {
+   "code": "RISK-STF-UNSUPPORTED-ADJUSTMENT",
+   "title": "Sales tax adjustment made without adequate support",
+   "description": "Adjustments to output or input tax are recognised without the supporting credit/debit note, approval, or underlying supply record.",
+   "root_cause": "Manual journals without documentation; adjustments posted to meet return totals.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Adjustment journal entries with no linked credit/debit note",
+    "Large period-end adjustments with generic narrations",
+    "Output-tax reductions without buyer acceptance evidence"
+   ],
+   "evidence_codes": [
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-GENERAL-LEDGER",
+    "EV-SALES-INVOICE"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "follow_up_action": "Vouch each adjustment to its note and supply record; reverse unsupported adjustments; require note-level support before posting.",
+   "penalty_implications": null,
+   "review_status": "under_review"
+  },
+  {
+   "code": "RISK-STF-LEDGER-RETURN-MISMATCH",
+   "title": "Sales tax records do not reconcile with accounting records",
+   "description": "Figures in the sales tax return (supplies, purchases, tax) differ from the general ledger, sales/purchase registers or financial statements without documented reconciling items.",
+   "root_cause": "Return prepared from a different data source than the books; unreconciled cut-off or classification differences.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Unexplained variance between ledger turnover and return turnover",
+    "Purchase register totals differing from return purchases",
+    "Tax account balances not tying to the return's net payable"
+   ],
+   "evidence_codes": [
+    "EV-GENERAL-LEDGER",
+    "EV-RETURN-ACK",
+    "EV-RECONCILIATION",
+    "EV-SALES-REGISTER",
+    "EV-PURCHASE-REGISTER"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-SALESTAX",
+    "PROC-RECON-TURNOVER"
+   ],
+   "follow_up_action": "Prepare a documented reconciliation identifying timing, classification and error items; correct the books or the return position accordingly.",
+   "penalty_implications": null,
+   "review_status": "under_review"
+  },
+  {
+   "code": "RISK-STF-WRONG-CLASSIFICATION",
+   "title": "Transaction misclassified as exempt, zero-rated or taxable",
+   "description": "A supply is treated as exempt (Sixth Schedule/s.13) when it is taxable or zero-rated, or treated as zero-rated when it is merely exempt — changing both the output-tax result and input-tax entitlement (exempt supplies carry no input-tax adjustment; zero-rated supplies do).",
+   "root_cause": "Assuming a general description implies exemption; confusing zero-rating with exemption.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Exempt treatment applied without a Sixth Schedule/notification reference",
+    "Zero-rating applied without export documents or Fifth Schedule reference",
+    "Input tax claimed on inputs used exclusively for exempt supplies"
+   ],
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-PURCHASE-REGISTER",
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-IMPORT-EXPORT-DOCS"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY"
+   ],
+   "follow_up_action": "Reclassify each disputed supply against the verified Schedule/notification; recompute output tax and reverse input tax where exemption removes entitlement.",
+   "penalty_implications": null,
+   "review_status": "under_review"
+  },
+  {
+   "code": "RISK-STF-CREDIT-DEBIT-NOTE",
+   "title": "Credit/debit note not reflected correctly",
+   "description": "A credit note reduces output tax without the buyer's acceptance/declaration conditions being met, or debit notes for additional consideration are not recognised — misstating the period's net liability.",
+   "root_cause": "Posting credit notes on issuance alone; no buyer-acceptance tracking.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Output-tax reductions linked to credit notes the buyer has not accepted",
+    "Credit notes issued in a later period backdated to the supply period",
+    "Debit notes missing for price increases/additional charges"
+   ],
+   "evidence_codes": [
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-SALES-INVOICE"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "follow_up_action": "Match each credit note to buyer acceptance/declaration; defer unaccepted reductions; recognise debit-note tax in the correct period.",
+   "penalty_implications": null,
+   "review_status": "draft",
+   "review_notes": "Draft because the underlying s.9/Rules mechanics are still draft (RULE-STF-CREDIT-DEBIT-NOTE)."
+  },
+  {
+   "code": "RISK-STF-DEFECTIVE-INVOICE",
+   "title": "Tax invoice missing or inconsistent required particulars",
+   "description": "Invoices lack serial numbering, supplier/recipient name-address-STRN, date, description/quantity, values or tax amount — undermining the s.23 requirement and, for purchase invoices, the s.7(2) input-tax documentary gate.",
+   "root_cause": "Manual invoicing, template errors, or invoices issued by unregistered persons.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Invoices without serial numbers or with duplicated serial numbers",
+    "Missing STRN, dates, or tax-amount fields",
+    "Invoices issued by a supplier later found unregistered"
+   ],
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-PURCHASE-INVOICE"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "follow_up_action": "Run RULE-STF-TAX-INVOICE on a sample and then the full population; obtain corrected invoices; suspend input-tax claims resting on defective invoices.",
+   "penalty_implications": null,
+   "review_status": "under_review"
+  },
+  {
+   "code": "RISK-STF-WRONG-PERIOD",
+   "title": "Transaction recorded in the wrong tax period",
+   "description": "Supplies or input-tax claims are recognised in a period other than the one in which the supply occurred or the input tax became claimable, distorting period liabilities and carry-forward limits.",
+   "root_cause": "Invoice-date vs posting-date mismatches; late receipt of supplier invoices.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Invoice dates falling outside the tax period of the claim",
+    "Input tax carried forward beyond the six-succeeding-periods proviso",
+    "Year-end cut-off spikes in either direction"
+   ],
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-PURCHASE-INVOICE",
+    "EV-PURCHASE-REGISTER"
+   ],
+   "procedure_codes": [
+    "PROC-COMPLETENESS",
+    "PROC-RECON-TURNOVER"
+   ],
+   "follow_up_action": "Re-assign transactions to the correct tax period by invoice/supply date; test carry-forward claims against the s.7 proviso.",
+   "penalty_implications": null,
+   "review_status": "under_review"
+  },
+  {
+   "code": "RISK-STF-LATE-FILING-PAYMENT",
+   "title": "Late payment of tax or late filing of the return",
+   "description": "Tax deposited after the 15th or return filed after the 18th of the following month (general category), creating default-surcharge exposure under s.34 and penalty exposure under s.33. Amounts are not computed by the engine (unverified computation methods).",
+   "root_cause": "Cash-flow delays, missed calendar, or confusion between the 15th (payment) and 18th (filing) dates.",
+   "tax_category": "sales_tax_federal",
+   "jurisdiction": "federal",
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Challan date after the 15th of the following month",
+    "Return acknowledgement dated after the 18th",
+    "Recurring late filings in the compliance history"
+   ],
+   "evidence_codes": [
+    "EV-TAX-CHALLAN",
+    "EV-RETURN-ACK"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-PAYMENTS"
+   ],
+   "follow_up_action": "Confirm the applicable due date (including any Board extension notification); compute days of delay; flag s.34/s.33 exposure for legal review without asserting amounts.",
+   "penalty_implications": null,
+   "review_status": "under_review",
+   "review_notes": "penalty_implications left null per format rule 10: s.33 amounts and the s.34 computation convention are unverified."
+  }
+ ],
+ "scenarios": [
+  {
+   "code": "SCN-STF-CREST-INPUT-DISALLOWED",
+   "name": "Input tax claimed on a purchase flagged by CREST / unverifiable in the supply chain",
+   "category": "sales_tax_federal",
+   "description": "A registered manufacturer claims input tax on a domestic purchase; FBR's CREST indicates a discrepancy on that purchase (or the input tax is otherwise not verifiable in the supply chain). Expected analysis: s.8(1)(caa) disallows the claim; possession of the invoice does not cure it.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "purchase"
+     },
+     {
+      "field": "input_tax_claimed",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "crest_discrepancy_or_unverifiable",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-STF-INPUT-DISALLOWED",
+     "RULE-STF-INPUT-ELIGIBILITY",
+     "RULE-STF-LIABILITY"
+    ],
+    "risk_codes": [
+     "RISK-STF-INELIGIBLE-INPUT"
+    ],
+    "evidence_codes": [
+     "EV-PURCHASE-INVOICE",
+     "EV-PURCHASE-REGISTER",
+     "EV-SUPPORTING-SCHEDULE"
+    ],
+    "procedure_codes": [
+     "PROC-ELIGIBILITY",
+     "PROC-CALC-SALESTAX"
+    ],
+    "calc_codes": []
+   },
+   "review_status": "under_review",
+   "review_notes": "Uses input_tax_claimed field; document in required_inputs of the referenced rules via crest_discrepancy_or_unverifiable."
+  },
+  {
+   "code": "SCN-STF-DUPLICATE-INPUT",
+   "name": "Same purchase invoice claimed twice as input tax",
+   "category": "sales_tax_federal",
+   "description": "A supplier invoice appears twice in the purchase register (same supplier, invoice number and amount) and input tax is claimed on both lines. Expected analysis: only one claim is valid; the duplicate must be reversed.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "purchase"
+     },
+     {
+      "field": "duplicate_invoice_suspected",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-STF-INPUT-ELIGIBILITY",
+     "RULE-STF-LIABILITY"
+    ],
+    "risk_codes": [
+     "RISK-STF-DUPLICATE-INVOICE"
+    ],
+    "evidence_codes": [
+     "EV-PURCHASE-REGISTER",
+     "EV-PURCHASE-INVOICE"
+    ],
+    "procedure_codes": [
+     "PROC-DOC-VERIFY",
+     "PROC-CALC-SALESTAX"
+    ],
+    "calc_codes": []
+   },
+   "review_status": "under_review"
+  },
+  {
+   "code": "SCN-STF-OMITTED-SUPPLY",
+   "name": "Ledger turnover exceeds turnover declared in the sales tax return",
+   "category": "sales_tax_federal",
+   "description": "The general ledger/sales register shows higher taxable turnover for the tax period than the monthly return, suggesting omitted taxable supplies. Expected analysis: chargeability under s.3, output tax at the date-correct rate, and reconciliation follow-up.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "ledger_turnover_exceeds_return",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-STF-SUPPLY-SCOPE",
+     "RULE-STF-STANDARD-RATE",
+     "RULE-STF-LIABILITY"
+    ],
+    "risk_codes": [
+     "RISK-STF-OMITTED-SUPPLY",
+     "RISK-STF-LEDGER-RETURN-MISMATCH"
+    ],
+    "evidence_codes": [
+     "EV-SALES-REGISTER",
+     "EV-GENERAL-LEDGER",
+     "EV-BANK-STATEMENT",
+     "EV-SALES-INVOICE",
+     "EV-RECONCILIATION"
+    ],
+    "procedure_codes": [
+     "PROC-RECON-TURNOVER",
+     "PROC-COMPLETENESS",
+     "PROC-CALC-SALESTAX"
+    ],
+    "calc_codes": [
+     "CALC-STF-STANDARD-RATE"
+    ]
+   },
+   "review_status": "under_review"
+  },
+  {
+   "code": "SCN-STF-ZERO-VS-EXEMPT",
+   "name": "Supply claimed as zero-rated without export documentation",
+   "category": "sales_tax_federal",
+   "description": "An exporter treats local sales as zero-rated without export documents or a Fifth Schedule basis, and claims input tax on related purchases. Expected analysis: zero-rating requires a verified basis (RULE-STF-ZERO-RATED); if the supply is actually exempt, input tax is inadmissible (RULE-STF-EXEMPT + s.8).",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "zero_rated_supply"
+     },
+     {
+      "field": "zero_rating_basis_verified",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-STF-ZERO-RATED",
+     "RULE-STF-EXEMPT",
+     "RULE-STF-INPUT-DISALLOWED"
+    ],
+    "risk_codes": [
+     "RISK-STF-WRONG-CLASSIFICATION",
+     "RISK-STF-INELIGIBLE-INPUT"
+    ],
+    "evidence_codes": [
+     "EV-IMPORT-EXPORT-DOCS",
+     "EV-SALES-INVOICE",
+     "EV-SUPPORTING-SCHEDULE",
+     "EV-PURCHASE-REGISTER"
+    ],
+    "procedure_codes": [
+     "PROC-ELIGIBILITY",
+     "PROC-DOC-VERIFY"
+    ],
+    "calc_codes": [
+     "CALC-STF-ZERO-RATE"
+    ]
+   },
+   "review_status": "under_review"
+  },
+  {
+   "code": "SCN-STF-WRONG-PERIOD",
+   "name": "Input tax on a prior-period invoice claimed in the current period",
+   "category": "sales_tax_federal",
+   "description": "A purchase invoice dated in an earlier tax period is claimed in the current return. Expected analysis: test the invoice date against the s.7 proviso (claim allowed in any of the six succeeding tax periods); if outside, the claim is not allowable in this period.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "purchase"
+     },
+     {
+      "field": "invoice_period_differs_from_claim_period",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-STF-LIABILITY",
+     "RULE-STF-INPUT-ELIGIBILITY"
+    ],
+    "risk_codes": [
+     "RISK-STF-WRONG-PERIOD"
+    ],
+    "evidence_codes": [
+     "EV-PURCHASE-INVOICE",
+     "EV-PURCHASE-REGISTER",
+     "EV-RETURN-ACK"
+    ],
+    "procedure_codes": [
+     "PROC-COMPLETENESS",
+     "PROC-CALC-SALESTAX"
+    ],
+    "calc_codes": []
+   },
+   "review_status": "under_review"
+  },
+  {
+   "code": "SCN-STF-LATE-PAYMENT",
+   "name": "Sales tax deposited after the 15th of the following month",
+   "category": "sales_tax_federal",
+   "description": "A general-category registered person deposits the month's tax on the 20th of the following month and files the return on the 22nd. Expected analysis: payment was late (due 15th), filing was late (due 18th); default-surcharge exposure under s.34 and penalty exposure under s.33 are flagged without computing amounts.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "special_category",
+      "op": "eq",
+      "value": false
+     },
+     {
+      "field": "payment_after_15th",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-STF-RETURN-DUE",
+     "RULE-STF-DEFAULT-SURCHARGE",
+     "RULE-STF-PENALTY-LATE-RETURN"
+    ],
+    "risk_codes": [
+     "RISK-STF-LATE-FILING-PAYMENT"
+    ],
+    "evidence_codes": [
+     "EV-TAX-CHALLAN",
+     "EV-RETURN-ACK"
+    ],
+    "procedure_codes": [
+     "PROC-RECON-PAYMENTS"
+    ],
+    "calc_codes": [
+     "CALC-STF-DEFAULT-SURCHARGE"
+    ]
+   },
+   "review_status": "under_review",
+   "review_notes": "Surcharge/penalty amounts deliberately not computed (unverified). Engine surfaces exposure only."
+  },
+  {
+   "code": "SCN-STF-DEFECTIVE-INVOICE",
+   "name": "Purchase invoice missing supplier STRN and tax amount",
+   "category": "sales_tax_federal",
+   "description": "A purchase invoice used to claim input tax lacks the supplier's registration number and the sales tax amount. Expected analysis: the s.7(2) documentary gate fails (not a proper tax invoice in the claimant's name/STRN); no input-tax entitlement arises from this document.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "taxpayer_registered",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "transaction_type",
+      "op": "eq",
+      "value": "purchase"
+     },
+     {
+      "field": "holds_tax_invoice_in_own_name_strn",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-STF-INPUT-ELIGIBILITY",
+     "RULE-STF-TAX-INVOICE"
+    ],
+    "risk_codes": [
+     "RISK-STF-DEFECTIVE-INVOICE",
+     "RISK-STF-INELIGIBLE-INPUT"
+    ],
+    "evidence_codes": [
+     "EV-PURCHASE-INVOICE"
+    ],
+    "procedure_codes": [
+     "PROC-DOC-VERIFY",
+     "PROC-ELIGIBILITY"
+    ],
+    "calc_codes": []
+   },
+   "review_status": "under_review"
+  }
+ ]
+}

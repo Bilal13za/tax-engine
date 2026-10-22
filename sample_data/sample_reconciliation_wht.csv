@@ -1,0 +1,4 @@
+label,amount_a,amount_b,source_a,source_b,note
+WHT deducted per books,35000,35000,ledger,calc v2,
+WHT deposited per challan,30000,35000,challan CPR-XXXX,calc v2,short deposit 5000
+WHT per certificates,35000,35000,certificates,ledger,

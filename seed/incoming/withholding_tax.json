@@ -1,0 +1,4064 @@
+{
+ "meta": {
+  "domain": "withholding_tax",
+  "author": "research-agent-withholding",
+  "prepared_date": "2026-10-21",
+  "notes": "Rates and provisions verified 2026-10-21 by web research against: (1) annotated copies of the Income Tax Ordinance, 2001 (amended upto 31.10.2018 / 31.12.2019 / 11.03.2019 / a recent customspk.com annotated copy with Finance Act 2025 footnotes), (2) FBR Withholding Tax Cards for 2025-26 as reproduced by pkrevenue.com, (3) Fakhri Associates summary of Finance Act 2025 amendments, (4) Finance Act 2023 tax handbook (scribd) for Division V/VI rate tables, (5) Business Recorder articles on Rule 43 deposit timing and Finance Act 2025 s.153 service-rate changes, (6) Dawn/Business Recorder/FBR brochure material on s.165 statements. Key URLs are in sources[]. Cutoff: tax year 2026 (year ending 30 June 2026). Finance Act 2026 (tax year 2027) was NOT researched; all calc tables are therefore effective_to 2026-06-30. Where sources conflicted (e.g. 'other services' 15% in the FBR 2025-26 card vs 14% in a 2026-27 tax card), the FBR 2025-26 card figure was used for the TY2026 window and the conflict noted. Rules marked 'verified' were checked against ordinance text or FBR-issued rate cards; rules marked 'draft' describe provisions whose exact current text could not be confirmed (ss.159, 164, 165). No provision, rate, threshold, deadline or reference in this file is invented.\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]"
+ },
+ "sources": [
+  {
+   "code": "SRC-WHT-FBR-CARD-2025-26",
+   "title": "FBR Withholding tax card for goods and services 2025-26 (as reproduced by PKRevenue)",
+   "reference_url": "https://pkrevenue.com/withholding-tax-card-for-goods-and-services-in-2025-26-fbr/",
+   "issuing_authority": "pkrevenue.com",
+   "verified_date": "2026-10-21",
+   "notes": "Secondary reproduction of the FBR-issued 2025-26 WHT card; primary FBR PDF not located. Rates cross-checked against ict.edu.pk 2026 master table and trustpointconsultants 2026-27 card.\n[Source type assigned during curation: explanatory_guidance; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "explanatory_guidance"
+  },
+  {
+   "code": "SRC-WHT-SALARY-CARD",
+   "title": "FBR Withholding Tax Card 2025-26 for salary income (as reproduced by PKRevenue)",
+   "reference_url": "https://pkrevenue.com/withholding-tax-card-2025-26-for-salary-income/",
+   "issuing_authority": "pkrevenue.com",
+   "verified_date": "2026-10-21",
+   "notes": "Reproduces the FBR salary slab for tax year 2026 including the A/B average-rate formula under s.149.\n[Source type assigned during curation: explanatory_guidance; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "explanatory_guidance"
+  },
+  {
+   "code": "SRC-WHT-ITO-2018",
+   "title": "Income Tax Ordinance, 2001 amended upto 31.10.2018",
+   "reference_url": "https://fairservicez.org/wp-content/uploads/2025/03/Income-Tax-Ordinianance-2001-Amended-upto-31st-October-2018.pdf",
+   "issuing_authority": "fairservicez.org (hosted copy of annotated ordinance)",
+   "verified_date": "2026-10-21",
+   "notes": "Used for ss.153(7) prescribed-person definition, 160, 161, 165, 152 text and Division III/IV schedules.\n[Source type assigned during curation: legislation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "legislation"
+  },
+  {
+   "code": "SRC-WHT-ITO-2019",
+   "title": "Income Tax Ordinance, 2001 amended upto 31.12.2019",
+   "reference_url": "https://greenwoodconsultants.co/wp-content/uploads/2023/12/I.T.O-2020-B.pdf",
+   "issuing_authority": "greenwoodconsultants.co (hosted copy)",
+   "verified_date": "2026-10-21",
+   "notes": "Used for Division V (s.155 rent) and Division IV (s.152 non-resident) schedule text.\n[Source type assigned during curation: legislation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "legislation"
+  },
+  {
+   "code": "SRC-WHT-ITO-RECENT",
+   "title": "Annotated Income Tax Ordinance, 2001 with Finance Act 2025 amendment footnotes",
+   "reference_url": "http://customspk.com/wp-content/pdf/2001/2001_ITO_0000_Ver00.pdf",
+   "issuing_authority": "customspk.com (hosted copy)",
+   "verified_date": "2026-10-21",
+   "notes": "Used for Division IA (s.151 profit on debt, 20%/15%) and Division I (s.150 dividend) current text.\n[Source type assigned during curation: legislation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "legislation"
+  },
+  {
+   "code": "SRC-WHT-FA2025",
+   "title": "Finance Act 2025 amendments to the Income Tax Ordinance, 2001",
+   "reference_url": "http://fakhriassociates.com/Projects/Financebill2025-26/Income tax 2025-26.pdf",
+   "issuing_authority": "Fakhri Associates",
+   "verified_date": "2026-10-21",
+   "notes": "Verifies s.153(7)(j) amendment (sales-tax-registered person with turnover of Rs.100m+ in any preceding tax year), new clauses (m)/(n) payment intermediary and courier service for s.153(2A), and s.159(1B) insertion.\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  },
+  {
+   "code": "SRC-WHT-FA2025-RATES",
+   "title": "IT, IT-enabled services to face 4% WHT (Finance Act 2025 service-rate changes)",
+   "reference_url": "https://www.brecorder.com/news/amp/40376952",
+   "issuing_authority": "Business Recorder",
+   "verified_date": "2026-10-21",
+   "notes": "Verifies Finance Act 2025: unspecified services 9%/11% -> 15% flat; sportspersons -> 15%; s.152 specified services 4% -> 8%; s.153 specified services 4% -> 6%; IT/ITeS stays 4%. Published 2025-08-08.\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  },
+  {
+   "code": "SRC-WHT-HANDBOOK-2023",
+   "title": "Finance Act 2023 Tax Handbook (income tax withholding rates)",
+   "reference_url": "https://www.scribd.com/document/675255099/Finance-Act-Tax-Handbook-2023",
+   "issuing_authority": "scribd.com (firm tax handbook)",
+   "verified_date": "2026-10-21",
+   "notes": "Verifies Division V s.155 rent slab table and Division VI s.156 prizes rates (15% prize bonds/crossword; 20% other prizes).\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  },
+  {
+   "code": "SRC-WHT-MASTER-2026",
+   "title": "Complete FBR Withholding Tax Rate Card 2026 (Master Table)",
+   "reference_url": "https://www.ict.edu.pk/blogs/what-is-withholding-tax-handling-guide",
+   "issuing_authority": "ict.edu.pk",
+   "verified_date": "2026-10-21",
+   "notes": "Cross-check table: s.150 dividend 15%/30%, s.151 profit on debt 20%/40%, s.155 rent slab/15%, s.156 prizes 15-20%/30-40%, s.152 5-20%.\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  },
+  {
+   "code": "SRC-WHT-RULE43",
+   "title": "Rule amended: WHT agents to deposit amount within seven days",
+   "reference_url": "https://www.brecorder.com/news/amp/3638039",
+   "issuing_authority": "Business Recorder",
+   "verified_date": "2026-10-21",
+   "notes": "Verifies Income Tax Rules, 2002 Rule 43(b): deposit within seven days from the end of each week ending on every Sunday; Rule 43(a): Federal/Provincial Government on the day of deduction.\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  },
+  {
+   "code": "SRC-WHT-STMT-2020",
+   "title": "Period for filing withholding tax statement reduced (Finance Act 2020 s.165 quarterly statements)",
+   "reference_url": "http://pkrevenue.com/period-for-filing-withholding-tax-statement-reduced/",
+   "issuing_authority": "pkrevenue.com",
+   "verified_date": "2026-10-21",
+   "notes": "Finance Act 2020 made s.165(1) statements quarterly: due 20 Apr / 20 Jul / 20 Oct / 20 Jan. The interplay with monthly filing under s.165(2) could not be resolved; s.165 rule therefore draft.\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  },
+  {
+   "code": "SRC-WHT-161",
+   "title": "Withholding agent to be liable for failure in deducting tax (s.161 text)",
+   "reference_url": "https://pkrevenue.com/withholding-agent-to-be-liable-for-failure-in-deducting-tax/",
+   "issuing_authority": "pkrevenue.com",
+   "verified_date": "2026-10-21",
+   "notes": "Reproduces s.161 including (1A) opportunity of being heard and (1B). Rate of default surcharge in (1B) shown as 12% here (older text); two other ordinance copies show 18%.\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  },
+  {
+   "code": "SRC-WHT-161-18",
+   "title": "Abusing withholding provisions - I (s.161 text with 18% default surcharge)",
+   "reference_url": "https://iportal.riphah.edu.pk/newspaper/abusing-withholding-provisions-i/",
+   "issuing_authority": "iportal.riphah.edu.pk",
+   "verified_date": "2026-10-21",
+   "notes": "Corroborates s.161(1B) default surcharge at eighteen per cent per annum.\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  },
+  {
+   "code": "SRC-WHT-152-RES",
+   "title": "Taxation of Non-Residents under Income Tax Law of Pakistan",
+   "reference_url": "https://www.researchgate.net/publication/317998388_Taxation_of_Non-Residents_under_Income_Tax_Law_of_Pakistan",
+   "issuing_authority": "researchgate.net",
+   "verified_date": "2026-10-21",
+   "notes": "Academic paper confirming s.6/s.152 treatment: royalty and fee for technical services to non-residents at 15% of gross under Division IV Part I, First Schedule.\n[Source type assigned during curation: professional_interpretation; secondary reproduction/news unless noted.]",
+   "jurisdiction": "federal",
+   "source_type": "professional_interpretation"
+  }
+ ],
+ "legislation": [
+  {
+   "code": "LEG-ITO2001-WHT-153",
+   "name": "Income Tax Ordinance, 2001 - Section 153 (Payments for goods, services and contracts)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 153",
+   "subsection": "153(1), (2), (2A), (5), (7)",
+   "rule_description": "Requires every prescribed person making a payment (in full or part, including by way of advance) for the sale of goods, the rendering or provision of services, or the execution of a contract to deduct tax at the time of payment from the gross amount payable (including sales tax, if any) at the rate in Division III of Part III of the First Schedule. s.153(7) defines 'prescribed person'.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "Finance Act, 2025: s.153(7)(j) amended to 'a person registered under the Sales Tax Act, 1990 having turnover of one hundred million rupees or more in any of the preceding tax years'; new clauses (m) payment intermediary and (n) courier service for s.153(2A); service rates revised (see SRC-WHT-FA2025-RATES).\nFinance Act, 2024 and earlier: rate revisions in Division III Part III (historical rates not verified in this file).",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-149",
+   "name": "Income Tax Ordinance, 2001 - Section 149 (Salary)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 149",
+   "subsection": "149(1)",
+   "rule_description": "Every person paying salary to an employee shall, at the time of payment, deduct tax from the amount paid at the employee's average rate of tax, computed at the rates in Division I of Part I of the First Schedule on the estimated income of the employee under the head 'Salary' for that tax year. The FBR salary card expresses the average rate as A/B where A is total tax payable on estimated salary income (including tax under s.4AB) and B is the estimated salary income plus chargeable income under s.4AB.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-150",
+   "name": "Income Tax Ordinance, 2001 - Section 150 (Dividends)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 150",
+   "subsection": "150",
+   "rule_description": "Requires deduction of tax from dividends at the rate in Division I of Part III of the First Schedule. Division I: 15% in the case of mutual funds, REITs and cases other than those in clauses (a), (c) and (d) of the Division; proviso that dividend received from a mutual fund deriving fifty percent or more income from profit on debt is taxed at 25%. Non-ATL rate is double (30%).",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-151",
+   "name": "Income Tax Ordinance, 2001 - Section 151 (Profit on debt)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 151",
+   "subsection": "151(1)",
+   "rule_description": "Requires deduction of tax on profit on debt at the rate in Division IA of Part III of the First Schedule: (a) 20% of yield/profit paid by a banking company or financial institution on an account or deposit; (b) 20% of yield/profit on Government securities paid to a person other than an individual; (c) 15% of yield/profit in other cases. Division IB covers return on investment in sukuks (company 25%; individual/AOP over Rs.1m 12.5%; under Rs.1m 10%).",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-155",
+   "name": "Income Tax Ordinance, 2001 - Section 155 (Income from property / rent)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 155",
+   "subsection": "155(1)",
+   "rule_description": "Requires prescribed persons to deduct tax from rent of immovable property at the rate in Division V of Part III of the First Schedule. Division V: individual/AOP - nil upto Rs.300,000 gross annual rent; 5% of excess 300,001-600,000; Rs.15,000 + 10% of excess 600,001-2,000,000; Rs.155,000 + 25% of excess above 2,000,000; company - 15% of gross rent. Payers liable to deduct include: Federal/Provincial/local government; company; non-profit organization or charitable institution; diplomatic mission of a foreign state; private educational institution, boutique, beauty parlour, hospital, clinic, maternity home; individuals or AOPs paying gross rent of Rs.1,500,000 and above in a year.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "Division V substituted by the Finance Act, 2013.",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-156",
+   "name": "Income Tax Ordinance, 2001 - Section 156 (Prizes and winnings)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 156",
+   "subsection": "156",
+   "rule_description": "Requires deduction of tax on prizes and winnings at the rate in Division VI of Part III of the First Schedule: 15% on prize on prize bonds or crossword puzzle; 20% on prize on winning of quiz, raffle, lottery and prizes offered by companies for promotion of sales.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-152",
+   "name": "Income Tax Ordinance, 2001 - Section 152 (Payments to non-residents)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 152",
+   "subsection": "152(1)-(6)",
+   "rule_description": "s.152(1): every person paying royalty or fees for technical services to a non-resident person chargeable under s.6 shall deduct tax from the gross amount at the rate in Division IV of Part I of the First Schedule (15% of gross royalty or fee for technical services; 5% of gross fee for offshore digital services per the 2019-amended text). s.152(2): other payments to non-residents at the rate in Division II of Part III of the First Schedule. s.152(3) excludes amounts subject to ss.149, 150, 153, 155 or 156, amounts taxable to a PE in Pakistan with Commissioner's written approval, amounts payable by a representative under s.172(3), and amounts not chargeable to tax.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "Division IV Part I amended to add fee for offshore digital services (5%).\nFinance Bill 2022 commentary: certain digital/payment services at 10% - currency not verified.",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-160",
+   "name": "Income Tax Ordinance, 2001 - Section 160 (Payment of tax collected or deducted)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 160",
+   "subsection": "160",
+   "rule_description": "Any tax collected or purported to be collected under Division II of Part V of Chapter X, or deducted or purported to be deducted under Division III of that Part (or under Chapter XII), shall be paid to the Commissioner by the person making the collection or deduction within the time and in the manner as may be prescribed.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-161",
+   "name": "Income Tax Ordinance, 2001 - Section 161 (Failure to pay tax collected or deducted)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 161",
+   "subsection": "161(1), (1A), (1B), (2)",
+   "rule_description": "Where a person (a) fails to collect/deduct tax as required under Division II/Division III of Part V of Chapter X (or Chapter XII), or (b) having collected/deducted fails to pay it to the Commissioner as required by s.160, the person is personally liable to pay the amount of tax to the Commissioner, who may pass an order and recover it. (1A): no recovery without opportunity of being heard. (1B): where the tax that should have been deducted has meanwhile been paid by the payee, no recovery of the tax itself from the defaulter, but the defaulter is liable to default surcharge at eighteen per cent per annum from the date of failure to the date of payment. (2): the person held liable may recover the tax from the person from whom it should have been collected/deducted.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "Subsection (1B) inserted by the Finance Act, 2015.\nDefault surcharge rate in (1B) amended to eighteen per cent per annum (current text verified).",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-159",
+   "name": "Income Tax Ordinance, 2001 - Section 159 (Exemption or lower rate certificate)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 159",
+   "subsection": "159(1), (1B)",
+   "rule_description": "Provides for the Commissioner to issue exemption or lower-rate certificates. s.159(1B) was inserted by the Finance Act, 2025 for capital gains not chargeable under s.37(1A). Exact current scope and conditions of certificates for withholding purposes could not be confirmed against the ordinance text in this research.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "s.159(1B) inserted by the Finance Act, 2025.",
+   "source_verified_date": "2026-10-21",
+   "review_status": "draft",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-164",
+   "name": "Income Tax Ordinance, 2001 - Section 164 (Certificate of collection or deduction of tax)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 164",
+   "subsection": "164",
+   "rule_description": "Certificate of tax collection or deduction to be furnished by the withholding agent. Exact current text not confirmed in this research.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "",
+   "source_verified_date": "2026-10-21",
+   "review_status": "draft",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITO2001-WHT-165",
+   "name": "Income Tax Ordinance, 2001 - Section 165 (Statements)",
+   "issuing_authority": "Parliament of Pakistan",
+   "jurisdiction": "federal",
+   "provision": "Section 165",
+   "subsection": "165(1), (2), (2A)",
+   "rule_description": "Requires persons collecting tax under Division II of Part V of Chapter X (or Chapter XII) or deducting tax under Division III (or Chapter XII) to furnish statements. Finance Act, 2020 substituted 'biannual' with 'quarterly' in s.165(1): quarters ending 31 Mar / 30 Jun / 30 Sep / 31 Dec due on or before 20 Apr / 20 Jul / 20 Oct / 20 Jan. An earlier text of s.165(2) required monthly statements by the 15th of the following month. The current interplay between monthly and quarterly filing could not be resolved in this research.",
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "amendment_history": "Finance Act, 2020: 'biannual' to 'quarterly' in s.165(1).",
+   "source_verified_date": "2026-10-21",
+   "review_status": "draft",
+   "tax_year": null
+  },
+  {
+   "code": "LEG-ITR2002-WHT-43",
+   "name": "Income Tax Rules, 2002 - Rule 43 (Payment of tax collected or deducted)",
+   "issuing_authority": "Federal Board of Revenue",
+   "jurisdiction": "federal",
+   "provision": "Rule 43",
+   "subsection": "43(a), (b)",
+   "rule_description": "Prescribes the time for payment under s.160: (a) where the tax has been collected or deducted by the Federal Government or a Provincial Government, on the day the tax was collected or deducted; (b) where collected or deducted by any other person, by remittance to the Government Treasury or deposit in an authorised branch of the State Bank of Pakistan or the National Bank of Pakistan, within seven days from the end of each week ending on every Sunday.",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "amendment_history": "Rule 43(b) amended (SRO, reported by Business Recorder): 'seven days from the end of each fortnight' substituted with 'seven days from the end of each week ending on every Sunday'.",
+   "source_verified_date": "2026-10-21",
+   "review_status": "verified",
+   "tax_year": null
+  }
+ ],
+ "rules": [
+  {
+   "code": "RULE-WHT-153-GOODS",
+   "title": "Withholding on payments for sale of goods (s.153(1)(a))",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "non_profit",
+    "other"
+   ],
+   "triggering_transaction": "A prescribed person makes a payment (in full or part, including by way of advance) to a resident person for the sale of goods.",
+   "transaction_types": [
+    "payment_for_goods"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "goods"
+     },
+     {
+      "field": "payer_is_withholding_agent",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "payee_residency",
+      "op": "eq",
+      "value": "resident"
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "sale_by_importer_s148_same_condition"
+     },
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "refund_of_security_deposit"
+     },
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "lease_and_buyback_asset"
+     },
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "securitization_spv_to_originator"
+     }
+    ]
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-153"
+   ],
+   "required_inputs": [
+    {
+     "name": "gross_payment_amount",
+     "label": "Gross payment amount, including sales tax if any (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Payment voucher / supplier invoice"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of payment",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Payment record"
+    },
+    {
+     "name": "payment_category",
+     "label": "Payment category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "goods"
+     ],
+     "source_hint": "Purchase order / invoice nature"
+    },
+    {
+     "name": "supply_category",
+     "label": "Goods supply category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "rice_cotton_edible_oils",
+      "toll_manufacturing",
+      "other_goods"
+     ],
+     "source_hint": "Nature of goods supplied"
+    },
+    {
+     "name": "payee_type",
+     "label": "Payee type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "company",
+      "non_company"
+     ],
+     "source_hint": "Supplier registration / NTN"
+    },
+    {
+     "name": "atl_status",
+     "label": "Payee ATL status",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "ATL",
+      "non_ATL",
+      "unknown"
+     ],
+     "source_hint": "FBR Active Taxpayers List"
+    },
+    {
+     "name": "payer_is_withholding_agent",
+     "label": "Payer is a prescribed person under s.153(7)",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Payer profile"
+    },
+    {
+     "name": "payee_residency",
+     "label": "Payee residency",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "resident",
+      "non_resident",
+      "unknown"
+     ],
+     "source_hint": "Payee profile"
+    },
+    {
+     "name": "exemption_certificate_valid",
+     "label": "Valid s.159 exemption/lower-rate certificate held",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Exemption certificate from Commissioner"
+    },
+    {
+     "name": "exclusion_code",
+     "label": "Exclusion code",
+     "data_type": "choice",
+     "required": false,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "lease_and_buyback_asset",
+      "refund_of_security_deposit",
+      "sale_by_importer_s148_same_condition",
+      "securitization_spv_to_originator"
+     ]
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payer_is_withholding_agent",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "No withholding obligation under s.153; no deduction required.",
+      "treatment_code": "no_wht_not_agent"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_certificate_valid",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "No withholding required under the certificate; retain the certificate and record the basis (see EV-WHT-CERTIFICATE).",
+      "treatment_code": "no_wht_exempt"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_certificate_valid",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-153-GOODS for the transaction date using supply category, payee type and ATL status; deduct at the time of payment and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payee_residency",
+         "op": "eq",
+         "value": "non_resident"
+        }
+       ]
+      },
+      "then": "s.153 may not apply; assess under RULE-WHT-152-NONRESIDENT before determining treatment.",
+      "treatment_code": "refer_nonresident"
+     }
+    ],
+    "default": "Insufficient information - establish payer status, payee ATL status and exemption position before determining treatment."
+   },
+   "expected_treatment": "Deduct tax at the time of payment from the gross amount payable (including sales tax, if any) at the rate in Division III of Part III of the First Schedule for the payment date, supply category, payee type and ATL status; pay the deducted tax to the Commissioner within the Rule 43 time limit.",
+   "calc_codes": [
+    "CALC-WHT-153-GOODS"
+   ],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-SUPPLIER-PAYMENTS",
+    "EV-PURCHASE-INVOICE",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT",
+    "PROC-COMPLETENESS",
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-RATE",
+    "RISK-WHT-WRONG-BASE",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-UNSUPPORTED-EXEMPTION",
+    "RISK-WHT-WRONG-STATUS"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "Checked: s.153(7) prescribed-person definition against the 2018-amended ordinance copy and the Finance Act 2025 amendment (clause (j) now requires turnover of Rs.100m+ for sales-tax-registered persons; new clauses (m) payment intermediary and (n) courier service for s.153(2A)). Rates checked against the FBR 2025-26 WHT card. The s.153(1) wording ('at the time of making the payment ... from the gross amount payable (including sales tax, if any)') is the standard statutory text as quoted in multiple secondary sources; the full current subsection text was not sighted verbatim. Exclusions in s.153(5) per the 2018-amended copy. Historical (pre-2025-07-01) rates intentionally not encoded.",
+   "interpretation_note": "The character of tax deducted under s.153 (minimum vs adjustable) is not encoded; verify against current law before advising on final liability.",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-153-SERVICES",
+   "title": "Withholding on payments for services (s.153(1)(b))",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "non_profit",
+    "other"
+   ],
+   "triggering_transaction": "A prescribed person makes a payment (in full or part, including by way of advance) to a resident person for the rendering or provision of services.",
+   "transaction_types": [
+    "payment_for_services"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "services"
+     },
+     {
+      "field": "payer_is_withholding_agent",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "payee_residency",
+      "op": "eq",
+      "value": "resident"
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "services_by_employee"
+     }
+    ]
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-153"
+   ],
+   "required_inputs": [
+    {
+     "name": "gross_payment_amount",
+     "label": "Gross payment amount, including sales tax if any (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Payment voucher / service invoice"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of payment",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Payment record"
+    },
+    {
+     "name": "payment_category",
+     "label": "Payment category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "services"
+     ],
+     "source_hint": "Contract / invoice nature"
+    },
+    {
+     "name": "service_category",
+     "label": "Service category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "specified_services",
+      "it_ites",
+      "independent_professionals",
+      "advertising_media",
+      "terminal_port_operator",
+      "other_services",
+      "exporter_services_153_2",
+      "ecommerce_digital",
+      "ecommerce_cod"
+     ],
+     "source_hint": "Nature of service rendered"
+    },
+    {
+     "name": "payee_type",
+     "label": "Payee type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "company",
+      "non_company"
+     ],
+     "source_hint": "Supplier registration / NTN"
+    },
+    {
+     "name": "atl_status",
+     "label": "Payee ATL status",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "ATL",
+      "non_ATL",
+      "unknown"
+     ],
+     "source_hint": "FBR Active Taxpayers List"
+    },
+    {
+     "name": "payer_is_withholding_agent",
+     "label": "Payer is a prescribed person under s.153(7)",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Payer profile"
+    },
+    {
+     "name": "payee_residency",
+     "label": "Payee residency",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "resident",
+      "non_resident",
+      "unknown"
+     ],
+     "source_hint": "Payee profile"
+    },
+    {
+     "name": "exemption_certificate_valid",
+     "label": "Valid s.159 exemption/lower-rate certificate held",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Exemption certificate from Commissioner"
+    },
+    {
+     "name": "exclusion_code",
+     "label": "Exclusion code",
+     "data_type": "choice",
+     "required": false,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "services_by_employee"
+     ]
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payer_is_withholding_agent",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "No withholding obligation under s.153; no deduction required.",
+      "treatment_code": "no_wht_not_agent"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_certificate_valid",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "No withholding required under the certificate; retain the certificate and record the basis (see EV-WHT-CERTIFICATE).",
+      "treatment_code": "no_wht_exempt"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_certificate_valid",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-153-SERVICES for the transaction date using service category and ATL status; deduct at the time of payment and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payee_residency",
+         "op": "eq",
+         "value": "non_resident"
+        }
+       ]
+      },
+      "then": "s.153 may not apply; assess under RULE-WHT-152-NONRESIDENT before determining treatment.",
+      "treatment_code": "refer_nonresident"
+     }
+    ],
+    "default": "Insufficient information - establish payer status, service classification, payee ATL status and exemption position before determining treatment."
+   },
+   "expected_treatment": "Deduct tax at the time of payment from the gross amount payable (including sales tax, if any) at the Division III Part III First Schedule rate for the payment date, service category and ATL status; pay the deducted tax to the Commissioner within the Rule 43 time limit.",
+   "calc_codes": [
+    "CALC-WHT-153-SERVICES"
+   ],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-SUPPLIER-PAYMENTS",
+    "EV-CONTRACT",
+    "EV-EXPENSE-VOUCHER",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT",
+    "PROC-COMPLETENESS",
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-RATE",
+    "RISK-WHT-WRONG-BASE",
+    "RISK-WHT-WRONG-CATEGORY",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-UNSUPPORTED-EXEMPTION",
+    "RISK-WHT-WRONG-STATUS",
+    "RISK-WHT-OMITTED-RECON"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "Finance Act 2025 rate changes verified via Business Recorder (2025-08-08): unspecified services 9%/11% -> 15% flat; sportsperson services -> 15%; s.153 specified services 4% -> 6%; IT and IT-enabled services remain 4%. TY2026 rates checked against the FBR 2025-26 WHT card. The exact First Schedule list of 'specified services' was not sighted verbatim; the service categories used here follow the FBR card. A 2026-27 tax card showed 'other services' at 14% - this is outside the TY2026 window and was not researched; flagged for follow-up.",
+   "interpretation_note": "'Services' in s.153(7) includes the services of accountants, architects, dentists, doctors, engineers, interior decorators and lawyers, otherwise than as an employee (2019-amended text).",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-153-CONTRACTS",
+   "title": "Withholding on payments for execution of contracts (s.153(1)(c))",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "non_profit",
+    "other"
+   ],
+   "triggering_transaction": "A prescribed person makes a payment (in full or part, including by way of advance) to a resident person on the execution of a contract.",
+   "transaction_types": [
+    "payment_for_contract"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "contracts"
+     },
+     {
+      "field": "payer_is_withholding_agent",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "payee_residency",
+      "op": "eq",
+      "value": "resident"
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-153"
+   ],
+   "required_inputs": [
+    {
+     "name": "gross_payment_amount",
+     "label": "Gross payment amount, including sales tax if any (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Payment voucher / contract billing"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of payment",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Payment record"
+    },
+    {
+     "name": "payment_category",
+     "label": "Payment category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "contracts"
+     ],
+     "source_hint": "Contract terms"
+    },
+    {
+     "name": "contract_category",
+     "label": "Contract category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "sportsperson",
+      "company",
+      "other"
+     ],
+     "source_hint": "Contractor profile"
+    },
+    {
+     "name": "atl_status",
+     "label": "Payee ATL status",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "ATL",
+      "non_ATL",
+      "unknown"
+     ],
+     "source_hint": "FBR Active Taxpayers List"
+    },
+    {
+     "name": "payer_is_withholding_agent",
+     "label": "Payer is a prescribed person under s.153(7)",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Payer profile"
+    },
+    {
+     "name": "payee_residency",
+     "label": "Payee residency",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "resident",
+      "non_resident",
+      "unknown"
+     ],
+     "source_hint": "Payee profile"
+    },
+    {
+     "name": "exemption_certificate_valid",
+     "label": "Valid s.159 exemption/lower-rate certificate held",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Exemption certificate from Commissioner"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payer_is_withholding_agent",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "No withholding obligation under s.153; no deduction required.",
+      "treatment_code": "no_wht_not_agent"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_certificate_valid",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "No withholding required under the certificate; retain the certificate and record the basis (see EV-WHT-CERTIFICATE).",
+      "treatment_code": "no_wht_exempt"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_certificate_valid",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-153-CONTRACTS for the transaction date using contract category and ATL status; deduct at the time of payment and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payee_residency",
+         "op": "eq",
+         "value": "non_resident"
+        }
+       ]
+      },
+      "then": "s.153 may not apply; assess under RULE-WHT-152-NONRESIDENT before determining treatment.",
+      "treatment_code": "refer_nonresident"
+     }
+    ],
+    "default": "Insufficient information - establish payer status, contract classification, payee ATL status and exemption position before determining treatment."
+   },
+   "expected_treatment": "Deduct tax at the time of payment from the gross amount payable (including sales tax, if any) at the Division III Part III First Schedule rate for the payment date, contract category and ATL status; pay the deducted tax to the Commissioner within the Rule 43 time limit.",
+   "calc_codes": [
+    "CALC-WHT-153-CONTRACTS"
+   ],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-SUPPLIER-PAYMENTS",
+    "EV-CONTRACT",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT",
+    "PROC-COMPLETENESS",
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-RATE",
+    "RISK-WHT-WRONG-BASE",
+    "RISK-WHT-WRONG-CATEGORY",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-UNSUPPORTED-EXEMPTION",
+    "RISK-WHT-WRONG-STATUS",
+    "RISK-WHT-OMITTED-RECON"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "TY2026 rates checked against the FBR 2025-26 WHT card: company 7.5%/15%, other 8%/16%, sportspersons 15%/30% (Finance Act 2025 raised sportspersons from 10%). A payment that bundles goods, services and contract execution must be split by nature; misclassification is a known risk (RISK-WHT-WRONG-CATEGORY).",
+   "interpretation_note": "Where a contract is in substance a supply of goods or rendering of services, the classification should follow the substance of the payment.",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-149-SALARY",
+   "title": "Withholding on salary payments (s.149)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "non_profit",
+    "other"
+   ],
+   "triggering_transaction": "An employer (any person) pays salary to an employee.",
+   "transaction_types": [
+    "salary_payment"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "salary"
+     },
+     {
+      "field": "payee_is_employee",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-149"
+   ],
+   "required_inputs": [
+    {
+     "name": "estimated_annual_salary",
+     "label": "Estimated annual income under the head 'Salary' for the tax year (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Payroll records / salary declaration (Form IT-3)"
+    },
+    {
+     "name": "tax_year",
+     "label": "Tax year",
+     "data_type": "string",
+     "required": true,
+     "source_hint": "Payroll records"
+    },
+    {
+     "name": "payment_category",
+     "label": "Payment category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "salary"
+     ],
+     "source_hint": "Payroll records"
+    },
+    {
+     "name": "payee_is_employee",
+     "label": "Payee is an employee",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Employment record"
+    },
+    {
+     "name": "tax_credits_claimed",
+     "label": "Tax credits claimed (ss.61, 62, 63, 64 etc.) (PKR)",
+     "data_type": "number",
+     "required": false,
+     "source_hint": "Employee declaration"
+    },
+    {
+     "name": "tax_already_deducted",
+     "label": "Tax already deducted/collected from other sources (PKR)",
+     "data_type": "number",
+     "required": false,
+     "source_hint": "WHT certificates"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payee_is_employee",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Not a salary payment; assess under the applicable withholding section (e.g. s.153 services).",
+      "treatment_code": "not_salary"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payee_is_employee",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Compute annual tax on estimated salary income using CALC-WHT-149-SALARY-TY2026 (adjust for admissible tax credits and tax already deducted); deduct at the average rate A/B on each payment; deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_salary"
+     }
+    ],
+    "default": "Insufficient information - establish employee status and estimated annual salary before determining treatment."
+   },
+   "expected_treatment": "Deduct tax at the time of each salary payment at the employee's average rate of tax (A/B: A = total tax payable on estimated salary income including tax under s.4AB; B = estimated salary income plus chargeable income under s.4AB), adjusting for admissible tax credits and tax already deducted/collected, using the Division I Part I First Schedule slab for the tax year.",
+   "calc_codes": [
+    "CALC-WHT-149-SALARY-TY2026"
+   ],
+   "evidence_codes": [
+    "EV-PAYROLL-RECORDS",
+    "EV-EMPLOYEE-PAYMENTS",
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT",
+    "PROC-COMPLETENESS"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-BASE",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-NOT-REPORTED",
+    "RISK-WHT-OMITTED-RECON",
+    "RISK-WHT-CERT-MISMATCH"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "Average-rate mechanism and TY2026 slab verified against the FBR 2025-26 salary card. The s.4AB surcharge component of the A/B formula is referenced in the FBR card but its rates/thresholds were not researched and are not encoded - flagged for follow-up. Employer obligations around employee declarations (Form IT-3) and the annual salary statement were seen only in secondary practitioner material and are not encoded.",
+   "interpretation_note": "Tax deducted under s.149 is adjustable at the time of final return filing.",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-150-DIVIDEND",
+   "title": "Withholding on dividend payments (s.150)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company"
+   ],
+   "triggering_transaction": "A company pays a dividend.",
+   "transaction_types": [
+    "dividend_payment"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "dividend"
+     },
+     {
+      "field": "payer_is_company",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-150"
+   ],
+   "required_inputs": [
+    {
+     "name": "gross_dividend",
+     "label": "Gross dividend amount (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Dividend warrant / board resolution"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of payment",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Payment record"
+    },
+    {
+     "name": "payment_category",
+     "label": "Payment category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "dividend"
+     ],
+     "source_hint": "Distribution record"
+    },
+    {
+     "name": "payer_is_company",
+     "label": "Payer is a company",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Payer profile"
+    },
+    {
+     "name": "atl_status",
+     "label": "Payee ATL status",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "ATL",
+      "non_ATL",
+      "unknown"
+     ],
+     "source_hint": "FBR Active Taxpayers List"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payer_is_company",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Not a dividend under s.150; assess the payment under the applicable provision.",
+      "treatment_code": "not_dividend"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payer_is_company",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-150-DIVIDEND for the payment date and ATL status; deduct and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     }
+    ],
+    "default": "Insufficient information - establish payer status and payee ATL status before determining treatment."
+   },
+   "expected_treatment": "Deduct tax from the gross dividend at the Division I Part III First Schedule rate for the payment date and payee ATL status; deposit per RULE-WHT-160-161.",
+   "calc_codes": [
+    "CALC-WHT-150-DIVIDEND"
+   ],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-RATE",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-WRONG-STATUS"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "General rate 15%/30% verified against the annotated ordinance (Division I Part III) and the FBR 2026 master table. Special cases in Division I (dividend from mutual funds deriving >=50% income from profit on debt at 25%; clauses (a), (c), (d)) were sighted in the ordinance text but not encoded - flagged for follow-up.",
+   "interpretation_note": "The engine does not encode the mutual-fund/REIT special dividend cases; treat as exceptions requiring manual review.",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-151-PROFIT-DEBT",
+   "title": "Withholding on profit on debt (s.151)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "other"
+   ],
+   "triggering_transaction": "Profit on debt is paid (bank/FI deposits, government securities, other debt instruments).",
+   "transaction_types": [
+    "profit_on_debt"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "profit_on_debt"
+     },
+     {
+      "field": "profit_subject_to_152_2",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "profit_subject_to_s152_2"
+     }
+    ]
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-151"
+   ],
+   "required_inputs": [
+    {
+     "name": "profit_amount",
+     "label": "Yield / profit on debt paid (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Bank advice / profit statement"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of payment/credit",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Bank record"
+    },
+    {
+     "name": "payment_category",
+     "label": "Payment category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "profit_on_debt"
+     ],
+     "source_hint": "Instrument type"
+    },
+    {
+     "name": "instrument_category",
+     "label": "Instrument category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "bank_fi_deposit",
+      "government_securities",
+      "other"
+     ],
+     "source_hint": "Account / security type"
+    },
+    {
+     "name": "payee_type",
+     "label": "Payee type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "individual",
+      "non_individual"
+     ],
+     "source_hint": "Account holder profile"
+    },
+    {
+     "name": "atl_status",
+     "label": "Payee ATL status",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "ATL",
+      "non_ATL",
+      "unknown"
+     ],
+     "source_hint": "FBR Active Taxpayers List"
+    },
+    {
+     "name": "profit_subject_to_152_2",
+     "label": "Profit subject to s.152(2) (non-resident)",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Payee residency"
+    },
+    {
+     "name": "exclusion_code",
+     "label": "Exclusion code",
+     "data_type": "choice",
+     "required": false,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "profit_subject_to_s152_2"
+     ]
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "profit_subject_to_152_2",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "s.151 does not apply; assess under RULE-WHT-152-NONRESIDENT.",
+      "treatment_code": "refer_nonresident"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "instrument_category",
+         "op": "eq",
+         "value": "bank_fi_deposit"
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-151-DEPOSITS bank-deposit rows for the payment date and ATL status; deduct and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "instrument_category",
+         "op": "in",
+         "value": [
+          "government_securities",
+          "other"
+         ]
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-151-DEPOSITS for the payment date, instrument category, payee type and ATL status; deduct and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     }
+    ],
+    "default": "Insufficient information - establish instrument category, payee type and ATL status before determining treatment."
+   },
+   "expected_treatment": "Deduct tax from the yield/profit at the Division IA Part III First Schedule rate for the payment date, instrument category, payee type and ATL status; deposit per RULE-WHT-160-161.",
+   "calc_codes": [
+    "CALC-WHT-151-DEPOSITS"
+   ],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION",
+    "EV-TAX-CREDIT-RECORD"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-RATE",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-WRONG-STATUS",
+    "RISK-WHT-CERT-MISMATCH"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "Division IA text verified against the recent annotated ordinance: (a) 20% bank/FI deposits; (b) 20% government securities paid to non-individuals; (c) 15% other cases. Non-ATL doubles (40%/30%) per the FBR 2025-26 card. Return on investment in sukuks (Division IB: company 25%; individual/AOP over Rs.1m 12.5%; under Rs.1m 10%) sighted in the ordinance text but not encoded - flagged for follow-up.",
+   "interpretation_note": "For joint accounts, practitioner material refers to Rules 81B(5)/81B(6) of the Income Tax Rules, 2002; not verified against the Rules text - do not rely on.",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-155-RENT",
+   "title": "Withholding on rent of immovable property (s.155)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "non_profit",
+    "other"
+   ],
+   "triggering_transaction": "A prescribed person pays rent for immovable property.",
+   "transaction_types": [
+    "rent_payment"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "rent_immovable"
+     },
+     {
+      "field": "payer_is_rent_withholding_agent",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-155"
+   ],
+   "required_inputs": [
+    {
+     "name": "gross_annual_rent",
+     "label": "Gross annual rent amount (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Rent agreement / payment record"
+    },
+    {
+     "name": "rent_paid_in_period",
+     "label": "Rent paid in the period (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Payment voucher"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of payment",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Payment record"
+    },
+    {
+     "name": "payment_category",
+     "label": "Payment category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "rent_immovable"
+     ],
+     "source_hint": "Lease / rent agreement"
+    },
+    {
+     "name": "owner_type",
+     "label": "Property owner type",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "company",
+      "individual_aop"
+     ],
+     "source_hint": "Owner profile / NTN"
+    },
+    {
+     "name": "atl_status",
+     "label": "Owner ATL status",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "ATL",
+      "non_ATL",
+      "unknown"
+     ],
+     "source_hint": "FBR Active Taxpayers List"
+    },
+    {
+     "name": "payer_is_rent_withholding_agent",
+     "label": "Payer is a prescribed rent withholding agent (s.155)",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Payer profile"
+    },
+    {
+     "name": "exemption_certificate_valid",
+     "label": "Valid s.159 exemption/lower-rate certificate held",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Exemption certificate from Commissioner"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payer_is_rent_withholding_agent",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "No withholding obligation under s.155; no deduction required.",
+      "treatment_code": "no_wht_not_agent"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "exemption_certificate_valid",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "No withholding required under the certificate; retain the certificate and record the basis (see EV-WHT-CERTIFICATE).",
+      "treatment_code": "no_wht_exempt"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "owner_type",
+         "op": "eq",
+         "value": "company"
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-155-RENT company rate on the gross rent; deduct and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "owner_type",
+         "op": "eq",
+         "value": "individual_aop"
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-155-RENT individual/AOP slab on the gross annual rent; deduct and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     }
+    ],
+    "default": "Insufficient information - establish owner type, annual rent and payer status before determining treatment."
+   },
+   "expected_treatment": "Deduct tax from the rent at the Division V Part III First Schedule rate for the payment date: company owner 15% of gross rent; individual/AOP owner per the gross-rent slab; deposit per RULE-WHT-160-161.",
+   "calc_codes": [
+    "CALC-WHT-155-RENT"
+   ],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-RENT-AGREEMENT",
+    "EV-BANK-STATEMENT",
+    "EV-EXPENSE-VOUCHER",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT",
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-RATE",
+    "RISK-WHT-WRONG-BASE",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-WRONG-STATUS",
+    "RISK-WHT-UNSUPPORTED-EXEMPTION"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "Division V table verified against the 2019-amended ordinance and the Finance Act 2023 tax handbook: individual/AOP slab thresholds Rs.300,000 / 600,000 / 2,000,000 with marginal rates 5%/10%/25%; company 15% flat. Payer list verified against secondary material quoting s.155(1) (includes individuals/AOPs paying gross rent of Rs.1,500,000+ in a year). The slab is applied on gross annual rent; where rent is paid monthly, annualise before selecting the slab - this annualisation step follows the statutory table but was not independently sighted as a rule; apply with care.",
+   "interpretation_note": "Do not confuse the withholding slab under s.155/Division V Part III with the tax computation for income from property under s.15/Division VI Part I.",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-156-PRIZES",
+   "title": "Withholding on prizes and winnings (s.156)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "A prize or winnings are paid (prize bond, crossword, quiz, raffle, lottery, promotional prize).",
+   "transaction_types": [
+    "prize_payment"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "prize_winnings"
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-156"
+   ],
+   "required_inputs": [
+    {
+     "name": "prize_amount",
+     "label": "Gross prize/winnings amount (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Prize record / draw result"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of payment",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Payment record"
+    },
+    {
+     "name": "payment_category",
+     "label": "Payment category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "prize_winnings"
+     ],
+     "source_hint": "Prize nature"
+    },
+    {
+     "name": "prize_category",
+     "label": "Prize category",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "prize_bond_crossword",
+      "other_prizes"
+     ],
+     "source_hint": "Prize nature"
+    },
+    {
+     "name": "atl_status",
+     "label": "Payee ATL status",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "ATL",
+      "non_ATL",
+      "unknown"
+     ],
+     "source_hint": "FBR Active Taxpayers List"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payment_category",
+         "op": "eq",
+         "value": "prize_winnings"
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-156-PRIZES for the payment date, prize category and ATL status; deduct and deposit per RULE-WHT-160-161.",
+      "treatment_code": "deduct_deposit"
+     }
+    ],
+    "default": "Insufficient information - establish the prize category and payee ATL status before determining treatment."
+   },
+   "expected_treatment": "Deduct tax from the gross prize/winnings at the Division VI Part III First Schedule rate for the payment date, prize category and ATL status; deposit per RULE-WHT-160-161.",
+   "calc_codes": [
+    "CALC-WHT-156-PRIZES"
+   ],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-RATE",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-WRONG-CATEGORY",
+    "RISK-WHT-WRONG-STATUS"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "Rates verified against the Finance Act 2023 tax handbook and the FBR 2026 master table: prize bonds/crossword 15%/30%; quiz/raffle/lottery/promotional prizes 20%/40%. Commission on petroleum products (s.156A, 12%/24%) is out of scope for this rule and not encoded.",
+   "interpretation_note": "s.156A (petroleum products commission) is a separate provision and must not be coded through this rule.",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-152-NONRESIDENT",
+   "title": "Withholding on payments to non-residents (s.152)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "other"
+   ],
+   "triggering_transaction": "A payment is made to a non-resident person.",
+   "transaction_types": [
+    "payment_to_nonresident"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "payee_residency",
+      "op": "eq",
+      "value": "non_resident"
+     },
+     {
+      "field": "amount_chargeable_to_tax",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "covered_by_149_150_153_155_156"
+     },
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "taxable_to_pe_with_commissioner_approval"
+     },
+     {
+      "field": "exclusion_code",
+      "op": "eq",
+      "value": "payer_is_representative_s172_3"
+     }
+    ]
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-152"
+   ],
+   "required_inputs": [
+    {
+     "name": "gross_payment_amount",
+     "label": "Gross payment amount (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "Payment voucher / contract"
+    },
+    {
+     "name": "transaction_date",
+     "label": "Date of payment",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Payment record"
+    },
+    {
+     "name": "payee_residency",
+     "label": "Payee residency",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "non_resident"
+     ],
+     "source_hint": "Payee profile / tax treaty analysis"
+    },
+    {
+     "name": "payment_nature",
+     "label": "Nature of payment",
+     "data_type": "choice",
+     "required": true,
+     "choices": [
+      "royalty",
+      "fee_technical_services",
+      "offshore_digital_services",
+      "other"
+     ],
+     "source_hint": "Contract terms"
+    },
+    {
+     "name": "amount_chargeable_to_tax",
+     "label": "Amount is chargeable to tax in Pakistan",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Residency/treaty analysis"
+    },
+    {
+     "name": "treaty_rate_applies",
+     "label": "A tax-treaty reduced rate applies and is documented",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Treaty analysis / tax residency certificate"
+    },
+    {
+     "name": "exclusion_code",
+     "label": "Exclusion code",
+     "data_type": "choice",
+     "required": false,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "covered_by_149_150_153_155_156",
+      "payer_is_representative_s172_3",
+      "taxable_to_pe_with_commissioner_approval"
+     ]
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "amount_chargeable_to_tax",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "No withholding under s.152; before making payment without deduction, the s.152(5) notice to the Commissioner should be considered.",
+      "treatment_code": "no_wht_not_chargeable"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payment_nature",
+         "op": "in",
+         "value": [
+          "royalty",
+          "fee_technical_services"
+         ]
+        }
+       ]
+      },
+      "then": "Apply CALC-WHT-152-ROYALTY-FTS on the gross amount; deduct and deposit per RULE-WHT-160-161. Treaty-reduced rates are not encoded - assess separately.",
+      "treatment_code": "deduct_deposit"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payment_nature",
+         "op": "eq",
+         "value": "other"
+        }
+       ]
+      },
+      "then": "s.152(2) applies at the Division II Part III First Schedule rate, which is not encoded in this file - obtain the verified rate before determining treatment.",
+      "treatment_code": "rate_not_encoded"
+     }
+    ],
+    "default": "Insufficient information - establish residency, chargeability and payment nature before determining treatment."
+   },
+   "expected_treatment": "Deduct tax from the gross amount at the applicable First Schedule rate (Division IV Part I for royalty/fee for technical services); deposit per RULE-WHT-160-161.",
+   "calc_codes": [
+    "CALC-WHT-152-ROYALTY-FTS"
+   ],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-CONTRACT",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT",
+    "PROC-ELIGIBILITY"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-WRONG-RATE",
+    "RISK-WHT-WRONG-STATUS",
+    "RISK-WHT-UNSUPPORTED-EXEMPTION"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "under_review",
+   "review_notes": "s.152(1)-(6) text verified against the 2018-amended ordinance copy; Division IV Part I 15% royalty/FTS verified against the 2019-amended copy and the ResearchGate paper. The 5% fee for offshore digital services was sighted in the 2019-amended text but not reconfirmed as current; treaty-reduced rates are deliberately not encoded; s.152(2) Division II Part III rates are not encoded at all. The pre-payment notice procedure under s.152(5) is noted but its current form was not verified.",
+   "interpretation_note": "Residency determination and treaty analysis are outside this engine's scope; this rule assumes residency and chargeability have been established by the user."
+  },
+  {
+   "code": "RULE-WHT-159-EXEMPTION-CERT",
+   "title": "Exemption or lower-rate certificate (s.159)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "other"
+   ],
+   "triggering_transaction": "A payee presents, or a payer relies on, a certificate of exemption or lower rate of deduction/collection.",
+   "transaction_types": [
+    "exemption_claim"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "certificate_presented",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-159"
+   ],
+   "required_inputs": [
+    {
+     "name": "certificate_presented",
+     "label": "Exemption/lower-rate certificate presented",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Payee file"
+    },
+    {
+     "name": "certificate_validity",
+     "label": "Certificate validity period and scope",
+     "data_type": "string",
+     "required": false,
+     "source_hint": "Certificate document"
+    },
+    {
+     "name": "certificate_issuer",
+     "label": "Issuing authority",
+     "data_type": "string",
+     "required": false,
+     "source_hint": "Certificate document"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "certificate_presented",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "No exemption basis; apply the normal withholding rule for the payment.",
+      "treatment_code": "no_certificate"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "certificate_presented",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Verify the certificate's validity, period, scope and issuing authority against s.159 before relying on it; an unverifiable certificate must not suppress withholding.",
+      "treatment_code": "verify_certificate"
+     }
+    ],
+    "default": "Establish whether a certificate exists and whether it is valid before determining treatment."
+   },
+   "expected_treatment": "Withholding may be omitted or reduced only on the basis of a valid certificate issued under s.159 covering the payment, period and payee; otherwise the normal withholding rule applies.",
+   "calc_codes": [],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-REGISTRATION-CERT"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY",
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-WHT-UNSUPPORTED-EXEMPTION"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "draft",
+   "review_notes": "s.159 exists and s.159(1B) was inserted by the Finance Act, 2025 (verified via Fakhri Associates summary). The exact current conditions for issue, form and scope of certificates were not verified against the ordinance text; this rule must not be used for definitive treatment until reviewed.",
+   "interpretation_note": "Possession of a document labelled as a certificate is not proof of a valid exemption; validity, period and scope must each be checked."
+  },
+  {
+   "code": "RULE-WHT-160-161",
+   "title": "Deposit of tax deducted/collected and consequences of failure (ss.160, 161; Rule 43)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "non_profit",
+    "other"
+   ],
+   "triggering_transaction": "Tax has been collected or deducted (or should have been) under Division II or Division III of Part V of Chapter X of the Income Tax Ordinance, 2001.",
+   "transaction_types": [
+    "wht_deposit",
+    "wht_default"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "tax_deducted_or_collectable",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-160",
+    "LEG-ITO2001-WHT-161",
+    "LEG-ITR2002-WHT-43"
+   ],
+   "required_inputs": [
+    {
+     "name": "tax_deducted_or_collectable",
+     "label": "Tax was deducted/collected or was required to be",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "WHT ledger / payment records"
+    },
+    {
+     "name": "deduction_date",
+     "label": "Date of deduction/collection",
+     "data_type": "date",
+     "required": true,
+     "source_hint": "Payment record"
+    },
+    {
+     "name": "deposit_date",
+     "label": "Date of deposit to the Commissioner",
+     "data_type": "date",
+     "required": false,
+     "source_hint": "Challan / CPR"
+    },
+    {
+     "name": "payer_is_government",
+     "label": "Deductor is Federal/Provincial Government",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "Payer profile"
+    },
+    {
+     "name": "tax_amount",
+     "label": "Amount of tax deducted or required (PKR)",
+     "data_type": "number",
+     "required": true,
+     "source_hint": "WHT ledger"
+    },
+    {
+     "name": "payee_paid_tax",
+     "label": "Payee has meanwhile paid the tax",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Payee return / FBR record"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payer_is_government",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Deposit on the day the tax was collected or deducted (Rule 43(a)).",
+      "treatment_code": "deposit_same_day"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "payer_is_government",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Deposit by remittance to the Government Treasury or in an authorised SBP/NBP branch within seven days from the end of each week ending on every Sunday (Rule 43(b)).",
+      "treatment_code": "deposit_weekly"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "deposit_date",
+         "op": "not_exists",
+         "value": true
+        }
+       ]
+      },
+      "then": "Failure to deposit: personal liability under s.161(1)(b) for the tax amount; see consequences.",
+      "treatment_code": "default_deposit"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "tax_deducted_or_collectable",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "payee_paid_tax",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "No recovery of the tax itself under s.161(1B), but default surcharge at 18% per annum applies from the date of failure to the date the tax was paid.",
+      "treatment_code": "surcharge_only"
+     }
+    ],
+    "default": "Establish the deduction date, deposit date and payer status before determining compliance."
+   },
+   "expected_treatment": "Pay deducted/collected tax to the Commissioner within the Rule 43 time limit. On failure to deduct or deposit, the person is personally liable under s.161(1) for the tax (after opportunity of being heard, s.161(1A)); where the payee has meanwhile paid the tax, only default surcharge at 18% per annum applies (s.161(1B)). The person held liable may recover the tax from the person from whom it should have been deducted (s.161(2)).",
+   "calc_codes": [],
+   "evidence_codes": [
+    "EV-TAX-CHALLAN",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION",
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-NOTICE-ORDER"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-WHT",
+    "PROC-RECON-PAYMENTS"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NO-DEDUCTION",
+    "RISK-WHT-NOT-DEPOSITED",
+    "RISK-WHT-NOT-REPORTED"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "verified",
+   "review_notes": "s.160 and s.161 text verified against the 2018-amended ordinance copy; Rule 43 timing verified via Business Recorder (7 days from week ending Sunday; government same day). s.161(1B) 18% default surcharge verified against two ordinance copies and the Riphah paper; one secondary source showed the older 12% text, so the 18% figure is the current one to the best of this research.",
+   "interpretation_note": "Do not compute the default surcharge as a definitive figure without verifying the day-count convention and the precise period; record it as a potential exposure.",
+   "reviewer": "research-agent-withholding",
+   "review_date": "2026-10-21"
+  },
+  {
+   "code": "RULE-WHT-165-STATEMENTS",
+   "title": "Withholding statements (s.165)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "non_profit",
+    "other"
+   ],
+   "triggering_transaction": "A person has collected tax under Division II of Part V of Chapter X (or Chapter XII) or deducted tax under Division III (or Chapter XII).",
+   "transaction_types": [
+    "wht_statement"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "tax_deducted_or_collectable",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-165"
+   ],
+   "required_inputs": [
+    {
+     "name": "tax_deducted_or_collectable",
+     "label": "Tax was deducted/collected or was required to be",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "WHT ledger"
+    },
+    {
+     "name": "statement_period",
+     "label": "Statement period",
+     "data_type": "string",
+     "required": false,
+     "source_hint": "Filing record"
+    },
+    {
+     "name": "statement_filed",
+     "label": "Statement filed",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "IRIS acknowledgment"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "statement_filed",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Statement obligation may be unmet; verify the applicable filing frequency and deadline against current law before concluding.",
+      "treatment_code": "statement_gap"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "statement_filed",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Reconcile the statement with the WHT ledger, challans and certificates.",
+      "treatment_code": "reconcile_statement"
+     }
+    ],
+    "default": "Establish the applicable filing requirement before determining compliance."
+   },
+   "expected_treatment": "Furnish the prescribed statement(s) under s.165 for the relevant period. Exact current frequency and deadline could not be verified in this research - do not treat any deadline in secondary material as authoritative.",
+   "calc_codes": [],
+   "evidence_codes": [
+    "EV-RETURN-ACK",
+    "EV-RECONCILIATION",
+    "EV-TAX-CHALLAN",
+    "EV-WHT-CERTIFICATE"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-WHT"
+   ],
+   "risk_codes": [
+    "RISK-WHT-NOT-REPORTED",
+    "RISK-WHT-CERT-MISMATCH"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "draft",
+   "review_notes": "Finance Act 2020 made s.165(1) statements quarterly (due 20 Apr / 20 Jul / 20 Oct / 20 Jan) - verified via PKRevenue. An earlier text of s.165(2) required monthly statements by the 15th of the following month (verified in the 2018-amended copy), and practitioner material still refers to monthly filing on IRIS. The current position is unresolved; this rule is draft and no deadline is asserted.",
+   "interpretation_note": "A deposited amount that is not reported in the applicable statement remains a compliance gap even though the tax has been paid."
+  },
+  {
+   "code": "RULE-WHT-164-CERTIFICATE",
+   "title": "Certificate of tax collection or deduction (s.164)",
+   "tax_category": "withholding_tax",
+   "jurisdiction": "federal",
+   "taxpayer_types": [
+    "company",
+    "association_of_persons",
+    "individual",
+    "federal_government",
+    "non_profit",
+    "other"
+   ],
+   "triggering_transaction": "Tax has been collected or deducted at source and the payee needs evidence of the deduction for tax-credit purposes.",
+   "transaction_types": [
+    "wht_certificate_issue"
+   ],
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "tax_deducted_or_collectable",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "exclusion_conditions": {
+    "any": []
+   },
+   "legislation_codes": [
+    "LEG-ITO2001-WHT-164"
+   ],
+   "required_inputs": [
+    {
+     "name": "tax_deducted_or_collectable",
+     "label": "Tax was deducted/collected",
+     "data_type": "boolean",
+     "required": true,
+     "source_hint": "WHT ledger"
+    },
+    {
+     "name": "certificate_issued",
+     "label": "Certificate issued to payee",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Payee file"
+    }
+   ],
+   "decision_logic": {
+    "table": [
+     {
+      "when": {
+       "all": [
+        {
+         "field": "certificate_issued",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      },
+      "then": "Issue the certificate of collection/deduction under s.164 in the prescribed form so the payee can claim the tax credit.",
+      "treatment_code": "issue_certificate"
+     },
+     {
+      "when": {
+       "all": [
+        {
+         "field": "certificate_issued",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      },
+      "then": "Retain the issued certificate and reconcile it with the WHT ledger and challans.",
+      "treatment_code": "retain_reconcile"
+     }
+    ],
+    "default": "Establish whether tax was deducted and whether a certificate was issued."
+   },
+   "expected_treatment": "Furnish a certificate of tax collection or deduction under s.164 to the person from whom tax was collected/deducted, in the prescribed form.",
+   "calc_codes": [],
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-WHT",
+    "PROC-DOC-VERIFY"
+   ],
+   "risk_codes": [
+    "RISK-WHT-CERT-MISMATCH",
+    "RISK-WHT-NOT-REPORTED"
+   ],
+   "effective_from": "2001-07-01",
+   "effective_to": null,
+   "verification_status": "draft",
+   "review_notes": "s.164 exists (referenced in practitioner material as the certificate provision with Rule 42 prescribing the form). The exact current text and timing were not verified against the ordinance; this rule is draft.",
+   "interpretation_note": "Certificates are the payee's evidence for claiming withholding tax credits; a certificate that does not reconcile with the ledger or challans indicates a discrepancy to investigate."
+  }
+ ],
+ "risks": [
+  {
+   "code": "RISK-WHT-NO-DEDUCTION",
+   "title": "Payment subject to withholding made with no tax deducted",
+   "description": "A payment falling within a withholding provision (e.g. s.153, 149, 150, 151, 155, 156, 152) is made without any tax being deducted. The payer may not have identified the withholding obligation, may have wrongly concluded the payer is not a prescribed person, or may have relied on an unverified exemption. s.161(1)(a) makes the payer personally liable for the tax, recoverable after an order and opportunity of being heard.",
+   "root_cause": "Withholding obligation not identified at the time of payment; payer status or payment classification incorrectly determined.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-153-GOODS",
+    "RULE-WHT-153-SERVICES",
+    "RULE-WHT-153-CONTRACTS",
+    "RULE-WHT-149-SALARY",
+    "RULE-WHT-150-DIVIDEND",
+    "RULE-WHT-151-PROFIT-DEBT",
+    "RULE-WHT-155-RENT",
+    "RULE-WHT-156-PRIZES",
+    "RULE-WHT-152-NONRESIDENT"
+   ],
+   "potential_financial_effect": "Tax amount that should have been deducted, plus potential default surcharge exposure under s.161(1B).",
+   "possible_tax_exposure": "The full deductible amount; personal liability of the payer under s.161(1).",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "payment_within_wht_scope",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_deducted",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Expense or payment ledger entries with no corresponding WHT ledger entry",
+    "Supplier payments lacking tax certificates",
+    "New vendor or payment type not covered by existing WHT controls"
+   ],
+   "required_information": [
+    "Payment nature and amount",
+    "Payer's prescribed-person status",
+    "Payee ATL/residency status",
+    "Exemption certificate position"
+   ],
+   "verification_procedure": "Scan expense and payment ledgers for in-scope payments; test whether each was subjected to withholding; quantify the undeducted amounts.",
+   "evidence_codes": [
+    "EV-SUPPLIER-PAYMENTS",
+    "EV-EXPENSE-VOUCHER",
+    "EV-CONTRACT",
+    "EV-PURCHASE-INVOICE",
+    "EV-BANK-STATEMENT",
+    "EV-GENERAL-LEDGER",
+    "EV-WHT-CERTIFICATE"
+   ],
+   "procedure_codes": [
+    "PROC-COMPLETENESS",
+    "PROC-CALC-WHT",
+    "PROC-RECON-WHT"
+   ],
+   "followup_action": "Quantify the undeducted tax per provision and period; assess deposit and reporting obligations under RULE-WHT-160-161; obtain professional advice before voluntary payment.",
+   "source_references": [
+    "SRC-WHT-ITO-2018",
+    "SRC-WHT-161"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-WRONG-RATE",
+   "title": "Withholding deducted at an incorrect rate",
+   "description": "Tax is deducted but at a rate that does not match the verified rate for the payment date, payment category, payee type and ATL status - e.g. using a superseded rate table, the ATL rate for a non-ATL payee (or vice versa), or the company rate for a non-company payee. The shortfall remains recoverable under s.161(1)(a); an excess deduction creates a payee credit/reconciliation issue.",
+   "root_cause": "Outdated rate table; ATL status not checked at payment date; payee type or payment category misidentified.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-153-GOODS",
+    "RULE-WHT-153-SERVICES",
+    "RULE-WHT-153-CONTRACTS",
+    "RULE-WHT-150-DIVIDEND",
+    "RULE-WHT-151-PROFIT-DEBT",
+    "RULE-WHT-155-RENT",
+    "RULE-WHT-156-PRIZES"
+   ],
+   "potential_financial_effect": "Shortfall between tax deducted and tax required, plus potential default surcharge exposure.",
+   "possible_tax_exposure": "The rate differential applied to the payment base.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "tax_deducted",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "rate_matches_verified_table",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Uniform rate applied across heterogeneous payees",
+    "Rate not varying with ATL status",
+    "Payments just before/after 1 July not re-rated"
+   ],
+   "required_information": [
+    "Payment date",
+    "Payment category and payee type",
+    "Payee ATL status at payment date",
+    "Rate actually applied",
+    "Verified rate for that date"
+   ],
+   "verification_procedure": "Re-perform the rate selection for a sample of payments using the calc table effective on the payment date; compare with the rate applied.",
+   "evidence_codes": [
+    "EV-SUPPLIER-PAYMENTS",
+    "EV-WHT-CERTIFICATE",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-DOC-VERIFY"
+   ],
+   "followup_action": "Quantify shortfalls per period; correct the rate table and re-process affected payments; assess s.161 exposure.",
+   "source_references": [
+    "SRC-WHT-FBR-CARD-2025-26",
+    "SRC-WHT-MASTER-2026"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-WRONG-BASE",
+   "title": "Withholding calculated on an incorrect amount or tax base",
+   "description": "Tax is deducted at the right rate but on the wrong base - e.g. on the net amount instead of the gross amount payable (including sales tax, if any) under s.153; on actual rather than estimated annual salary under s.149; on monthly instead of annualised gross rent under s.155.",
+   "root_cause": "Base definition misunderstood; system calculates on net payable rather than gross.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-153-GOODS",
+    "RULE-WHT-153-SERVICES",
+    "RULE-WHT-153-CONTRACTS",
+    "RULE-WHT-149-SALARY",
+    "RULE-WHT-155-RENT"
+   ],
+   "potential_financial_effect": "Shortfall or excess relative to the correct base, plus potential default surcharge exposure on shortfalls.",
+   "possible_tax_exposure": "Rate applied to the base difference.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "tax_deducted",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "base_matches_statutory_definition",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "WHT computed on invoice net value where sales tax was charged separately",
+    "Salary WHT not tracking estimated annual income",
+    "Rent WHT not annualised for slab selection"
+   ],
+   "required_information": [
+    "Gross payment amount and its components",
+    "Base actually used",
+    "Statutory base definition"
+   ],
+   "verification_procedure": "Recompute the statutory base from source documents; compare with the base used in the WHT calculation.",
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-SUPPLIER-PAYMENTS",
+    "EV-PAYROLL-RECORDS",
+    "EV-RENT-AGREEMENT",
+    "EV-BANK-STATEMENT"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-WHT",
+    "PROC-DOC-VERIFY"
+   ],
+   "followup_action": "Correct the base logic in the calculation process; quantify and address shortfalls.",
+   "source_references": [
+    "SRC-WHT-ITO-2018",
+    "SRC-WHT-SALARY-CARD"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-NOT-DEPOSITED",
+   "title": "Tax deducted but not deposited within the prescribed time",
+   "description": "Tax is deducted from the payment but is not paid to the Commissioner within the Rule 43 time limit (same day for Federal/Provincial Government; within seven days from the end of each week ending on Sunday for others). s.161(1)(b) makes the deductor personally liable for the amount.",
+   "root_cause": "Weak treasury controls; deducted amounts retained in the business; deposit calendar not followed.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-160-161"
+   ],
+   "potential_financial_effect": "Full deducted amount plus potential default surcharge exposure.",
+   "possible_tax_exposure": "The deducted but undeposited amount.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "tax_deducted",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_deposited_on_time",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Growing WHT payable balance in the trial balance",
+    "Challans/CPRs dated well after deduction dates",
+    "Deduction dates clustered at period ends with late deposits"
+   ],
+   "required_information": [
+    "Deduction dates and amounts",
+    "Deposit dates and challan/CPR references",
+    "Payer government status"
+   ],
+   "verification_procedure": "Match each deduction to its deposit challan/CPR; test the deposit date against the Rule 43 deadline computed from the deduction date.",
+   "evidence_codes": [
+    "EV-TAX-CHALLAN",
+    "EV-BANK-STATEMENT",
+    "EV-GENERAL-LEDGER",
+    "EV-TRIAL-BALANCE",
+    "EV-RECONCILIATION"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-WHT",
+    "PROC-RECON-PAYMENTS"
+   ],
+   "followup_action": "Deposit outstanding amounts immediately; quantify delay periods for surcharge assessment; strengthen the deposit calendar control.",
+   "source_references": [
+    "SRC-WHT-RULE43",
+    "SRC-WHT-161"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-NOT-REPORTED",
+   "title": "Tax deposited but withholding statements incomplete or not filed",
+   "description": "Deducted tax is deposited, but the s.165 statement for the period is not filed, is filed late, or omits transactions - including the statement's record of payments where no tax was deducted (exemptions, statutory exclusions). Missing or incomplete statements impair the payee's tax credit and attract compliance action.",
+   "root_cause": "Statement preparation not reconciled to the WHT ledger; exempt/non-deducted payments not captured for reporting.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-165-STATEMENTS",
+    "RULE-WHT-164-CERTIFICATE"
+   ],
+   "potential_financial_effect": "Compliance exposure; payee credit disputes.",
+   "possible_tax_exposure": "Not a tax-amount exposure by itself where tax was deposited; exposure arises from compliance action and payee disputes.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "tax_deposited",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "statement_complete",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Deposits with no matching statement acknowledgment",
+    "Statements filed without the no-deduction schedule",
+    "Payee complaints about missing tax credits"
+   ],
+   "required_information": [
+    "Deposit challans/CPRs",
+    "Filed statements and acknowledgments",
+    "WHT ledger for the period"
+   ],
+   "verification_procedure": "Reconcile the WHT ledger and deposits to the filed statement line items; verify inclusion of no-deduction transactions with reasons.",
+   "evidence_codes": [
+    "EV-RETURN-ACK",
+    "EV-TAX-CHALLAN",
+    "EV-RECONCILIATION",
+    "EV-WHT-CERTIFICATE"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-WHT"
+   ],
+   "followup_action": "File or revise the statement; note that the exact current filing frequency/deadline is draft in this file (RULE-WHT-165-STATEMENTS) and must be confirmed.",
+   "source_references": [
+    "SRC-WHT-STMT-2020"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-UNSUPPORTED-EXEMPTION",
+   "title": "Exemption or reduced rate claimed without adequate support",
+   "description": "No tax (or tax at a reduced rate) is deducted on the basis of an exemption certificate that is expired, does not cover the payment or period, was not issued by the competent authority, or cannot be produced. An unverifiable certificate must not suppress withholding.",
+   "root_cause": "Certificates not validated at payment time; expired certificates retained on file.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-159-EXEMPTION-CERT",
+    "RULE-WHT-153-GOODS",
+    "RULE-WHT-153-SERVICES",
+    "RULE-WHT-153-CONTRACTS",
+    "RULE-WHT-152-NONRESIDENT"
+   ],
+   "potential_financial_effect": "Tax that should have been deducted, plus potential default surcharge exposure.",
+   "possible_tax_exposure": "The full deductible amount for payments covered by invalid certificates.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "exemption_claimed",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "certificate_valid_for_payment",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Exemption register with expired certificates",
+    "Certificates whose scope does not match the payment",
+    "No certificate on file for zero-deduction payments"
+   ],
+   "required_information": [
+    "Certificate document",
+    "Validity period and scope",
+    "Issuing authority",
+    "Payment date and nature"
+   ],
+   "verification_procedure": "For each zero/reduced deduction, inspect the certificate: issuer, validity period covering the payment date, and scope covering the payment nature and payee.",
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-REGISTRATION-CERT",
+    "EV-SUPPLIER-PAYMENTS"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY",
+    "PROC-DOC-VERIFY"
+   ],
+   "followup_action": "Treat payments under invalid certificates as undeducted; quantify under RULE-WHT-160-161; obtain valid certificates prospectively.",
+   "source_references": [
+    "SRC-WHT-FA2025"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-WRONG-CATEGORY",
+   "title": "Payment classified under the wrong legal category",
+   "description": "A payment is classified as goods when it is in substance services (or vice versa), or a composite contract is not split by nature, attracting the wrong rate or the wrong provision (e.g. s.153 vs s.152 vs s.155).",
+   "root_cause": "Classification by invoice label rather than substance; composite contracts not analysed.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-153-GOODS",
+    "RULE-WHT-153-SERVICES",
+    "RULE-WHT-153-CONTRACTS",
+    "RULE-WHT-155-RENT",
+    "RULE-WHT-152-NONRESIDENT",
+    "RULE-WHT-156-PRIZES"
+   ],
+   "potential_financial_effect": "Rate differential on the payment; possible full provision-level error.",
+   "possible_tax_exposure": "Difference between tax under the correct and applied provisions.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "classification_matches_substance",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Large 'miscellaneous' or 'other services' payment buckets",
+    "Single rate applied to composite contracts",
+    "Reimbursements bundled with service fees"
+   ],
+   "required_information": [
+    "Contract terms and scope of work",
+    "Invoice line-item detail",
+    "Substance of what was supplied"
+   ],
+   "verification_procedure": "Inspect contracts and line items; reclassify by substance; re-apply the correct rule and rate.",
+   "evidence_codes": [
+    "EV-CONTRACT",
+    "EV-PURCHASE-INVOICE",
+    "EV-EXPENSE-VOUCHER",
+    "EV-SUPPLIER-PAYMENTS"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-CALC-WHT",
+    "PROC-ELIGIBILITY"
+   ],
+   "followup_action": "Reclassify affected payments; correct the classification logic in the payment process.",
+   "source_references": [
+    "SRC-WHT-FBR-CARD-2025-26"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-OMITTED-RECON",
+   "title": "Transactions omitted from the withholding tax reconciliation",
+   "description": "In-scope payments are missing from the WHT reconciliation (ledger vs certificates vs deposits vs statements), so undeducted or unreported items are not detected by the control.",
+   "root_cause": "Incomplete population in the reconciliation; off-ledger or manual payments excluded.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-153-GOODS",
+    "RULE-WHT-153-SERVICES",
+    "RULE-WHT-153-CONTRACTS",
+    "RULE-WHT-149-SALARY"
+   ],
+   "potential_financial_effect": "Undetected under-deduction and under-reporting.",
+   "possible_tax_exposure": "Tax on omitted transactions.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "reconciliation_complete",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Reconciliation prepared from the WHT ledger only (circular)",
+    "Material manual/journal payments outside the AP process",
+    "Unexplained differences written off"
+   ],
+   "required_information": [
+    "Complete payment population",
+    "WHT ledger",
+    "Certificates, challans, statements"
+   ],
+   "verification_procedure": "Build the reconciliation from the full payment population independently of the WHT ledger; investigate all differences.",
+   "evidence_codes": [
+    "EV-GENERAL-LEDGER",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION",
+    "EV-TAX-CHALLAN",
+    "EV-WHT-CERTIFICATE"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-WHT",
+    "PROC-COMPLETENESS"
+   ],
+   "followup_action": "Complete the reconciliation; investigate and resolve all differences before sign-off.",
+   "source_references": [
+    "SRC-WHT-STMT-2020"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-WRONG-STATUS",
+   "title": "Payee status incorrectly determined (ATL, residency, entity type)",
+   "description": "The payee's legally relevant status is wrongly determined: ATL vs non-ATL (doubling the rate), resident vs non-resident (s.153 vs s.152), company vs non-company, or individual vs AOP for the s.155 slab. Each error changes the applicable rate or provision.",
+   "root_cause": "ATL not checked at payment date; residency or entity type assumed from incomplete records.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-153-GOODS",
+    "RULE-WHT-153-SERVICES",
+    "RULE-WHT-153-CONTRACTS",
+    "RULE-WHT-150-DIVIDEND",
+    "RULE-WHT-151-PROFIT-DEBT",
+    "RULE-WHT-155-RENT",
+    "RULE-WHT-156-PRIZES",
+    "RULE-WHT-152-NONRESIDENT"
+   ],
+   "potential_financial_effect": "Rate/provision differential on affected payments.",
+   "possible_tax_exposure": "Difference between correct and applied treatment across affected payments.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "payee_status_verified",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "ATL checked once at onboarding, never refreshed",
+    "Foreign payees processed through the domestic WHT flow",
+    "Rent slab applied without confirming owner type"
+   ],
+   "required_information": [
+    "Payee NTN/CNIC",
+    "ATL status at payment date",
+    "Residency evidence",
+    "Entity type evidence"
+   ],
+   "verification_procedure": "Re-verify a sample of payees: ATL listing at payment date, residency, and entity type against master data.",
+   "evidence_codes": [
+    "EV-REGISTRATION-CERT",
+    "EV-SUPPLIER-PAYMENTS",
+    "EV-WHT-CERTIFICATE"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY",
+    "PROC-DOC-VERIFY"
+   ],
+   "followup_action": "Correct master data; refresh ATL checks at each payment; reprocess affected payments.",
+   "source_references": [
+    "SRC-WHT-FBR-CARD-2025-26",
+    "SRC-WHT-MASTER-2026"
+   ],
+   "review_status": "verified"
+  },
+  {
+   "code": "RISK-WHT-CERT-MISMATCH",
+   "title": "Tax certificates do not reconcile with accounting records",
+   "description": "Certificates of deduction/collection (s.164) issued to or received from payees do not agree with the WHT ledger, challans/CPRs, or the s.165 statements - wrong amounts, wrong periods, duplicates, or missing certificates. Mismatches indicate recording errors and impair tax-credit claims.",
+   "root_cause": "Certificates generated manually or from a different data source than the ledger; duplicates issued.",
+   "tax_category": "withholding_tax",
+   "rule_codes": [
+    "RULE-WHT-164-CERTIFICATE",
+    "RULE-WHT-165-STATEMENTS",
+    "RULE-WHT-149-SALARY",
+    "RULE-WHT-151-PROFIT-DEBT"
+   ],
+   "potential_financial_effect": "Disputed tax credits; unrecorded deductions.",
+   "possible_tax_exposure": "Amounts on unmatched certificates.",
+   "penalty_implications": null,
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "certificates_reconcile",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "risk_indicators": [
+    "Duplicate certificate numbers",
+    "Certificate totals differing from ledger totals",
+    "Payee credit claims rejected for want of matching certificate"
+   ],
+   "required_information": [
+    "Issued/received certificates",
+    "WHT ledger",
+    "Challans/CPRs",
+    "Filed statements"
+   ],
+   "verification_procedure": "Agree certificate totals to the WHT ledger, challans and statements; test for duplicates and gaps in certificate numbering.",
+   "evidence_codes": [
+    "EV-WHT-CERTIFICATE",
+    "EV-TAX-CHALLAN",
+    "EV-RECONCILIATION",
+    "EV-RETURN-ACK",
+    "EV-TAX-CREDIT-RECORD"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-WHT",
+    "PROC-DOC-VERIFY"
+   ],
+   "followup_action": "Reissue or correct certificates; align the certificate process with the ledger.",
+   "source_references": [
+    "SRC-WHT-STMT-2020"
+   ],
+   "review_status": "verified"
+  }
+ ],
+ "calc_tables": [
+  {
+   "code": "CALC-WHT-153-GOODS",
+   "kind": "rate_schedule",
+   "params": {
+    "rate_basis": "gross payment amount (including sales tax, if any)",
+    "rounding": "nearest_rupee",
+    "rates": [
+     {
+      "supply_category": "rice_cotton_edible_oils",
+      "payee_type": "any",
+      "atl": "ATL",
+      "rate": 0.015
+     },
+     {
+      "supply_category": "rice_cotton_edible_oils",
+      "payee_type": "any",
+      "atl": "non_ATL",
+      "rate": 0.03
+     },
+     {
+      "supply_category": "toll_manufacturing",
+      "payee_type": "company",
+      "atl": "ATL",
+      "rate": 0.09
+     },
+     {
+      "supply_category": "toll_manufacturing",
+      "payee_type": "company",
+      "atl": "non_ATL",
+      "rate": 0.18
+     },
+     {
+      "supply_category": "toll_manufacturing",
+      "payee_type": "non_company",
+      "atl": "ATL",
+      "rate": 0.11
+     },
+     {
+      "supply_category": "toll_manufacturing",
+      "payee_type": "non_company",
+      "atl": "non_ATL",
+      "rate": 0.22
+     },
+     {
+      "supply_category": "other_goods",
+      "payee_type": "company",
+      "atl": "ATL",
+      "rate": 0.05
+     },
+     {
+      "supply_category": "other_goods",
+      "payee_type": "company",
+      "atl": "non_ATL",
+      "rate": 0.1
+     },
+     {
+      "supply_category": "other_goods",
+      "payee_type": "non_company",
+      "atl": "ATL",
+      "rate": 0.055
+     },
+     {
+      "supply_category": "other_goods",
+      "payee_type": "non_company",
+      "atl": "non_ATL",
+      "rate": 0.11
+     }
+    ],
+    "base_input": "gross_payment_amount",
+    "input_aliases": {
+     "atl": "atl_status"
+    },
+    "required_inputs": [
+     "gross_payment_amount",
+     "atl_status",
+     "payee_type",
+     "supply_category"
+    ]
+   },
+   "legislation_ref": "Division III of Part III of the First Schedule, Income Tax Ordinance, 2001 (s.153)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "Rates from the FBR 2025-26 WHT card, cross-checked with the 2026 master table. Pre-2025-07-01 rates not encoded.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on payments for sale of goods (s.153(1)(a)) — rate schedule"
+  },
+  {
+   "code": "CALC-WHT-153-SERVICES",
+   "kind": "rate_schedule",
+   "params": {
+    "rate_basis": "gross payment amount (including sales tax, if any)",
+    "rounding": "nearest_rupee",
+    "rates": [
+     {
+      "service_category": "specified_services",
+      "atl": "ATL",
+      "rate": 0.06
+     },
+     {
+      "service_category": "specified_services",
+      "atl": "non_ATL",
+      "rate": 0.12
+     },
+     {
+      "service_category": "it_ites",
+      "atl": "ATL",
+      "rate": 0.04
+     },
+     {
+      "service_category": "it_ites",
+      "atl": "non_ATL",
+      "rate": 0.08
+     },
+     {
+      "service_category": "independent_professionals",
+      "atl": "ATL",
+      "rate": 0.15
+     },
+     {
+      "service_category": "independent_professionals",
+      "atl": "non_ATL",
+      "rate": 0.3
+     },
+     {
+      "service_category": "advertising_media",
+      "atl": "ATL",
+      "rate": 0.015
+     },
+     {
+      "service_category": "advertising_media",
+      "atl": "non_ATL",
+      "rate": 0.03
+     },
+     {
+      "service_category": "terminal_port_operator",
+      "atl": "ATL",
+      "rate": 0.12
+     },
+     {
+      "service_category": "terminal_port_operator",
+      "atl": "non_ATL",
+      "rate": 0.24
+     },
+     {
+      "service_category": "other_services",
+      "atl": "ATL",
+      "rate": 0.15
+     },
+     {
+      "service_category": "other_services",
+      "atl": "non_ATL",
+      "rate": 0.3
+     },
+     {
+      "service_category": "exporter_services_153_2",
+      "atl": "ATL",
+      "rate": 0.01
+     },
+     {
+      "service_category": "exporter_services_153_2",
+      "atl": "non_ATL",
+      "rate": 0.02
+     },
+     {
+      "service_category": "ecommerce_digital",
+      "atl": "ATL",
+      "rate": 0.01
+     },
+     {
+      "service_category": "ecommerce_digital",
+      "atl": "non_ATL",
+      "rate": 0.02
+     },
+     {
+      "service_category": "ecommerce_cod",
+      "atl": "ATL",
+      "rate": 0.02
+     },
+     {
+      "service_category": "ecommerce_cod",
+      "atl": "non_ATL",
+      "rate": 0.04
+     }
+    ],
+    "base_input": "gross_payment_amount",
+    "input_aliases": {
+     "atl": "atl_status"
+    },
+    "required_inputs": [
+     "gross_payment_amount",
+     "atl_status",
+     "service_category"
+    ]
+   },
+   "legislation_ref": "Division III of Part III of the First Schedule, Income Tax Ordinance, 2001 (s.153)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "Finance Act 2025 changes verified via Business Recorder: unspecified services 9%/11% -> 15% flat; s.153 specified services 4% -> 6%; IT/ITeS remains 4%. 'Independent professionals' (doctors, lawyers, architects, accountants, independent software developers) 15%/30% and 'terminal/port operator' 12%/24% from the 2026 master table; the exact First Schedule clause mapping was not sighted verbatim. 'Advertising media' = electronic and print media per the FBR card. E-commerce rows under s.153(2A): digital/banking-channel payments via payment intermediary 1%/2%; cash-on-delivery via courier 2%/4%.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on payments for services (s.153(1)(b)) — rate schedule"
+  },
+  {
+   "code": "CALC-WHT-153-CONTRACTS",
+   "kind": "rate_schedule",
+   "params": {
+    "rate_basis": "gross payment amount (including sales tax, if any)",
+    "rounding": "nearest_rupee",
+    "rates": [
+     {
+      "contract_category": "company",
+      "atl": "ATL",
+      "rate": 0.075
+     },
+     {
+      "contract_category": "company",
+      "atl": "non_ATL",
+      "rate": 0.15
+     },
+     {
+      "contract_category": "other",
+      "atl": "ATL",
+      "rate": 0.08
+     },
+     {
+      "contract_category": "other",
+      "atl": "non_ATL",
+      "rate": 0.16
+     },
+     {
+      "contract_category": "sportsperson",
+      "atl": "ATL",
+      "rate": 0.15
+     },
+     {
+      "contract_category": "sportsperson",
+      "atl": "non_ATL",
+      "rate": 0.3
+     }
+    ],
+    "base_input": "gross_payment_amount",
+    "input_aliases": {
+     "atl": "atl_status"
+    },
+    "required_inputs": [
+     "gross_payment_amount",
+     "atl_status",
+     "contract_category"
+    ]
+   },
+   "legislation_ref": "Division III of Part III of the First Schedule, Income Tax Ordinance, 2001 (s.153)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "Rates from the FBR 2025-26 WHT card; sportspersons raised to 15% flat by Finance Act 2025 (was 10%) per Business Recorder. Pre-2025-07-01 rates not encoded.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on payments for execution of contracts (s.153(1)(c)) — rate schedule"
+  },
+  {
+   "code": "CALC-WHT-149-SALARY-TY2026",
+   "kind": "slab",
+   "params": {
+    "base": "estimated annual taxable income under the head 'Salary'",
+    "rounding": "nearest_rupee",
+    "slabs": [
+     {
+      "upto": 600000,
+      "rate": 0.0
+     },
+     {
+      "upto": 1200000,
+      "rate": 0.01
+     },
+     {
+      "upto": 2200000,
+      "rate": 0.11
+     },
+     {
+      "upto": 3200000,
+      "rate": 0.23
+     },
+     {
+      "upto": 4100000,
+      "rate": 0.3
+     },
+     {
+      "upto": null,
+      "rate": 0.35
+     }
+    ],
+    "note": "Cumulative equivalents: 6,000 + 11% over 1,200,000; 116,000 + 23% over 2,200,000; 346,000 + 30% over 3,200,000; 616,000 + 35% over 4,100,000."
+   },
+   "legislation_ref": "Division I of Part I of the First Schedule, Income Tax Ordinance, 2001 (s.149)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "Slab verified against the FBR 2025-26 salary card and Finance Act 2025 reporting. The s.4AB surcharge component referenced in the FBR card's A/B formula is not encoded. The employer deducts at the average rate on each payment after adjusting for admissible tax credits and tax already deducted.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on salary payments (s.149) — rate schedule"
+  },
+  {
+   "code": "CALC-WHT-150-DIVIDEND",
+   "kind": "rate_schedule",
+   "params": {
+    "rate_basis": "gross dividend amount",
+    "rounding": "nearest_rupee",
+    "rates": [
+     {
+      "dividend_type": "general",
+      "atl": "ATL",
+      "rate": 0.15
+     },
+     {
+      "dividend_type": "general",
+      "atl": "non_ATL",
+      "rate": 0.3
+     }
+    ],
+    "base_input": "payment_amount",
+    "input_aliases": {
+     "atl": "atl_status"
+    },
+    "required_inputs": [
+     "payment_amount",
+     "atl_status",
+     "dividend_type"
+    ]
+   },
+   "legislation_ref": "Division I of Part III of the First Schedule, Income Tax Ordinance, 2001 (s.150)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "General rate verified against the annotated ordinance and the 2026 master table. Mutual-fund/REIT special cases (including 25% where a mutual fund derives >=50% income from profit on debt) sighted but not encoded.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on dividend payments (s.150) — rate schedule"
+  },
+  {
+   "code": "CALC-WHT-151-DEPOSITS",
+   "kind": "rate_schedule",
+   "params": {
+    "rate_basis": "yield / profit on debt paid",
+    "rounding": "nearest_rupee",
+    "rates": [
+     {
+      "instrument_category": "bank_fi_deposit",
+      "payee_type": "any",
+      "atl": "ATL",
+      "rate": 0.2
+     },
+     {
+      "instrument_category": "bank_fi_deposit",
+      "payee_type": "any",
+      "atl": "non_ATL",
+      "rate": 0.4
+     },
+     {
+      "instrument_category": "government_securities",
+      "payee_type": "non_individual",
+      "atl": "ATL",
+      "rate": 0.2
+     },
+     {
+      "instrument_category": "government_securities",
+      "payee_type": "non_individual",
+      "atl": "non_ATL",
+      "rate": 0.4
+     },
+     {
+      "instrument_category": "other",
+      "payee_type": "any",
+      "atl": "ATL",
+      "rate": 0.15
+     },
+     {
+      "instrument_category": "other",
+      "payee_type": "any",
+      "atl": "non_ATL",
+      "rate": 0.3
+     }
+    ],
+    "base_input": "profit_amount",
+    "input_aliases": {
+     "atl": "atl_status"
+    },
+    "required_inputs": [
+     "profit_amount",
+     "atl_status",
+     "instrument_category",
+     "payee_type"
+    ]
+   },
+   "legislation_ref": "Division IA of Part III of the First Schedule, Income Tax Ordinance, 2001 (s.151)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "Division IA text verified against the recent annotated ordinance: (a) 20% bank/FI deposits; (b) 20% government securities paid to non-individuals; (c) 15% other cases. Non-ATL doubles per the FBR 2025-26 card. Return on investment in sukuks (Division IB) sighted but not encoded.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on profit on debt (s.151) — rate schedule"
+  },
+  {
+   "code": "CALC-WHT-155-RENT",
+   "kind": "rate_schedule",
+   "params": {
+    "rate_basis": "gross rent amount",
+    "rounding": "nearest_rupee",
+    "rates": [
+     {
+      "owner_type": "company",
+      "atl": "ATL",
+      "rate": 0.15
+     },
+     {
+      "owner_type": "company",
+      "atl": "non_ATL",
+      "rate": 0.3
+     }
+    ],
+    "individual_aop_slab": {
+     "base": "gross annual rent amount",
+     "rounding": "nearest_rupee",
+     "slabs": [
+      {
+       "upto": 300000,
+       "rate": 0.0
+      },
+      {
+       "upto": 600000,
+       "rate": 0.05
+      },
+      {
+       "upto": 2000000,
+       "rate": 0.1
+      },
+      {
+       "upto": null,
+       "rate": 0.25
+      }
+     ],
+     "note": "Cumulative equivalents: 5% of excess over 300,000; 15,000 + 10% of excess over 600,000; 155,000 + 25% of excess over 2,000,000."
+    },
+    "base_input": "payment_amount",
+    "input_aliases": {
+     "atl": "atl_status"
+    },
+    "required_inputs": [
+     "payment_amount",
+     "atl_status",
+     "owner_type"
+    ]
+   },
+   "legislation_ref": "Division V of Part III of the First Schedule, Income Tax Ordinance, 2001 (s.155)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "Division V table verified against the 2019-amended ordinance, the Finance Act 2023 tax handbook and the 2026 master table. Non-ATL company rate 30% per the master table; non-ATL individual/AOP slab doubling noted as conventional but the exact mechanism was not verified - apply with care.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on rent of immovable property (s.155) — rate schedule"
+  },
+  {
+   "code": "CALC-WHT-156-PRIZES",
+   "kind": "rate_schedule",
+   "params": {
+    "rate_basis": "gross prize / winnings amount",
+    "rounding": "nearest_rupee",
+    "rates": [
+     {
+      "prize_category": "prize_bond_crossword",
+      "atl": "ATL",
+      "rate": 0.15
+     },
+     {
+      "prize_category": "prize_bond_crossword",
+      "atl": "non_ATL",
+      "rate": 0.3
+     },
+     {
+      "prize_category": "other_prizes",
+      "atl": "ATL",
+      "rate": 0.2
+     },
+     {
+      "prize_category": "other_prizes",
+      "atl": "non_ATL",
+      "rate": 0.4
+     }
+    ],
+    "base_input": "prize_amount",
+    "input_aliases": {
+     "atl": "atl_status"
+    },
+    "required_inputs": [
+     "prize_amount",
+     "atl_status",
+     "prize_category"
+    ]
+   },
+   "legislation_ref": "Division VI of Part III of the First Schedule, Income Tax Ordinance, 2001 (s.156)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "Rates verified against the Finance Act 2023 tax handbook and the 2026 master table. 'other_prizes' = quiz, raffle, lottery and promotional prizes offered by companies.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on prizes and winnings (s.156) — rate schedule"
+  },
+  {
+   "code": "CALC-WHT-152-ROYALTY-FTS",
+   "kind": "rate_schedule",
+   "params": {
+    "rate_basis": "gross amount of royalty or fee for technical services paid to the non-resident",
+    "rounding": "nearest_rupee",
+    "rates": [
+     {
+      "payment_nature": "royalty",
+      "rate": 0.15
+     },
+     {
+      "payment_nature": "fee_technical_services",
+      "rate": 0.15
+     }
+    ],
+    "base_input": "amount_chargeable_to_tax",
+    "input_aliases": {},
+    "required_inputs": [
+     "amount_chargeable_to_tax",
+     "payment_nature"
+    ]
+   },
+   "legislation_ref": "Division IV of Part I of the First Schedule, Income Tax Ordinance, 2001 (s.152(1) read with s.6)",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "verification_status": "verified",
+   "review_notes": "15% verified against the 2018/2019-amended ordinance copies and the ResearchGate paper on non-resident taxation. Tax-treaty reduced rates are deliberately not encoded. Fee for offshore digital services (5% in the 2019-amended text) was sighted but not reconfirmed as current - flagged for follow-up. s.152(2) 'other payments' Division II Part III rates not encoded.",
+   "tax_category": "withholding_tax",
+   "name": "Withholding on payments to non-residents (s.152) — rate schedule"
+  }
+ ],
+ "scenarios": [
+  {
+   "code": "SCN-WHT-153-GOODS-NO-DEDUCTION",
+   "description": "A company purchases goods from a resident supplier and pays the full invoice amount with no withholding. The engine should determine whether the payer was a prescribed person, select the correct rate, quantify the undeducted tax, and surface the s.161 exposure.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "goods"
+     },
+     {
+      "field": "payer_is_withholding_agent",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "payee_residency",
+      "op": "eq",
+      "value": "resident"
+     },
+     {
+      "field": "tax_deducted",
+      "op": "eq",
+      "value": false
+     },
+     {
+      "field": "transaction_date",
+      "op": "date_between",
+      "value": [
+       "2025-07-01",
+       "2026-06-30"
+      ]
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-WHT-153-GOODS",
+     "RULE-WHT-160-161"
+    ],
+    "risk_codes": [
+     "RISK-WHT-NO-DEDUCTION",
+     "RISK-WHT-OMITTED-RECON"
+    ],
+    "evidence_codes": [
+     "EV-PURCHASE-INVOICE",
+     "EV-SUPPLIER-PAYMENTS",
+     "EV-BANK-STATEMENT",
+     "EV-WHT-CERTIFICATE",
+     "EV-RECONCILIATION"
+    ],
+    "procedure_codes": [
+     "PROC-COMPLETENESS",
+     "PROC-CALC-WHT",
+     "PROC-RECON-WHT"
+    ],
+    "calc_codes": [
+     "CALC-WHT-153-GOODS"
+    ]
+   },
+   "review_status": "verified",
+   "name": "Purchase of goods from a resident supplier with no tax deducted",
+   "category": "withholding_tax"
+  },
+  {
+   "code": "SCN-WHT-153-SERVICES-WRONG-RATE",
+   "description": "A company pays for unspecified services in August 2025 and deducts at the old 9% rate instead of the Finance Act 2025 rate of 15%. The engine should detect the rate mismatch for the payment date and quantify the shortfall.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "services"
+     },
+     {
+      "field": "service_category",
+      "op": "eq",
+      "value": "other_services"
+     },
+     {
+      "field": "transaction_date",
+      "op": "date_between",
+      "value": [
+       "2025-07-01",
+       "2026-06-30"
+      ]
+     },
+     {
+      "field": "rate_applied",
+      "op": "eq",
+      "value": 0.09
+     },
+     {
+      "field": "tax_deducted",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-WHT-153-SERVICES",
+     "RULE-WHT-160-161"
+    ],
+    "risk_codes": [
+     "RISK-WHT-WRONG-RATE",
+     "RISK-WHT-WRONG-STATUS"
+    ],
+    "evidence_codes": [
+     "EV-CONTRACT",
+     "EV-SUPPLIER-PAYMENTS",
+     "EV-WHT-CERTIFICATE",
+     "EV-RECONCILIATION"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-WHT",
+     "PROC-DOC-VERIFY"
+    ],
+    "calc_codes": [
+     "CALC-WHT-153-SERVICES"
+    ]
+   },
+   "review_status": "verified",
+   "name": "Services payment deducted at the wrong rate after the Finance Act 2025 change",
+   "category": "withholding_tax"
+  },
+  {
+   "code": "SCN-WHT-149-SALARY-AVERAGE-RATE",
+   "description": "An employer deducts a flat amount each month that does not reconcile with the average-rate computation on the employee's estimated annual salary income. The engine should recompute the annual tax on the estimated salary using the TY2026 slab and compare the implied average rate with actual deductions.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "salary"
+     },
+     {
+      "field": "payee_is_employee",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "deduction_tracks_average_rate",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-WHT-149-SALARY",
+     "RULE-WHT-160-161"
+    ],
+    "risk_codes": [
+     "RISK-WHT-WRONG-BASE",
+     "RISK-WHT-NOT-DEPOSITED",
+     "RISK-WHT-CERT-MISMATCH"
+    ],
+    "evidence_codes": [
+     "EV-PAYROLL-RECORDS",
+     "EV-EMPLOYEE-PAYMENTS",
+     "EV-WHT-CERTIFICATE",
+     "EV-TAX-CHALLAN",
+     "EV-RECONCILIATION"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-WHT",
+     "PROC-RECON-WHT",
+     "PROC-COMPLETENESS"
+    ],
+    "calc_codes": [
+     "CALC-WHT-149-SALARY-TY2026"
+    ]
+   },
+   "review_status": "verified",
+   "name": "Monthly salary deduction does not track estimated annual salary",
+   "category": "withholding_tax"
+  },
+  {
+   "code": "SCN-WHT-155-RENT-INDIVIDUAL",
+   "description": "A company pays annual rent of Rs.1,800,000 to an individual landlord. The engine should confirm the payer's deduction obligation, apply the individual/AOP gross-rent slab, and check the ATL position.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "payment_category",
+      "op": "eq",
+      "value": "rent_immovable"
+     },
+     {
+      "field": "owner_type",
+      "op": "eq",
+      "value": "individual_aop"
+     },
+     {
+      "field": "payer_is_rent_withholding_agent",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "gross_annual_rent",
+      "op": "gte",
+      "value": 300000
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-WHT-155-RENT",
+     "RULE-WHT-160-161"
+    ],
+    "risk_codes": [
+     "RISK-WHT-NO-DEDUCTION",
+     "RISK-WHT-WRONG-RATE",
+     "RISK-WHT-WRONG-BASE",
+     "RISK-WHT-WRONG-STATUS"
+    ],
+    "evidence_codes": [
+     "EV-RENT-AGREEMENT",
+     "EV-EXPENSE-VOUCHER",
+     "EV-BANK-STATEMENT",
+     "EV-WHT-CERTIFICATE",
+     "EV-RECONCILIATION"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-WHT",
+     "PROC-DOC-VERIFY",
+     "PROC-RECON-WHT"
+    ],
+    "calc_codes": [
+     "CALC-WHT-155-RENT"
+    ]
+   },
+   "review_status": "verified",
+   "name": "Rent paid to an individual landlord - slab selection and payer obligation",
+   "category": "withholding_tax"
+  },
+  {
+   "code": "SCN-WHT-DEPOSIT-DELAY",
+   "description": "A non-government withholding agent deducts tax on 5 October and deposits it on 5 November, missing the Rule 43(b) deadline (within seven days from the end of each week ending on Sunday). The engine should flag the delay and surface the s.161(1)(b) personal-liability consequence.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "tax_deducted",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_deposited_on_time",
+      "op": "eq",
+      "value": false
+     },
+     {
+      "field": "payer_is_government",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-WHT-160-161"
+    ],
+    "risk_codes": [
+     "RISK-WHT-NOT-DEPOSITED"
+    ],
+    "evidence_codes": [
+     "EV-TAX-CHALLAN",
+     "EV-BANK-STATEMENT",
+     "EV-RECONCILIATION",
+     "EV-GENERAL-LEDGER"
+    ],
+    "procedure_codes": [
+     "PROC-RECON-WHT",
+     "PROC-RECON-PAYMENTS"
+    ],
+    "calc_codes": []
+   },
+   "review_status": "verified",
+   "name": "Tax deducted but deposited late",
+   "category": "withholding_tax"
+  },
+  {
+   "code": "SCN-WHT-EXEMPTION-UNCERTAIN",
+   "description": "A supplier provides a document described as a Commissioner's exemption certificate, but its validity period or scope is unclear. The engine should require verification of the certificate before suppressing withholding, and quantify the exposure if the certificate proves invalid.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "exemption_claimed",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "certificate_valid_for_payment",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-WHT-159-EXEMPTION-CERT",
+     "RULE-WHT-153-SERVICES",
+     "RULE-WHT-160-161"
+    ],
+    "risk_codes": [
+     "RISK-WHT-UNSUPPORTED-EXEMPTION",
+     "RISK-WHT-NO-DEDUCTION"
+    ],
+    "evidence_codes": [
+     "EV-WHT-CERTIFICATE",
+     "EV-REGISTRATION-CERT",
+     "EV-SUPPLIER-PAYMENTS"
+    ],
+    "procedure_codes": [
+     "PROC-ELIGIBILITY",
+     "PROC-DOC-VERIFY"
+    ],
+    "calc_codes": [
+     "CALC-WHT-153-SERVICES"
+    ]
+   },
+   "review_status": "verified",
+   "name": "Supplier presents an exemption certificate of uncertain validity",
+   "category": "withholding_tax"
+  },
+  {
+   "code": "SCN-WHT-152-ROYALTY",
+   "description": "A company pays a royalty to a non-resident licensor with no permanent establishment in Pakistan. The engine should apply s.152(1) at 15% of the gross amount, flag the s.152(5) notice consideration, and note that treaty-reduced rates are not encoded.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "payee_residency",
+      "op": "eq",
+      "value": "non_resident"
+     },
+     {
+      "field": "payment_nature",
+      "op": "eq",
+      "value": "royalty"
+     },
+     {
+      "field": "amount_chargeable_to_tax",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-WHT-152-NONRESIDENT",
+     "RULE-WHT-160-161"
+    ],
+    "risk_codes": [
+     "RISK-WHT-NO-DEDUCTION",
+     "RISK-WHT-WRONG-STATUS",
+     "RISK-WHT-WRONG-RATE"
+    ],
+    "evidence_codes": [
+     "EV-CONTRACT",
+     "EV-BANK-STATEMENT",
+     "EV-WHT-CERTIFICATE",
+     "EV-TAX-CHALLAN",
+     "EV-RECONCILIATION"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-WHT",
+     "PROC-ELIGIBILITY",
+     "PROC-RECON-WHT"
+    ],
+    "calc_codes": [
+     "CALC-WHT-152-ROYALTY-FTS"
+    ]
+   },
+   "review_status": "verified",
+   "name": "Royalty paid to a non-resident licensor",
+   "category": "withholding_tax"
+  },
+  {
+   "code": "SCN-WHT-CERT-RECON",
+   "description": "The total of s.164 certificates issued to payees for the year differs from the WHT ledger and the deposited amounts. The engine should drive a three-way reconciliation (ledger vs challans/CPRs vs certificates vs s.165 statement) and surface unmatched items as discrepancies.",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "certificates_reconcile",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_chain": {
+    "rule_codes": [
+     "RULE-WHT-164-CERTIFICATE",
+     "RULE-WHT-165-STATEMENTS",
+     "RULE-WHT-160-161"
+    ],
+    "risk_codes": [
+     "RISK-WHT-CERT-MISMATCH",
+     "RISK-WHT-NOT-REPORTED",
+     "RISK-WHT-OMITTED-RECON"
+    ],
+    "evidence_codes": [
+     "EV-WHT-CERTIFICATE",
+     "EV-TAX-CHALLAN",
+     "EV-RECONCILIATION",
+     "EV-RETURN-ACK",
+     "EV-TAX-CREDIT-RECORD"
+    ],
+    "procedure_codes": [
+     "PROC-RECON-WHT",
+     "PROC-DOC-VERIFY"
+    ],
+    "calc_codes": []
+   },
+   "review_status": "verified",
+   "name": "Withholding tax certificates do not reconcile with the ledger",
+   "category": "withholding_tax"
+  }
+ ],
+ "evidence": [],
+ "procedures": []
+}

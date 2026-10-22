@@ -1,0 +1,3552 @@
+{
+ "calc_tables": [
+  {
+   "code": "CALC-INC-SLAB-IND-TY2025",
+   "effective_from": "2024-07-01",
+   "effective_to": "2025-06-30",
+   "kind": "slab",
+   "legislation_ref": "LEG-ITO2001-FA2024-SCH1",
+   "params": {
+    "base": "annual taxable income (PKR)",
+    "rounding": "nearest_rupee",
+    "slabs": [
+     {
+      "rate": 0.0,
+      "upto": 600000
+     },
+     {
+      "rate": 0.05,
+      "upto": 1200000
+     },
+     {
+      "rate": 0.15,
+      "upto": 2200000
+     },
+     {
+      "rate": 0.25,
+      "upto": 3200000
+     },
+     {
+      "rate": 0.3,
+      "upto": 4100000
+     },
+     {
+      "rate": 0.35,
+      "upto": null
+     }
+    ],
+    "taxpayer_scope": "salaried individuals (salary exceeds 75% of taxable income), First Schedule Part I Division I"
+   },
+   "review_notes": "Verified 2026-10-21 against 4+ independent sources; marginal chaining recomputed: 5%x600k=30,000; 30,000+15%x1,000k=180,000; 180,000+25%x1,000k=430,000; 430,000+30%x900k=700,000. Test vectors: income 1,200,000 -> 30,000; income 2,500,000 -> 255,000; income 600,000 -> 0. s.4AB surcharge (10% above Rs 10M for TY2025) NOT included - encode separately when verified. Superseded for TY2026 by CALC-INC-SLAB-IND-TY2026.",
+   "verification_status": "verified",
+   "name": "Individual (salaried) progressive slabs - TY2025",
+   "tax_category": "income_tax"
+  },
+  {
+   "code": "CALC-INC-SLAB-IND-TY2026",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "kind": "slab",
+   "legislation_ref": "LEG-ITO2001-FA2025-SCH1",
+   "params": {
+    "base": "annual taxable income (PKR)",
+    "rounding": "nearest_rupee",
+    "slabs": [
+     {
+      "rate": 0.0,
+      "upto": 600000
+     },
+     {
+      "rate": 0.01,
+      "upto": 1200000
+     },
+     {
+      "rate": 0.11,
+      "upto": 2200000
+     },
+     {
+      "rate": 0.23,
+      "upto": 3200000
+     },
+     {
+      "rate": 0.3,
+      "upto": 4100000
+     },
+     {
+      "rate": 0.35,
+      "upto": null
+     }
+    ],
+    "taxpayer_scope": "salaried individuals (salary exceeds 75% of taxable income), First Schedule Part I Division I"
+   },
+   "review_notes": "Verified 2026-10-21 against 7 independent sources; marginal chaining recomputed: 1%x600k=6,000; 6,000+11%x1,000k=116,000; 116,000+23%x1,000k=346,000; 346,000+30%x900k=616,000. Test vectors: income 2,500,000 -> 185,000; income 1,200,000 -> 6,000; income 5,000,000 -> 616,000+35%x900,000=931,000. Surcharge treatment for TY2026 contested between sources (9% vs withdrawn for salaried) - NOT encoded. Supersedes CALC-INC-SLAB-IND-TY2025.",
+   "supersedes_code": "CALC-INC-SLAB-IND-TY2025",
+   "verification_status": "verified",
+   "name": "Individual (salaried) progressive slabs - TY2026",
+   "tax_category": "income_tax"
+  },
+  {
+   "code": "CALC-INC-DEP-BUILDING",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "kind": "percentage",
+   "legislation_ref": "LEG-ITO2001-SCH3-P1",
+   "params": {
+    "asset_category": "Building (all types) - Third Schedule Part I Item I",
+    "base": "written down value at the beginning of the tax year (s.22(5))",
+    "first_use_factor": 0.5,
+    "first_use_note": "Where the asset is first used in the business in a tax year commencing on or after 2020-07-01, multiply the computed depreciation by 0.5 (Finance Act 2020 proviso to s.22(2)).",
+    "rate": 0.1,
+    "rate_basis": "Third Schedule Part I rate applied to WDV",
+    "rounding": "nearest_rupee"
+   },
+   "review_notes": "Rate 10% verified 2026-10-21 across multiple reproductions of the FBR-issued updated Ordinance. first_use_factor is engine data encoding the FA2020 proviso.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21). Applies to the Third Schedule Part I rate table.",
+   "verification_status": "verified",
+   "name": "Tax depreciation - buildings (10% of WDV)",
+   "tax_category": "income_tax"
+  },
+  {
+   "code": "CALC-INC-DEP-PLANT",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "kind": "percentage",
+   "legislation_ref": "LEG-ITO2001-SCH3-P1",
+   "params": {
+    "asset_category": "Furniture (incl. fittings) and machinery and plant (not otherwise specified), motor vehicles (all types), ships, technical or professional books - Third Schedule Part I Item II",
+    "base": "written down value at the beginning of the tax year (s.22(5))",
+    "first_use_factor": 0.5,
+    "first_use_note": "Where the asset is first used in the business in a tax year commencing on or after 2020-07-01, multiply the computed depreciation by 0.5 (Finance Act 2020 proviso to s.22(2)).",
+    "rate": 0.15,
+    "rate_basis": "Third Schedule Part I rate applied to WDV",
+    "rounding": "nearest_rupee"
+   },
+   "review_notes": "Rate 15% verified 2026-10-21 across multiple reproductions of the FBR-issued updated Ordinance.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21). Applies to the Third Schedule Part I rate table.",
+   "verification_status": "verified",
+   "name": "Tax depreciation - plant, machinery, vehicles (15% of WDV)",
+   "tax_category": "income_tax"
+  },
+  {
+   "code": "CALC-INC-DEP-IT",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "kind": "percentage",
+   "legislation_ref": "LEG-ITO2001-SCH3-P1",
+   "params": {
+    "asset_category": "Computer hardware (incl. printer, monitor, allied items), machinery/equipment used in manufacture of IT products, aircrafts and aero engines - Third Schedule Part I Item III",
+    "base": "written down value at the beginning of the tax year (s.22(5))",
+    "first_use_factor": 0.5,
+    "first_use_note": "Where the asset is first used in the business in a tax year commencing on or after 2020-07-01, multiply the computed depreciation by 0.5 (Finance Act 2020 proviso to s.22(2)).",
+    "rate": 0.3,
+    "rate_basis": "Third Schedule Part I rate applied to WDV",
+    "rounding": "nearest_rupee"
+   },
+   "review_notes": "Rate 30% verified 2026-10-21 across multiple reproductions of the FBR-issued updated Ordinance.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21). Applies to the Third Schedule Part I rate table.",
+   "verification_status": "verified",
+   "name": "Tax depreciation - IT hardware, aircraft (30% of WDV)",
+   "tax_category": "income_tax"
+  },
+  {
+   "code": "CALC-INC-DEP-RAMP",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "kind": "percentage",
+   "legislation_ref": "LEG-ITO2001-SCH3-P1",
+   "params": {
+    "asset_category": "Ramp built to provide access to persons with disabilities, not exceeding Rs 250,000 each - Third Schedule Part I Item V",
+    "base": "written down value at the beginning of the tax year (s.22(5))",
+    "first_use_factor": 0.5,
+    "first_use_note": "Where the asset is first used in the business in a tax year commencing on or after 2020-07-01, multiply the computed depreciation by 0.5 (Finance Act 2020 proviso to s.22(2)).",
+    "rate": 1.0,
+    "rate_basis": "Third Schedule Part I rate applied to WDV",
+    "rounding": "nearest_rupee"
+   },
+   "review_notes": "Rate 100% verified 2026-10-21 across multiple reproductions. Third Schedule Part I Item IV excluded (wording garbled in all available reproductions).\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21). Applies to the Third Schedule Part I rate table.",
+   "verification_status": "verified",
+   "name": "Tax depreciation - disability access ramp (100% of WDV)",
+   "tax_category": "income_tax"
+  },
+  {
+   "code": "CALC-INC-CREDIT-S61",
+   "effective_from": "2024-07-01",
+   "effective_to": "2025-06-30",
+   "kind": "percentage",
+   "legislation_ref": "LEG-ITO2001-S61",
+   "params": {
+    "base": "qualifying donations C, where C = lesser of donations made (property at FMV) or the applicable cap on taxable income",
+    "cap": {
+     "cap_rate_associate_donation_company": 0.1,
+     "cap_rate_associate_donation_individual_aop": 0.15,
+     "cap_rate_company": 0.2,
+     "cap_rate_individual_aop": 0.3,
+     "cap_reference": "cap x taxable income; use associate cap where the donation is to an associate"
+    },
+    "formula": "credit = (A / B) x C, where A = tax assessed before any tax credits, B = taxable income, C = lesser of qualifying donations or cap",
+    "rate": "A/B (tax assessed before credits divided by taxable income) - computed per case, not a fixed rate",
+    "rate_basis": "effective rate of tax before credits applied to capped qualifying donations",
+    "rounding": "nearest_rupee"
+   },
+   "review_notes": "Verified 2026-10-21: formula, caps (30%/20%; 15%/10% associate), crossed-cheque requirement per pkrevenue TY2025-26 treatment; availability for TY2025 confirmed by PBC Oct 2025 letter. kind=percentage is the closest schema fit; the per-case rate A/B and caps are documented in params.\nEffective window set to TY2025 (2024-07-01 to 2025-06-30): s.61 credit availability verified for TY2025 only (PBC Oct 2025 letter; pkrevenue TY2025-26 treatment). Earlier/later availability not verified in this pass.",
+   "verification_status": "verified",
+   "name": "Tax credit for charitable donations (s.61) - (A/B) x C",
+   "tax_category": "income_tax"
+  }
+ ],
+ "evidence": [],
+ "legislation": [
+  {
+   "amendment_history": "Original provision of the Ordinance; 18(1)(d) Explanation on benefit/waiver inserted by Finance Act 2002; 18(1)(e) punctuation amended by Finance Act 2011.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S18",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 18",
+   "review_status": "verified",
+   "rule_description": "Incomes chargeable under the head 'Income from Business': (a) profits and gains of any business carried on at any time in the year; (b) income of trade/professional associations from sales/services to members; (c) hire/lease of tangible movable property; (d) FMV of any benefit/perquisite from a business relationship; (e) management company fees. Profit on debt of a person whose business is deriving such income is business income, not other sources.",
+   "subsection": "18(1)(a)-(e), 18(2)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Words 'wholly and exclusively for the purposes of business' substituted by Finance Act 2004.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S20",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 20",
+   "review_status": "verified",
+   "rule_description": "Deduction allowed for expenditure incurred in the year wholly and exclusively for the purposes of business in computing income under the head 'Income from Business'. Expenditure acquiring a depreciable asset, an intangible with useful life over one year, or pre-commencement expenditure must be depreciated/amortised under ss.22-25 (not deducted outright).",
+   "subsection": "20(1), 20(2)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Clause (c) substituted (current text with 20% proviso); (ca) inserted; (ea) inserted restricting fund-contribution deduction to 50%; (la) inserted by Finance (Supplementary) Act 2021 (company expenditure >Rs 250,000 per account head not by digital means); (r) inserted (fiscal device integration, 8%); (s) inserted by Finance Act 2025 (effective 2025-07-01).\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S21",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 21",
+   "review_status": "verified",
+   "rule_description": "Deductions not allowed under the head 'Income from Business' for: (a) taxes on business profits; (b) tax deducted from the person's own income; (c) expenditure subject to withholding/collection where tax not deducted and paid (20% cap on raw material/finished goods disallowance; s.161/162 recoveries treated as tax paid); (ca) commission above 0.2% of gross supplies on Sales Tax Act Third Schedule products unless payee on ATL; (d) entertainment above prescribed limits; (e) contributions to non-recognised funds; (f) fund contributions without s.149 arrangements; (g) fines/penalties; (h) personal expenditure; (i) reserves/capitalised amounts; (j) payments by AOP to members; salary/banking-channel threshold clauses; (ea) 50% of employer contribution to approved gratuity/pension/superannuation funds; (r) up to 8% disallowance for non-integration with Board fiscal devices; (s) 50% of expenditure attributable to cash sales on a single invoice exceeding Rs 200,000 (Finance Act 2025).",
+   "subsection": "21(a)-(s)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Finance Act 2020: proviso to 22(2) - 50% reduction for assets first used in tax years commencing on/after 2020-07-01; related 22(8) proviso - 50% of rate in year of disposal for such assets.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S22",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 22",
+   "review_status": "verified",
+   "rule_description": "Deduction for depreciation of depreciable assets used in business: computed by applying the Third Schedule Part I rate to the written down value at the beginning of the year; 50% reduction where the asset is first used in a tax year commencing on/after 2020-07-01; fair proportional part for mixed use; WDV = cost less initial allowance (if acquired in year) or cost less prior depreciation/initial allowance; total deductions under ss.22-23 capped at cost; on disposal in a year no depreciation is allowed and (a) excess of consideration over WDV is chargeable under 'Income from Business', (b) shortfall is deductible under that head; passenger transport vehicle not plying for hire cost capped at Rs 2,500,000.",
+   "subsection": "22(1),(2),(3),(5),(7),(8),(13)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Item III extended to IT manufacturing equipment; Item V (ramps) inserted. Item IV text inconsistent across reproductions - not seeded.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-SCH3-P1",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001 - Third Schedule, Part I",
+   "provision": "Third Schedule, Part I (see s.22)",
+   "review_status": "verified",
+   "rule_description": "Depreciation rates for s.22: I. Building (all types) 10%; II. Furniture (incl. fittings) and machinery and plant (not otherwise specified), motor vehicles (all types), ships, technical or professional books 15%; III. Computer hardware (incl. printer, monitor, allied items), machinery/equipment used in manufacture of IT products, aircrafts and aero engines 30%; V. Ramp for disabled access (<=Rs 250,000 each) 100%. Item IV wording garbled in available reproductions and excluded from this seed.",
+   "subsection": "Items I, II, III, V",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Not verified in this research pass.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S37",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 37",
+   "review_status": "draft",
+   "rule_description": "Per secondary reproductions: a gain arising on the disposal of a capital asset by a person in a tax year (other than exempt gains) is chargeable under the head 'Capital Gains'; gain computed as A-B where A is consideration received and B is cost of the asset. Official-text verification pending.",
+   "subsection": "37(1),(2)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Amended by Finance Act 2021; availability for TY2025 confirmed by PBC correspondence on IRIS return computation (Oct 2025); TY2025-26 treatment described by pkrevenue.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S61",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 61",
+   "review_status": "verified",
+   "rule_description": "Tax credit (not deduction) for charitable donations: available for money/property donated to boards of education/universities established by law, government-run schools/hospitals/relief funds, NPOs eligible under s.100C, and Thirteenth Schedule organisations/funds. Credit = (A/B) x C where A = tax assessed before credits, B = taxable income, C = lesser of donations (property at FMV) or 30% of taxable income (individuals/AOPs) / 20% (companies); 15%/10% respectively for donations to an associate. Cash donations must be by crossed cheque to qualify.",
+   "subsection": "61(1)-(3)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": "2025, 2026",
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Substituted by Finance Act 2002 (current text).\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S74",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 74",
+   "review_status": "verified",
+   "rule_description": "Tax year is a period of twelve months ending 30 June ('normal tax year'), denoted by the calendar year in which 30 June falls. A person may apply to the Commissioner to use a different twelve-month period ('special tax year').",
+   "subsection": "74(1),(2),(3)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Subsections (3)-(5) documentation obligations inserted (per FBR page text).\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S108",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 108",
+   "review_status": "verified",
+   "rule_description": "Transactions between associates: the Commissioner may distribute/apportion/allocate income, deductions or tax credits between associates to reflect an arm's length outcome, and may determine source and revenue/capital nature. Taxpayers with associate transactions must maintain a master file and local file, keep/furnish CbCR where applicable, and keep other prescribed documentation; furnish within 30 days if required by the Commissioner (extension up to 45 days, longer only in exceptional circumstances).",
+   "subsection": "108(1)-(5)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-108-FBR"
+  },
+  {
+   "amendment_history": "Filer categories in 114(1) amended from time to time; mechanism requirements per 114(2) stable.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S114",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 114",
+   "review_status": "verified",
+   "rule_description": "Return of income: persons specified in s.114(1) must furnish a return of income for the tax year. The return must be in the prescribed form, fully state required particulars, declare records kept, be duly signed, be accompanied by due payment of tax, and be accompanied by a wealth statement / foreign income and assets statement where required.",
+   "subsection": "114(1),(2)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Finance Act 2019: salaried-person due date aligned to 30 September (previously 31 August).\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "code": "LEG-ITO2001-S118",
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "issuing_authority": "Government of Pakistan",
+   "jurisdiction": "federal",
+   "name": "Income Tax Ordinance, 2001",
+   "provision": "Section 118",
+   "review_status": "verified",
+   "rule_description": "Method of furnishing returns: returns under s.114 furnished in the prescribed manner. Company with tax year ending Jan-June: due 31 December next following; other companies: 30 September next following. Other persons: 30 September next following the end of the tax year (Finance Act 2019 aligned salaried individuals to 30 September).",
+   "subsection": "118(1),(2),(3)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": null,
+   "source_code": "SRC-ITO-ORD"
+  },
+  {
+   "amendment_history": "Enacted by Finance Act, 2024; superseded for TY2026 by Finance Act, 2025.",
+   "code": "LEG-ITO2001-FA2024-SCH1",
+   "effective_from": "2024-07-01",
+   "effective_to": "2025-06-30",
+   "issuing_authority": "Government of Pakistan (Parliament)",
+   "jurisdiction": "federal",
+   "name": "Finance Act, 2024 - First Schedule Part I Division I",
+   "provision": "First Schedule, Part I, Division I",
+   "review_status": "verified",
+   "rule_description": "Progressive marginal rates for TY2025: 0% to 600,000; 5% of excess over 600,000 to 1,200,000; 30,000 + 15% of excess over 1,200,000 to 2,200,000; 180,000 + 25% of excess over 2,200,000 to 3,200,000; 430,000 + 30% of excess over 3,200,000 to 4,100,000; 700,000 + 35% of excess over 4,100,000. Applies to tax year 2025 (01-07-2024 to 30-06-2025).",
+   "subsection": "Salaried individuals (salary exceeds 75% of taxable income)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": "2025",
+   "source_code": "SRC-ITO-SLAB-TY2025"
+  },
+  {
+   "amendment_history": "Enacted by Finance Act, 2025; supersedes the Finance Act 2024 slab table for TY2026.",
+   "code": "LEG-ITO2001-FA2025-SCH1",
+   "effective_from": "2025-07-01",
+   "effective_to": "2026-06-30",
+   "issuing_authority": "Government of Pakistan (Parliament)",
+   "jurisdiction": "federal",
+   "name": "Finance Act, 2025 - First Schedule Part I Division I",
+   "provision": "First Schedule, Part I, Division I",
+   "review_status": "verified",
+   "rule_description": "Progressive marginal rates for TY2026: 0% to 600,000; 1% of excess over 600,000 to 1,200,000; 6,000 + 11% of excess over 1,200,000 to 2,200,000; 116,000 + 23% of excess over 2,200,000 to 3,200,000; 346,000 + 30% of excess over 3,200,000 to 4,100,000; 616,000 + 35% of excess over 4,100,000. Applies to tax year 2026 (01-07-2025 to 30-06-2026). Surcharge treatment for TY2026 contested between sources - not encoded.",
+   "subsection": "Salaried individuals (salary exceeds 75% of taxable income)",
+   "source_verified_date": "2026-10-21",
+   "tax_year": "2026",
+   "source_code": "SRC-ITO-SLAB-TY2026"
+  }
+ ],
+ "meta": {
+  "author": "research-agent-income-tax",
+  "domain": "income_tax",
+  "notes": "Researched 2026-10-21 via web search against FBR and secondary reproductions of the Income Tax Ordinance, 2001. Authoritative checks: s.108 verified against FBR's own section page (fbr.gov.pk/section-108/152715). Core provision texts (ss.18, 20, 21, 22, 74, 114, 118, Third Schedule Part I) cross-checked across multiple independent reproductions of the FBR-issued updated Ordinance text (pkrevenue citing the FBR-issued text updated to 30.06.2021; lawkidunya; fairservicez/greenwood ordinance PDFs amended to 2018/2019; pakistanitaxpayers PDF updated to 15.01.2022). Individual salaried slabs for TY2025 (Finance Act 2024) and TY2026 (Finance Act 2025) corroborated across 5+ independent sources with marginal-rate chaining verified (base amounts recomputed and consistent); hamariweb's inconsistent base figures (350,000/620,000) rejected. s.61 charitable-credit availability confirmed by 2025 sources (pkrevenue TY2025-26 treatment; PBC letter Oct 2025 on IRIS computing s.61 credits in TY2025 returns). Cutoff: law as understood on 2026-10-21; effective_to null means 'in force to best of knowledge on prepared_date'. GAPS (draft): s.37 capital-gains text quoted only from secondary sources (official-text check pending); s.61-style credits beyond s.61 (e.g. s.63 pension, s.64/63A housing) not encoded; s.4AB surcharge NOT encoded (TY2025 10%-above-10M corroborated but TY2026 treatment contested between sources: 9% vs withdrawn for salaried); Third Schedule Part I item IV wording garbled in all available reproductions - excluded; s.21 salary/banking-channel clause thresholds are era-dependent and were not re-verified against the current official text; s.114(1) filer categories encoded as mechanism only, not the full statutory list.\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]",
+  "prepared_date": "2026-10-21"
+ },
+ "procedures": [],
+ "risks": [
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     }
+    ]
+   },
+   "code": "RISK-INC-001",
+   "description": "Expenses recorded on a commercial basis (fines, penalties, personal expenditure, unapproved fund contributions, entertainment above limits, payments without required withholding, cash-mode payments) are claimed as deductions although s.21 disallows them. The discrepancy is a potential_error until investigated; it becomes an identified tax discrepancy only after the facts are established. It must not be labelled evasion or fraud.",
+   "evidence_codes": [
+    "EV-BANK-STATEMENT",
+    "EV-EXPENSE-VOUCHER",
+    "EV-GENERAL-LEDGER",
+    "EV-SUPPLIER-PAYMENTS"
+   ],
+   "follow_up_action": "Add back the disallowed amount in the tax computation; correct the book-tax bridge; strengthen voucher review and withholding checks for future periods.",
+   "jurisdiction": "federal",
+   "penalty_implications": null,
+   "possible_tax_exposure": "If established, taxable income is understated by the disallowed amount; the tax effect is the disallowed amount multiplied by the taxpayer's applicable rate. Penalty and default surcharge provisions were not verified in this research pass and are not computed.",
+   "potential_financial_effect": "Higher taxable income and tax payable on correction; possible interest/default surcharge under provisions not encoded in this seed.",
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "related_rule_codes": [
+    "RULE-INC-S21-DISALLOW",
+    "RULE-INC-EVIDENCE-DEDUCTION"
+   ],
+   "required_information": [
+    "Expense ledger with narrations",
+    "Payment mode evidence",
+    "Withholding deduction/deposit proof",
+    "Fund approval status"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Fines/penalties in the profit and loss account",
+    "Large cash payments",
+    "Payments to suppliers without withholding",
+    "Personal expenses in business books",
+    "Contributions to unapproved funds",
+    "Entertainment costs without limits documentation"
+   ],
+   "root_cause": "Accounts record expenses on a commercial/incurred basis while tax law (s.21) disallows specific categories regardless of commercial justification.",
+   "source_references": [
+    "LEG-ITO2001-S21",
+    "SRC-ITO-S21-TEXT"
+   ],
+   "tax_category": "income_tax",
+   "title": "Inadmissible expenditure claimed as a business deduction"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "depreciable_assets_held",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-INC-002",
+   "description": "The tax computation uses accounting depreciation (e.g. straight-line over useful life) as the tax deduction without adding it back and computing s.22 depreciation separately (WDV x Third Schedule rate, 50% first-use reduction where applicable). This is a potential_error; the correct tax depreciation may be higher or lower than book depreciation.",
+   "evidence_codes": [
+    "EV-ASSET-REGISTER",
+    "EV-DEPRECIATION-SCHEDULE",
+    "EV-FINANCIAL-STATEMENTS",
+    "EV-FIXED-ASSET-DOCS"
+   ],
+   "follow_up_action": "Recompute tax depreciation per RULE-INC-S22-DEPRECIATION; restate the tax computation; maintain a standing tax fixed-asset register separate from the book register.",
+   "jurisdiction": "federal",
+   "penalty_implications": null,
+   "possible_tax_exposure": "Taxable income misstated by the difference between book and tax depreciation. Penalty and default surcharge provisions were not verified in this research pass and are not computed.",
+   "potential_financial_effect": "Under- or over-stated taxable income and tax payable for the year.",
+   "procedure_codes": [
+    "PROC-CALC-TAXABLE-INCOME",
+    "PROC-DOC-VERIFY"
+   ],
+   "related_rule_codes": [
+    "RULE-INC-S22-DEPRECIATION",
+    "RULE-INC-RECON-PROFIT"
+   ],
+   "required_information": [
+    "Book depreciation charge",
+    "Tax WDV schedule",
+    "Asset categories and first-use dates"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Tax computation starts from profit before tax with no depreciation adjustment",
+    "Single depreciation figure used for both books and tax",
+    "No tax WDV schedule maintained",
+    "First-year assets depreciated at full rate"
+   ],
+   "root_cause": "Book depreciation (accounting policy) is confused with the statutory tax depreciation mechanism in s.22, which uses prescribed rates on written down value.",
+   "source_references": [
+    "LEG-ITO2001-S22",
+    "LEG-ITO2001-SCH3-P1",
+    "SRC-ITO-S22-TEXT"
+   ],
+   "tax_category": "income_tax",
+   "title": "Accounting depreciation used as tax depreciation without adjustment"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     }
+    ]
+   },
+   "code": "RISK-INC-003",
+   "description": "Revenue earned in the year (sales, service income, other business receipts, disposal gains) is recorded in the accounting system but omitted from the tax computation, or receipts are misclassified so they escape the correct head. A potential_error until traced; do not label evasion.",
+   "evidence_codes": [
+    "EV-BANK-STATEMENT",
+    "EV-CUSTOMER-RECEIPTS",
+    "EV-GENERAL-LEDGER",
+    "EV-SALES-REGISTER"
+   ],
+   "follow_up_action": "Trace the omitted amount to source documents; include in the correct head (s.18 / s.22(8) / s.37); review cut-off and completeness controls.",
+   "jurisdiction": "federal",
+   "penalty_implications": null,
+   "possible_tax_exposure": "Taxable income understated by the omitted amount. Penalty and default surcharge provisions were not verified in this research pass and are not computed.",
+   "potential_financial_effect": "Understated taxable income and tax payable; return figures inconsistent with bank records.",
+   "procedure_codes": [
+    "PROC-COMPLETENESS",
+    "PROC-RECON-TURNOVER"
+   ],
+   "related_rule_codes": [
+    "RULE-INC-S18-BUSINESS-INCOME",
+    "RULE-INC-S22-DISPOSAL",
+    "RULE-INC-S37-CAPITAL-GAINS"
+   ],
+   "required_information": [
+    "Sales register and ledger",
+    "Bank statements",
+    "Customer receipts",
+    "Cut-off documentation"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Bank credits exceed recorded revenue",
+    "Sales register total differs from ledger",
+    "Year-end transactions near the cut-off",
+    "Disposal proceeds with no tax entry"
+   ],
+   "root_cause": "Breaks between the accounting records, the tax computation and the return allow earned amounts to be left out of taxable income.",
+   "source_references": [
+    "LEG-ITO2001-S18"
+   ],
+   "tax_category": "income_tax",
+   "title": "Business revenue omitted from the tax computation"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "transaction_with_associate",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-INC-004",
+   "description": "Transactions with associates (related parties) are priced without arm's length support and/or the s.108(3) documentation (master file, local file, CbCR where applicable) is missing, exposing the taxpayer to Commissioner reallocation of income, deductions or credits and to a separate documentation compliance failure (30-day furnishing on demand).",
+   "evidence_codes": [
+    "EV-CONTRACT",
+    "EV-EXPENSE-VOUCHER",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "follow_up_action": "Prepare/complete the master file and local file; benchmark pricing; respond to any Commissioner requisition within 30 days (seek extension in writing if needed, maximum 45 days absent exceptional circumstances).",
+   "jurisdiction": "federal",
+   "penalty_implications": null,
+   "possible_tax_exposure": "Income reallocated to the arm's length result; quantification needs a transfer-pricing analysis and is not computed by this seed. Penalty provisions were not verified in this research pass and are not computed.",
+   "potential_financial_effect": "Additional tax on reallocated income; compliance failure on documentation is independent of the pricing outcome.",
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "related_rule_codes": [
+    "RULE-INC-S108-ASSOCIATES"
+   ],
+   "required_information": [
+    "Related-party transaction listing",
+    "Contracts and pricing basis",
+    "Master file / local file / CbCR"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Related-party sales, purchases, services, royalties or loans",
+    "Management fees to group companies",
+    "No transfer-pricing documentation file",
+    "Pricing unchanged for years despite market moves"
+   ],
+   "root_cause": "Related-party pricing is set commercially without arm's length benchmarking, and the statutory documentation discipline in s.108(3)-(5) is not maintained.",
+   "source_references": [
+    "LEG-ITO2001-S108",
+    "SRC-ITO-108-FBR"
+   ],
+   "tax_category": "income_tax",
+   "title": "Associate transactions without arm's length support or documentation"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "asset_disposed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-INC-005",
+   "description": "A depreciable asset is disposed of and the s.22(8) consequence is not evaluated: no depreciation for the year is still claimed, and/or the excess of consideration over WDV (taxable as business income) or the shortfall (deductible) is left out of the computation.",
+   "evidence_codes": [
+    "EV-ASSET-REGISTER",
+    "EV-BANK-STATEMENT",
+    "EV-DEPRECIATION-SCHEDULE",
+    "EV-FIXED-ASSET-DOCS"
+   ],
+   "follow_up_action": "Compute the s.22(8) gain/loss; reverse any depreciation claimed for the disposal year; correct the computation and the fixed-asset register.",
+   "jurisdiction": "federal",
+   "penalty_implications": null,
+   "possible_tax_exposure": "Taxable income misstated by the unrecognised gain or the wrongly claimed depreciation. Penalty and default surcharge provisions were not verified in this research pass and are not computed.",
+   "potential_financial_effect": "Under- or over-stated taxable income for the disposal year.",
+   "procedure_codes": [
+    "PROC-CALC-TAXABLE-INCOME",
+    "PROC-DOC-VERIFY"
+   ],
+   "related_rule_codes": [
+    "RULE-INC-S22-DISPOSAL"
+   ],
+   "required_information": [
+    "Disposal agreement and consideration",
+    "WDV at disposal",
+    "Depreciation claimed for the year"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Asset register shows disposals with no tax computation",
+    "Depreciation claimed in the year of disposal",
+    "Sale proceeds credited to reserves or netted against asset cost"
+   ],
+   "root_cause": "Disposals are treated as pure accounting events; the s.22(8) statutory consequences (no depreciation; gain/loss vs WDV) are overlooked.",
+   "source_references": [
+    "LEG-ITO2001-S22",
+    "SRC-ITO-S22-TEXT"
+   ],
+   "tax_category": "income_tax",
+   "title": "Asset disposal tax consequences not evaluated"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "return_filed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-INC-006",
+   "description": "Figures in the filed return of income do not reconcile with the trial balance, financial statements, withholding certificates, challans or other supporting records (income, expenses, assets, liabilities, credits, payments). Each difference is an exception_flagged item to investigate, not an assumed underpayment.",
+   "evidence_codes": [
+    "EV-FINANCIAL-STATEMENTS",
+    "EV-RECONCILIATION",
+    "EV-RETURN-ACK",
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-TAX-CHALLAN",
+    "EV-TAX-CREDIT-RECORD",
+    "EV-TRIAL-BALANCE",
+    "EV-WHT-CERTIFICATE"
+   ],
+   "follow_up_action": "Prepare full reconciliations (profit-to-taxable, turnover, WHT credits, payments); investigate each difference to source; revise the return if the law permits.",
+   "jurisdiction": "federal",
+   "penalty_implications": null,
+   "possible_tax_exposure": "Depends on the direction and nature of each difference once established. Penalty and default surcharge provisions were not verified in this research pass and are not computed.",
+   "potential_financial_effect": "Incorrect tax payable/refundable; heightened audit selection risk.",
+   "procedure_codes": [
+    "PROC-RECON-PAYMENTS",
+    "PROC-RECON-PROFIT-TAXABLE",
+    "PROC-RECON-TURNOVER",
+    "PROC-RECON-WHT"
+   ],
+   "related_rule_codes": [
+    "RULE-INC-RECON-PROFIT",
+    "RULE-INC-S114-RETURN"
+   ],
+   "required_information": [
+    "Filed return and acknowledgement",
+    "Trial balance and financial statements",
+    "Withholding certificates and challans",
+    "Reconciliation workings"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Return income differs from ledger turnover",
+    "Credits claimed exceed certificates held",
+    "Payments in books differ from challans",
+    "Unexplained balance-sheet movements"
+   ],
+   "root_cause": "The return is prepared from summaries or prior-year workings without reconciling to the current year's books and third-party evidence.",
+   "source_references": [
+    "LEG-ITO2001-S114",
+    "LEG-ITO2001-S118"
+   ],
+   "tax_category": "income_tax",
+   "title": "Return figures inconsistent with supporting accounts and records"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "credit_or_exemption_claimed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-INC-007",
+   "description": "A tax credit or exemption (e.g. s.61 donations, pension-fund or investment credits) is claimed without verifying that the provision is in force for the tax year and that every condition and disqualifier is evidenced - including credits withdrawn by earlier Finance Acts that no longer exist.",
+   "evidence_codes": [
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-TAX-CREDIT-RECORD"
+   ],
+   "follow_up_action": "Apply RULE-INC-CREDIT-UNVERIFIED: identify the provision, confirm currency for the tax year, evidence each condition; reverse unverified claims.",
+   "jurisdiction": "federal",
+   "penalty_implications": null,
+   "possible_tax_exposure": "Tax payable understated by the wrongly claimed credit. Penalty and default surcharge provisions were not verified in this research pass and are not computed.",
+   "potential_financial_effect": "Understated tax payable; credit disallowed on verification.",
+   "procedure_codes": [
+    "PROC-ELIGIBILITY"
+   ],
+   "related_rule_codes": [
+    "RULE-INC-CREDIT-UNVERIFIED",
+    "RULE-INC-S61-DONATION-CREDIT"
+   ],
+   "required_information": [
+    "Statutory reference for the credit",
+    "Eligibility working with evidence",
+    "Recipient/fund approval status"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Credit claimed with no statutory reference in the working",
+    "Donation credit without crossed-cheque proof",
+    "Credit for a provision repealed in an earlier Finance Act",
+    "Conditions copied from a prior year's computation"
+   ],
+   "root_cause": "Credits are carried forward from prior-year computations or assumed from general knowledge without checking the current year's law and conditions.",
+   "source_references": [
+    "LEG-ITO2001-S61",
+    "SRC-ITO-S61"
+   ],
+   "tax_category": "income_tax",
+   "title": "Tax credit or exemption claimed without verifying current conditions"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "return_required",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-INC-008",
+   "description": "The return of income is filed after the s.118 due date (30 September next following the tax year for most taxpayers; 31 December for Jan-Jun year-end companies), or the filing obligation itself is missed, or the return is filed without the prescribed accompaniments (full particulars, signature, tax paid, wealth statement where required).",
+   "evidence_codes": [
+    "EV-RETURN-ACK",
+    "EV-TAX-CHALLAN"
+   ],
+   "follow_up_action": "Establish the correct due date per RULE-INC-S114-RETURN; file or revise as the law permits; diary future due dates with a buffer.",
+   "jurisdiction": "federal",
+   "penalty_implications": null,
+   "possible_tax_exposure": "Late-filing consequences depend on provisions not encoded in this seed. Penalty and default surcharge provisions were not verified in this research pass and are not computed.",
+   "potential_financial_effect": "Exposure to late-filing consequences under unverified provisions; loss of timely-filer status with downstream effects (e.g. withholding rates).",
+   "procedure_codes": [],
+   "related_rule_codes": [
+    "RULE-INC-S114-RETURN"
+   ],
+   "required_information": [
+    "Filing due date for the taxpayer class",
+    "Acknowledgement with filing timestamp",
+    "Proof of tax paid with return"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "No acknowledgement on file",
+    "Return filed after 30 September without extension",
+    "Missing wealth statement where required"
+   ],
+   "root_cause": "Due dates are misremembered (e.g. the pre-2019 31 August salaried date) or the filing calendar is not diarised.",
+   "source_references": [
+    "LEG-ITO2001-S114",
+    "LEG-ITO2001-S118"
+   ],
+   "tax_category": "income_tax",
+   "title": "Return filing deadline missed or filing incomplete"
+  }
+ ],
+ "rules": [
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-S18-BUSINESS-INCOME",
+   "decision_logic": {
+    "default": "Classify the receipt first (business profit, disposal gain, capital receipt, exempt amount) before assigning a head of income.",
+    "table": [
+     {
+      "then": "Chargeable under the head 'Income from Business' per s.18(1)(a). Deductibility of related costs tested under ss.20-21.",
+      "treatment_code": "business_profits",
+      "when": {
+       "all": [
+        {
+         "field": "receipt_nature",
+         "op": "eq",
+         "value": "profits_gains_of_business"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apply RULE-INC-S22-DISPOSAL: no depreciation for the year; excess of consideration over WDV chargeable under 'Income from Business', shortfall deductible under that head.",
+      "treatment_code": "depreciable_asset_disposal",
+      "when": {
+       "all": [
+        {
+         "field": "receipt_nature",
+         "op": "eq",
+         "value": "gain_on_disposal_depreciable_asset"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apply RULE-INC-S37-CAPITAL-GAINS (draft): chargeable under the head 'Capital Gains', not as business income. Do not conflate with s.22(8).",
+      "treatment_code": "capital_asset_disposal",
+      "when": {
+       "all": [
+        {
+         "field": "receipt_nature",
+         "op": "eq",
+         "value": "gain_on_disposal_capital_asset"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Not income: no charge under s.18. Record and document the nature (capital contribution, loan, etc.); trace to source.",
+      "treatment_code": "not_income",
+      "when": {
+       "all": [
+        {
+         "field": "receipt_nature",
+         "op": "in",
+         "value": [
+          "capital_contribution",
+          "loan_received",
+          "other_non_income_receipt"
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "then": "Excluded from charge by the applicable exemption provision. Verify the exemption for the tax year; retain evidence.",
+      "treatment_code": "exempt_receipt",
+      "when": {
+       "all": [
+        {
+         "field": "exemption_applies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-BANK-STATEMENT",
+    "EV-SALES-REGISTER",
+    "EV-GENERAL-LEDGER",
+    "EV-CUSTOMER-RECEIPTS"
+   ],
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "exemption_applies",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "receipt_nature",
+      "op": "eq",
+      "value": "not_income"
+     }
+    ]
+   },
+   "expected_treatment": "Incomes listed in s.18(1) (business profits/gains, association income from members, hire/lease of tangible movable property, FMV of business benefits, management fees) are chargeable under 'Income from Business'. Gains on disposal of depreciable assets fall under s.22(8) (same head); gains on other capital assets fall under s.37 (Capital Gains head). Capital receipts that are not income are not chargeable.",
+   "interpretation_note": "Software reading: the engine treats s.18 as the charging section for business receipts and routes disposal gains by asset class (s.22(8) vs s.37). The statute does not define 'revenue vs capital receipt' in one place; this routing is the engine's interpretation for assessment purposes.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S18",
+    "LEG-ITO2001-S22",
+    "LEG-ITO2001-S37"
+   ],
+   "procedure_codes": [
+    "PROC-COMPLETENESS",
+    "PROC-RECON-TURNOVER"
+   ],
+   "required_inputs": [
+    {
+     "choices": [
+      "profits_gains_of_business",
+      "gain_on_disposal_depreciable_asset",
+      "gain_on_disposal_capital_asset",
+      "capital_contribution",
+      "loan_received",
+      "other_non_income_receipt",
+      "unclassified"
+     ],
+     "data_type": "choice",
+     "label": "Nature of the receipt",
+     "name": "receipt_nature",
+     "required": true,
+     "source_hint": "Invoice/contract/bank advice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "An exemption provision applies for this tax year",
+     "name": "exemption_applies",
+     "required": true,
+     "source_hint": "Exemption schedule / Second Schedule"
+    },
+    {
+     "data_type": "date",
+     "label": "Tax year (period) of the receipt",
+     "name": "tax_year_known",
+     "required": true,
+     "source_hint": "Accounting period / s.74 determination"
+    },
+    {
+     "name": "head_of_income",
+     "label": "Head of income",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "business"
+     ]
+    }
+   ],
+   "review_notes": "s.18 text verified against multiple reproductions of the FBR-issued updated Ordinance (2026-10-21). The receipt-routing logic is the engine's interpretation, kept in interpretation_note.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-003"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Chargeability of receipts under the head 'Income from Business' (s.18)",
+   "transaction_types": [
+    "asset_disposal",
+    "other_receipt",
+    "provision_of_services",
+    "sale_of_goods"
+   ],
+   "triggering_transaction": "A receipt, credit or gain is recorded or identified that may constitute income of the taxpayer.",
+   "verification_status": "verified",
+   "version": 1,
+   "reviewer": "research-agent-income-tax",
+   "review_date": "2026-10-21"
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "expense_recorded",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-S21-DISALLOW",
+   "decision_logic": {
+    "default": "No s.21 disallowance clause triggered on the facts supplied; test ss.20, 22-24 and other provisions before allowing the deduction.",
+    "table": [
+     {
+      "then": "Disallow in full: s.21(a) - no deduction for taxes levied on business profits/gains.",
+      "treatment_code": "disallow_cl_a",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "tax_on_profits"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow in full: s.21(b) - tax deducted from the person's own income is not deductible.",
+      "treatment_code": "disallow_cl_b",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "tax_deducted_from_own_income"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow the expenditure: s.21(c) - tax was required to be deducted/collected but was not deducted and paid as required. If the expenditure is purchases of raw materials/finished goods, cap the disallowance at 20% of such purchases. Amounts recovered under s.161/162 count as tax paid.",
+      "treatment_code": "disallow_cl_c",
+      "when": {
+       "all": [
+        {
+         "field": "tax_deducted_and_paid",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "withholding_obligation_exists",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow the excess: s.21(ca) - commission on Third Schedule (Sales Tax Act, 1990) products exceeding 0.2% of gross supplies, unless the payee is on the Active Taxpayer List.",
+      "treatment_code": "disallow_cl_ca",
+      "when": {
+       "all": [
+        {
+         "field": "commission_exceeds_0_2_pct",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "commission_sales_tax_third_schedule"
+        },
+        {
+         "field": "payee_on_atl",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow the excess over the prescribed limit / in violation of prescribed conditions: s.21(d). Obtain the prescribed limits for the tax year before quantifying.",
+      "treatment_code": "disallow_cl_d",
+      "when": {
+       "all": [
+        {
+         "field": "exceeds_prescribed_limit",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "entertainment"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow in full: s.21(e) - contribution to a fund that is not a recognised provident fund, approved pension fund, approved superannuation fund or approved gratuity fund.",
+      "treatment_code": "disallow_cl_e",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "fund_contribution"
+        },
+        {
+         "field": "fund_recognised_approved",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow in full: s.21(f) - fund contribution where no effective arrangement secures s.149 deduction on fund payouts chargeable under 'Salary'.",
+      "treatment_code": "disallow_cl_f",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "fund_contribution"
+        },
+        {
+         "field": "s149_arrangement_in_place",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow in full: s.21(g) - fine or penalty for violation of any law, rule or regulation.",
+      "treatment_code": "disallow_cl_g",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "fine_penalty"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow in full: s.21(h) - personal expenditure of the person.",
+      "treatment_code": "disallow_cl_h",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "personal"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow in full: s.21(i) - amount carried to a reserve fund or capitalised in any way.",
+      "treatment_code": "disallow_cl_i",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "reserve_or_capitalised"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow in full: s.21(j) - profit on debt, brokerage, commission, salary or other remuneration paid by an AOP to a member.",
+      "treatment_code": "disallow_cl_j",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "aop_payment_to_member"
+        },
+        {
+         "field": "taxpayer_type",
+         "op": "eq",
+         "value": "association_of_persons"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow: salary exceeding the prescribed monthly threshold not paid by crossed cheque or direct bank transfer. Threshold is era-dependent (Rs 15,000 in older reproductions); confirm the current prescribed threshold before quantifying.",
+      "treatment_code": "disallow_salary_mode",
+      "when": {
+       "all": [
+        {
+         "field": "exceeds_monthly_threshold",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "salary"
+        },
+        {
+         "field": "paid_via_banking_channel",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow: expenditure under a single account head exceeding the prescribed aggregate threshold not made by crossed banking instrument. Threshold is era-dependent (Rs 50,000 in older reproductions); confirm the current prescribed threshold before quantifying.",
+      "treatment_code": "disallow_payment_mode",
+      "when": {
+       "all": [
+        {
+         "field": "paid_via_banking_channel",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "single_head_aggregate_exceeds_threshold",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow: s.21(la) - company expenditure per single account head exceeding Rs 250,000 not made by digital means from the notified business bank account. Applies from the date notified by the Board.",
+      "treatment_code": "disallow_cl_la",
+      "when": {
+       "all": [
+        {
+         "field": "paid_via_digital_means_notified_account",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "single_head_amount",
+         "op": "gt",
+         "value": 250000
+        },
+        {
+         "field": "taxpayer_type",
+         "op": "eq",
+         "value": "company"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Allow only 50%: s.21(ea) - employer contribution to approved gratuity/pension/superannuation funds restricted to one-half; disallow the remaining 50%.",
+      "treatment_code": "restrict_cl_ea",
+      "when": {
+       "all": [
+        {
+         "field": "expense_category",
+         "op": "eq",
+         "value": "approved_fund_employer_contribution"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow up to 8% of the allowable deduction attributable to sales: s.21(r) - notified person failing to integrate with the Board via approved fiscal electronic device/software.",
+      "treatment_code": "disallow_cl_r",
+      "when": {
+       "all": [
+        {
+         "field": "fiscal_integration_done",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "fiscal_integration_notified",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Disallow 50% of the expenditure attributable to the sale: s.21(s) (Finance Act 2025, effective 2025-07-01) - cash payment received against a single invoice exceeding Rs 200,000.",
+      "treatment_code": "disallow_cl_s",
+      "when": {
+       "all": [
+        {
+         "field": "cash_sale_single_invoice_exceeds_200000",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "transaction_date",
+         "op": "date_gte",
+         "value": "2025-07-01"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-BANK-STATEMENT",
+    "EV-EXPENSE-VOUCHER",
+    "EV-GENERAL-LEDGER",
+    "EV-SUPPLIER-PAYMENTS"
+   ],
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "head_of_income",
+      "op": "ne",
+      "value": "business"
+     }
+    ]
+   },
+   "expected_treatment": "No deduction is allowed under 'Income from Business' for the expenditures listed in s.21(a)-(s). Each clause is tested independently; where a clause triggers, the specified amount (full expenditure, excess, or capped amount) is added back to accounting profit in the tax computation.",
+   "interpretation_note": "Software reading: the engine tests s.21 clause-by-clause as a checklist over recorded expenses. Clause letters and monetary thresholds have shifted across amendments; the engine flags salary/banking-channel thresholds as era-dependent and requires confirmation against the current official text before quantifying. s.21(s) is a 2025 insertion; it applies only to transactions on/after 2025-07-01.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S20",
+    "LEG-ITO2001-S21"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-TAXABLE-INCOME",
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "choices": [
+      "aop_payment_to_member",
+      "approved_fund_employer_contribution",
+      "commission_sales_tax_third_schedule",
+      "entertainment",
+      "fine_penalty",
+      "fund_contribution",
+      "other",
+      "personal",
+      "reserve_or_capitalised",
+      "salary",
+      "tax_deducted_from_own_income",
+      "tax_on_profits",
+      "withholding_subject_expenditure"
+     ],
+     "data_type": "choice",
+     "label": "Expense category",
+     "name": "expense_category",
+     "required": true,
+     "source_hint": "Chart of accounts / voucher narration"
+    },
+    {
+     "data_type": "boolean",
+     "label": "A withholding/collection obligation existed on this expenditure",
+     "name": "withholding_obligation_exists",
+     "required": false,
+     "source_hint": "Withholding tax review"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Required tax was deducted/collected and paid",
+     "name": "tax_deducted_and_paid",
+     "required": false,
+     "source_hint": "Challans / statements"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Paid via crossed banking instrument / bank transfer",
+     "name": "paid_via_banking_channel",
+     "required": false,
+     "source_hint": "Bank statement"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Cash sale against a single invoice exceeding Rs 200,000",
+     "name": "cash_sale_single_invoice_exceeds_200000",
+     "required": false,
+     "source_hint": "Sales invoices / receipts"
+    },
+    {
+     "data_type": "date",
+     "label": "Transaction date",
+     "name": "transaction_date",
+     "required": true,
+     "source_hint": "Voucher / invoice"
+    },
+    {
+     "name": "commission_exceeds_0_2_pct",
+     "label": "Commission exceeds 0 2 pct",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "exceeds_monthly_threshold",
+     "label": "Exceeds monthly threshold",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "exceeds_prescribed_limit",
+     "label": "Exceeds prescribed limit",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "expense_recorded",
+     "label": "Confirm: Expense recorded",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "fiscal_integration_done",
+     "label": "Fiscal integration done",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "fiscal_integration_notified",
+     "label": "Fiscal integration notified",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "fund_recognised_approved",
+     "label": "Fund recognised approved",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "head_of_income",
+     "label": "Head of income",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "business"
+     ]
+    },
+    {
+     "name": "paid_via_digital_means_notified_account",
+     "label": "Paid via digital means notified account",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "payee_on_atl",
+     "label": "Payee on atl",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "s149_arrangement_in_place",
+     "label": "S149 arrangement in place",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "single_head_aggregate_exceeds_threshold",
+     "label": "Single head aggregate exceeds threshold",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "single_head_amount",
+     "label": "Single head amount",
+     "data_type": "number",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "Clauses (a),(b),(c)+provisos,(ca),(d) verified against the FBR-issued Ordinance text updated to 30.06.2021 reproduced by pkrevenue, cross-checked with lawkidunya and ordinance PDFs (2009/2018/2019). Clauses (e)-(j) verified against lawkidunya + 2010-era reproductions. s.21(s) verified as enacted by Finance Act 2025. s.21(la) verified from Finance (Supplementary) Act 2021 text. s.21(ea)/(r) per amendment commentary. Salary and single-head banking thresholds (older reproductions: Rs 15,000/month; Rs 50,000 aggregate) are era-dependent and NOT re-verified against the current official text.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-001"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Expense admissibility - deductions not allowed (s.21)",
+   "transaction_types": [
+    "expense",
+    "payment"
+   ],
+   "triggering_transaction": "An expense is recorded in the accounts and claimed (or considered for claim) as a deduction under the head 'Income from Business'.",
+   "verification_status": "verified",
+   "version": 1,
+   "reviewer": "research-agent-income-tax",
+   "review_date": "2026-10-21"
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "asset_is_depreciable",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "asset_used_in_business",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [
+    "CALC-INC-DEP-BUILDING",
+    "CALC-INC-DEP-IT",
+    "CALC-INC-DEP-PLANT",
+    "CALC-INC-DEP-RAMP"
+   ],
+   "code": "RULE-INC-S22-DEPRECIATION",
+   "decision_logic": {
+    "default": "Insufficient information - obtain the asset category, written down value at the beginning of the year, and first-use date before computing tax depreciation.",
+    "table": [
+     {
+      "then": "No depreciation deduction under s.22 for this year. Apply RULE-INC-S22-DISPOSAL for the gain/loss computation.",
+      "treatment_code": "disposed_no_depreciation",
+      "when": {
+       "all": [
+        {
+         "field": "disposed_in_year",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Select the matching CALC-INC-DEP-* table for the asset category and compute: Third Schedule rate x written down value at the beginning of the tax year (WDV per s.22(5)). Then apply the 50% first-use reduction: allowable = computed x 0.5.",
+      "treatment_code": "first_use_reduced",
+      "when": {
+       "all": [
+        {
+         "field": "first_used_in_tax_year_starting_on_or_after",
+         "op": "eq",
+         "value": "2020-07-01"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Allow only the fair proportional part attributable to business use (s.22(3)).",
+      "treatment_code": "mixed_use_proportion",
+      "when": {
+       "all": [
+        {
+         "field": "partly_used_for_business",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Select the matching CALC-INC-DEP-* table: depreciation = Third Schedule Part I rate x written down value at the beginning of the tax year (s.22(5): cost less initial allowance if acquired in the year; otherwise cost less prior depreciation and initial allowance). Cap cumulative ss.22-23 deductions at cost. Accounting depreciation charged in the books must be added back in the tax computation; only this computed amount is deductible.",
+      "treatment_code": "normal_depreciation",
+      "when": {
+       "all": [
+        {
+         "field": "asset_category_known",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "wdv_beginning_known",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-ASSET-REGISTER",
+    "EV-DEPRECIATION-SCHEDULE",
+    "EV-FINANCIAL-STATEMENTS",
+    "EV-FIXED-ASSET-DOCS"
+   ],
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "asset_is_depreciable",
+      "op": "eq",
+      "value": false
+     },
+     {
+      "field": "disposed_in_year",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_treatment": "Tax depreciation is computed separately from accounting depreciation: rate (Third Schedule Part I) applied to written down value at the beginning of the year, with a 50% reduction for assets first used in tax years commencing on/after 2020-07-01, proportional restriction for mixed use, and a cost cap on cumulative deductions. Accounting depreciation is added back; only the s.22 amount is allowed.",
+   "interpretation_note": "Software reading: the engine never accepts book depreciation as the tax figure; it recomputes from WDV and the rate table for the tax year. The 50% first-use reduction is encoded as first_use_factor 0.5 in the calc tables and applied via the decision table.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S22",
+    "LEG-ITO2001-SCH3-P1"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-TAXABLE-INCOME",
+    "PROC-DOC-VERIFY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Asset is a depreciable asset",
+     "name": "asset_is_depreciable",
+     "required": true,
+     "source_hint": "Asset register / s.2 definition"
+    },
+    {
+     "choices": [
+      "building",
+      "computer_it_aircraft",
+      "disability_ramp",
+      "furniture_plant_machinery_motor_vehicle",
+      "other_unverified"
+     ],
+     "data_type": "choice",
+     "label": "Asset category (Third Schedule Part I)",
+     "name": "asset_category",
+     "required": true,
+     "source_hint": "Asset register"
+    },
+    {
+     "data_type": "number",
+     "label": "Written down value at beginning of tax year (PKR)",
+     "name": "wdv_beginning_known",
+     "required": true,
+     "source_hint": "Tax depreciation schedule"
+    },
+    {
+     "data_type": "date",
+     "label": "Tax year start date (for first-use test)",
+     "name": "first_used_in_tax_year_starting_on_or_after",
+     "required": false,
+     "source_hint": "Asset register"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Disposed during the year",
+     "name": "disposed_in_year",
+     "required": true,
+     "source_hint": "Asset register / disposal docs"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Partly used for non-business purposes",
+     "name": "partly_used_for_business",
+     "required": false,
+     "source_hint": "Usage records"
+    },
+    {
+     "name": "asset_category_known",
+     "label": "Confirm: Asset category known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "asset_used_in_business",
+     "label": "Confirm: Asset used in business",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "s.22 mechanics verified across multiple reproductions of the FBR-issued updated Ordinance; FA2020 50% first-year reduction corroborated by pkrevenue and brecorder. Third Schedule Part I items I/II/III/V verified; item IV excluded (wording garbled in all reproductions). Passenger-vehicle cost cap Rs 2,500,000 verified from ordinance text.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-002"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Tax depreciation vs accounting depreciation (s.22)",
+   "transaction_types": [
+    "asset_use",
+    "depreciation"
+   ],
+   "triggering_transaction": "Depreciation on business assets is recorded in the accounts and a tax depreciation claim is required.",
+   "verification_status": "verified",
+   "version": 1,
+   "reviewer": "research-agent-income-tax",
+   "review_date": "2026-10-21"
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "asset_is_depreciable",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "disposed_in_year",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-S22-DISPOSAL",
+   "decision_logic": {
+    "default": "Obtain the consideration received and the written down value at the time of disposal before determining the tax consequence.",
+    "table": [
+     {
+      "then": "No depreciation deduction under s.22 for the year of disposal. Compute: consideration received minus written down value at disposal. If positive, the excess is chargeable under 'Income from Business' (s.22(8)(a)). If negative, the shortfall is deductible under 'Income from Business' (s.22(8)(b)).",
+      "treatment_code": "disposal_gain_loss",
+      "when": {
+       "all": [
+        {
+         "field": "consideration_known",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "wdv_at_disposal_known",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "For non-arm's length disposals, test s.78 (FMV substitution) before applying s.22(8). s.78 not encoded in this seed - flag for review.",
+      "treatment_code": "non_arms_length_check",
+      "when": {
+       "all": [
+        {
+         "field": "arms_length",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-ASSET-REGISTER",
+    "EV-BANK-STATEMENT",
+    "EV-DEPRECIATION-SCHEDULE",
+    "EV-FIXED-ASSET-DOCS"
+   ],
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "asset_is_depreciable",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_treatment": "On disposal of a depreciable asset: no depreciation for that year; excess of consideration over written down value is taxed as business income; shortfall is deductible as business expenditure. (The parent task referenced s.25 for this; research confirms the gain/loss-on-disposal rule sits in s.22(8).)",
+   "interpretation_note": "Software reading: the engine treats s.22(8) as the operative provision for depreciable-asset disposals (not s.25). Non-arm's length pricing is flagged for s.78 review but s.78 is not encoded in this seed.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S22"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-TAXABLE-INCOME",
+    "PROC-DOC-VERIFY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "number",
+     "label": "Consideration received on disposal (PKR)",
+     "name": "consideration_known",
+     "required": true,
+     "source_hint": "Sale agreement / bank credit"
+    },
+    {
+     "data_type": "number",
+     "label": "Written down value at time of disposal (PKR)",
+     "name": "wdv_at_disposal_known",
+     "required": true,
+     "source_hint": "Tax depreciation schedule"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Disposal at arm's length",
+     "name": "arms_length",
+     "required": false,
+     "source_hint": "Valuation / related-party check"
+    },
+    {
+     "data_type": "date",
+     "label": "Date of disposal",
+     "name": "disposal_date",
+     "required": true,
+     "source_hint": "Disposal documents"
+    },
+    {
+     "name": "asset_is_depreciable",
+     "label": "Confirm: Asset is depreciable",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "disposed_in_year",
+     "label": "Confirm: Disposed in year",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "s.22(8) text verified verbatim across fairservicez, lawkidunya, brecorder and pkrevenue reproductions (2026-10-21). The s.25 reference in the task brief was checked and corrected: s.25 is not the disposal provision in the verified text.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-005"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Tax consequences of disposing of a depreciable asset (s.22(8))",
+   "transaction_types": [
+    "asset_disposal"
+   ],
+   "triggering_transaction": "A depreciable business asset is disposed of (sold, scrapped, lost) during the tax year.",
+   "verification_status": "verified",
+   "version": 1,
+   "reviewer": "research-agent-income-tax",
+   "review_date": "2026-10-21"
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "disposal_of_capital_asset",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-S37-CAPITAL-GAINS",
+   "decision_logic": {
+    "default": "Confirm whether the asset is a depreciable asset (route to RULE-INC-S22-DISPOSAL), a capital asset (this rule), or neither.",
+    "table": [
+     {
+      "then": "Apply RULE-INC-S22-DISPOSAL instead: gain/loss on depreciable assets is dealt with under s.22(8) under 'Income from Business', not as capital gains.",
+      "treatment_code": "route_to_s22",
+      "when": {
+       "all": [
+        {
+         "field": "asset_is_depreciable",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Chargeable under the head 'Capital Gains' for the tax year (s.37(1), subject to exemptions). Gain = A - B where A = consideration received and B = cost of the asset. Verify holding-period and rate rules for the tax year before computing tax - not encoded in this seed.",
+      "treatment_code": "capital_gain",
+      "when": {
+       "all": [
+        {
+         "field": "asset_is_depreciable",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "gain_arises",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-BANK-STATEMENT",
+    "EV-FIXED-ASSET-DOCS"
+   ],
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "asset_is_depreciable",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "expected_treatment": "A gain on disposal of a (non-depreciable) capital asset is chargeable under the head 'Capital Gains' (not 'Income from Business'); gain computed as consideration received less cost of the asset. Misclassifying a capital gain as business income (or vice versa) changes the applicable rate and computation.",
+   "interpretation_note": "Software reading: this rule exists to keep capital gains distinct from business income and from s.22(8) disposal gains. Holding-period concessions, separate-block treatment and applicable rates are deliberately not encoded pending verification.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S37"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Disposal of a capital asset occurred",
+     "name": "disposal_of_capital_asset",
+     "required": true,
+     "source_hint": "Disposal documents"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Asset is a depreciable asset",
+     "name": "asset_is_depreciable",
+     "required": true,
+     "source_hint": "Asset register"
+    },
+    {
+     "data_type": "number",
+     "label": "Consideration received (PKR)",
+     "name": "consideration",
+     "required": false,
+     "source_hint": "Sale agreement"
+    },
+    {
+     "data_type": "number",
+     "label": "Cost of the asset (PKR)",
+     "name": "cost",
+     "required": false,
+     "source_hint": "Acquisition records"
+    },
+    {
+     "name": "gain_arises",
+     "label": "Confirm: Gain arises",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "DRAFT: s.37 provision text quoted only from secondary sources (slideshare lecture quoting the Ordinance; Scribd presentation). Not checked against the official/FBR text. Promote only after official-text verification, including holding-period and rate provisions.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-003"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Capital vs revenue receipts - capital gains on disposal (s.37)",
+   "transaction_types": [
+    "asset_disposal"
+   ],
+   "triggering_transaction": "A capital asset (other than a depreciable business asset) is disposed of and a gain or loss arises.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "donation_made",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [
+    "CALC-INC-CREDIT-S61"
+   ],
+   "code": "RULE-INC-S61-DONATION-CREDIT",
+   "decision_logic": {
+    "default": "Verify the recipient's eligibility and the donation evidence before computing any credit.",
+    "table": [
+     {
+      "then": "No credit: s.61 applies only to qualifying recipients. Do not claim; test whether any other provision applies.",
+      "treatment_code": "ineligible_recipient",
+      "when": {
+       "all": [
+        {
+         "field": "recipient_qualifies",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "No credit on the cash portion: cash donations must be by crossed cheque to qualify. Non-cash (property) donations valued at fair market value at the time of giving.",
+      "treatment_code": "cash_not_crossed_cheque",
+      "when": {
+       "all": [
+        {
+         "field": "donation_is_cash",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "paid_by_crossed_cheque",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Compute the credit with CALC-INC-CREDIT-S61: (tax assessed before credits / taxable income) x C, where C = lesser of qualifying donations or the cap (30% of taxable income for individuals/AOPs, 20% for companies; 15%/10% where the donation is to an associate). Reduce the final tax payable by the credit (it is a credit, not a deduction from income).",
+      "treatment_code": "allow_credit",
+      "when": {
+       "all": [
+        {
+         "field": "donation_is_cash",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "recipient_qualifies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2024-07-01",
+   "effective_to": "2025-06-30",
+   "evidence_codes": [
+    "EV-BANK-STATEMENT",
+    "EV-EXPENSE-VOUCHER",
+    "EV-TAX-CREDIT-RECORD"
+   ],
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "recipient_qualifies",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_treatment": "A tax credit (reducing tax payable, not taxable income) is available for donations to: boards of education/universities established by law; government-run schools, hospitals or relief funds; NPOs eligible under s.100C; and Thirteenth Schedule organisations/funds. Credit = (A/B) x C with caps as above. Availability confirmed for TY2025/TY2026.",
+   "interpretation_note": "Software reading: the engine treats s.61 strictly as a credit against tax payable. The 'associate donation' reduced caps are encoded as separate cap rates in the calc table.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S61"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-TAXABLE-INCOME",
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Donation made during the tax year",
+     "name": "donation_made",
+     "required": true,
+     "source_hint": "Bank statement / receipts"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Recipient is a qualifying recipient",
+     "name": "recipient_qualifies",
+     "required": true,
+     "source_hint": "Thirteenth Schedule / s.100C status"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Donation is cash (vs property)",
+     "name": "donation_is_cash",
+     "required": true,
+     "source_hint": "Donation receipt"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Cash donation paid by crossed cheque",
+     "name": "paid_by_crossed_cheque",
+     "required": false,
+     "source_hint": "Bank statement"
+    },
+    {
+     "data_type": "number",
+     "label": "Donation amount / FMV of property (PKR)",
+     "name": "donation_amount",
+     "required": true,
+     "source_hint": "Receipt / valuation"
+    },
+    {
+     "data_type": "number",
+     "label": "Taxable income for the year (PKR)",
+     "name": "taxable_income",
+     "required": true,
+     "source_hint": "Tax computation"
+    },
+    {
+     "data_type": "number",
+     "label": "Tax assessed before credits (PKR)",
+     "name": "tax_assessed",
+     "required": true,
+     "source_hint": "Tax computation"
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "Verified 2026-10-21: recipients, (A/B)xC formula, 30%/20% caps, 15%/10% associate caps, crossed-cheque requirement per pkrevenue TY2025-26 treatment; availability for TY2025 confirmed by PBC's Oct 2025 letter on IRIS computing s.61 credits in TY2025 returns.\nEffective window set to TY2025 (2024-07-01 to 2025-06-30): s.61 credit availability verified for TY2025 only (PBC Oct 2025 letter; pkrevenue TY2025-26 treatment). Earlier/later availability not verified in this pass.",
+   "risk_codes": [
+    "RISK-INC-007"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Tax credit for charitable donations (s.61)",
+   "transaction_types": [
+    "donation"
+   ],
+   "triggering_transaction": "A charitable donation is made and a tax credit is claimed or considered.",
+   "verification_status": "verified",
+   "version": 1,
+   "reviewer": "research-agent-income-tax",
+   "review_date": "2026-10-21"
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-S74-TAXYEAR",
+   "decision_logic": {
+    "default": "Ask for the accounting period and any Commissioner approval for a special tax year before determining the tax year.",
+    "table": [
+     {
+      "then": "Normal tax year under s.74(1): 12 months ending 30 June, denoted by the calendar year in which 30 June falls (e.g. 01-07-2024 to 30-06-2025 = TY2025).",
+      "treatment_code": "normal_tax_year",
+      "when": {
+       "all": [
+        {
+         "field": "accounting_period",
+         "op": "eq",
+         "value": "july_to_june"
+        }
+       ]
+      }
+     },
+     {
+      "then": "Special tax year may apply: verify the Commissioner's written approval under s.74(3). Without approval, the normal tax year applies.",
+      "treatment_code": "special_tax_year_check",
+      "when": {
+       "all": [
+        {
+         "field": "accounting_period",
+         "op": "ne",
+         "value": "july_to_june"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-FINANCIAL-STATEMENTS",
+    "EV-REGISTRATION-CERT"
+   ],
+   "exclusion_conditions": {
+    "any": []
+   },
+   "expected_treatment": "The tax year is the 12 months ending 30 June (normal tax year), denoted by the calendar year of the 30 June. A different 12-month period is a special tax year only with Commissioner approval. All rate tables and provisions are selected by tax year.",
+   "interpretation_note": "Software reading: this is a routing rule - the engine must resolve the tax year before selecting any date-dependent rate or provision, and must never apply the latest rate to an earlier tax year automatically.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S74"
+   ],
+   "procedure_codes": [],
+   "required_inputs": [
+    {
+     "choices": [
+      "july_to_june",
+      "other_twelve_month_period"
+     ],
+     "data_type": "choice",
+     "label": "Accounting period",
+     "name": "accounting_period",
+     "required": true,
+     "source_hint": "Financial statements"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Commissioner approval for special tax year held",
+     "name": "special_year_approval",
+     "required": false,
+     "source_hint": "Commissioner order"
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "s.74 text verified against multiple reproductions of the FBR-issued updated Ordinance (2026-10-21).\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Determination of the tax year (s.74)",
+   "transaction_types": [
+    "period_determination"
+   ],
+   "triggering_transaction": "The applicable tax year must be established before selecting rates, provisions or return obligations.",
+   "verification_status": "verified",
+   "version": 1,
+   "reviewer": "research-agent-income-tax",
+   "review_date": "2026-10-21"
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "transaction_with_associate",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-S108-ASSOCIATES",
+   "decision_logic": {
+    "default": "Establish whether the counterparty is an associate (check the Ordinance's definition) and whether the pricing reflects an arm's length outcome.",
+    "table": [
+     {
+      "then": "No s.108 adjustment trigger on the facts supplied, but the Commissioner retains the power to test arm's length pricing; retain evidence of pricing basis.",
+      "treatment_code": "arms_length_ok",
+      "when": {
+       "all": [
+        {
+         "field": "pricing_is_arms_length",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Flag as a transfer-pricing risk (RISK-INC-004): the Commissioner may reallocate income/deductions/credits to the arm's length result and may recharacterise source and revenue/capital nature. Quantification requires a transfer-pricing analysis - not computed by this rule.",
+      "treatment_code": "non_arms_length",
+      "when": {
+       "all": [
+        {
+         "field": "pricing_is_arms_length",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Documentation obligation under s.108(3): maintain a master file and local file, keep/furnish CbCR where applicable, and keep other prescribed documents for the prescribed period. If the Commissioner requires them in proceedings, furnish within 30 days (s.108(4)); extension up to 45 days on written application, longer only in exceptional circumstances (s.108(5)). Missing documentation is an independent compliance failure.",
+      "treatment_code": "documentation_required",
+      "when": {
+       "all": [
+        {
+         "field": "documentation_complete",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-CONTRACT",
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-EXPENSE-VOUCHER"
+   ],
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "transaction_with_associate",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_treatment": "Transactions between associates must reflect the arm's length outcome; the Commissioner may adjust income, deductions or credits and determine source and revenue/capital nature. Taxpayers must maintain prescribed transfer-pricing documentation (master file, local file, CbCR where applicable) and produce it within 30 days when required.",
+   "interpretation_note": "Software reading: the engine does not compute arm's length prices; it routes associate transactions to risk flagging and documentation checks. The statutory definition of 'associates' (s.85) is not encoded - the engine must confirm associate status before applying this rule.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S108"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Transaction is with an associate",
+     "name": "transaction_with_associate",
+     "required": true,
+     "source_hint": "Shareholding / control analysis (s.85 definition)"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Pricing reflects an arm's length outcome",
+     "name": "pricing_is_arms_length",
+     "required": false,
+     "source_hint": "Transfer-pricing analysis"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Master file, local file and prescribed documentation complete",
+     "name": "documentation_complete",
+     "required": true,
+     "source_hint": "TP documentation file"
+    },
+    {
+     "data_type": "date",
+     "label": "Transaction date / tax year",
+     "name": "transaction_date",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "Verified 2026-10-21 against FBR's official s.108 page, including subsections (3)-(5) documentation and timing rules. The s.85 definition of 'associates' was not re-verified and is not encoded.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21). The s.108(3)-(5) documentation obligations were inserted later; the insertion date was not verified — the 2002 date covers the original arm's-length limbs (1)-(2).",
+   "risk_codes": [
+    "RISK-INC-004"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Transactions between associates - arm's length and documentation (s.108)",
+   "transaction_types": [
+    "related_party_transaction"
+   ],
+   "triggering_transaction": "A transaction is entered into with an associated person (related party), domestic or cross-border.",
+   "verification_status": "verified",
+   "version": 1,
+   "reviewer": "research-agent-income-tax",
+   "review_date": "2026-10-21"
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "return_required",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-S114-RETURN",
+   "decision_logic": {
+    "default": "Determine whether the person falls in s.114(1) (the statutory filer categories) before concluding on the filing obligation.",
+    "table": [
+     {
+      "then": "Due date: 31 December next following the end of the tax year (s.118(2)(a)). File in the prescribed manner with full particulars, signed, with tax paid and required statements.",
+      "treatment_code": "company_jan_jun",
+      "when": {
+       "all": [
+        {
+         "field": "taxpayer_type",
+         "op": "eq",
+         "value": "company"
+        },
+        {
+         "field": "tax_year_end_month",
+         "op": "in",
+         "value": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "then": "Due date: 30 September next following the end of the tax year (s.118(2)(b)).",
+      "treatment_code": "company_other",
+      "when": {
+       "all": [
+        {
+         "field": "taxpayer_type",
+         "op": "eq",
+         "value": "company"
+        },
+        {
+         "field": "tax_year_end_month",
+         "op": "not_in",
+         "value": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "then": "Due date: 30 September next following the end of the tax year (s.118(3); Finance Act 2019 aligned salaried individuals to this date).",
+      "treatment_code": "non_company",
+      "when": {
+       "all": [
+        {
+         "field": "taxpayer_type",
+         "op": "in",
+         "value": [
+          "individual",
+          "association_of_persons"
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "then": "Flag: return figures must reconcile with the supporting accounts and tax computation (see RULE-INC-RECON-PROFIT and RISK-INC-006). An unreconciled return is an exception requiring investigation.",
+      "treatment_code": "reconciliation_check",
+      "when": {
+       "all": [
+        {
+         "field": "return_figures_reconcile",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-FINANCIAL-STATEMENTS",
+    "EV-RECONCILIATION",
+    "EV-RETURN-ACK",
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-TAX-CHALLAN",
+    "EV-TAX-CREDIT-RECORD",
+    "EV-TRIAL-BALANCE",
+    "EV-WHT-CERTIFICATE"
+   ],
+   "exclusion_conditions": {
+    "any": [
+     {
+      "field": "return_required",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "expected_treatment": "Persons within s.114(1) must furnish a return of income in the prescribed form with full particulars, duly signed, accompanied by payment of tax due and by the wealth statement / foreign income and assets statement where required. Due dates per s.118: companies 31 December (Jan-Jun year-end) or 30 September otherwise; all other persons 30 September next following the tax year.",
+   "interpretation_note": "Software reading: the full s.114(1) filer-category list is not encoded; the rule encodes the filing mechanism, due dates and the reconciliation expectation. Whether a specific person is obligated is a s.114(1) check the engine must perform explicitly.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S114",
+    "LEG-ITO2001-S118"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-PAYMENTS",
+    "PROC-RECON-PROFIT-TAXABLE",
+    "PROC-RECON-TURNOVER",
+    "PROC-RECON-WHT"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Person is required to file under s.114(1)",
+     "name": "return_required",
+     "required": true,
+     "source_hint": "s.114(1) category check"
+    },
+    {
+     "choices": [
+      "association_of_persons",
+      "company",
+      "individual"
+     ],
+     "data_type": "choice",
+     "label": "Taxpayer type",
+     "name": "taxpayer_type",
+     "required": true,
+     "source_hint": "Profile"
+    },
+    {
+     "data_type": "number",
+     "label": "Tax year end month (1-12)",
+     "name": "tax_year_end_month",
+     "required": false,
+     "source_hint": "Financial statements"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Return figures reconcile with accounts",
+     "name": "return_figures_reconcile",
+     "required": false,
+     "source_hint": "Reconciliation working"
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "s.114 mechanism and s.118 due dates verified against multiple ordinance reproductions; FA2019 alignment of salaried due date to 30 September corroborated by Tola Associates. The s.114(1) person-category list is intentionally not encoded.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-006",
+    "RISK-INC-008"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Return of income - filing obligation, manner and due dates (ss.114/118)",
+   "transaction_types": [
+    "return_filing"
+   ],
+   "triggering_transaction": "A tax year ends and the taxpayer's return filing position must be determined.",
+   "verification_status": "verified",
+   "version": 1,
+   "reviewer": "research-agent-income-tax",
+   "review_date": "2026-10-21"
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-RECON-PROFIT",
+   "decision_logic": {
+    "default": "Prepare the reconciliation working and investigate each reconciling item to its source document.",
+    "table": [
+     {
+      "then": "Reconciliation complete: accounting profit adjusted for all verified items agrees with the tax computation. Retain the working as evidence.",
+      "treatment_code": "reconciled",
+      "when": {
+       "all": [
+        {
+         "field": "all_items_explained",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "difference",
+         "op": "eq",
+         "value": 0
+        }
+       ]
+      }
+     },
+     {
+      "then": "Exception: investigate the unexplained difference - trace to omitted income, inadmissible expenses, unrecorded allowances or accounting errors. Do not file on unreconciled figures.",
+      "treatment_code": "unexplained_difference",
+      "when": {
+       "all": [
+        {
+         "field": "all_items_explained",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-FINANCIAL-STATEMENTS",
+    "EV-GENERAL-LEDGER",
+    "EV-RECONCILIATION",
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-TRIAL-BALANCE"
+   ],
+   "exclusion_conditions": {
+    "any": []
+   },
+   "expected_treatment": "Taxable income is derived from accounting profit through a documented bridge: add back inadmissible expenses (s.21), accounting depreciation, provisions and exempt-business costs; deduct tax depreciation (s.22), initial allowance (s.23), amortisation (s.24), allowable deductions and exempt income; add omitted income and disposal gains (s.22(8)). Every reconciling item must be explained and evidenced.",
+   "interpretation_note": "Software reading: this is a methodology rule, not a statutory provision. It operationalises the accounting-vs-tax distinction required by ss.18-24 and is the engine's standard bridge for scenario A8/E1.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S18",
+    "LEG-ITO2001-S20",
+    "LEG-ITO2001-S21",
+    "LEG-ITO2001-S22"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-TAXABLE-INCOME",
+    "PROC-RECON-PROFIT-TAXABLE"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "number",
+     "label": "Accounting profit before tax (PKR)",
+     "name": "accounting_profit",
+     "required": true,
+     "source_hint": "Financial statements"
+    },
+    {
+     "data_type": "number",
+     "label": "Unexplained difference (PKR)",
+     "name": "difference",
+     "required": false,
+     "source_hint": "Reconciliation working"
+    },
+    {
+     "data_type": "boolean",
+     "label": "All reconciling items explained and evidenced",
+     "name": "all_items_explained",
+     "required": true,
+     "source_hint": "Reconciliation working"
+    },
+    {
+     "name": "head_of_income",
+     "label": "Head of income",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "business"
+     ]
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "DRAFT: methodology rule synthesising ss.18-24; not a statutory provision. The bridge mechanics are standard practice; rule logic reviewed against the verified provisions it references.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-002",
+    "RISK-INC-003",
+    "RISK-INC-006"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Reconciliation of accounting profit to taxable income (methodology)",
+   "transaction_types": [
+    "reconciliation"
+   ],
+   "triggering_transaction": "A tax computation of business income is prepared from the accounting profit.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "deduction_claimed",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-EVIDENCE-DEDUCTION",
+   "decision_logic": {
+    "default": "Obtain the supporting evidence for the deduction before concluding it is allowable.",
+    "table": [
+     {
+      "then": "Deduction supported: retain the evidence; continue to test the deduction against ss.20-21 conditions.",
+      "treatment_code": "supported",
+      "when": {
+       "all": [
+        {
+         "field": "supporting_evidence_held",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "evidence_covers_incurral_and_business_purpose",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Exception: deduction claimed without adequate supporting evidence. Flag for investigation; quantify the exposure as the tax effect of disallowing the unsupported amount. Do not treat the claim as established.",
+      "treatment_code": "unsupported",
+      "when": {
+       "all": [
+        {
+         "field": "supporting_evidence_held",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Exception: evidence held but does not establish incurral or business purpose (e.g. voucher without bill, personal element). Treat as unsupported pending further proof.",
+      "treatment_code": "insufficient_evidence",
+      "when": {
+       "all": [
+        {
+         "field": "evidence_covers_incurral_and_business_purpose",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "supporting_evidence_held",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-BANK-STATEMENT",
+    "EV-CONTRACT",
+    "EV-EXPENSE-VOUCHER",
+    "EV-GENERAL-LEDGER",
+    "EV-RENT-AGREEMENT",
+    "EV-SUPPLIER-PAYMENTS"
+   ],
+   "exclusion_conditions": {
+    "any": []
+   },
+   "expected_treatment": "A deduction is allowable only to the extent the expenditure is shown to have been incurred wholly and exclusively for business (s.20) and is not caught by s.21. Possession of a document is not proof: the evidence must establish incurral, amount, business purpose and compliance with any mode/condition in the applicable provision. Unsupported claims are flagged as exceptions with quantified exposure.",
+   "interpretation_note": "Software reading: methodology rule linking the evidence library to deductibility. The engine never infers allowability from book entries alone.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S20",
+    "LEG-ITO2001-S21"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Deduction claimed in computation",
+     "name": "deduction_claimed",
+     "required": true,
+     "source_hint": "Tax computation"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Supporting evidence held",
+     "name": "supporting_evidence_held",
+     "required": true,
+     "source_hint": "Voucher file"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Evidence establishes incurral and business purpose",
+     "name": "evidence_covers_incurral_and_business_purpose",
+     "required": false,
+     "source_hint": "Reviewer assessment"
+    },
+    {
+     "name": "head_of_income",
+     "label": "Head of income",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "business"
+     ]
+    }
+   ],
+   "review_notes": "DRAFT: methodology rule. The evidentiary principle reflects standard assessment practice; it is the engine's interpretation, not a quoted statutory test.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-001"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Deduction claimed without supporting evidence (methodology)",
+   "transaction_types": [
+    "expense"
+   ],
+   "triggering_transaction": "A deduction is claimed in the tax computation and its supporting evidence must be assessed.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "credit_or_exemption_claimed",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_year_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "calc_codes": [],
+   "code": "RULE-INC-CREDIT-UNVERIFIED",
+   "decision_logic": {
+    "default": "Identify the exact statutory provision and verify it is in force for the tax year before any computation.",
+    "table": [
+     {
+      "then": "Proceed to the provision-specific rule (e.g. RULE-INC-S61-DONATION-CREDIT) and test each statutory condition and disqualifier.",
+      "treatment_code": "provision_verified",
+      "when": {
+       "all": [
+        {
+         "field": "provision_in_force_for_tax_year",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "provision_identified",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Do not claim the credit/exemption. Mark the item as an unverified provision: request the legal reference, effective dates and conditions. An unverified credit must never reduce the computed liability.",
+      "treatment_code": "provision_unverified",
+      "when": {
+       "all": [
+        {
+         "field": "provision_identified",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Exception: one or more statutory conditions fail or a disqualifier applies. Disallow the credit/exemption and quantify the exposure.",
+      "treatment_code": "conditions_fail",
+      "when": {
+       "all": [
+        {
+         "field": "all_conditions_met",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "provision_identified",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2002-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-TAX-CREDIT-RECORD"
+   ],
+   "exclusion_conditions": {
+    "any": []
+   },
+   "expected_treatment": "No tax credit or exemption is claimed unless the specific statutory provision is identified, verified as in force for the tax year, and every condition (and no disqualifier) is evidenced. Credits that were available in an earlier tax year (e.g. withdrawn investment credits) must not be carried into the current year automatically.",
+   "interpretation_note": "Software reading: gatekeeper methodology rule. It prevents reliance on repealed or misremembered credits and forces per-tax-year verification, consistent with the engine's versioning discipline.",
+   "jurisdiction": "federal",
+   "legislation_codes": [
+    "LEG-ITO2001-S61"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Credit or exemption claimed",
+     "name": "credit_or_exemption_claimed",
+     "required": true,
+     "source_hint": "Tax computation"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Statutory provision identified (section/clause)",
+     "name": "provision_identified",
+     "required": true,
+     "source_hint": "Ordinance / Second Schedule"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provision in force for this tax year",
+     "name": "provision_in_force_for_tax_year",
+     "required": true,
+     "source_hint": "Amendment history"
+    },
+    {
+     "data_type": "boolean",
+     "label": "All statutory conditions met and evidenced",
+     "name": "all_conditions_met",
+     "required": false,
+     "source_hint": "Eligibility working"
+    },
+    {
+     "name": "tax_year_known",
+     "label": "Confirm: Tax year known",
+     "data_type": "boolean",
+     "required": false,
+     "source_hint": "Assessment facts"
+    }
+   ],
+   "review_notes": "DRAFT: methodology rule. s.61 is the only credit encoded with verified conditions in this seed; other credits (e.g. s.63 pension, s.63A/s.64 housing, business investment credits) are intentionally not encoded pending verification.\nCommencement: SRO 381(I)/2002 dated 15.06.2002 appointed 01.07.2002 as the date the Ordinance came into force (verified 2026-10-21).",
+   "risk_codes": [
+    "RISK-INC-007"
+   ],
+   "source_verified_date": "2026-10-21",
+   "tax_category": "income_tax",
+   "taxpayer_types": [
+    "association_of_persons",
+    "company",
+    "individual"
+   ],
+   "title": "Tax credit/exemption claimed - verification gate (methodology)",
+   "transaction_types": [
+    "credit_claim",
+    "exemption_claim"
+   ],
+   "triggering_transaction": "A tax credit or exemption is claimed (or considered) in the tax computation.",
+   "verification_status": "draft",
+   "version": 1
+  }
+ ],
+ "scenarios": [
+  {
+   "code": "SCN-INC-A1",
+   "description": "A company records Rs 2,000,000 as 'consultancy and penalties' including a Rs 500,000 regulatory fine and Rs 300,000 of personal travel of a director. The tax computation claims the full Rs 2,000,000. Expected chain: classify each line under s.21 (fine -> cl.(g) disallow; personal travel -> cl.(h) disallow), add back Rs 800,000, support the balance with vouchers and bank proof.",
+   "expected_chain": {
+    "calc_codes": [],
+    "evidence_codes": [
+     "EV-BANK-STATEMENT",
+     "EV-EXPENSE-VOUCHER",
+     "EV-GENERAL-LEDGER"
+    ],
+    "procedure_codes": [
+     "PROC-DOC-VERIFY",
+     "PROC-ELIGIBILITY"
+    ],
+    "risk_codes": [
+     "RISK-INC-001"
+    ],
+    "rule_codes": [
+     "RULE-INC-S21-DISALLOW",
+     "RULE-INC-EVIDENCE-DEDUCTION"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "expense_recorded",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "expense_head_contains",
+      "op": "contains",
+      "value": "penalties"
+     },
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     }
+    ]
+   },
+   "name": "Expense admissibility review - mixed expense head",
+   "category": "income_tax"
+  },
+  {
+   "code": "SCN-INC-A2",
+   "description": "A company's books charge straight-line depreciation of Rs 1,200,000 on plant and machinery; the tax computation deducts the same Rs 1,200,000. Expected chain: add back the Rs 1,200,000 accounting charge, compute s.22 depreciation as 15% of the tax WDV at the beginning of the year (CALC-INC-DEP-PLANT; 50% factor if first used in a tax year starting on/after 2020-07-01), and deduct only the computed amount.",
+   "expected_chain": {
+    "calc_codes": [
+     "CALC-INC-DEP-PLANT"
+    ],
+    "evidence_codes": [
+     "EV-ASSET-REGISTER",
+     "EV-DEPRECIATION-SCHEDULE",
+     "EV-FINANCIAL-STATEMENTS",
+     "EV-FIXED-ASSET-DOCS"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-TAXABLE-INCOME"
+    ],
+    "risk_codes": [
+     "RISK-INC-002"
+    ],
+    "rule_codes": [
+     "RULE-INC-S22-DEPRECIATION",
+     "RULE-INC-RECON-PROFIT"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "asset_is_depreciable",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "book_depreciation_claimed_as_tax",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     }
+    ]
+   },
+   "name": "Depreciation add-back and separate tax computation",
+   "category": "income_tax"
+  },
+  {
+   "code": "SCN-INC-A3",
+   "description": "Bank statements show customer credits of Rs 50,000,000 for the year; the sales ledger and tax computation report Rs 47,500,000. Expected chain: completeness test bank credits vs recorded revenue, investigate the Rs 2,500,000 gap (unrecorded sales, advances, cut-off, other receipts), classify each item under s.18 and include taxable amounts in the correct head.",
+   "expected_chain": {
+    "calc_codes": [],
+    "evidence_codes": [
+     "EV-BANK-STATEMENT",
+     "EV-CUSTOMER-RECEIPTS",
+     "EV-GENERAL-LEDGER",
+     "EV-SALES-REGISTER"
+    ],
+    "procedure_codes": [
+     "PROC-COMPLETENESS",
+     "PROC-RECON-TURNOVER"
+    ],
+    "risk_codes": [
+     "RISK-INC-003"
+    ],
+    "rule_codes": [
+     "RULE-INC-S18-BUSINESS-INCOME",
+     "RULE-INC-RECON-PROFIT"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "bank_credits_exceed_recorded_revenue",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     }
+    ]
+   },
+   "name": "Revenue completeness - bank credits exceed reported sales",
+   "category": "income_tax"
+  },
+  {
+   "code": "SCN-INC-A4",
+   "description": "A company sells a plot of land (non-depreciable capital asset) at a gain of Rs 5,000,000 and includes it in business income at the normal rate. Expected chain: route the receipt - land is not a depreciable asset, so s.22(8) does not apply; test RULE-INC-S37-CAPITAL-GAINS (draft) for the Capital Gains head; do not net it as ordinary business profit without checking the applicable capital-gains treatment for the tax year.",
+   "expected_chain": {
+    "calc_codes": [],
+    "evidence_codes": [
+     "EV-BANK-STATEMENT",
+     "EV-FIXED-ASSET-DOCS"
+    ],
+    "procedure_codes": [
+     "PROC-DOC-VERIFY"
+    ],
+    "risk_codes": [
+     "RISK-INC-003"
+    ],
+    "rule_codes": [
+     "RULE-INC-S18-BUSINESS-INCOME",
+     "RULE-INC-S37-CAPITAL-GAINS"
+    ]
+   },
+   "review_status": "draft",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "asset_is_depreciable",
+      "op": "eq",
+      "value": false
+     },
+     {
+      "field": "disposal_of_capital_asset",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "gain_arises",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "name": "Capital vs revenue - disposal of non-depreciable capital asset",
+   "category": "income_tax"
+  },
+  {
+   "code": "SCN-INC-A7",
+   "description": "A company sells machinery for Rs 3,000,000; its tax WDV at disposal is Rs 2,200,000. The accounts record a book gain; the tax computation ignores the disposal. Expected chain: no s.22 depreciation for the year (reverse if claimed); excess Rs 800,000 chargeable under 'Income from Business' per s.22(8)(a). If consideration had been below WDV, the shortfall would be deductible per s.22(8)(b).",
+   "expected_chain": {
+    "calc_codes": [],
+    "evidence_codes": [
+     "EV-ASSET-REGISTER",
+     "EV-BANK-STATEMENT",
+     "EV-DEPRECIATION-SCHEDULE",
+     "EV-FIXED-ASSET-DOCS"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-TAXABLE-INCOME",
+     "PROC-DOC-VERIFY"
+    ],
+    "risk_codes": [
+     "RISK-INC-005"
+    ],
+    "rule_codes": [
+     "RULE-INC-S22-DISPOSAL"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "asset_is_depreciable",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "consideration_known",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "disposed_in_year",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "wdv_at_disposal_known",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "name": "Disposal of depreciable asset - s.22(8) gain computation",
+   "category": "income_tax"
+  },
+  {
+   "code": "SCN-INC-A9",
+   "description": "A company pays Rs 10,000,000 in management fees to its foreign parent. Expected chain: confirm associate status; test pricing against the arm's length outcome; verify the master file and local file exist per s.108(3); if the Commissioner requisitions them, furnish within 30 days. Missing documentation is flagged independently of pricing.",
+   "expected_chain": {
+    "calc_codes": [],
+    "evidence_codes": [
+     "EV-CONTRACT",
+     "EV-EXPENSE-VOUCHER",
+     "EV-SUPPORTING-SCHEDULE"
+    ],
+    "procedure_codes": [
+     "PROC-DOC-VERIFY",
+     "PROC-ELIGIBILITY"
+    ],
+    "risk_codes": [
+     "RISK-INC-004"
+    ],
+    "rule_codes": [
+     "RULE-INC-S108-ASSOCIATES"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "transaction_with_associate",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "documentation_complete",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "name": "Related-party management fee - transfer-pricing check",
+   "category": "income_tax"
+  },
+  {
+   "code": "SCN-INC-E1",
+   "description": "Accounting profit before tax is Rs 20,000,000; the tax computation shows taxable business income of Rs 20,000,000 with no adjustments, although the P&L includes Rs 1,000,000 of fines and book depreciation of Rs 2,000,000. Expected chain: build the RULE-INC-RECON-PROFIT bridge - add back fines (s.21(g)) and book depreciation, deduct s.22 tax depreciation, and explain every remaining item; investigate any unexplained difference before filing.",
+   "expected_chain": {
+    "calc_codes": [
+     "CALC-INC-DEP-BUILDING",
+     "CALC-INC-DEP-IT",
+     "CALC-INC-DEP-PLANT",
+     "CALC-INC-DEP-RAMP"
+    ],
+    "evidence_codes": [
+     "EV-FINANCIAL-STATEMENTS",
+     "EV-GENERAL-LEDGER",
+     "EV-RECONCILIATION",
+     "EV-SUPPORTING-SCHEDULE",
+     "EV-TRIAL-BALANCE"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-TAXABLE-INCOME",
+     "PROC-RECON-PROFIT-TAXABLE"
+    ],
+    "risk_codes": [
+     "RISK-INC-001",
+     "RISK-INC-002",
+     "RISK-INC-006"
+    ],
+    "rule_codes": [
+     "RULE-INC-RECON-PROFIT",
+     "RULE-INC-S21-DISALLOW",
+     "RULE-INC-S22-DEPRECIATION"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "all_items_explained",
+      "op": "eq",
+      "value": false
+     },
+     {
+      "field": "head_of_income",
+      "op": "eq",
+      "value": "business"
+     },
+     {
+      "field": "tax_computation_prepared",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "name": "Accounting profit to taxable income - full bridge",
+   "category": "return_preparation"
+  },
+  {
+   "code": "SCN-INC-SLAB-TY2026",
+   "description": "ILLUSTRATIVE WORKED EXAMPLE (not legal advice). Salaried individual, TY2026 (01-07-2025 to 30-06-2026), annual taxable income Rs 2,500,000. Per CALC-INC-SLAB-IND-TY2026: falls in the 2,200,001-3,200,000 band -> 116,000 + 23% x (2,500,000 - 2,200,000) = 116,000 + 69,000 = Rs 185,000 tax before credits/surcharge. Chain: confirm tax year (RULE-INC-S74-TAXYEAR), confirm salaried status (salary >75% of taxable income), apply the TY2026 table only (never the TY2025 table), then test credits (e.g. s.61) and reconcile.",
+   "expected_chain": {
+    "calc_codes": [
+     "CALC-INC-SLAB-IND-TY2026"
+    ],
+    "evidence_codes": [
+     "EV-FINANCIAL-STATEMENTS",
+     "EV-SUPPORTING-SCHEDULE",
+     "EV-TAX-CREDIT-RECORD"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-TAXABLE-INCOME"
+    ],
+    "risk_codes": [],
+    "rule_codes": [
+     "RULE-INC-CREDIT-UNVERIFIED",
+     "RULE-INC-S61-DONATION-CREDIT",
+     "RULE-INC-S74-TAXYEAR"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "salary_exceeds_75_pct",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "tax_year",
+      "op": "eq",
+      "value": "2026"
+     },
+     {
+      "field": "taxpayer_type",
+      "op": "eq",
+      "value": "individual"
+     }
+    ]
+   },
+   "name": "Worked example - salaried individual tax computation TY2026",
+   "category": "income_tax"
+  }
+ ],
+ "sources": [
+  {
+   "code": "SRC-ITO-ORD",
+   "notes": "FBR-hosted copy of the Ordinance (2015 update). Cross-checked against pkrevenue reproductions of the FBR-issued text updated to 30.06.2021 and ordinance PDFs amended to 2018/2019/2022. Stable core provisions (ss.18, 20, 21(a)-(j), 22, 74, 114, 118) are identical across all reproductions.\n[Original source_type label: legislation_text_reproduction]",
+   "reference_url": "https://download1.fbr.gov.pk/Docs/2015102212102839390IncomeTaxOrdinance,2001latestcoorected16.10.15(updatedJune,2015).pdf",
+   "title": "Income Tax Ordinance, 2001 (Ordinance No. XLIX of 2001) - text reproductions",
+   "verified_date": "2026-10-21",
+   "source_type": "legislation",
+   "issuing_authority": "Multiple (FBR-issued updated text reproduced by pkrevenue; ordinance PDFs via fairservicez, greenwoodconsultants, pakistanitaxpayers, javidlawassociates)",
+   "jurisdiction": "federal"
+  },
+  {
+   "code": "SRC-ITO-108-FBR",
+   "notes": "Authoritative source for s.108(1)-(5) including documentation obligations (master file, local file, CbCR), 30-day furnishing and 45-day extension.\n[Original source_type label: official_government_page]",
+   "reference_url": "https://www.fbr.gov.pk/section-108/152715",
+   "title": "FBR official page: Section 108 - Transactions between associates",
+   "verified_date": "2026-10-21",
+   "source_type": "explanatory_guidance",
+   "issuing_authority": "Federal Board of Revenue (FBR), Government of Pakistan",
+   "jurisdiction": "federal"
+  },
+  {
+   "code": "SRC-ITO-S21-TEXT",
+   "notes": "Reproduces s.21 clauses (a),(b),(c) with provisos,(ca),(d) from the FBR-issued Ordinance updated to 30.06.2021. Cross-checked with lawkidunya (clauses a-h) and ordinance PDFs.\n[Original source_type label: legislation_text_reproduction]",
+   "reference_url": "https://pkrevenue.com/expenditures-not-allowed-against-business-income/",
+   "title": "Section 21 text as per FBR-issued updated Ordinance (to 30.06.2021)",
+   "verified_date": "2026-10-21",
+   "source_type": "legislation",
+   "issuing_authority": "pkrevenue.com reproducing FBR-issued text",
+   "jurisdiction": "federal"
+  },
+  {
+   "code": "SRC-ITO-S21S-FA2025",
+   "notes": "Business Recorder (11 days after 2025-07-01) reports enacted s.21(s): 50% of expenditure attributable to a sale is disallowed where cash payment is received against a single invoice exceeding Rs 200,000; FBR guidelines pending at that time. pkrevenue's Finance Bill 2025 summary (PwC) corroborates the measure. URL points to the corroborating PwC summary; the Business Recorder article URL was not returned verbatim so is not cited.\n[Original source_type label: news_report_on_enacted_law]",
+   "reference_url": "https://pkrevenue.com/summary-of-income-tax-amendments-through-finance-bill-2025/",
+   "title": "Finance Act 2025: new s.21(s) - 50% disallowance on cash-sale expenditure above Rs 200,000",
+   "verified_date": "2026-10-21",
+   "source_type": "professional_interpretation",
+   "issuing_authority": "Business Recorder",
+   "jurisdiction": "federal"
+  },
+  {
+   "code": "SRC-ITO-SLAB-TY2025",
+   "notes": "Four independent sources agree on all six slab bands and rates; base amounts recomputed from marginal rates and consistent (30,000/180,000/430,000/700,000). accountancy.com.pk's Finance Act 2024 analysis additionally confirms the s.4AB 10% surcharge above Rs 10M for TY2025 (not encoded - see meta notes).\n[Original source_type label: secondary_compilation]",
+   "reference_url": "https://www.befiler.com/blog/income-tax-slabs-2024-2025",
+   "title": "Finance Act 2024: salaried individual slabs for TY2025 (First Schedule Part I Division I)",
+   "verified_date": "2026-10-21",
+   "source_type": "professional_interpretation",
+   "issuing_authority": "Multiple (befiler, accountancy.com.pk, corptaxsolution, in-hand.pk)",
+   "jurisdiction": "federal"
+  },
+  {
+   "code": "SRC-ITO-SLAB-TY2026",
+   "notes": "Seven independent sources agree on bands and marginal rates (0/1/11/23/30/35%); base amounts 6,000/116,000/346,000/616,000 recomputed from marginal rates and consistent across sources. One inconsistent secondary figure set (hamariweb: 350,000/620,000) fails marginal chaining and was rejected.\n[Original source_type label: secondary_compilation]",
+   "reference_url": "https://regfollower.com/pakistan-federal-board-of-revenue-publishes-finance-act-2025/",
+   "title": "Finance Act 2025: salaried individual slabs for TY2026 (First Schedule Part I Division I)",
+   "verified_date": "2026-10-21",
+   "source_type": "professional_interpretation",
+   "issuing_authority": "Multiple (regfollower, taxaccountant.pk, paypeople.pk, minutemirror, pkrevenue, righttaxadvisor, dev.to)",
+   "jurisdiction": "federal"
+  },
+  {
+   "code": "SRC-ITO-S61",
+   "notes": "pkrevenue (TY2025-26 treatment) gives recipients, (A/B)xC formula, 30%/20% caps, 15%/10% associate caps, crossed-cheque requirement for cash. PBC's Oct 2025 letter confirms s.61 credits are computed in TY2025 IRIS returns (availability confirmed for TY2025).\n[Original source_type label: secondary_compilation]",
+   "reference_url": "https://pkrevenue.com/tax-treatment-on-charitable-donations-in-pakistan/",
+   "title": "Section 61 charitable donations tax credit - current availability and formula",
+   "verified_date": "2026-10-21",
+   "source_type": "professional_interpretation",
+   "issuing_authority": "pkrevenue.com; Pakistan Business Council letter to FBR (Oct 2025)",
+   "jurisdiction": "federal"
+  },
+  {
+   "code": "SRC-ITO-S22-TEXT",
+   "notes": "s.22(1)-(3),(5),(7),(8),(13) mechanics verified across reproductions; Third Schedule Part I items I (10%), II (15%), III (30%), V (ramp, 100%) consistent across sources. Item IV wording garbled in all reproductions - excluded (see meta). FA2020 50% first-year reduction corroborated by pkrevenue and brecorder.\n[Original source_type label: legislation_text_reproduction]",
+   "reference_url": "https://pkrevenue.com/tax-deduction-on-depreciable-assets/",
+   "title": "Section 22 depreciation and Third Schedule Part I rates",
+   "verified_date": "2026-10-21",
+   "source_type": "legislation",
+   "issuing_authority": "pkrevenue.com; pakistanitaxpayers.com (Ordinance updated to 15.01.2022); lawkidunya.com",
+   "jurisdiction": "federal"
+  }
+ ]
+}

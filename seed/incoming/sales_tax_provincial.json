@@ -1,0 +1,4330 @@
+{
+ "legislation": [
+  {
+   "amendment_history": "Consolidated text reflects amendments through Sindh Finance Act 2025 (XVI of 2025, assented 30-06-2025), including substitutions of ss3(1), 8(1) and 10.",
+   "code": "LEG-PST-SINDH-ACT",
+   "effective_from": "2011-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Sindh",
+   "jurisdiction": "sindh",
+   "name": "Sindh Sales Tax on Services Act, 2011",
+   "provision": "Section 1 (short title, extent and commencement)",
+   "review_status": "verified",
+   "rule_description": "Sindh Act No. XII of 2011; assented 10-06-2011; in force with effect from the first day of July, 2011; extends to the whole of the Province of Sindh. Parent statute for all Sindh services-tax rules in this file.",
+   "source_code": "SRC-PST-SRB-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "1(3)",
+   "version": 1
+  },
+  {
+   "amendment_history": "Substituted by Sindh Finance Act 2025 (XVI of 2025, assented 30-06-2025). Prior text levied tax 'at the rate specified in the Schedule in which the taxable service is listed'. Separately, the operative standard rate moved 13% to 15% w.e.f. 01-07-2024 via SRB Notification SRB-3-4/30/2024 (LEG-PST-SINDH-NOTIF-2024).",
+   "code": "LEG-PST-SINDH-S8",
+   "effective_from": "2025-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Sindh",
+   "jurisdiction": "sindh",
+   "name": "Sindh Sales Tax on Services Act, 2011",
+   "provision": "Section 8 (Scope of tax)",
+   "review_status": "verified",
+   "rule_description": "Levying provision: 'there shall be charged, levied and collected a tax known as sales tax on the provision of a taxable service at the rate of fifteen per cent of value of the taxable service, which shall be referred to as the standard rate: Provided that the rate of tax on the services or class of services listed in the Second Schedule shall be the rate as specified against respective services in that Schedule.' Section 8(2): the Board, with Government approval, may notify higher or lower rates.",
+   "source_code": "SRC-PST-SRB-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "8(1)",
+   "version": 1
+  },
+  {
+   "amendment_history": "s3(1) substituted 2021 (VII of 2023), then the Second-Schedule-listing condition omitted by Sindh Finance Act 2025 (XVI of 2025, assented 30-06-2025).",
+   "code": "LEG-PST-SINDH-S3",
+   "effective_from": "2025-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Sindh",
+   "jurisdiction": "sindh",
+   "name": "Sindh Sales Tax on Services Act, 2011",
+   "provision": "Section 3 (Taxable service)",
+   "review_status": "verified",
+   "rule_description": "Taxable service means a service provided by a person from his office or place of business in Sindh in the course of an economic activity (Explanation-I); s3(2) reverse charge for services provided to a resident person by a non-resident person in the course of an economic activity; s3(3) Sindh and non-Sindh offices of the same person treated as separate legal persons; s3(4) Board may prescribe rules for determining provision from a Sindh office. NOTE: the words 'is listed in the Second Schedule to this Act and' were omitted from s3(1) by Sindh Finance Act 2025 (XVI of 2025).",
+   "source_code": "SRC-PST-SRB-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "3(1)",
+   "version": 1
+  },
+  {
+   "amendment_history": "None affecting the operative principle in the examined text.",
+   "code": "LEG-PST-SINDH-S15",
+   "effective_from": "2011-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Sindh",
+   "jurisdiction": "sindh",
+   "name": "Sindh Sales Tax on Services Act, 2011",
+   "provision": "Section 15 (Adjustments)",
+   "review_status": "verified",
+   "rule_description": "The Board may, subject to such conditions and restrictions as it may prescribe, allow registered persons to claim adjustments or deductions, including refunds arising as a result thereof, in respect of the sales tax paid on or in respect of any taxable services or class of taxable services provided by them. SRB FAQ: input adjustment where services are used in providing taxable services, subject to restrictions; Rules 21 to 23, Chapter V of the Sindh Sales Tax on Services Rules, 2011 govern the mechanism.",
+   "source_code": "SRC-PST-SRB-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "15",
+   "version": 1
+  },
+  {
+   "amendment_history": "None affecting the due-date definition in the examined text.",
+   "code": "LEG-PST-SINDH-S30",
+   "effective_from": "2011-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Sindh",
+   "jurisdiction": "sindh",
+   "name": "Sindh Sales Tax on Services Act, 2011",
+   "provision": "Section 30 (returns, Chapter IV); section 2(16) (due date)",
+   "review_status": "verified",
+   "rule_description": "Registered persons furnish returns under Chapter IV (s30 cited via s2(37) 'short-paid' definition referencing 'the person's return filed under section 30'). 'Due date' (s2(16)) means the 15th day of the month following the end of the tax period, or such other date as the Board notifies. SRB guidance: tax due is payable along with the monthly return by the 15th of the following month.",
+   "source_code": "SRC-PST-SRB-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "30; 2(16)",
+   "version": 1
+  },
+  {
+   "amendment_history": null,
+   "code": "LEG-PST-SINDH-NOTIF-2024",
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "issuing_authority": "Sindh Revenue Board",
+   "jurisdiction": "sindh",
+   "name": "SRB Notification No. SRB-3-4/30/2024 dated 29-06-2024",
+   "provision": "Substitution of rate figures in the Sindh Sales Tax Special Procedure (Tax on Specified Services) Rules, 2023",
+   "review_status": "verified",
+   "rule_description": "Substituted '13 per cent' with the standard 15% rate w.e.f. 1st July, 2024 (reported as PTCL 2024 St. 458(i)); also substituted '13%' in the SSTS Rules, 2011 forms context (SRB-3-4/27/2024, reported as PTCL 2024 St. 741). Corroborated by SRB Circular No. 05/2024.",
+   "source_code": "SRC-PST-SRB-NOTIF-2024",
+   "source_verified_date": "2026-10-21",
+   "subsection": null,
+   "version": 1
+  },
+  {
+   "amendment_history": "Heavily amended (Finance Acts 2013-2026 per consolidated text). Commencement-date caveat in review context.",
+   "code": "LEG-PST-PUNJAB-ACT",
+   "effective_from": "2012-06-27",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of the Punjab",
+   "jurisdiction": "punjab",
+   "name": "The Punjab Sales Tax on Services Act, 2012",
+   "provision": "Section 1 (short title, extent and commencement)",
+   "review_status": "under_review",
+   "rule_description": "Act XLII of 2012, dated 27 June 2012; extends to the whole of the Punjab. Section 1(3): the Act comes into force on and from such date as the Government may, by notification in the official Gazette, specify — the commencement notification date was not found in the examined copy.",
+   "source_code": "SRC-PST-PTA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "1",
+   "version": 1
+  },
+  {
+   "amendment_history": "ss10(4)-(5) (former input tax deduction) omitted by Punjab Finance Act 2016 and re-codified as s16; s10A inserted by later amendment. Reported 2025 negative-list restructuring (s3A/First Schedule) not present in the examined copy.",
+   "code": "LEG-PST-PUNJAB-S10",
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of the Punjab",
+   "jurisdiction": "punjab",
+   "name": "The Punjab Sales Tax on Services Act, 2012",
+   "provision": "Section 10 (Scope of tax and allied matters); section 2(41A) (Standard Rate)",
+   "review_status": "under_review",
+   "rule_description": "Levying provision: 'there shall be charged, levied, collected and paid the tax on the value of a taxable service at the rate or rates specified in the Second Schedule.' Section 2(41A): 'Standard Rate means sixteen percent.' Section 10(2): Government, on Authority recommendation, may notify higher, lower, fixed or specific rates. Section 10A: a person providing a service chargeable at a reduced rate may, with Authority permission, opt to charge at the standard rate (permission irrevocable except with Authority permission).",
+   "source_code": "SRC-PST-PTA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "10(1); 2(41A)",
+   "version": 1
+  },
+  {
+   "amendment_history": "Re-codified from former s10(4)-(5) by Punjab Finance Act 2016; ss16A-16C added by later amendments.",
+   "code": "LEG-PST-PUNJAB-S16",
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of the Punjab",
+   "jurisdiction": "punjab",
+   "name": "The Punjab Sales Tax on Services Act, 2012",
+   "provision": "Sections 16, 16A, 16B, 16C (input tax deduction and restrictions)",
+   "review_status": "under_review",
+   "rule_description": "s16(1): a person required to pay tax may deduct tax paid/payable by him on receipt of taxable services exclusively used in connection with the taxable services he provides, subject to holding a true and valid tax invoice not older than six tax periods; Authority may disallow/restrict per ss16A/16B/rules. s16(5): deduction excludes additional/further/extra tax, default surcharge, fine, penalty, fee. s16A: for transactions exceeding Rs 50,000, payment must be by crossed banking instrument from the business bank account of the service recipient, otherwise no input credit/adjustment/deduction/refund. s16B: long list of inadmissible input tax — includes (g)/(h) goods/services used in or for services taxed below 15% or at a specific non-value rate; (r) further/extra/value-addition tax under the Sales Tax Act 1990; (s) immovable-property/construction items except where directly used in the economic activity of persons paying tax at not less than 16%. s16C: input tax adjustment in a tax period capped at 80% of the output tax for that period.",
+   "source_code": "SRC-PST-PTA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "16; 16A; 16B; 16C",
+   "version": 1
+  },
+  {
+   "amendment_history": null,
+   "code": "LEG-PST-PUNJAB-S4",
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of the Punjab",
+   "jurisdiction": "punjab",
+   "name": "The Punjab Sales Tax on Services Act, 2012",
+   "provision": "Section 4 (Application of principles of origin and reverse charge); section 3(3)",
+   "review_status": "under_review",
+   "rule_description": "s4(1): where a person provides taxable services in a Province other than Punjab but the recipient is resident in Punjab (or avails the services in Punjab) and tax is charged accordingly, the provider pays that tax to the Punjab Government. s4(2): a registered recipient of a taxable service deducts the whole tax and pays it to the Government. s4(3): a person providing taxable services in more than one Province including Punjab pays tax to Punjab to the extent charged from Punjab residents/persons availing services in Punjab. s4(4): service originating in Punjab but terminating outside Pakistan — tax payable to Punjab. s4(5): service originating outside Pakistan but received/terminating in Punjab — recipient liable. s3(3): a person's Punjab office/place of business and its non-Punjab office are treated as separate legal persons. s4(7): origin-principle disputes resolved under the Federal-Provincial understanding on reformed GST.",
+   "source_code": "SRC-PST-PTA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "4; 3(3)",
+   "version": 1
+  },
+  {
+   "amendment_history": null,
+   "code": "LEG-PST-PUNJAB-S35",
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of the Punjab",
+   "jurisdiction": "punjab",
+   "name": "The Punjab Sales Tax on Services Act, 2012",
+   "provision": "Section 35 (Return); section 2(17) (due date); section 18 (time, manner and mode of payment)",
+   "review_status": "under_review",
+   "rule_description": "s35(1): every registered person furnishes a true, correct, properly filled return to the Authority not later than the due date, in the notified form. s2(17): 'due date' for a return under Chapter VI means the 15th day of the month following the end of the tax period (or a notified date). s18(1): tax for a tax period is paid at the time of filing the return; s18(2): a service is treated as provided in the tax period in which it was provided to the recipient, an invoice was issued/was due, or consideration was received — whichever is earlier. Professional commentary (unverified against rules text): the Filing of Returns Rules 2012 split this into payment by the 15th and electronic Form PST-04 by the 18th.",
+   "source_code": "SRC-PST-PTA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "35(1); 2(17); 18",
+   "version": 1
+  },
+  {
+   "amendment_history": "Amended by KP Finance Acts 2024, 2025 and 2026 (per KPRA updated copy); s9 reworded by the 2025 amendments per Finance Bill 2025 analysis — exact enacted text not re-verified.",
+   "code": "LEG-PST-KPK-ACT2022",
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Khyber Pakhtunkhwa",
+   "jurisdiction": "kpk",
+   "name": "The Khyber Pakhtunkhwa Sales Tax on Services Act, 2022",
+   "provision": "Section 1 (short title, extent and commencement)",
+   "review_status": "verified",
+   "rule_description": "Khyber Pakhtunkhwa Act No. XIX of 2022; passed 03-06-2022, assented 08-06-2022, first published in the Gazette (Extraordinary) 12-06-2022; s1(3) 'come into force at once' (Government may notify different levy dates for different scheduled services); extends to the whole of Khyber Pakhtunkhwa. KPRA is the administering authority.",
+   "source_code": "SRC-PST-KPRA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "1",
+   "version": 1
+  },
+  {
+   "amendment_history": "s9(1) reworded by KP Finance Act 2025 (per Finance Bill 2025 analysis; this Act comes into force 01-07-2025).",
+   "code": "LEG-PST-KPK-S9",
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Khyber Pakhtunkhwa",
+   "jurisdiction": "kpk",
+   "name": "The Khyber Pakhtunkhwa Sales Tax on Services Act, 2022",
+   "provision": "Section 9 (Scope of tax and allied matters)",
+   "review_status": "verified",
+   "rule_description": "Levying provision: 'there shall be charged, levied, collected and paid a tax at the rate of fifteen per cent on the value of a taxable service, which shall be deemed and treated as the standard or general rate of tax for all purposes of this Act.' Second Schedule services carry their specified rates/conditions. NOTE: KP Finance Act 2025 reworded s9(1) to levy 'at the rate specified in the Second Schedule: Provided that fifteen percent rate of tax shall be deemed and treated as the standard or general rate' — the 15% standard-rate concept is preserved but the operative charging words changed; exact enacted text not re-verified.",
+   "source_code": "SRC-PST-KPRA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "9(1)",
+   "version": 1
+  },
+  {
+   "amendment_history": null,
+   "code": "LEG-PST-KPK-S17",
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Khyber Pakhtunkhwa",
+   "jurisdiction": "kpk",
+   "name": "The Khyber Pakhtunkhwa Sales Tax on Services Act, 2022",
+   "provision": "Section 17 (Input tax credit not allowed)",
+   "review_status": "verified",
+   "rule_description": "A registered person shall not claim/adjust/deduct input tax in relation to, inter alia: payments for transactions exceeding Rs 50,000 not made by crossed banking instrument from the business bank account of the recipient (utility bills excluded); goods/services used or consumed in a service liable to sales tax below the standard 15% rate or at a specific/fixed/non-value rate; services where an exemption or reduced rate applies in the Second Schedule or a notification (recipient may not adjust reduced-rate input tax against output tax at the next stage); capital goods, food/beverages/entertainment, personal consumption and other listed items. KPRA Withholding Regulations 2024 (Reg. 7): only regular taxpayers paying provincial sales tax at the standard 15% or higher may take admissible input tax adjustment in monthly returns, and only for services received from registered (non-withheld-in-full) persons; no adjustment for reduced/fixed-rate services or unregistered/inactive suppliers; withheld tax creditable only after the withholding agent declares and deposits it.",
+   "source_code": "SRC-PST-KPRA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "17",
+   "version": 1
+  },
+  {
+   "amendment_history": "Superseded by the Khyber Pakhtunkhwa Sales Tax on Services Act, 2022.",
+   "code": "LEG-PST-KPK-2013",
+   "effective_from": "2013-07-01",
+   "effective_to": "2022-06-11",
+   "issuing_authority": "Provincial Assembly of Khyber Pakhtunkhwa",
+   "jurisdiction": "kpk",
+   "name": "Khyber Pakhtunkhwa Finance Act, 2013 (sales tax on services provisions)",
+   "provision": "Section 3(2) read with the Schedule (Appendix-III)",
+   "review_status": "draft",
+   "rule_description": "Pre-2022 regime: sales tax on services levied under the KP Finance Act 2013. Search results show a Schedule with Category-1 (stand-alone services, single-stage, no input tax adjustment — e.g. hotels/marriage halls/lawns/clubs/caterers at 16%; beauty parlors 5%; laundries 5%) and Category-2 (telecommunication at 19.5%, amenable to input adjustment). Full provision text and commencement details NOT verified — retained as a superseded placeholder only; do not use for calculations.",
+   "source_code": null,
+   "source_verified_date": null,
+   "subsection": null,
+   "version": 1
+  },
+  {
+   "amendment_history": "Section 10 substituted by Balochistan Finance Act, 2025 (27-06-2025) — see LEG-PST-BAL-S10.",
+   "code": "LEG-PST-BAL-ACT",
+   "effective_from": "2015-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Balochistan",
+   "jurisdiction": "balochistan",
+   "name": "Balochistan Sales Tax on Services Act, 2015",
+   "provision": "Commencement (per BRA FAQs)",
+   "review_status": "verified",
+   "rule_description": "Balochistan Sales Tax on Services Act, 2015; applicable from 1 July 2015 (per BRA official FAQs); administered by the Balochistan Revenue Authority. Second Schedule: '(Taxable Services) [See section 3]' — Part A lists services with rates (e.g. telecommunication services 19.5%).",
+   "source_code": "SRC-PST-BRA-FAQ",
+   "source_verified_date": "2026-10-21",
+   "subsection": null,
+   "version": 1
+  },
+  {
+   "amendment_history": "Section 10 substituted vide Balochistan Finance Act, 2025 dated 27-06-2025. Pre-substitution: rate or rates specified in the Second Schedule; BRA FAQ (pre-substitution position) stated 15% except telecommunication 19.5%.",
+   "code": "LEG-PST-BAL-S10",
+   "effective_from": "2025-07-01",
+   "effective_to": null,
+   "issuing_authority": "Provincial Assembly of Balochistan",
+   "jurisdiction": "balochistan",
+   "name": "Balochistan Sales Tax on Services Act, 2015",
+   "provision": "Section 10 (Scope of Tax and Allied Matters)",
+   "review_status": "under_review",
+   "rule_description": "Levying provision as substituted by Balochistan Finance Act, 2025 (dated 27-06-2025): 'Subject to the provisions of this Act and the rules, there shall be charged, levied, collected and paid the tax on the value of a taxable service at the rate of fifteen percent of the value of the taxable service.' Section 10(2) (pre-existing): the Authority, with Government approval, may notify different (higher/lower/fixed/specific) rates for taxable services. Pre-substitution text levied tax 'at the rate or rates specified in the Second Schedule'.",
+   "source_code": "SRC-PST-EBRA-ACT",
+   "source_verified_date": "2026-10-21",
+   "subsection": "10(1)",
+   "version": 1
+  },
+  {
+   "amendment_history": "Schedule amended from time to time (FBR-hosted copy updated up to 30-06-2020 shows schedule-specific rates).",
+   "code": "LEG-PST-ICT-ORD",
+   "effective_from": "2001-06-18",
+   "effective_to": null,
+   "issuing_authority": "President of the Islamic Republic of Pakistan",
+   "jurisdiction": "ict",
+   "name": "Islamabad Capital Territory (Tax on Services) Ordinance, 2001",
+   "provision": "Ordinance No. XLII of 2001 — section 1 (short title, extent and commencement)",
+   "review_status": "under_review",
+   "rule_description": "Ordinance XLII of 2001; extends to the whole of Islamabad Capital Territory; s1(3) 'come into force at once'. The promulgation date was truncated in the examined copy ('[18 ... 2001') and is NOT confirmed — presumed 18-06-2001. Administered by the Federal Board of Revenue.",
+   "source_code": "SRC-PST-ICT-NASIR",
+   "source_verified_date": "2026-10-21",
+   "subsection": "1",
+   "version": 1
+  },
+  {
+   "amendment_history": "Schedule amended/expanded over time; s3(2A) (Federal Government power to notify different rates) evidenced by SRO 495(1)/2016 (5% for specified services, reported in secondary press).",
+   "code": "LEG-PST-ICT-S3",
+   "effective_from": "2001-06-18",
+   "effective_to": null,
+   "issuing_authority": "President of the Islamic Republic of Pakistan",
+   "jurisdiction": "ict",
+   "name": "Islamabad Capital Territory (Tax on Services) Ordinance, 2001",
+   "provision": "Section 3 (Scope of tax)",
+   "review_status": "under_review",
+   "rule_description": "Levying provision: s3(1) — 'there shall be charged, levied and paid a tax known as sales tax at the rate of fifteen per cent of the value of the taxable services rendered or provided in the Islamabad Capital Territory.' s3(2) — tax charged and levied on the services specified in the Schedule 'in the same manner and at the same time, as if it were a sales tax leviable under section 3, 3A or 3AA, as the case may be, of the Sales Tax Act, 1990.' s3(3) — all provisions of the Sales Tax Act, 1990 and rules/notifications/orders/instructions apply mutatis mutandis to collection and payment (manner/time/mode of payment; registration; records and audit; enforcement and adjudication; penalties and prosecution; ancillary matters). Original Schedule categories: (1) hotels, marriage halls, lawns, clubs, caterers; (2) TV/radio advertisement (with exclusions); (3) customs agents, ship chandlers, stevedores; (4) courier services; (5) beauty parlors/clinics/slimming clinics; (6) laundries/dry cleaners. The Schedule has since been expanded with service-specific rates (FBR updated copy).",
+   "source_code": "SRC-PST-ICT-NASIR",
+   "source_verified_date": "2026-10-21",
+   "subsection": "3",
+   "version": 1
+  }
+ ],
+ "meta": {
+  "author": "research-agent-provincial",
+  "domain": "sales_tax_provincial",
+  "notes": "Verification method: section-by-section checks against official Act/notification texts (SRB official PDFs, KPRA official Act PDF and gazette, e-bra consolidated Act text, BRA official FAQs, FBR-hosted ICT Ordinance copy) and, where noted, professional commentary. Cutoff: 2026-10-21. Rates are NOT assumed identical across provinces: Sindh 15% (standard, from 2024-07-01), Punjab 16% (statutory standard rate), KPK 15% (statutory standard rate), Balochistan 15% (standard), ICT 15% (standard). Per-province caveats: (a) Sindh: Sindh Finance Act 2025 (XVI of 2025, assented 30-06-2025) substituted section 8(1) (statutory 15% standard rate; Second Schedule rates as exceptions) and removed the 'listed in the Second Schedule' condition from section 3(1) — current consolidated text read at srb.gos.pk; Finance Act 2025 commencement presumed 1-7-2025 (standard for Finance Acts) but not directly confirmed. (b) Punjab: Act text verified (assented 27-06-2012); section 1(3) commences the Act by Government notification whose date was not verified — marked under_review. The reported 2025 negative-list regime (section 3A / First Schedule) appears only in professional commentary, not in the primary Act copy examined — flagged in review_notes, not asserted as law. (c) KPK: 2022 Act fully verified; section 9 reworded by KP Finance Act 2025 (per Finance Bill 2025 analysis) to levy at Second Schedule rates with 15% as deemed standard — exact enacted text not re-verified, flagged. Pre-2022 KP Finance Act 2013 regime kept as a superseded draft entry only. (d) Balochistan: section 10 substitution (flat 15%) verified in consolidated text via Balochistan Finance Act 2025 (27-06-2025); that Finance Act's commencement not directly confirmed — presumed 1-7-2025; pre-substitution BRA FAQ (15% except telecom 19.5%) retained as official guidance with the tension noted. (e) ICT: section 3(1)-(3) text verified against Ordinance copy and FBR-hosted updated text; promulgation/effective date not directly confirmed from the examined copy — presumed 2001-06-18, marked under_review. effective_to: null means in force to the best of knowledge on prepared_date. Key URLs: https://www.srb.gos.pk/srb/wp-content/uploads/2026/08/SSTOS_Act2011.pdf ; https://www.srb.gos.pk/srb/faqs/ ; https://www.srb.gos.pk/srb/wp-content/uploads/2026/08/08-Sindh-Sales_Tax_Special_Procedure-_Tax_on_Specified_services_rules_2023.pdf ; https://www.pta.org.pk/download/the-punjab-sales-tax-on-services-act-2012/ ; https://kpra.gov.pk/wp-content/uploads/2026/09/KPSTSA-2022-Updated-Finance-act-2026.pdf ; https://kpra.gov.pk/wp-content/uploads/2025/01/KP-withholding-regulations-2024.pdf ; https://ebra.com.pk/storage/uploads/downloads/1785387363.pdf ; https://bra.gob.pk/FAQs.aspx ; https://download1.fbr.gov.pk/Docs/20201091510533551IslamabdCapitalTerritory(TaxonServices)updatedupto30.06.2020.pdf ; http://nasirlawsite.com/laws/icto.htm\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]\n[Curated 2026-10-21 by repair_seeds.py: source field names normalised to SEED_FORMAT; source_type labels mapped (originals kept in per-source notes); 'percentage' tables with rate schedules converted to kind=rate_schedule with base_input/input_aliases derived from linked rules; ITO 2001 original provisions given effective_from 2002-07-01 per SRO 381(I)/2002 (verified); no legal content altered.]",
+  "prepared_date": "2026-10-21"
+ },
+ "sources": [
+  {
+   "code": "SRC-PST-SRB-ACT",
+   "issuing_authority": "Sindh Revenue Board",
+   "jurisdiction": "sindh",
+   "notes": "Read directly: s1(3) commencement 1-7-2011; s2(16) due date 15th; s2(19) exempt service; s3 taxable service (2025 amendment); s8 scope of tax (2025 substitution, 15% standard); s9 person liable; s10 exemptions (2025 substitution); s12 rate-change timing; s13 special procedures/withholding; s15 adjustments; s30 returns (via s2(37) short-paid reference).\n[Original source_type label: official_legislation_text]",
+   "reference_url": "https://www.srb.gos.pk/srb/wp-content/uploads/2026/08/SSTOS_Act2011.pdf",
+   "source_type": "legislation",
+   "title": "Sindh Sales Tax on Services Act, 2011 (consolidated, as amended up to Sindh Finance Act 2025) — SRB official PDF",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-SRB-FAQ",
+   "issuing_authority": "Sindh Revenue Board",
+   "jurisdiction": "sindh",
+   "notes": "Confirms: input adjustment under s15 + Rules 21-23 Ch V of the Sindh Sales Tax on Services Rules 2011; monthly return due by 15th of following month; taxable services are those in the Second Schedule (pre-2025 position); effective 1-7-2011.\n[Original source_type label: official_guidance]",
+   "reference_url": "https://www.srb.gos.pk/srb/faqs/",
+   "source_type": "explanatory_guidance",
+   "title": "SRB FAQs — Sindh Sales Tax on Services (official)",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-SRB-NOTIF-2024",
+   "issuing_authority": "Sindh Revenue Board",
+   "jurisdiction": "sindh",
+   "notes": "Footnote in the SRB Special Procedure rules PDF records substitution of '13 per cent' w.e.f. 1-7-2024 by Notification SRB-3-4/30/2024 dated 29-06-2024; corroborated by SRB Circular 05/2024 reporting. Establishes 15% from 2024-07-01 and 13% as the immediately preceding rate.\n[Original source_type label: official_notification]",
+   "reference_url": "https://www.srb.gos.pk/srb/wp-content/uploads/2026/08/08-Sindh-Sales_Tax_Special_Procedure-_Tax_on_Specified_services_rules_2023.pdf",
+   "source_type": "notification",
+   "title": "SRB Notification No. SRB-3-4/30/2024 dated 29-06-2024 (rate 13% to 15%)",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-PTA-ACT",
+   "issuing_authority": "Provincial Assembly of the Punjab",
+   "jurisdiction": "punjab",
+   "notes": "Copy hosted by PTA; read directly: contents list and full operative text of ss1, 2(17) due date, 2(41A) standard rate 16%, 3 taxable service, 4 origin/reverse charge, 7 valuation, 10 scope of tax, 10A option, 11 person liable, 16/16A/16B/16C input tax, 17 collection of excess tax, 18 time/manner/mode of payment, 35 return. Assented 27-06-2012; commencement under s1(3) by Government notification (date not in the copy).\n[Original source_type label: legislation_text]",
+   "reference_url": "https://www.pta.org.pk/download/the-punjab-sales-tax-on-services-act-2012/",
+   "source_type": "legislation",
+   "title": "The Punjab Sales Tax on Services Act, 2012 (Act XLII of 2012) — consolidated Act text",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-KPRA-ACT",
+   "issuing_authority": "Khyber Pakhtunkhwa Revenue Authority",
+   "jurisdiction": "kpk",
+   "notes": "Gazette notification: passed 03-06-2022, assented 08-06-2022, published 12-06-2022; s1(3) 'come into force at once'. Read directly: s9(1) scope of tax — 15% standard/general rate; s17 input tax credit not allowed (detailed restrictions). Copy also carries KP Finance Act 2025/2026 amendments (s9 reworded — exact enacted text not re-verified).\n[Original source_type label: official_legislation_text]",
+   "reference_url": "https://kpra.gov.pk/wp-content/uploads/2026/09/KPSTSA-2022-Updated-Finance-act-2026.pdf",
+   "source_type": "legislation",
+   "title": "The Khyber Pakhtunkhwa Sales Tax on Services Act, 2022 (Act No. XIX of 2022) — KPRA official updated copy",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-KPRA-WHTREG",
+   "issuing_authority": "Khyber Pakhtunkhwa Revenue Authority",
+   "jurisdiction": "kpk",
+   "notes": "Regulation 7: input tax adjustment under withholding regime — only regular taxpayers paying provincial sales tax at the standard rate of 15% (or higher) may take admissible input tax adjustment in monthly returns for services from registered persons; no adjustment for reduced/fixed-rate services or unregistered/inactive persons.\n[Original source_type label: official_gazette]",
+   "reference_url": "https://kpra.gov.pk/wp-content/uploads/2025/01/KP-withholding-regulations-2024.pdf",
+   "source_type": "notification",
+   "title": "KP Sales Tax Withholding Regulations, 2024 (KP Gazette Extraordinary, 3rd January 2025)",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-EBRA-ACT",
+   "issuing_authority": "Balochistan Revenue Authority (e-BRA portal)",
+   "jurisdiction": "balochistan",
+   "notes": "Read directly: s10 'Scope of Tax and Allied Matters' as substituted by Balochistan Finance Act 2025 (27-06-2025) — tax at fifteen percent of the value of a taxable service; footnotes record the pre-substitution text (rate or rates specified in the Second Schedule) and the 2025 substitution. Second Schedule '(Taxable Services) [See section 3]' Part A lists telecom at 19.5%.\n[Original source_type label: legislation_text]",
+   "reference_url": "https://ebra.com.pk/storage/uploads/downloads/1785387363.pdf",
+   "source_type": "legislation",
+   "title": "Balochistan Sales Tax on Services Act, 2015 — consolidated Act text (e-BRA)",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-BRA-FAQ",
+   "issuing_authority": "Balochistan Revenue Authority",
+   "jurisdiction": "balochistan",
+   "notes": "Confirms: Act applies from 01-07-2015; BRA administers; rate of sales tax on services is 15% except telecommunication at 19.5% on the value of taxable services (pre-s10-substitution position); provider liable to collect and pay.\n[Original source_type label: official_guidance]",
+   "reference_url": "https://bra.gob.pk/FAQs.aspx",
+   "source_type": "explanatory_guidance",
+   "title": "BRA FAQs — Balochistan Sales Tax on Services (official)",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-FBR-ICT",
+   "issuing_authority": "Federal Board of Revenue",
+   "jurisdiction": "ict",
+   "notes": "Updated Schedule (see s3(2)) lists taxable services with rates (e.g. sixteen percent for hotels, advertisements, customs agents/stevedores, courier, construction) — shows the Schedule can prescribe rates differing from the s3(1) standard.\n[Original source_type label: official_legislation_text]",
+   "reference_url": "https://download1.fbr.gov.pk/Docs/20201091510533551IslamabdCapitalTerritory(TaxonServices)updatedupto30.06.2020.pdf",
+   "source_type": "legislation",
+   "title": "Islamabad Capital Territory (Tax on Services) Ordinance, 2001 (XLII of 2001), updated up to 30-06-2020 — FBR-hosted copy",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-ICT-NASIR",
+   "issuing_authority": "President of Pakistan (Ordinance XLII of 2001)",
+   "jurisdiction": "ict",
+   "notes": "Read directly: s1(3) 'come into force at once' (promulgation date truncated in copy — not confirmed); s2 interpretation via Sales Tax Act 1990; s3(1) 15% on taxable services rendered/provided in ICT; s3(2) Schedule services charged as if under s3/3A/3AA of the Sales Tax Act 1990; s3(3) Sales Tax Act 1990 provisions apply mutatis mutandis (payment, registration, records, enforcement, penalties). Original Schedule categories: hotels/marriage halls/lawns/clubs/caterers; TV/radio advertisement; customs agents/ship chandlers/stevedores; courier; beauty parlors/clinics/slimming clinics; laundries/dry cleaners.\n[Original source_type label: legislation_text]",
+   "reference_url": "http://nasirlawsite.com/laws/icto.htm",
+   "source_type": "legislation",
+   "title": "Islamabad Capital Territory (Tax on Services) Ordinance, 2001 — full Ordinance text",
+   "verified_date": "2026-10-21"
+  },
+  {
+   "code": "SRC-PST-COMM-PUNJAB",
+   "issuing_authority": "Independent tax professionals (LinkedIn/Substack publications)",
+   "jurisdiction": "punjab",
+   "notes": "Secondary source — used ONLY for review-notes, not as the basis of any verified rule: reported Punjab negative-list regime via Punjab Finance Act 2025 (s3A, First Schedule tax-free services; restructured Second Schedule Parts I-III); Punjab Place of Provision of Services Rules 2023; Filing of Returns Rules 2012 (payment by 15th, Form PST-04); s16 re-codification history. Each point flagged as needing primary-text confirmation.\n[Original source_type label: professional_commentary]",
+   "reference_url": "https://www.linkedin.com/pulse/commentary-punjab-sales-tax-services-act-2012-part-i-khan-qgbsf",
+   "source_type": "professional_interpretation",
+   "title": "Professional commentary on the Punjab Sales Tax on Services Act, 2012 (Parts I-III) and ICT/Balochistan/KPK notes",
+   "verified_date": "2026-10-21"
+  }
+ ],
+ "rules": [
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "sindh"
+     },
+     {
+      "field": "transaction_date",
+      "op": "date_gte",
+      "value": "2024-07-01"
+     }
+    ]
+   },
+   "calc_codes": [
+    "CALC-STP-SINDH-STANDARD"
+   ],
+   "calculation_method": "Output tax = value of the taxable service × applicable rate (standard rate table CALC-STP-SINDH-STANDARD, or the verified Second Schedule rate for the transaction date).",
+   "code": "RULE-STP-SINDH-LEVY",
+   "consequences": "Under-levy creates an under-declared output tax discrepancy requiring correction; over-levy may require a refund or credit adjustment under the adjustments framework.",
+   "decision_logic": {
+    "default": "Confirm whether a Second Schedule rate applies to this service for the transaction date before selecting the rate; do not assume the standard rate where a scheduled rate exists.",
+    "table": [
+     {
+      "then": "Apply the verified Second Schedule rate for the transaction date; check the entry's conditions and restrictions before charging.",
+      "treatment_code": "schedule_rate",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apply the standard rate from CALC-STP-SINDH-STANDARD for the transaction date.",
+      "treatment_code": "standard_rate",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER"
+   ],
+   "exceptions": [
+    "A Second Schedule rate amended by notification after the transaction date — section 12: the rate in force when the service is provided governs.",
+    "A reduced-rate entry may affect input tax adjustment — test RULE-STP-SINDH-INPUT."
+   ],
+   "expected_treatment": "Sales tax is charged, levied and collected on the provision of the taxable service at the standard rate of fifteen per cent of the value of the taxable service (section 8(1)), unless the service is listed in the Second Schedule at a different rate, in which case the Schedule rate applies for the transaction date.",
+   "interpretation_note": "The engine treats the standard rate as the fallback; a verified service-specific Second Schedule rate for the transaction date takes precedence per the proviso to section 8(1).",
+   "jurisdiction": "sindh",
+   "legislation_codes": [
+    "LEG-PST-SINDH-S8",
+    "LEG-PST-SINDH-NOTIF-2024"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-RECON-SALESTAX"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "date",
+     "label": "Date the service was provided (rate-change cut-off)",
+     "name": "transaction_date",
+     "required": true,
+     "source_hint": "Tax invoice / service delivery record"
+    },
+    {
+     "data_type": "choice",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict",
+      "unknown"
+     ],
+     "label": "Province/territory of provision",
+     "name": "province_of_provision",
+     "required": true,
+     "source_hint": "Contract / place-of-provision analysis"
+    },
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "number",
+     "label": "Value of the taxable service (PKR, exclusive of tax)",
+     "name": "value_of_service",
+     "required": true,
+     "source_hint": "Tax invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "A Second Schedule entry prescribes a specific rate for this service",
+     "name": "schedule_rate_applies",
+     "required": true,
+     "source_hint": "Second Schedule for the transaction date"
+    }
+   ],
+   "return_fields": [
+    "output_tax_sindh",
+    "taxable_value_sindh"
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 8(1) standard-rate text verified in the consolidated Act (substituted by Sindh Finance Act 2025, XVI of 2025). The 13%-to-15% change w.e.f. 2024-07-01 verified via SRB Notification SRB-3-4/30/2024. Commencement of the Sindh Finance Act 2025 presumed 1-7-2025 (standard Finance Act timing) — pending direct confirmation; section 12 rate-change timing ('rate in force when the service is provided') verified.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-WRONGRATE",
+    "RISK-STP-MISCLASS"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Sindh: levy of sales tax on a taxable service — standard 15% rate and Second Schedule rates",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service is provided, rendered, initiated, received or consumed in the Province of Sindh in the course of an economic activity.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "code": "RULE-STP-SINDH-CLASS",
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "sindh"
+     }
+    ]
+   },
+   "decision_logic": {
+    "default": "Determine the provider's place(s) of business and the recipient's residence before concluding on taxability.",
+    "table": [
+     {
+      "then": "Exempt from tax under section 10 subject to the First Schedule's conditions and restrictions; no output tax. Retain the exemption basis.",
+      "treatment_code": "exempt_first_schedule",
+      "when": {
+       "all": [
+        {
+         "field": "first_schedule_exempt",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Taxable service; proceed to rate selection (RULE-STP-SINDH-LEVY) and liability (RULE-STP-SINDH-JURIS).",
+      "treatment_code": "taxable",
+      "when": {
+       "all": [
+        {
+         "field": "first_schedule_exempt",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "provider_has_sindh_office",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "provided_in_economic_activity",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Taxable service; the recipient is liable under reverse charge (section 9(2)).",
+      "treatment_code": "reverse_charge",
+      "when": {
+       "all": [
+        {
+         "field": "first_schedule_exempt",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "provider_nonresident",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "recipient_resident_sindh",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2011-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-REGISTRATION-CERT",
+    "EV-CONTRACT"
+   ],
+   "expected_treatment": "A service is a taxable service where it is provided by a person from his office or place of business in Sindh in the course of an economic activity (section 3(1), as amended 2025), or where it is provided to a resident person by a non-resident person in the course of an economic activity (section 3(2)). Services specified in the First Schedule are exempt from tax under section 10, subject to the conditions and restrictions specified therein.",
+   "interpretation_note": "Before the Sindh Finance Act 2025, section 3(1) additionally required the service to be 'listed in the Second Schedule'; the 2025 amendment omitted that condition. Classification working papers must record which version of section 3 applied on the transaction date.",
+   "jurisdiction": "sindh",
+   "legislation_codes": [
+    "LEG-PST-SINDH-S3",
+    "LEG-PST-SINDH-ACT"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider has an office or place of business in Sindh",
+     "name": "provider_has_sindh_office",
+     "required": true,
+     "source_hint": "Registration certificate / business records"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service provided in the course of an economic activity",
+     "name": "provided_in_economic_activity",
+     "required": true,
+     "source_hint": "Contract / business records"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service is specified in the First Schedule (exempt)",
+     "name": "first_schedule_exempt",
+     "required": true,
+     "source_hint": "First Schedule for the transaction date"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider is a non-resident person",
+     "name": "provider_nonresident",
+     "required": false,
+     "source_hint": "Residency analysis (s2(33))"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Recipient is resident in Sindh",
+     "name": "recipient_resident_sindh",
+     "required": false,
+     "source_hint": "Residency analysis (s2(33))"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 3 text (including the 2025 omission of the Second Schedule listing condition, the reverse-charge limb, and s3(3) separate-person rule) and section 10 First Schedule exemptions verified in the consolidated Act. The full current text of amended s3(1) is described from the verified amendment footnotes; the pre-2025 positive-list position is preserved in review context for historical transactions.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-MISCLASS",
+    "RISK-STP-JURISDICTION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Sindh: classification of a service as taxable — section 3 definition and First Schedule exemptions",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service has a possible Sindh nexus and its taxability must be established before any rate is applied.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "in",
+      "value": [
+       "sindh",
+       "unknown"
+      ]
+     }
+    ]
+   },
+   "code": "RULE-STP-SINDH-JURIS",
+   "decision_logic": {
+    "default": "Establish the provider's place(s) of business and the recipient's residence before assigning jurisdiction; unresolved cases are a jurisdiction risk (RISK-STP-JURISDICTION).",
+    "table": [
+     {
+      "then": "Sindh sales tax applies; liability is on the person providing the service (section 9(1)).",
+      "treatment_code": "provider_liable",
+      "when": {
+       "all": [
+        {
+         "field": "provider_has_sindh_office",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "provided_in_economic_activity",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Taxable service; the recipient is liable under reverse charge (section 9(2)).",
+      "treatment_code": "recipient_liable",
+      "when": {
+       "all": [
+        {
+         "field": "provider_nonresident",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "recipient_resident_sindh",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Treat the Sindh and non-Sindh offices as separate legal persons (section 3(3)); attribute the service to the office that actually provided it and apply the corresponding province's law.",
+      "treatment_code": "separate_person",
+      "when": {
+       "all": [
+        {
+         "field": "provider_has_sindh_and_other_office",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2011-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-REGISTRATION-CERT",
+    "EV-CONTRACT",
+    "EV-SALES-INVOICE"
+   ],
+   "expected_treatment": "Where the service is provided from an office or place of business in Sindh in the course of an economic activity, Sindh sales tax applies and the person providing the service is liable (section 9(1)); where a non-resident person provides the service to a resident person, the recipient is liable (section 9(2)); the Sindh and non-Sindh offices of one person are treated as separate legal persons (section 3(3)); the Board may prescribe rules for determining provision from a Sindh office (section 3(4)).",
+   "jurisdiction": "sindh",
+   "legislation_codes": [
+    "LEG-PST-SINDH-S3",
+    "LEG-PST-SINDH-ACT"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Provider has an office or place of business in Sindh",
+     "name": "provider_has_sindh_office",
+     "required": true,
+     "source_hint": "Registration certificate / business records"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider also has an office outside Sindh",
+     "name": "provider_has_sindh_and_other_office",
+     "required": false,
+     "source_hint": "Business records"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider is a non-resident person",
+     "name": "provider_nonresident",
+     "required": false,
+     "source_hint": "Residency analysis (s2(33))"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Recipient is resident in Sindh",
+     "name": "recipient_resident_sindh",
+     "required": false,
+     "source_hint": "Residency analysis (s2(33))"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service provided in the course of an economic activity",
+     "name": "provided_in_economic_activity",
+     "required": true,
+     "source_hint": "Contract / business records"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Sections 3(1)-(4) and 9(1)-(2) verified in the consolidated Act. Section 9(3) (Board may shift liability to other persons by notification) noted but not built into decision rows — flag as a follow-up check. Section 3(4) rule-making power noted; any such Board rules for the period must be checked separately.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-JURISDICTION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Sindh: provincial nexus — which office's provision attracts Sindh tax and who pays",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service may be provided from Sindh, from outside Sindh, or by a non-resident to a Sindh resident, and the applicable province's law and liable person must be determined.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "sindh"
+     },
+     {
+      "field": "provider_registered_sindh",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "input_tax_claimed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RULE-STP-SINDH-INPUT",
+   "decision_logic": {
+    "default": "Obtain the Board's applicable conditions and restrictions for the tax period before claiming any adjustment.",
+    "table": [
+     {
+      "then": "Adjustment may be claimed subject to the Board's prescribed conditions and restrictions (Rules 21-23, Chapter V, Sindh Sales Tax on Services Rules, 2011); retain the invoices and the adjustment working.",
+      "treatment_code": "adjustment_allowed_conditional",
+      "when": {
+       "all": [
+        {
+         "field": "valid_tax_invoice_held",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "input_used_in_taxable_services",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "No adjustment without the prescribed documentation; obtain valid tax invoices first.",
+      "treatment_code": "no_adjustment",
+      "when": {
+       "all": [
+        {
+         "field": "valid_tax_invoice_held",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2011-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "expected_treatment": "Section 15 permits registered persons to claim adjustments or deductions, including refunds arising as a result thereof, in respect of the sales tax paid on or in respect of any taxable services or class of taxable services provided by them, subject to such conditions and restrictions as the Board prescribes. SRB guidance operationalises this through Rules 21-23 of Chapter V of the Sindh Sales Tax on Services Rules, 2011: input adjustment is available where the inputs are used in providing taxable services, subject to the restrictions and adjustment mechanism prescribed.",
+   "interpretation_note": "Possession of a purchase invoice does not by itself establish the adjustment; the Board's conditions for the period (validity, timing, use in taxable services, restrictions) must each be tested.",
+   "jurisdiction": "sindh",
+   "legislation_codes": [
+    "LEG-PST-SINDH-S15"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Provider is registered under the Sindh Act",
+     "name": "provider_registered_sindh",
+     "required": true,
+     "source_hint": "SRB registration certificate"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Input tax adjustment is being claimed",
+     "name": "input_tax_claimed",
+     "required": true,
+     "source_hint": "Return / working papers"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Valid tax invoice(s) held for the inputs",
+     "name": "valid_tax_invoice_held",
+     "required": true,
+     "source_hint": "Purchase invoices"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Inputs used in providing taxable services",
+     "name": "input_used_in_taxable_services",
+     "required": true,
+     "source_hint": "Cost records / allocation working"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 15 verified in the consolidated Act; SRB official FAQ confirms the Rules 21-23 Chapter V mechanism and the 'used in providing taxable services, subject to restrictions' principle. The detailed conditions of Rules 21-23 were not read line-by-line — the rule requires the engine to fetch the Board's applicable conditions rather than assuming them.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-UNSUPPORTED-ADJ"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Sindh: input tax adjustment — Board-prescribed conditions under section 15",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A registered Sindh service provider claims an input tax adjustment against output tax.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "sindh"
+     },
+     {
+      "field": "provider_registered_sindh",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RULE-STP-SINDH-RETURN",
+   "decision_logic": {
+    "default": "Confirm the tax period and the Board-notified due date for that period.",
+    "table": [
+     {
+      "then": "Compliant filing; retain the return acknowledgement and payment challan.",
+      "treatment_code": "compliant",
+      "when": {
+       "all": [
+        {
+         "field": "return_filed_by_due_date",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "tax_paid_with_return",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Late filing/payment; assess default surcharge and penalty exposure only where the legal conditions, rates and method are verified — otherwise flag for review.",
+      "treatment_code": "late_payment",
+      "when": {
+       "all": [
+        {
+         "field": "tax_paid_with_return",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2011-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-RETURN-ACK",
+    "EV-TAX-CHALLAN"
+   ],
+   "expected_treatment": "Registered persons furnish returns under Chapter IV (section 30) and pay the tax due along with the return by the due date — the 15th day of the month following the end of the tax period (section 2(16)), or such other date as the Board notifies in the official Gazette.",
+   "jurisdiction": "sindh",
+   "legislation_codes": [
+    "LEG-PST-SINDH-S30"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-SALESTAX",
+    "PROC-RECON-PAYMENTS"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Provider is registered under the Sindh Act",
+     "name": "provider_registered_sindh",
+     "required": true,
+     "source_hint": "SRB registration certificate"
+    },
+    {
+     "data_type": "date",
+     "label": "End of the tax period",
+     "name": "tax_period_end",
+     "required": true,
+     "source_hint": "Return"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Return filed by the due date",
+     "name": "return_filed_by_due_date",
+     "required": true,
+     "source_hint": "Return acknowledgement"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Tax paid with the return",
+     "name": "tax_paid_with_return",
+     "required": true,
+     "source_hint": "Payment challan / bank record"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 2(16) due-date definition verified; section 30 return-filing verified via the s2(37) 'short-paid' cross-reference and SRB guidance stating tax is payable with the monthly return by the 15th of the following month. SRB withholding rules reference monthly returns. Penalty/default-surcharge provisions were not verified for this file — hence the neutral late-payment treatment.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-OMISSION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Sindh: return filing and payment deadline",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A registered Sindh service provider must file a return and pay tax for a tax period.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "punjab"
+     },
+     {
+      "field": "transaction_date",
+      "op": "date_gte",
+      "value": "2012-07-01"
+     }
+    ]
+   },
+   "calc_codes": [
+    "CALC-STP-PUNJAB-STANDARD"
+   ],
+   "calculation_method": "Output tax = value of the taxable service × applicable rate (standard rate table CALC-STP-PUNJAB-STANDARD, or the verified Second Schedule rate).",
+   "code": "RULE-STP-PUNJAB-LEVY",
+   "consequences": "Under-levy creates an under-declared output tax discrepancy; over-levy is recoverable from the Government only where the incidence was not passed on, and must otherwise be deposited (cf. section 17, collection of excess tax).",
+   "decision_logic": {
+    "default": "Confirm the Second Schedule entry and the rate in force for the transaction date before charging.",
+    "table": [
+     {
+      "then": "Apply the verified Second Schedule rate for the transaction date.",
+      "treatment_code": "schedule_rate",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apply the standard rate from CALC-STP-PUNJAB-STANDARD for the transaction date.",
+      "treatment_code": "standard_rate",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "opted_standard_rate",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apply the 16% standard rate; verify the Authority's permission under section 10A and its conditions and restrictions.",
+      "treatment_code": "opted_standard",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "opted_standard_rate",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "authority_permission_held",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER"
+   ],
+   "exceptions": [
+    "The Government may notify a different (higher/lower/fixed/specific) rate for the service — section 10(2); verify the notification for the transaction date.",
+    "Section 10A permission is irrevocable except with Authority permission and may be withdrawn for misuse."
+   ],
+   "expected_treatment": "Tax is charged, levied, collected and paid on the value of a taxable service at the rate or rates specified in the Second Schedule (section 10(1)); the statutory 'Standard Rate' is sixteen percent (section 2(41A)). The Government may, on the Authority's recommendation, notify different rates (section 10(2)). A person providing a service chargeable at a reduced rate may, with the Authority's permission and subject to its conditions, opt to charge tax at the standard rate (section 10A).",
+   "jurisdiction": "punjab",
+   "legislation_codes": [
+    "LEG-PST-PUNJAB-S10"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-RECON-SALESTAX"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "date",
+     "label": "Date the service was provided",
+     "name": "transaction_date",
+     "required": true,
+     "source_hint": "Tax invoice / service delivery record"
+    },
+    {
+     "data_type": "choice",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict",
+      "unknown"
+     ],
+     "label": "Province/territory of provision",
+     "name": "province_of_provision",
+     "required": true,
+     "source_hint": "Contract / place-of-provision analysis"
+    },
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "number",
+     "label": "Value of the taxable service (PKR, exclusive of tax)",
+     "name": "value_of_service",
+     "required": true,
+     "source_hint": "Tax invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "A Second Schedule entry prescribes a specific rate for this service",
+     "name": "schedule_rate_applies",
+     "required": true,
+     "source_hint": "Second Schedule for the transaction date"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider has opted to charge the standard rate under s10A",
+     "name": "opted_standard_rate",
+     "required": false,
+     "source_hint": "Authority permission record"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Authority permission under s10A is held",
+     "name": "authority_permission_held",
+     "required": false,
+     "source_hint": "Permission letter"
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Sections 10(1), 2(41A), 10(2) and 10A verified against the Act text (assented 27-06-2012). Commencement under s1(3) is by Government notification whose date was not verified — effective_from 2012-07-01 is the working date for the standard rate, flagged for confirmation.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-WRONGRATE",
+    "RISK-STP-MISCLASS"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Punjab: levy of sales tax on a taxable service — Second Schedule rates and 16% standard rate",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A taxable service is provided in the Province of the Punjab and the applicable rate must be selected.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "punjab"
+     }
+    ]
+   },
+   "code": "RULE-STP-PUNJAB-CLASS",
+   "decision_logic": {
+    "default": "Determine the provider's registration status, place of business and the recipient's residence before concluding.",
+    "table": [
+     {
+      "then": "Exempt from tax under section 12 subject to its conditions; no output tax. Verify the exemption conditions.",
+      "treatment_code": "exempt",
+      "when": {
+       "all": [
+        {
+         "field": "service_exempt_s12",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Taxable service; proceed to rate selection (RULE-STP-PUNJAB-LEVY).",
+      "treatment_code": "taxable",
+      "when": {
+       "all": [
+        {
+         "field": "service_exempt_s12",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "listed_in_second_schedule",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "provider_registered",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "provider_punjab_office",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Taxable service; liability falls on the recipient (section 11(2) read with section 3(2)).",
+      "treatment_code": "reverse_charge",
+      "when": {
+       "all": [
+        {
+         "field": "service_exempt_s12",
+         "op": "eq",
+         "value": false
+        },
+        {
+         "field": "listed_in_second_schedule",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "provider_nonresident",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "recipient_resident_punjab",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-REGISTRATION-CERT",
+    "EV-CONTRACT"
+   ],
+   "expected_treatment": "A taxable service is a service listed in the Second Schedule provided by a registered person from his registered office or place of business in the Punjab in the course of an economic activity (section 3(1)); a Second Schedule service provided to a resident person by a non-resident person in the course of an economic activity is also a taxable service (section 3(2)); the Authority may, with prior Government approval, prescribe rules for determining when a service is considered provided from a Punjab place of business (section 3(4)). Section 12 exempts specified services subject to conditions.",
+   "interpretation_note": "Section 3(6) (as amended) states the First Schedule list is not exhaustive and Second Schedule/rules/circular services are taxable. Professional commentary reports a 2025 negative-list restructuring (new section 3A; First Schedule of tax-free services; restructured Second Schedule) via the Punjab Finance Act 2025 — this was NOT verified against the primary Act text in the copy examined, so the rule reflects the verified positive-list text and must be re-checked if the negative list is confirmed.",
+   "jurisdiction": "punjab",
+   "legislation_codes": [
+    "LEG-PST-PUNJAB-ACT"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service is listed in the Second Schedule",
+     "name": "listed_in_second_schedule",
+     "required": true,
+     "source_hint": "Second Schedule for the transaction date"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service is exempt under section 12",
+     "name": "service_exempt_s12",
+     "required": true,
+     "source_hint": "Section 12 / notifications"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider is registered under the Punjab Act",
+     "name": "provider_registered",
+     "required": true,
+     "source_hint": "PRA registration certificate"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider has a registered office or place of business in Punjab",
+     "name": "provider_punjab_office",
+     "required": true,
+     "source_hint": "Business records"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider is a non-resident person",
+     "name": "provider_nonresident",
+     "required": false,
+     "source_hint": "Residency analysis"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Recipient is resident in Punjab",
+     "name": "recipient_resident_punjab",
+     "required": false,
+     "source_hint": "Residency analysis"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 3(1)-(4) verified against the Act text. The reported 2025 negative-list change (s3A) is flagged as unverified in review context — the rule must be re-verified against a current consolidated Act before it is relied on for post-2025 transactions. Section 12 exemption list itself was not verified line-by-line; the rule requires the exemption conditions to be checked.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-MISCLASS",
+    "RISK-STP-JURISDICTION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Punjab: classification of a service as taxable — section 3 and exemptions",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service has a possible Punjab nexus and its taxability must be established before any rate is applied.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "transaction_date",
+      "op": "date_gte",
+      "value": "2012-07-01"
+     }
+    ]
+   },
+   "code": "RULE-STP-PUNJAB-JURIS",
+   "decision_logic": {
+    "default": "Establish where the provider and recipient are located, where the service is availed, and who charged the tax, before assigning jurisdiction.",
+    "table": [
+     {
+      "then": "Punjab tax applies to this service; the provider pays the charged tax to the Punjab Government (section 4(1)).",
+      "treatment_code": "provider_pays_punjab",
+      "when": {
+       "all": [
+        {
+         "field": "provider_in_other_province",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "recipient_resident_punjab",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "tax_charged_to_recipient",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apportion: pay tax to Punjab only to the extent charged from Punjab residents or persons availing the services in Punjab (section 4(3)); the remainder follows the other province's law.",
+      "treatment_code": "multi_province_apportion",
+      "when": {
+       "all": [
+        {
+         "field": "provider_multi_province",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Treat the Punjab office and the non-Punjab office as separate legal persons (section 3(3)); attribute the service to the office that provided it.",
+      "treatment_code": "separate_person",
+      "when": {
+       "all": [
+        {
+         "field": "provider_has_punjab_and_other_office",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "The recipient in Punjab is liable to pay the tax to the Punjab Government (section 4(5)).",
+      "treatment_code": "import_reverse_charge",
+      "when": {
+       "all": [
+        {
+         "field": "service_origin_outside_pakistan",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "service_received_in_punjab",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Tax is payable to the Punjab Government on the service originating in Punjab even though it terminates outside Pakistan (section 4(4)).",
+      "treatment_code": "export_origin_punjab",
+      "when": {
+       "all": [
+        {
+         "field": "service_origin_punjab",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "service_terminates_outside_pakistan",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-REGISTRATION-CERT",
+    "EV-CONTRACT",
+    "EV-SALES-INVOICE"
+   ],
+   "expected_treatment": "Section 4 (origin and reverse-charge principles): where a person provides taxable services in another Province but the recipient is resident in Punjab (or otherwise avails the services in Punjab) and tax is charged accordingly, the provider pays that tax to the Punjab Government (s4(1)); a person providing taxable services in more than one Province including Punjab pays tax to Punjab to the extent charged from Punjab residents or persons availing services in Punjab (s4(3)); a service originating in Punjab but terminating outside Pakistan is taxable in Punjab (s4(4)); a service originating outside Pakistan but received/terminating in Punjab makes the recipient liable (s4(5)); a person's Punjab and non-Punjab offices are separate legal persons (s3(3)); origin-principle disputes are resolved under the Federal-Provincial understanding on reformed GST (s4(7)). Section 11: liability is on the registered provider (s3(1) services) or the recipient (s3(2) services); the Authority may notify other liable persons (s11(3)).",
+   "jurisdiction": "punjab",
+   "legislation_codes": [
+    "LEG-PST-PUNJAB-S4",
+    "LEG-PST-PUNJAB-ACT"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "date",
+     "label": "Date the service was provided",
+     "name": "transaction_date",
+     "required": true,
+     "source_hint": "Tax invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider is in a province other than Punjab",
+     "name": "provider_in_other_province",
+     "required": false,
+     "source_hint": "Business records"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider operates in multiple provinces including Punjab",
+     "name": "provider_multi_province",
+     "required": false,
+     "source_hint": "Business records"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider has both Punjab and non-Punjab offices",
+     "name": "provider_has_punjab_and_other_office",
+     "required": false,
+     "source_hint": "Business records"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Recipient is resident in Punjab or avails the service in Punjab",
+     "name": "recipient_resident_punjab",
+     "required": false,
+     "source_hint": "Contract / residency analysis"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Tax was charged to the recipient",
+     "name": "tax_charged_to_recipient",
+     "required": false,
+     "source_hint": "Tax invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service originated outside Pakistan",
+     "name": "service_origin_outside_pakistan",
+     "required": false,
+     "source_hint": "Contract"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service was received/terminates in Punjab",
+     "name": "service_received_in_punjab",
+     "required": false,
+     "source_hint": "Contract"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service originated in Punjab",
+     "name": "service_origin_punjab",
+     "required": false,
+     "source_hint": "Contract"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service terminates outside Pakistan",
+     "name": "service_terminates_outside_pakistan",
+     "required": false,
+     "source_hint": "Contract"
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 4(1)-(8) and section 3(3) verified against the Act text. The Punjab Place of Provision of Services Rules 2023 (reported in professional commentary) were not verified against a primary source — any such rules for the period must be checked separately. Section 4(8) special procedures and section 11(3) notified liable persons are noted as follow-up checks.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-JURISDICTION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Punjab: origin and reverse-charge jurisdiction — section 4 nexus rules",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service touches more than one province (or Pakistan and abroad) and the Punjab share of tax and the liable person must be determined.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "punjab"
+     },
+     {
+      "field": "input_tax_claimed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RULE-STP-PUNJAB-INPUT",
+   "decision_logic": {
+    "default": "Test each section 16/16A/16B/16C condition before allowing any input tax adjustment.",
+    "table": [
+     {
+      "then": "Input tax adjustment is disallowed — the invoice is older than six tax periods. Obtain a valid invoice or reverse the claim.",
+      "treatment_code": "invoice_too_old",
+      "when": {
+       "all": [
+        {
+         "field": "invoice_age_tax_periods",
+         "op": "gt",
+         "value": 6
+        }
+       ]
+      }
+     },
+     {
+      "then": "No input tax credit, adjustment, deduction or refund is admissible for this payment (section 16A); reverse the claim unless payment is routed correctly within 180 days of the invoice.",
+      "treatment_code": "banking_channel_fail",
+      "when": {
+       "all": [
+        {
+         "field": "transaction_value",
+         "op": "gt",
+         "value": 50000
+        },
+        {
+         "field": "paid_via_banking_channel",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "No input tax adjustment on these inputs (section 16B(g)/(h)); the recipient of reduced-rate services likewise cannot adjust (section 16B).",
+      "treatment_code": "reduced_rate_input",
+      "when": {
+       "any": [
+        {
+         "field": "input_used_for_reduced_rate_service",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "input_rate_below_15_or_specific",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Cap the period's input tax adjustment at 80% of the output tax for that tax period (section 16C); carry the treatment of any excess per the applicable rules.",
+      "treatment_code": "cap_80",
+      "when": {
+       "all": [
+        {
+         "field": "input_tax_exceeds_80pct_output",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Deduction/adjustment is admissible under section 16(1), excluding any additional/further/extra tax, default surcharge, fine, penalty or fee (section 16(5)).",
+      "treatment_code": "eligible",
+      "when": {
+       "all": [
+        {
+         "field": "invoice_age_tax_periods",
+         "op": "lte",
+         "value": 6
+        },
+        {
+         "field": "input_used_exclusively_in_taxable_services",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "valid_tax_invoice_held",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-BANK-STATEMENT",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "exceptions": [
+    "Section 16B lists further specific disallowances (capital goods not exclusively used, utility bills not in the registered person's name, supplier non-deposit, fake/flying invoices, fixed-tax persons, immovable-property items, etc.) — each must be tested.",
+    "Section 16(2) adjustments for tax paid under other laws require a valid invoice/declaration not older than six tax periods in the person's name and NTN."
+   ],
+   "expected_treatment": "A person required to pay tax may deduct the tax payable or paid by him on receipt of taxable services exclusively used in connection with the taxable services he provides, subject to holding a true and valid tax invoice not older than six tax periods, and subject to sections 16A/16B/16C and the rules (section 16(1)). The deduction excludes additional/further/extra tax, default surcharge, fines, penalties and fees (section 16(5)). Payments exceeding Rs 50,000 must be made by crossed banking instrument from the business bank account of the service recipient, otherwise no input credit/adjustment/deduction/refund is admissible (section 16A). Section 16B bars input tax on a long list of items including inputs for services taxed below 15% or at specific non-value rates. Section 16C caps input tax adjustment at 80% of the output tax for the tax period.",
+   "interpretation_note": "The 16% reference in section 16B(g)/(h) (as amended) and the 16% floor in 16B(s) are the figures in the examined Act text; the engine must use the figures as amended for the transaction date.",
+   "jurisdiction": "punjab",
+   "legislation_codes": [
+    "LEG-PST-PUNJAB-S16"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "choice",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict",
+      "unknown"
+     ],
+     "label": "Province/territory of provision",
+     "name": "province_of_provision",
+     "required": true,
+     "source_hint": "Contract / place-of-provision analysis"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Input tax adjustment is being claimed",
+     "name": "input_tax_claimed",
+     "required": true,
+     "source_hint": "Return / working papers"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Valid tax invoice held",
+     "name": "valid_tax_invoice_held",
+     "required": true,
+     "source_hint": "Purchase invoices"
+    },
+    {
+     "data_type": "number",
+     "label": "Age of the invoice in tax periods",
+     "name": "invoice_age_tax_periods",
+     "required": true,
+     "source_hint": "Invoice date vs tax period"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Input used exclusively in connection with taxable services provided",
+     "name": "input_used_exclusively_in_taxable_services",
+     "required": true,
+     "source_hint": "Cost records / allocation working"
+    },
+    {
+     "data_type": "number",
+     "label": "Transaction value (PKR)",
+     "name": "transaction_value",
+     "required": true,
+     "source_hint": "Invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Payment made via banking channel from the business bank account",
+     "name": "paid_via_banking_channel",
+     "required": true,
+     "source_hint": "Bank statement"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Input used for a service taxed below 15% or at a specific rate",
+     "name": "input_used_for_reduced_rate_service",
+     "required": false,
+     "source_hint": "Rate analysis"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Input itself taxed below 15% or at a specific non-value rate",
+     "name": "input_rate_below_15_or_specific",
+     "required": false,
+     "source_hint": "Purchase invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Claimed input tax exceeds 80% of the period's output tax",
+     "name": "input_tax_exceeds_80pct_output",
+     "required": false,
+     "source_hint": "Return working"
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Sections 16, 16A, 16B and 16C verified against the Act text (post-2016 re-codification). The Rs 50,000 banking-channel threshold, the six-tax-period invoice limit, and the 80% cap are verified statutory figures. Section 16B's full inadmissible list is summarised in the legislation record; edge cases (e.g. 16B(q) supplier-declaration matching) should be tested against the current rules.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-UNSUPPORTED-ADJ"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Punjab: input tax deduction and restrictions — sections 16, 16A, 16B, 16C",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A registered Punjab service provider claims an input tax deduction or adjustment.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "punjab"
+     },
+     {
+      "field": "provider_registered_punjab",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RULE-STP-PUNJAB-RETURN",
+   "decision_logic": {
+    "default": "Confirm the tax period and the Authority-notified due date for that period.",
+    "table": [
+     {
+      "then": "Compliant filing; retain the return acknowledgement and payment proof.",
+      "treatment_code": "compliant",
+      "when": {
+       "all": [
+        {
+         "field": "return_filed_by_due_date",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "tax_paid_with_return",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Late filing/payment; assess default surcharge and penalty exposure only where the legal conditions, rates and method are verified — otherwise flag for review.",
+      "treatment_code": "late_payment",
+      "when": {
+       "all": [
+        {
+         "field": "tax_paid_with_return",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-RETURN-ACK",
+    "EV-TAX-CHALLAN"
+   ],
+   "expected_treatment": "Every registered person furnishes a true, correct and properly filled return to the Authority not later than the due date in the notified form (section 35(1)); the due date for a Chapter VI return is the 15th day of the month following the end of the tax period, or a notified date (section 2(17)). Tax for a tax period is paid at the time of filing the return (section 18(1)); a service is treated as provided in the tax period in which it was provided to the recipient, an invoice was issued or was due, or consideration was received — whichever is earlier (section 18(2)).",
+   "interpretation_note": "Professional commentary reports that the Punjab Sales Tax on Services (Filing of Returns) Rules, 2012 split compliance into payment by the 15th and electronic Form PST-04 by the 18th — this split was not verified against the rules text and is recorded here as an unverified operational note, not as law.",
+   "jurisdiction": "punjab",
+   "legislation_codes": [
+    "LEG-PST-PUNJAB-S35"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-SALESTAX",
+    "PROC-RECON-PAYMENTS"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Provider is registered under the Punjab Act",
+     "name": "provider_registered_punjab",
+     "required": true,
+     "source_hint": "PRA registration certificate"
+    },
+    {
+     "data_type": "date",
+     "label": "End of the tax period",
+     "name": "tax_period_end",
+     "required": true,
+     "source_hint": "Return"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Return filed by the due date",
+     "name": "return_filed_by_due_date",
+     "required": true,
+     "source_hint": "Return acknowledgement"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Tax paid with the return",
+     "name": "tax_paid_with_return",
+     "required": true,
+     "source_hint": "Payment challan / bank record"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Sections 35(1), 2(17) and 18(1)-(2) verified against the Act text. The 15th/18th split under the Filing of Returns Rules 2012 is unverified (commentary only) and recorded as interpretation, not law. Penalty/default-surcharge provisions not verified for this file — neutral late-payment treatment.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-OMISSION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Punjab: return filing, payment timing and time of supply",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A registered Punjab service provider must file a return and pay tax for a tax period, and the period of supply must be fixed.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "kpk"
+     },
+     {
+      "field": "transaction_date",
+      "op": "date_gte",
+      "value": "2022-06-12"
+     }
+    ]
+   },
+   "calc_codes": [
+    "CALC-STP-KPK-STANDARD"
+   ],
+   "calculation_method": "Output tax = value of the taxable service × applicable rate (standard rate table CALC-STP-KPK-STANDARD, or the verified Second Schedule rate).",
+   "code": "RULE-STP-KPK-LEVY",
+   "consequences": "Under-levy creates an under-declared output tax discrepancy requiring correction and possible reassessment.",
+   "decision_logic": {
+    "default": "Confirm the Second Schedule entry and the rate in force for the transaction date before charging.",
+    "table": [
+     {
+      "then": "Apply the verified Second Schedule rate for the transaction date, subject to the conditions stated against the entry.",
+      "treatment_code": "schedule_rate",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apply the standard rate from CALC-STP-KPK-STANDARD for the transaction date.",
+      "treatment_code": "standard_rate",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER"
+   ],
+   "exceptions": [
+    "KP Finance Act 2025 reworded section 9(1) to levy at Second Schedule rates with 15% as the deemed standard rate — if the enacted text is confirmed, the standard-rate fallback must be re-tested against the current Schedule."
+   ],
+   "expected_treatment": "Tax is charged, levied, collected and paid at the rate of fifteen per cent on the value of a taxable service, which is deemed and treated as the standard or general rate of tax for all purposes of the Act (section 9(1)); services listed in the Second Schedule carry the rates specified against them, subject to the stated conditions.",
+   "jurisdiction": "kpk",
+   "legislation_codes": [
+    "LEG-PST-KPK-S9"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-RECON-SALESTAX"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "date",
+     "label": "Date the service was provided",
+     "name": "transaction_date",
+     "required": true,
+     "source_hint": "Tax invoice / service delivery record"
+    },
+    {
+     "data_type": "choice",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict",
+      "unknown"
+     ],
+     "label": "Province/territory of provision",
+     "name": "province_of_provision",
+     "required": true,
+     "source_hint": "Contract / place-of-provision analysis"
+    },
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "number",
+     "label": "Value of the taxable service (PKR, exclusive of tax)",
+     "name": "value_of_service",
+     "required": true,
+     "source_hint": "Tax invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "A Second Schedule entry prescribes a specific rate for this service",
+     "name": "schedule_rate_applies",
+     "required": true,
+     "source_hint": "Second Schedule for the transaction date"
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 9(1) 15% standard-rate text verified against the KPRA official Act copy (gazetted 12-06-2022). The 2025 rewording of s9(1) (per Finance Bill 2025 analysis: levy at Second Schedule rates, 15% deemed standard) was not re-verified against the enacted consolidated text — flagged for review; the 15% standard-rate concept is preserved in both versions.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-WRONGRATE",
+    "RISK-STP-MISCLASS"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "KPK: levy of sales tax on a taxable service — 15% standard rate and Second Schedule rates",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A taxable service is provided in the Province of Khyber Pakhtunkhwa and the applicable rate must be selected.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "kpk"
+     }
+    ]
+   },
+   "code": "RULE-STP-KPK-CLASS",
+   "decision_logic": {
+    "default": "The taxable-service population for the transaction date is not established — obtain the current First and Second Schedules before concluding.",
+    "table": [
+     {
+      "then": "Record the exemption basis and its conditions; no output tax.",
+      "treatment_code": "exempt",
+      "when": {
+       "all": [
+        {
+         "field": "service_exempt",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-REGISTRATION-CERT"
+   ],
+   "expected_treatment": "To be confirmed: the Act provides a First Schedule and a Second Schedule (the Government may add, delete or amend entries, classifications and rates — cf. the section 12 power noted in the Finance Bill 2025 analysis), and the Second Schedule lists taxable services with rates (e.g. construction services at reduced rates, telecommunication entries). The exact contents and roles of the two Schedules were not verified line-by-line — do not present any schedule-based classification as authoritative until verified.",
+   "jurisdiction": "kpk",
+   "legislation_codes": [
+    "LEG-PST-KPK-ACT2022"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service is exempt under the applicable Schedule/notification",
+     "name": "service_exempt",
+     "required": false,
+     "source_hint": "Schedules for the transaction date"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: the First Schedule's contents (presumed exemptions) and the full Second Schedule were not verified against the Act text; the section-12 schedule-amendment power is reported in secondary analysis only. The rule is intentionally a placeholder that forces schedule verification.",
+   "risk_codes": [
+    "RISK-STP-MISCLASS"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "KPK: classification of a service as taxable — schedules to be verified",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service has a possible KPK nexus and its taxability must be established, but the schedule contents are unverified.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "in",
+      "value": [
+       "kpk",
+       "unknown"
+      ]
+     }
+    ]
+   },
+   "code": "RULE-STP-KPK-JURIS",
+   "decision_logic": {
+    "default": "The place-of-provision rule for this fact pattern is not verified — resolve the provincial nexus manually and record the basis; treat as a jurisdiction risk (RISK-STP-JURISDICTION).",
+    "table": [
+     {
+      "then": "KPK law is capable of applying; still verify the service-specific levy date (Government may notify different dates for different scheduled services) and any place-of-provision rules for the transaction date.",
+      "treatment_code": "kpk_capable",
+      "when": {
+       "all": [
+        {
+         "field": "service_provided_in_kpk",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-REGISTRATION-CERT",
+    "EV-CONTRACT"
+   ],
+   "expected_treatment": "The Act extends to the whole of the Province of Khyber Pakhtunkhwa (section 1(2)). Beyond territorial extension, no place-of-provision, origin or reverse-charge rules were verified in the material examined — the engine must not assume which province's law applies where a service touches more than one province.",
+   "jurisdiction": "kpk",
+   "legislation_codes": [
+    "LEG-PST-KPK-ACT2022"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Service is provided in Khyber Pakhtunkhwa",
+     "name": "service_provided_in_kpk",
+     "required": true,
+     "source_hint": "Contract / business records"
+    },
+    {
+     "data_type": "string",
+     "label": "Other provinces/territories touched by the service",
+     "name": "other_jurisdictions",
+     "required": false,
+     "source_hint": "Contract"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: no verified place-of-provision/origin/reverse-charge provisions found for KPK in the examined material. Section 1(2) territorial extension verified. The rule deliberately returns the question for manual resolution.",
+   "risk_codes": [
+    "RISK-STP-JURISDICTION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "KPK: provincial nexus — place of provision not verified",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service touches KPK and possibly another province, and the applicable province's law must be determined.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "kpk"
+     },
+     {
+      "field": "input_tax_claimed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RULE-STP-KPK-INPUT",
+   "decision_logic": {
+    "default": "Test each section 17 condition and the withholding-regulation conditions before allowing any input tax adjustment.",
+    "table": [
+     {
+      "then": "No input tax adjustment on these inputs (section 17); reverse any claim.",
+      "treatment_code": "reduced_rate_no_adjustment",
+      "when": {
+       "any": [
+        {
+         "field": "service_taxed_below_standard",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "service_taxed_at_fixed_or_specific_rate",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "No input tax adjustment for services received from unregistered or inactive persons, or for reduced/fixed-rate services (Withholding Regulations, Reg. 7).",
+      "treatment_code": "unregistered_supplier",
+      "when": {
+       "any": [
+        {
+         "field": "supplier_unregistered_or_inactive",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "No input credit for this payment (section 17(c)); route payment correctly or reverse the claim.",
+      "treatment_code": "banking_channel_fail",
+      "when": {
+       "all": [
+        {
+         "field": "transaction_value",
+         "op": "gt",
+         "value": 50000
+        },
+        {
+         "field": "paid_via_banking_channel",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "then": "Input tax adjustment may be claimed only within the section 17 conditions and Reg. 7 limits (standard-rate-or-higher payer, registered supplier, declared and deposited withheld tax); retain invoices, bank proof and the adjustment working.",
+      "treatment_code": "conditional_adjustment",
+      "when": {
+       "all": [
+        {
+         "field": "provider_pays_standard_or_higher",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "supplier_registered_active",
+         "op": "eq",
+         "value": true
+        },
+        {
+         "field": "valid_tax_invoice_held",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-BANK-STATEMENT",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "exceptions": [
+    "Tax withheld by a recipient is creditable only after the withholding agent declares and deposits it (Reg. 7(3)).",
+    "Section 17 lists further barred categories (capital goods, entertainment, personal consumption, pre-commencement inputs, utility bills not in the registered person's name, etc.) — test each."
+   ],
+   "expected_treatment": "Input tax adjustment in KPK is heavily restricted (section 17, 'Input tax credit not allowed'): no adjustment for inputs used in services taxed below the standard 15% rate or at specific/fixed/non-value rates; the recipient of an exempt or reduced-rate service may not adjust the reduced-rate input tax at the next stage; payments above Rs 50,000 must be by crossed banking instrument from the business bank account (utility bills excluded). Under the KP Sales Tax Withholding Regulations 2024 (Reg. 7), only regular taxpayers paying provincial sales tax at the standard 15% or a higher rate may take admissible input tax adjustment in their monthly returns, and only for services received from registered persons — never for reduced/fixed-rate services or unregistered/inactive suppliers.",
+   "jurisdiction": "kpk",
+   "legislation_codes": [
+    "LEG-PST-KPK-S17"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "choice",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict",
+      "unknown"
+     ],
+     "label": "Province/territory of provision",
+     "name": "province_of_provision",
+     "required": true,
+     "source_hint": "Contract / place-of-provision analysis"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Input tax adjustment is being claimed",
+     "name": "input_tax_claimed",
+     "required": true,
+     "source_hint": "Return / working papers"
+    },
+    {
+     "data_type": "boolean",
+     "label": "The service provided is taxed below the 15% standard rate",
+     "name": "service_taxed_below_standard",
+     "required": true,
+     "source_hint": "Rate analysis"
+    },
+    {
+     "data_type": "boolean",
+     "label": "The service provided is taxed at a fixed or specific (non-value) rate",
+     "name": "service_taxed_at_fixed_or_specific_rate",
+     "required": true,
+     "source_hint": "Rate analysis"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Supplier is unregistered or inactive",
+     "name": "supplier_unregistered_or_inactive",
+     "required": true,
+     "source_hint": "Registration verification"
+    },
+    {
+     "data_type": "number",
+     "label": "Transaction value (PKR)",
+     "name": "transaction_value",
+     "required": true,
+     "source_hint": "Invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Payment made via banking channel from the business bank account",
+     "name": "paid_via_banking_channel",
+     "required": true,
+     "source_hint": "Bank statement"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Provider pays provincial sales tax at 15% or a higher rate",
+     "name": "provider_pays_standard_or_higher",
+     "required": true,
+     "source_hint": "Return"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Supplier is registered and active",
+     "name": "supplier_registered_active",
+     "required": true,
+     "source_hint": "Registration verification"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Valid tax invoice held",
+     "name": "valid_tax_invoice_held",
+     "required": true,
+     "source_hint": "Purchase invoices"
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 17 verified against the gazetted Act text (including the Rs 50,000 banking-channel condition and the reduced/fixed-rate bars); Regulation 7 of the KP Sales Tax Withholding Regulations 2024 verified against the KP Gazette (3-1-2025). KPK is the most restrictive province on input adjustment in this file — the engine must never assume a KPK input claim is available.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-UNSUPPORTED-ADJ"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "KPK: input tax adjustment — section 17 bars and withholding-regulation conditions",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A registered KPK service provider claims an input tax adjustment.",
+   "verification_status": "verified",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "kpk"
+     }
+    ]
+   },
+   "code": "RULE-STP-KPK-RETURN",
+   "decision_logic": {
+    "default": "The return section and deadline for the tax period are not verified — obtain the current KPRA return requirements before concluding.",
+    "table": [
+     {
+      "then": "Record the filing basis as unverified; do not present any deadline as statutory.",
+      "treatment_code": "unverified_basis",
+      "when": {
+       "all": [
+        {
+         "field": "return_filing_basis",
+         "op": "eq",
+         "value": "assumed_monthly"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-RETURN-ACK",
+    "EV-TAX-CHALLAN"
+   ],
+   "expected_treatment": "To be confirmed: the KP Sales Tax Withholding Regulations 2024 contemplate monthly tax returns in which admissible input tax adjustment is taken (Reg. 7), but the return-filing section of the Act and the statutory filing/payment deadline were not verified in the material examined.",
+   "jurisdiction": "kpk",
+   "legislation_codes": [
+    "LEG-PST-KPK-ACT2022"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-SALESTAX"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "string",
+     "label": "Assumed return filing basis",
+     "name": "return_filing_basis",
+     "required": false,
+     "source_hint": "KPRA guidance"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: return-filing provision and deadline not verified; only the existence of monthly returns is evidenced (Withholding Regulations, Reg. 7). The rule deliberately withholds a definitive treatment.",
+   "risk_codes": [
+    "RISK-STP-OMISSION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "KPK: return filing — section and deadline not verified",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A registered KPK service provider must file a return and pay tax for a tax period.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "balochistan"
+     },
+     {
+      "field": "transaction_date",
+      "op": "date_gte",
+      "value": "2025-07-01"
+     }
+    ]
+   },
+   "calc_codes": [
+    "CALC-STP-BAL-STANDARD"
+   ],
+   "calculation_method": "Output tax = value of the taxable service × applicable rate (standard rate table CALC-STP-BAL-STANDARD, or a verified notified rate).",
+   "code": "RULE-STP-BAL-LEVY",
+   "decision_logic": {
+    "default": "Confirm whether a notified rate under section 10(2) applies to this service for the transaction date before charging.",
+    "table": [
+     {
+      "then": "Apply the verified notified rate for the transaction date.",
+      "treatment_code": "notified_rate",
+      "when": {
+       "all": [
+        {
+         "field": "notified_rate_applies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apply the standard rate from CALC-STP-BAL-STANDARD for the transaction date.",
+      "treatment_code": "standard_rate",
+      "when": {
+       "all": [
+        {
+         "field": "notified_rate_applies",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2025-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER"
+   ],
+   "exceptions": [
+    "Pre-2025 transactions fell under the old section 10 (rate or rates specified in the Second Schedule) — use the Second Schedule rates for those dates, not the substituted text.",
+    "Telecommunication was 19.5% in the Second Schedule pre-substitution; its post-substitution treatment requires a current notification check (see review_notes)."
+   ],
+   "expected_treatment": "Section 10(1), as substituted by the Balochistan Finance Act 2025, charges, levies, collects and requires payment of tax on the value of a taxable service at fifteen per cent of the value of the taxable service. The Authority may, with Government approval, notify different (higher, lower, fixed or specific) rates for taxable services (section 10(2)).",
+   "jurisdiction": "balochistan",
+   "legislation_codes": [
+    "LEG-PST-BAL-S10"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-RECON-SALESTAX"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "date",
+     "label": "Date the service was provided",
+     "name": "transaction_date",
+     "required": true,
+     "source_hint": "Tax invoice / service delivery record"
+    },
+    {
+     "data_type": "choice",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict",
+      "unknown"
+     ],
+     "label": "Province/territory of provision",
+     "name": "province_of_provision",
+     "required": true,
+     "source_hint": "Contract / place-of-provision analysis"
+    },
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "number",
+     "label": "Value of the taxable service (PKR, exclusive of tax)",
+     "name": "value_of_service",
+     "required": true,
+     "source_hint": "Tax invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "A notified rate under section 10(2) applies to this service",
+     "name": "notified_rate_applies",
+     "required": true,
+     "source_hint": "Notifications for the transaction date"
+    }
+   ],
+   "review_notes": "Section 10 substitution text verified in the consolidated Act (e-bra); the Balochistan Finance Act 2025 commencement is presumed 1-7-2025 (standard Finance Act timing) — pending direct confirmation, hence under_review rather than verified. Pre-substitution, the BRA's official FAQ stated 15% except telecommunication at 19.5% (Second Schedule); the substituted flat 15% text creates a tension for telecom that must be resolved by checking current notifications — the engine must not assume 19.5% still applies.",
+   "risk_codes": [
+    "RISK-STP-WRONGRATE",
+    "RISK-STP-MISCLASS"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Balochistan: levy of sales tax on a taxable service — substituted section 10 (15%)",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A taxable service is provided in Balochistan on or after the section 10 substitution and the applicable rate must be selected.",
+   "verification_status": "under_review",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "balochistan"
+     }
+    ]
+   },
+   "code": "RULE-STP-BAL-CLASS",
+   "decision_logic": {
+    "default": "The taxable-service definition for the transaction date is not established — verify the current Act text and Schedules before concluding.",
+    "table": [
+     {
+      "then": "Record the exemption basis and its conditions; no output tax.",
+      "treatment_code": "exempt",
+      "when": {
+       "all": [
+        {
+         "field": "service_exempt",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2015-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-REGISTRATION-CERT"
+   ],
+   "expected_treatment": "To be confirmed: the Second Schedule is headed '(Taxable Services) [See section 3]' and lists services with rates (Part A verified for telecommunication at 19.5%), while the consolidated Act text places the scope provision at section 10. The section-number discrepancy and the full schedule contents were not resolved — do not present any Balochistan classification as authoritative until verified.",
+   "jurisdiction": "balochistan",
+   "legislation_codes": [
+    "LEG-PST-BAL-ACT"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service is exempt under the applicable Schedule/notification",
+     "name": "service_exempt",
+     "required": false,
+     "source_hint": "Schedules for the transaction date"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: (1) section-number discrepancy — Second Schedule cites section 3, consolidated Act shows section 10 as the scope section (renumbering history not traced); (2) full Second Schedule contents not verified; (3) post-2025-substitution interaction between the flat 15% and Schedule rates unresolved. Deliberately a placeholder.",
+   "risk_codes": [
+    "RISK-STP-MISCLASS"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Balochistan: classification of a service as taxable — schedule references to be resolved",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service has a possible Balochistan nexus and its taxability must be established, but the schedule references are inconsistent.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "in",
+      "value": [
+       "balochistan",
+       "unknown"
+      ]
+     }
+    ]
+   },
+   "code": "RULE-STP-BAL-JURIS",
+   "decision_logic": {
+    "default": "The place-of-provision rule for this fact pattern is not verified — resolve the provincial nexus manually and record the basis; treat as a jurisdiction risk (RISK-STP-JURISDICTION).",
+    "table": [
+     {
+      "then": "Balochistan law is capable of applying; still verify the service's levy date and any place-of-provision rules for the transaction date.",
+      "treatment_code": "balochistan_capable",
+      "when": {
+       "all": [
+        {
+         "field": "service_provided_in_balochistan",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2015-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-REGISTRATION-CERT",
+    "EV-CONTRACT"
+   ],
+   "expected_treatment": "To be confirmed: the Act applies in Balochistan from 1 July 2015 and is administered by the Balochistan Revenue Authority. No place-of-provision, origin or reverse-charge rules were verified in the material examined — the engine must not assume which province's law applies where a service touches more than one province.",
+   "jurisdiction": "balochistan",
+   "legislation_codes": [
+    "LEG-PST-BAL-ACT"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Service is provided in Balochistan",
+     "name": "service_provided_in_balochistan",
+     "required": true,
+     "source_hint": "Contract / business records"
+    },
+    {
+     "data_type": "string",
+     "label": "Other provinces/territories touched by the service",
+     "name": "other_jurisdictions",
+     "required": false,
+     "source_hint": "Contract"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: no verified place-of-provision/origin/reverse-charge provisions found for Balochistan. Commencement (1-7-2015) and BRA administration verified via BRA official FAQs. The rule deliberately returns the question for manual resolution.",
+   "risk_codes": [
+    "RISK-STP-JURISDICTION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Balochistan: provincial nexus — place of provision not verified",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service touches Balochistan and possibly another province, and the applicable province's law must be determined.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "balochistan"
+     },
+     {
+      "field": "input_tax_claimed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RULE-STP-BAL-INPUT",
+   "decision_logic": {
+    "default": "No verified input-adjustment provision was found for Balochistan — do not claim or allow any adjustment until the legal basis is verified; treat any claim as an unsupported-adjustment risk (RISK-STP-UNSUPPORTED-ADJ).",
+    "table": [
+     {
+      "then": "Record the claimed basis as unverified; reverse or qualify the claim.",
+      "treatment_code": "unverified_basis",
+      "when": {
+       "all": [
+        {
+         "field": "input_adjustment_basis_cited",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2015-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "expected_treatment": "To be confirmed: no input tax adjustment provision for Balochistan was verified in the material examined. Several provinces restrict input adjustment significantly (cf. KPK section 17), so no adjustment may be assumed for Balochistan until the governing provision and its conditions are verified.",
+   "jurisdiction": "balochistan",
+   "legislation_codes": [
+    "LEG-PST-BAL-ACT"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Input tax adjustment is being claimed",
+     "name": "input_tax_claimed",
+     "required": true,
+     "source_hint": "Return / working papers"
+    },
+    {
+     "data_type": "boolean",
+     "label": "A legal basis for the adjustment has been cited",
+     "name": "input_adjustment_basis_cited",
+     "required": false,
+     "source_hint": "Working papers"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: input-adjustment provision not found/verified for Balochistan. The rule is a hard stop against assuming an adjustment exists.",
+   "risk_codes": [
+    "RISK-STP-UNSUPPORTED-ADJ"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Balochistan: input tax adjustment — provision not verified",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A Balochistan service provider claims an input tax adjustment.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "balochistan"
+     }
+    ]
+   },
+   "code": "RULE-STP-BAL-RETURN",
+   "decision_logic": {
+    "default": "The return section and deadline for the tax period are not verified — obtain the current BRA return requirements before concluding.",
+    "table": [
+     {
+      "then": "Record the filing basis as unverified; do not present any deadline as statutory.",
+      "treatment_code": "unverified_basis",
+      "when": {
+       "all": [
+        {
+         "field": "return_filing_basis",
+         "op": "eq",
+         "value": "assumed_monthly"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2015-07-01",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-RETURN-ACK",
+    "EV-TAX-CHALLAN"
+   ],
+   "expected_treatment": "To be confirmed: BRA directs registered persons to file returns within prescribed deadlines (per BRA compliance guidance), but the return-filing section of the Act and the statutory filing/payment deadline were not verified in the material examined.",
+   "jurisdiction": "balochistan",
+   "legislation_codes": [
+    "LEG-PST-BAL-ACT"
+   ],
+   "procedure_codes": [
+    "PROC-RECON-SALESTAX"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "string",
+     "label": "Assumed return filing basis",
+     "name": "return_filing_basis",
+     "required": false,
+     "source_hint": "BRA guidance"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: return-filing provision and deadline not verified. The rule deliberately withholds a definitive treatment.",
+   "risk_codes": [
+    "RISK-STP-OMISSION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "Balochistan: return filing — section and deadline not verified",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A registered Balochistan service provider must file a return and pay tax for a tax period.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "ict"
+     },
+     {
+      "field": "transaction_date",
+      "op": "date_gte",
+      "value": "2001-06-18"
+     }
+    ]
+   },
+   "calc_codes": [
+    "CALC-STP-ICT-STANDARD"
+   ],
+   "calculation_method": "Output tax = value of the taxable service × applicable rate (standard rate table CALC-STP-ICT-STANDARD, or the verified Schedule rate).",
+   "code": "RULE-STP-ICT-LEVY",
+   "decision_logic": {
+    "default": "Confirm the Schedule entry and the rate in force for the transaction date before charging.",
+    "table": [
+     {
+      "then": "Apply the verified Schedule rate for the transaction date.",
+      "treatment_code": "schedule_rate",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Apply the standard rate from CALC-STP-ICT-STANDARD for the transaction date.",
+      "treatment_code": "standard_rate",
+      "when": {
+       "all": [
+        {
+         "field": "schedule_rate_applies",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2001-06-18",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER"
+   ],
+   "exceptions": [
+    "The Schedule has been expanded and amended over time (FBR-hosted copy updated to 30-6-2020); always use the Schedule version in force on the transaction date.",
+    "The Federal Government may notify different rates (cf. SRO 495(1)/2016 under s3(2A) — reported in secondary press, not verified against the SRO text)."
+   ],
+   "expected_treatment": "A tax known as sales tax is charged, levied and paid at the rate of fifteen per cent of the value of the taxable services rendered or provided in the Islamabad Capital Territory (section 3(1)). The tax is charged and levied on the services specified in the Schedule as if it were a sales tax leviable under section 3, 3A or 3AA of the Sales Tax Act, 1990 (section 3(2)). The Ordinance is administered by the Federal Board of Revenue.",
+   "jurisdiction": "ict",
+   "legislation_codes": [
+    "LEG-PST-ICT-S3"
+   ],
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-RECON-SALESTAX"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "date",
+     "label": "Date the service was provided",
+     "name": "transaction_date",
+     "required": true,
+     "source_hint": "Tax invoice / service delivery record"
+    },
+    {
+     "data_type": "choice",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict",
+      "unknown"
+     ],
+     "label": "Province/territory of provision",
+     "name": "province_of_provision",
+     "required": true,
+     "source_hint": "Contract / place-of-provision analysis"
+    },
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "number",
+     "label": "Value of the taxable service (PKR, exclusive of tax)",
+     "name": "value_of_service",
+     "required": true,
+     "source_hint": "Tax invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "The Schedule prescribes a specific rate for this service",
+     "name": "schedule_rate_applies",
+     "required": true,
+     "source_hint": "Schedule for the transaction date"
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Section 3(1)-(3) verified against the Ordinance text and the FBR-hosted updated copy. The Ordinance's promulgation/effective date was truncated in the examined copy ('[18 ... 2001') and is presumed 2001-06-18 — hence under_review rather than verified. FBR administration of ICT services tax is the working position (federal territory).",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-WRONGRATE",
+    "RISK-STP-MISCLASS"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "ICT: levy of sales tax on services — section 3 (15%) and the Schedule",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A taxable service is rendered or provided in the Islamabad Capital Territory and the applicable rate must be selected.",
+   "verification_status": "under_review",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "ict"
+     }
+    ]
+   },
+   "code": "RULE-STP-ICT-CLASS",
+   "decision_logic": {
+    "default": "Verify the service against the Schedule version in force on the transaction date before concluding.",
+    "table": [
+     {
+      "then": "Taxable service under the Schedule; proceed to rate selection (RULE-STP-ICT-LEVY).",
+      "treatment_code": "scheduled",
+      "when": {
+       "all": [
+        {
+         "field": "service_in_schedule",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     },
+     {
+      "then": "Not a taxable service under the verified Schedule categories; re-test if the Schedule has been expanded for the transaction date.",
+      "treatment_code": "not_scheduled",
+      "when": {
+       "all": [
+        {
+         "field": "service_in_schedule",
+         "op": "eq",
+         "value": false
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2001-06-18",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-REGISTRATION-CERT",
+    "EV-CONTRACT"
+   ],
+   "expected_treatment": "The tax is charged and levied on the services specified in the Schedule to the Ordinance (section 3(2)). The original Schedule categories are: (1) hotels, marriage halls, lawns, clubs and caterers; (2) advertisement on TV and radio (with stated exclusions); (3) persons authorised to transact business on behalf of others — customs agents, ship chandlers, stevedores; (4) courier services; (5) beauty parlors, beauty clinics and slimming clinics; (6) laundries and dry cleaners.",
+   "interpretation_note": "The Schedule has been expanded since 2001 (the FBR-hosted copy updated to 30-6-2020 lists additional services and service-specific rates, e.g. construction services). Classification must use the Schedule as in force on the transaction date, not only the original six categories.",
+   "jurisdiction": "ict",
+   "legislation_codes": [
+    "LEG-PST-ICT-S3"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "string",
+     "label": "Description of the service",
+     "name": "service_description",
+     "required": true,
+     "source_hint": "Contract / invoice"
+    },
+    {
+     "data_type": "boolean",
+     "label": "Service is specified in the Schedule (as in force on the transaction date)",
+     "name": "service_in_schedule",
+     "required": true,
+     "source_hint": "Schedule for the transaction date"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_date": "2026-10-21",
+   "review_notes": "Original Schedule categories verified against the Ordinance text. The expanded Schedule (FBR copy to 30-6-2020) was sampled but not verified entry-by-entry — the rule requires the transaction-date Schedule to be checked.",
+   "reviewer": "research-agent-provincial",
+   "risk_codes": [
+    "RISK-STP-MISCLASS"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "ICT: classification of a service — the Schedule to the Ordinance",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service is rendered or provided in ICT and its taxability must be established against the Schedule.",
+   "verification_status": "under_review",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "in",
+      "value": [
+       "ict",
+       "unknown"
+      ]
+     }
+    ]
+   },
+   "code": "RULE-STP-ICT-JURIS",
+   "decision_logic": {
+    "default": "The place-of-provision rule for this fact pattern is not verified — resolve the territorial nexus manually and record the basis; treat as a jurisdiction risk (RISK-STP-JURISDICTION).",
+    "table": [
+     {
+      "then": "ICT law is capable of applying; still verify the Schedule entry and any place-of-provision guidance for the transaction date.",
+      "treatment_code": "ict_capable",
+      "when": {
+       "all": [
+        {
+         "field": "service_rendered_in_ict",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2001-06-18",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-REGISTRATION-CERT",
+    "EV-CONTRACT"
+   ],
+   "expected_treatment": "The Ordinance extends to the whole of the Islamabad Capital Territory and levies tax on taxable services 'rendered or provided' in ICT (sections 1(2), 3(1)). No place-of-provision, origin or reverse-charge rules were verified in the material examined — the engine must not assume which jurisdiction's law applies where a service touches ICT and a province.",
+   "interpretation_note": "Section 3(3) applies the Sales Tax Act, 1990 provisions mutatis mutandis to collection and payment matters only (manner/time/mode of payment, registration, records, enforcement, penalties); it does not by itself resolve inter-jurisdictional nexus.",
+   "jurisdiction": "ict",
+   "legislation_codes": [
+    "LEG-PST-ICT-S3"
+   ],
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Service is rendered or provided in ICT",
+     "name": "service_rendered_in_ict",
+     "required": true,
+     "source_hint": "Contract / business records"
+    },
+    {
+     "data_type": "string",
+     "label": "Other provinces/territories touched by the service",
+     "name": "other_jurisdictions",
+     "required": false,
+     "source_hint": "Contract"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: no verified place-of-provision/origin/reverse-charge provisions for ICT. Territorial scope (ss1(2), 3(1)) verified. The rule deliberately returns the question for manual resolution.",
+   "risk_codes": [
+    "RISK-STP-JURISDICTION"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "ICT: territorial nexus — place of provision not verified",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "A service touches ICT and possibly a province, and the applicable jurisdiction's law must be determined.",
+   "verification_status": "draft",
+   "version": 1
+  },
+  {
+   "applicability_conditions": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "ict"
+     },
+     {
+      "field": "input_tax_claimed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RULE-STP-ICT-INPUT",
+   "decision_logic": {
+    "default": "The input-tax position for ICT services is not verified — do not claim or allow any adjustment until the legal basis is verified; treat any claim as an unsupported-adjustment risk (RISK-STP-UNSUPPORTED-ADJ).",
+    "table": [
+     {
+      "then": "Record the claimed basis as unverified; reverse or qualify the claim.",
+      "treatment_code": "unverified_basis",
+      "when": {
+       "all": [
+        {
+         "field": "input_adjustment_basis_cited",
+         "op": "eq",
+         "value": true
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "effective_from": "2001-06-18",
+   "effective_to": null,
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "expected_treatment": "To be confirmed: section 3(3) applies the Sales Tax Act, 1990 provisions mutatis mutandis to collection and payment of tax under the Ordinance, but no input-tax adjustment provision specific to ICT services was verified in the material examined. No adjustment may be assumed until the governing provision and its conditions are verified.",
+   "jurisdiction": "ict",
+   "legislation_codes": [
+    "LEG-PST-ICT-S3"
+   ],
+   "procedure_codes": [
+    "PROC-ELIGIBILITY"
+   ],
+   "required_inputs": [
+    {
+     "data_type": "boolean",
+     "label": "Input tax adjustment is being claimed",
+     "name": "input_tax_claimed",
+     "required": true,
+     "source_hint": "Return / working papers"
+    },
+    {
+     "data_type": "boolean",
+     "label": "A legal basis for the adjustment has been cited",
+     "name": "input_adjustment_basis_cited",
+     "required": false,
+     "source_hint": "Working papers"
+    },
+    {
+     "name": "province_of_provision",
+     "label": "Province of provision",
+     "data_type": "choice",
+     "required": true,
+     "source_hint": "Assessment facts",
+     "choices": [
+      "sindh",
+      "punjab",
+      "kpk",
+      "balochistan",
+      "ict"
+     ]
+    }
+   ],
+   "review_notes": "GAP: input-adjustment provision not verified for ICT. The s3(3) mutatis-mutandis reference is interpretive and insufficient for a definitive treatment. The rule is a hard stop against assuming an adjustment exists.",
+   "risk_codes": [
+    "RISK-STP-UNSUPPORTED-ADJ"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "title": "ICT: input tax adjustment — provision not verified",
+   "transaction_types": [
+    "service_provision"
+   ],
+   "triggering_transaction": "An ICT service provider claims an input tax adjustment.",
+   "verification_status": "draft",
+   "version": 1
+  }
+ ],
+ "risks": [
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "service_classification_confidence",
+      "op": "in",
+      "value": [
+       "low",
+       "unverified"
+      ]
+     }
+    ]
+   },
+   "code": "RISK-STP-MISCLASS",
+   "description": "A service is mapped to the wrong schedule entry, tariff classification or exemption, so the wrong rate is charged or an exemption is wrongly claimed/denied. Each province has its own schedules and rates — a classification valid in one province does not transfer to another. Do not label a misclassification as evasion or fraud; it is a potential_error until investigated.",
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-CONTRACT",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "exposure_note": "Under-charged output tax (short payment) or over-charged tax passed to the customer.",
+   "followup_action": "Re-verify the classification against the transaction-date Schedule of the correct province; correct the invoice/return treatment; check whether the 2025 Sindh/Punjab schedule changes affect the entry.",
+   "penalty_implications": null,
+   "potential_financial_effect": "Output tax difference between the applied rate and the correct rate, plus potential interest-like charges only where legally verified.",
+   "procedure_codes": [
+    "PROC-DOC-VERIFY",
+    "PROC-ELIGIBILITY"
+   ],
+   "required_information": [
+    "Service description and contract terms",
+    "Transaction-date Schedule entry and rate",
+    "Exemption conditions where claimed"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Rate applied differs from the Schedule entry for the service",
+    "Exemption claimed without a cited schedule entry",
+    "Same service taxed differently across the provider's provincial registrations"
+   ],
+   "root_cause": "Schedule entries and tariff headings misread, or one province's classification assumed to apply in another province.",
+   "source_codes": [
+    "SRC-PST-SRB-ACT",
+    "SRC-PST-PTA-ACT",
+    "SRC-PST-KPRA-ACT"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "title": "Wrong service classification or schedule mapping"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "service_touches_multiple_provinces",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-STP-JURISDICTION",
+   "description": "The province whose law applies to a service has not been determined — or two provinces' laws are applied to the same value, or none is. Punjab has verified origin/reverse-charge rules (section 4); for Sindh the provider-office nexus and reverse charge are verified; for KPK, Balochistan and ICT no place-of-provision rules were verified, so the nexus question must be resolved manually. An undetermined jurisdiction is a potential_error, not evidence of intent.",
+   "evidence_codes": [
+    "EV-CONTRACT",
+    "EV-REGISTRATION-CERT",
+    "EV-SALES-INVOICE"
+   ],
+   "exposure_note": "Tax paid to the wrong authority (recoverable/refundable only under that authority's rules) or not paid where due.",
+   "followup_action": "Map the provider's offices, the recipient's residence and where the service is availed against each candidate province's verified nexus rule (RULE-STP-PUNJAB-JURIS, RULE-STP-SINDH-JURIS); where no rule is verified, obtain advice and record the basis.",
+   "penalty_implications": null,
+   "potential_financial_effect": "Full value of the service taxed at the wrong province's rate, or tax omitted in the correct province.",
+   "procedure_codes": [
+    "PROC-DOC-VERIFY"
+   ],
+   "required_information": [
+    "Provider's offices/places of business by province",
+    "Recipient residence and place of availment",
+    "Where the service originates and terminates",
+    "Which authority the tax was paid to"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Service provided from one province to a recipient in another with a single provincial tax treatment",
+    "Multi-province provider with no apportionment working",
+    "No documented nexus analysis for cross-province services"
+   ],
+   "root_cause": "Place-of-provision analysis not performed; one province's law assumed for a multi-jurisdiction service.",
+   "source_codes": [
+    "SRC-PST-PTA-ACT",
+    "SRC-PST-SRB-ACT"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "title": "Undetermined provincial jurisdiction for a service"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "applied_rate",
+      "op": "ne",
+      "value": "verified_rate"
+     }
+    ]
+   },
+   "code": "RISK-STP-WRONGRATE",
+   "description": "The rate charged differs from the verified rate for the province and transaction date — e.g. another province's rate is used (16% in Sindh, 15% in Punjab), a superseded rate is used (13% in Sindh after 1-7-2024), or a notified/schedule rate is missed. Rate-change cut-offs (section 12 equivalents) make the transaction date decisive. A wrong rate is a discrepancy to investigate, not evasion.",
+   "evidence_codes": [
+    "EV-SALES-INVOICE",
+    "EV-SALES-REGISTER",
+    "EV-SUPPORTING-SCHEDULE"
+   ],
+   "exposure_note": "Short or excess output tax for the period.",
+   "followup_action": "Recompute at the verified transaction-date rate (CALC-STP-* tables); correct the return; check the same error across other periods and provinces.",
+   "penalty_implications": null,
+   "potential_financial_effect": "Rate differential × taxable value for each affected transaction.",
+   "procedure_codes": [
+    "PROC-CALC-SALESTAX",
+    "PROC-RECON-SALESTAX"
+   ],
+   "required_information": [
+    "Rate applied and its claimed source",
+    "Verified transaction-date rate for the province",
+    "Transaction dates around rate-change cut-offs"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Rate applied matches a different province's standard rate",
+    "Pre-change rate used after a notified rate change",
+    "Schedule/reduced-rate conditions not evidenced"
+   ],
+   "root_cause": "Rate tables not updated for the province or the transaction date; cross-province rate confusion.",
+   "source_codes": [
+    "SRC-PST-SRB-NOTIF-2024",
+    "SRC-PST-PTA-ACT",
+    "SRC-PST-KPRA-ACT",
+    "SRC-PST-EBRA-ACT",
+    "SRC-PST-ICT-NASIR"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "title": "Wrong provincial rate applied for the transaction date"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "service_revenue_recorded",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "service_in_tax_return",
+      "op": "eq",
+      "value": false
+     }
+    ]
+   },
+   "code": "RISK-STP-OMISSION",
+   "description": "A service recorded in the accounts is omitted from the provincial sales tax return — or a taxable service is never recorded at all. Omission may reflect misclassification (service wrongly treated as exempt/out-of-scope), cut-off error, or an unregistered activity. An omission is a potential_error; whether it is a compliance failure depends on the verified taxability analysis.",
+   "evidence_codes": [
+    "EV-SALES-REGISTER",
+    "EV-GENERAL-LEDGER",
+    "EV-BANK-STATEMENT",
+    "EV-RETURN-ACK"
+   ],
+   "exposure_note": "Undeclared output tax for the period.",
+   "followup_action": "Reconcile ledger revenue to declared turnover per province (PROC-RECON-SALESTAX); test cut-off; determine taxability of each omitted item under the correct province's rules.",
+   "penalty_implications": null,
+   "potential_financial_effect": "Output tax on the omitted value at the applicable rate.",
+   "procedure_codes": [
+    "PROC-RECON-SALESTAX",
+    "PROC-COMPLETENESS"
+   ],
+   "required_information": [
+    "Revenue per ledger vs turnover per return, by province",
+    "Invoice populations and sequencing",
+    "Cut-off testing results"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Ledger revenue exceeds declared turnover with no reconciling items",
+    "Gaps in invoice sequencing",
+    "New service line with no tax treatment analysis"
+   ],
+   "root_cause": "Taxability not assessed for a service line; return prepared from incomplete populations; cut-off errors.",
+   "source_codes": [
+    "SRC-PST-SRB-ACT",
+    "SRC-PST-PTA-ACT"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "title": "Service transaction omitted from the return"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "adjustment_or_exemption_claimed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-STP-UNSUPPORTED-ADJ",
+   "description": "An input tax adjustment, deduction or exemption is claimed without satisfying the statutory conditions — e.g. no valid tax invoice, invoice older than the allowed period, payment not through the banking channel (Punjab s16A / KPK s17), inputs used for reduced-rate services (Punjab s16B(g)-(h), KPK s17), adjustment above 80% of output tax (Punjab s16C), or any adjustment in a province whose provision is unverified (Balochistan, ICT). KPK bars adjustment for below-standard-rate services entirely. An unsupported claim is a discrepancy, not fraud.",
+   "evidence_codes": [
+    "EV-PURCHASE-INVOICE",
+    "EV-BANK-STATEMENT",
+    "EV-SUPPORTING-SCHEDULE",
+    "EV-TAX-CHALLAN"
+   ],
+   "exposure_note": "Disallowed input tax increases net payable for the period.",
+   "followup_action": "Run the province's input-tax rule (RULE-STP-*-INPUT) line by line; reverse or qualify claims that fail the conditions; obtain missing invoices or bank proof.",
+   "penalty_implications": null,
+   "potential_financial_effect": "Full amount of the unsupported adjustment/deduction.",
+   "procedure_codes": [
+    "PROC-ELIGIBILITY",
+    "PROC-CALC-SALESTAX"
+   ],
+   "required_information": [
+    "Invoices supporting each input claim and their ages",
+    "Payment mode and bank proof",
+    "Rate band of the service the inputs relate to",
+    "Supplier registration status"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Input claims without purchase invoices",
+    "Payments above Rs 50,000 in cash (Punjab/KPK)",
+    "Adjustment claimed on reduced-rate or exempt outputs",
+    "Adjustment above 80% of output tax (Punjab)"
+   ],
+   "root_cause": "Statutory conditions for adjustment not tested; another province's (looser) practice assumed.",
+   "source_codes": [
+    "SRC-PST-PTA-ACT",
+    "SRC-PST-KPRA-ACT",
+    "SRC-PST-KPRA-WHTREG",
+    "SRC-PST-SRB-ACT"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "title": "Input tax adjustment or exemption claimed without support"
+  },
+  {
+   "applicable_conditions": {
+    "all": [
+     {
+      "field": "tax_collected_or_payable",
+      "op": "exists",
+      "value": true
+     }
+    ]
+   },
+   "code": "RISK-STP-NONRECONCILE",
+   "description": "Tax collected/charged or payable does not reconcile with the accounting records — e.g. output tax per the sales register differs from the return, tax collected from customers differs from tax deposited, or the tax liability per the computation differs from challans. Unreconciled differences indicate missing, duplicated or mis-period transactions. A difference is an exception_flagged item until each reconciling item is evidenced.",
+   "evidence_codes": [
+    "EV-SALES-REGISTER",
+    "EV-GENERAL-LEDGER",
+    "EV-TAX-CHALLAN",
+    "EV-BANK-STATEMENT",
+    "EV-RECONCILIATION",
+    "EV-RETURN-ACK"
+   ],
+   "exposure_note": "Undeposited collections or unclaimed deposits; misstated liability.",
+   "followup_action": "Prepare a period-by-period reconciliation (tax charged vs tax declared vs tax deposited); evidence each reconciling item; correct the books or the return.",
+   "penalty_implications": null,
+   "potential_financial_effect": "Unexplained difference between collections, declarations and deposits.",
+   "procedure_codes": [
+    "PROC-RECON-SALESTAX",
+    "PROC-RECON-PAYMENTS"
+   ],
+   "required_information": [
+    "Output tax per register, return and ledger by period",
+    "Challans and bank debits for tax payments",
+    "Reconciling items with evidence"
+   ],
+   "review_status": "under_review",
+   "risk_indicators": [
+    "Persistent round-sum differences between register and return",
+    "Tax collected from customers but not deposited",
+    "Deposits with no corresponding declared liability"
+   ],
+   "root_cause": "Return prepared from a different population than the books; deposits misallocated across periods or provinces.",
+   "source_codes": [
+    "SRC-PST-SRB-ACT",
+    "SRC-PST-PTA-ACT"
+   ],
+   "tax_category": "sales_tax_provincial",
+   "title": "Tax collected or payable not reconciling with the accounts"
+  }
+ ],
+ "calc_tables": [
+  {
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "jurisdiction": "sindh",
+   "kind": "percentage",
+   "legislation_ref": "LEG-PST-SINDH-S8; LEG-PST-SINDH-NOTIF-2024",
+   "name": "Sindh standard rate of sales tax on services",
+   "params": {
+    "rate": 0.15,
+    "rate_basis": "value of the taxable service",
+    "rounding": "nearest_rupee"
+   },
+   "tax_category": "sales_tax_provincial",
+   "tax_year": null,
+   "verification_status": "verified",
+   "version": 1,
+   "code": "CALC-STP-SINDH-STANDARD"
+  },
+  {
+   "effective_from": "2016-07-01",
+   "effective_to": "2024-06-30",
+   "jurisdiction": "sindh",
+   "kind": "percentage",
+   "legislation_ref": "LEG-PST-SINDH-NOTIF-2024",
+   "name": "Sindh standard rate of sales tax on services — historical 13%",
+   "params": {
+    "rate": 0.13,
+    "rate_basis": "value of the taxable service",
+    "rounding": "nearest_rupee"
+   },
+   "tax_category": "sales_tax_provincial",
+   "tax_year": null,
+   "verification_status": "draft",
+   "version": 1,
+   "code": "CALC-STP-SINDH-STANDARD-13"
+  },
+  {
+   "effective_from": "2012-07-01",
+   "effective_to": null,
+   "jurisdiction": "punjab",
+   "kind": "percentage",
+   "legislation_ref": "LEG-PST-PUNJAB-S10",
+   "name": "Punjab standard rate of sales tax on services",
+   "params": {
+    "rate": 0.16,
+    "rate_basis": "value of the taxable service",
+    "rounding": "nearest_rupee"
+   },
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "tax_year": null,
+   "verification_status": "under_review",
+   "version": 1,
+   "code": "CALC-STP-PUNJAB-STANDARD"
+  },
+  {
+   "effective_from": "2022-06-12",
+   "effective_to": null,
+   "jurisdiction": "kpk",
+   "kind": "percentage",
+   "legislation_ref": "LEG-PST-KPK-S9",
+   "name": "KPK standard (general) rate of sales tax on services",
+   "params": {
+    "rate": 0.15,
+    "rate_basis": "value of the taxable service",
+    "rounding": "nearest_rupee"
+   },
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "tax_year": null,
+   "verification_status": "verified",
+   "version": 1,
+   "code": "CALC-STP-KPK-STANDARD"
+  },
+  {
+   "effective_from": "2015-07-01",
+   "effective_to": null,
+   "jurisdiction": "balochistan",
+   "kind": "percentage",
+   "legislation_ref": "LEG-PST-BAL-S10",
+   "name": "Balochistan standard rate of sales tax on services",
+   "params": {
+    "rate": 0.15,
+    "rate_basis": "value of the taxable service",
+    "rounding": "nearest_rupee"
+   },
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "tax_year": null,
+   "verification_status": "verified",
+   "version": 1,
+   "code": "CALC-STP-BAL-STANDARD"
+  },
+  {
+   "effective_from": "2001-06-18",
+   "effective_to": null,
+   "jurisdiction": "ict",
+   "kind": "percentage",
+   "legislation_ref": "LEG-PST-ICT-S3",
+   "name": "ICT standard rate of sales tax on services",
+   "params": {
+    "rate": 0.15,
+    "rate_basis": "value of the taxable service",
+    "rounding": "nearest_rupee"
+   },
+   "tax_category": "sales_tax_provincial",
+   "taxpayer_types": [
+    "individual",
+    "aop",
+    "company",
+    "other"
+   ],
+   "tax_year": null,
+   "verification_status": "under_review",
+   "version": 1,
+   "code": "CALC-STP-ICT-STANDARD"
+  }
+ ],
+ "scenarios": [
+  {
+   "accounting_vs_tax": "Accounting records the gross consideration for July 2024; tax must be computed at the 15% rate in force when the service was provided (cf. section 12). Services provided in June 2024 remain at the 13% historical rate — the return must not apply one rate to both months.",
+   "category": "sales_tax_provincial",
+   "code": "SCN-STP-SINDH-RATE-CHANGE",
+   "name": "Sindh service in July 2024 — 13% to 15% rate cut-over",
+   "description": "A Sindh-registered service provider invoiced services provided in July 2024 but applied the old 13% rate. SRB Notification SRB-3-4/30/2024 moved the standard rate to 15% w.e.f. 1-7-2024, and the substituted section 8(1) (Sindh Finance Act 2025) confirms 15% as the statutory standard rate.",
+   "expected_chain": {
+    "calc_codes": [
+     "CALC-STP-SINDH-STANDARD"
+    ],
+    "evidence_codes": [
+     "EV-SALES-INVOICE",
+     "EV-SALES-REGISTER"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-SALESTAX",
+     "PROC-RECON-SALESTAX"
+    ],
+    "risk_codes": [
+     "RISK-STP-WRONGRATE"
+    ],
+    "rule_codes": [
+     "RULE-STP-SINDH-LEVY",
+     "RULE-STP-SINDH-CLASS"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "sindh"
+     },
+     {
+      "field": "transaction_date",
+      "op": "date_between",
+      "value": [
+       "2024-07-01",
+       "2024-07-31"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "accounting_vs_tax": "Accounting may carry the input tax as a recoverable; tax law disallows it — the computation must reverse the claim and increase net payable.",
+   "category": "sales_tax_provincial",
+   "code": "SCN-STP-PUNJAB-INPUT-80PCT",
+   "name": "Punjab input tax claimed above the 80% of output tax cap",
+   "description": "A Punjab-registered service provider's monthly return claims input tax adjustment equal to 95% of the period's output tax. Section 16C caps the adjustment at 80% of the output tax for the tax period; the excess must be dealt with per the applicable rules, and each input line must still pass sections 16/16A/16B (valid invoice within six tax periods, banking-channel payment above Rs 50,000, no reduced-rate inputs).",
+   "expected_chain": {
+    "calc_codes": [],
+    "evidence_codes": [
+     "EV-PURCHASE-INVOICE",
+     "EV-BANK-STATEMENT",
+     "EV-SUPPORTING-SCHEDULE"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-SALESTAX",
+     "PROC-ELIGIBILITY"
+    ],
+    "risk_codes": [
+     "RISK-STP-UNSUPPORTED-ADJ"
+    ],
+    "rule_codes": [
+     "RULE-STP-PUNJAB-INPUT"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "punjab"
+     },
+     {
+      "field": "input_tax_claimed",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "input_tax_exceeds_80pct_output",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   }
+  },
+  {
+   "accounting_vs_tax": "Accounting may carry the input tax as a recoverable; tax law disallows it — the computation must reverse the claim.",
+   "category": "sales_tax_provincial",
+   "code": "SCN-STP-KPK-REDUCED-RATE",
+   "name": "KPK reduced-rate service provider claims input tax adjustment",
+   "description": "A KPK-registered hotel taxed at a reduced Second Schedule rate claims input tax adjustment on its purchases against the reduced-rate output tax. Section 17 bars input tax adjustment for inputs used in services taxed below the 15% standard rate or at specific/fixed rates, and the KPRA Withholding Regulations (Reg. 7) allow adjustment only to standard-rate-or-higher payers for services from registered suppliers.",
+   "expected_chain": {
+    "calc_codes": [],
+    "evidence_codes": [
+     "EV-PURCHASE-INVOICE",
+     "EV-SUPPORTING-SCHEDULE"
+    ],
+    "procedure_codes": [
+     "PROC-ELIGIBILITY",
+     "PROC-CALC-SALESTAX"
+    ],
+    "risk_codes": [
+     "RISK-STP-UNSUPPORTED-ADJ"
+    ],
+    "rule_codes": [
+     "RULE-STP-KPK-INPUT",
+     "RULE-STP-KPK-LEVY"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "kpk"
+     },
+     {
+      "field": "service_taxed_below_standard",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "input_tax_claimed",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   }
+  },
+  {
+   "accounting_vs_tax": "Accounting books the invoice once; tax analysis must split the jurisdictional treatment — Punjab's rules for the Punjab share, Sindh's reverse-charge analysis for the Sindh recipient — rather than applying one province's rate to the whole value.",
+   "category": "sales_tax_provincial",
+   "code": "SCN-STP-CROSS-PROVINCE",
+   "name": "Lahore provider, Karachi recipient — each province's own legislation and rate",
+   "description": "A company with its registered office and service team in Lahore provides consultancy services to a client resident in Karachi. The Punjab office and any non-Punjab presence are separate persons (Punjab s3(3)); Punjab tax is due to the extent the service is charged to Punjab residents or persons availing it in Punjab (Punjab s4(1)/(3)). From the Sindh side, a service provided to a resident person by a non-resident person in the course of an economic activity is a taxable service with the recipient liable under reverse charge (Sindh ss3(2), 9(2)). The engine must therefore select each province's OWN legislation and rate for its share — Punjab's rules and 16% standard rate for the Punjab nexus, Sindh's rules and 15% standard rate for the Sindh reverse-charge analysis — and must not apply one province's rate to the other province's share. If the Sindh recipient is the liable person, the Lahore provider must not also charge Sindh tax on the same value.",
+   "expected_chain": {
+    "calc_codes": [
+     "CALC-STP-PUNJAB-STANDARD",
+     "CALC-STP-SINDH-STANDARD"
+    ],
+    "evidence_codes": [
+     "EV-CONTRACT",
+     "EV-SALES-INVOICE",
+     "EV-REGISTRATION-CERT"
+    ],
+    "procedure_codes": [
+     "PROC-DOC-VERIFY"
+    ],
+    "risk_codes": [
+     "RISK-STP-JURISDICTION",
+     "RISK-STP-WRONGRATE"
+    ],
+    "rule_codes": [
+     "RULE-STP-PUNJAB-JURIS",
+     "RULE-STP-SINDH-JURIS",
+     "RULE-STP-PUNJAB-LEVY",
+     "RULE-STP-SINDH-LEVY"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "provider_has_punjab_and_other_office",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "recipient_resident_sindh",
+      "op": "eq",
+      "value": true
+     },
+     {
+      "field": "service_touches_multiple_provinces",
+      "op": "eq",
+      "value": true
+     }
+    ]
+   }
+  },
+  {
+   "accounting_vs_tax": "Accounting records the invoice value; tax classification decides whether 15% standard or a Schedule-specific rate applies, and whether the entry's conditions (e.g. no input adjustment on reduced rates) hold.",
+   "category": "sales_tax_provincial",
+   "code": "SCN-STP-ICT-HOTEL",
+   "name": "ICT hotel service — Schedule classification and rate check",
+   "description": "A hotel in Islamabad charges 15% sales tax on room services under the ICT Ordinance. Hotels are a specified Schedule category (section 3(2)), and the FBR-updated Schedule carries service-specific rates for several entries — the provider must verify whether the standard 15% or a Schedule-specific rate applies to the transaction date, and must not assume the treatment from a province's schedule.",
+   "expected_chain": {
+    "calc_codes": [
+     "CALC-STP-ICT-STANDARD"
+    ],
+    "evidence_codes": [
+     "EV-SALES-INVOICE"
+    ],
+    "procedure_codes": [
+     "PROC-CALC-SALESTAX"
+    ],
+    "risk_codes": [
+     "RISK-STP-MISCLASS",
+     "RISK-STP-WRONGRATE"
+    ],
+    "rule_codes": [
+     "RULE-STP-ICT-LEVY",
+     "RULE-STP-ICT-CLASS"
+    ]
+   },
+   "review_status": "under_review",
+   "trigger_facts": {
+    "all": [
+     {
+      "field": "province_of_provision",
+      "op": "eq",
+      "value": "ict"
+     },
+     {
+      "field": "service_description",
+      "op": "contains",
+      "value": "hotel"
+     }
+    ]
+   }
+  }
+ ]
+}

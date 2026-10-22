@@ -1,0 +1,7 @@
+# Pakistan Tax Risk, Rules and Evidence Engine
+# Install: pip install -r requirements.txt   (internet needed once)
+# Run:     streamlit run app.py              (then fully offline)
+# Python 3.10+
+streamlit>=1.32
+openpyxl>=3.1
+pytest>=8.0
